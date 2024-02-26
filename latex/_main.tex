@@ -1,0 +1,183 @@
+\documentclass[a4paper]{report}
+% \counterwithout{figure}{chapter} % pour compter la Figure 1 au lieu de Figure 1.1
+%====================== PACKAGES ======================
+\usepackage[round,authoryear]{natbib}
+\usepackage[french]{babel}
+\usepackage{xcolor}
+% \usepackage[utf8]{inputenc}
+\frenchsetup{StandardItemLabels=true}
+%pour gérer les positionnement d'images
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{url}
+%pour les informations sur un document compilé en PDF et les liens externes / internes
+\usepackage{hyperref}
+%pour la mise en page des tableaux
+\usepackage{array}
+\usepackage{tabularx}
+%pour utiliser \floatbarrier
+%\usepackage{placeins}
+%\usepackage{floatrow}
+%espacement entre les lignes
+\usepackage{setspace}
+%modifier la mise en page de l'abstract
+\usepackage{abstract}
+%police et mise en page (marges) du document
+%\usepackage{polyglossia}
+%\setmainlanguage{french}
+%\setotherlanguage[variant=polytonic]{greek}
+%\newfontfamily{\greekfont}[Ligatures=TeX]{Linux Libertine O}
+\usepackage[T1]{fontenc}
+\usepackage[top=2cm, bottom=2cm, left=3cm, right=3cm]{geometry}
+%Pour les galerie d'images
+\usepackage{subfig}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}% Default \headrulewidth is 0.4pt
+\renewcommand{\footrulewidth}{0.4pt}% Default \footrulewidth is 0pt
+
+% renommer « Fig. » en « Figure »
+\addto\captionsfrench{\renewcommand{\figurename}{\textsc{Figure}}}
+
+\usepackage{lipsum} 
+\usepackage{titlesec, blindtext, color}
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+%====================== INFORMATION ET REGLES ======================
+
+%rajouter les numérotation pour les \paragraphe et \subparagraphe
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+% ajouter de l'espace entre le numéro de la footnote et le texte de la footnote
+\usepackage[hang]{footmisc}
+\setlength{\footnotemargin}{2mm}
+
+\usepackage{etoolbox}
+\gappto{\UrlBreaks}{\UrlOrds}
+\hypersetup{							% Information sur le document
+pdfauthor = {Premier Auteur,
+			Deuxième Auteur,
+			Troisième Auteur,
+    		Quatrième Auteur},			% Auteurs
+pdftitle = {Nom du Projet -
+			Sujet du Projet},			% Titre du document
+pdfsubject = {Mémoire de Projet},		% Sujet
+pdfkeywords = {Tag1, Tag2, Tag3, ...},	% Mots-clefs
+pdfstartview={FitH},
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=blue,
+    citecolor=black,
+    linkbordercolor=red,
+    citebordercolor=red,
+    urlbordercolor=red,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen}					% ajuste la page à la largueur de l'écran
+%pdfcreator = {MikTeX},% Logiciel qui a crée le document
+%pdfproducer = {}} % Société avec produit le logiciel
+\usepackage{fancyhdr}% http://ctan.org/pkg/fancyhdr
+% \pagestyle{fancy}% Change page style to fancy
+% \fancyhf{}% Clear header/footer
+% \fancyhead[C]{}
+% \fancyfoot[C]{}% \fancyfoot[R]{\thepage}
+
+%======================== DEBUT DU DOCUMENT ========================
+
+\begin{document}
+
+%régler l'espacement entre les lignes
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+%page de garde
+%\input{title.tex} % ici mettre la page de garde de SU
+
+%page blanche
+\newpage
+~
+%ne pas numéroter cette page
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{0}
+\input{remerciements}
+\thispagestyle{empty}
+\setcounter{page}{0}
+%ne pas numéroter le sommaire
+\newpage
+~
+\thispagestyle{empty}
+\setcounter{page}{0}
+%ne pas numéroter le sommaire
+
+\newpage
+
+\input{0_abstract}
+\thispagestyle{empty}
+\setcounter{page}{0}
+%ne pas numéroter le sommaire
+\newpage
+~
+\thispagestyle{empty}
+\setcounter{page}{0}
+%ne pas numéroter le sommaire
+
+\newpage
+
+\tableofcontents
+\thispagestyle{empty}
+\setcounter{page}{0}
+%ne pas numéroter le sommaire
+
+\newpage
+
+%espacement entre les lignes d'un tableau
+\renewcommand{\arraystretch}{1.5}
+
+%====================== INCLUSION DES PARTIES ======================
+
+~
+\thispagestyle{empty}
+%recommencer la numérotation des pages à "1"
+\setcounter{page}{0}
+\newpage
+
+
+
+\chapter{Introduction}
+\input{1_intro}
+
+\chapter{Circulations numériques}
+\input{2_SotA}
+
+\chapter{Méthodologie}
+\input{3_methodo}
+
+\chapter{Résultats}
+\input{4_resultats}
+
+\chapter{Conclusion}
+\input{5_conclusion}
+
+\input{6_annexe}
+
+\newpage
+
+%récupérer les citation avec "/footnotemark"
+\nocite{*}
+
+%choix du style de la biblio
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{apalike}
+%inclusion de la biblio
+\bibliography{bibliographie.bib}
+%voir wiki pour plus d'information sur la syntaxe des entrées d'une bibliographie
+
+
+\end{document}

@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: _main.aux
+The style file: apalike.bst
+Database file #1: bibliographie.bib
+Warning--empty chapter and pages in bachelard1970idealisme
+Warning--empty booktitle in Johns1991ShouldYB
+You've used 25 entries,
+            1935 wiz_defined-function locations,
+            637 strings with 9630 characters,
+and the built_in function-call counts, 8870 in all, are:
+= -- 877
+> -- 309
+< -- 23
++ -- 104
+- -- 100
+* -- 666
+:= -- 1593
+add.period$ -- 98
+call.type$ -- 25
+change.case$ -- 166
+chr.to.int$ -- 25
+cite$ -- 27
+duplicate$ -- 372
+empty$ -- 633
+format.name$ -- 129
+if$ -- 1736
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 31
+newline$ -- 150
+num.names$ -- 75
+pop$ -- 149
+preamble$ -- 1
+purify$ -- 175
+quote$ -- 0
+skip$ -- 284
+stack$ -- 0
+substring$ -- 503
+swap$ -- 46
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 134
+warning$ -- 2
+while$ -- 67
+width$ -- 0
+write$ -- 364
+(There were 2 warnings)
