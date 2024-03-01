@@ -202,15 +202,6 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
   note={\url{https://api.semanticscholar.org/CorpusID:53988458}}
 }
 
-@book{kuhn1983structure,
-  title={La structure des r{\'e}volutions scientifiques},
-  author={Kuhn, Thomas S.},
-  volume={2},
-  year={1983},
-  publisher={Flammarion Paris},
-  note={Traduit par Laure Meyer, \url{https://kupdf.net/download/la-structure-des-r-eacute-volutions-scientifiques-thomas-s-kuhn_590217dadc0d60c957959eb4_pdf}}
-}
-
 @book{kuhn1962structure,
   title={The {S}tructure of {S}cientific {R}evolutions},
   author={Kuhn, Thomas S.},
@@ -227,18 +218,19 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
   note={\url{https://archive.org/details/anouilh-pauvre-bitos-ou-le-diner-de-tetes-1979}}
 }
 
-@book{koyre1962monde,
-  title={Du monde clos {\`a} l'univers infini},
+@book{koyre1957closed,
+  title={From the Closed World to the Infinite Universe},
   author={Koyr{\'e}, Alexandre},
-  volume={301},
-  year={1962},
-  publisher={Presses universitaires de France},
+  volume={1},
+  year={1957},
+  publisher={Baltimore, Johns Hopkins Press},
   note={\url{https://archive.org/details/fromclosedworldt0000koyr/page/n13/mode/2up?q=revolution}}
 }
+
 
 @misc{amiri2012,
       title={T. {S.} {K}uhn}, 
       author={Amiri, Valeh Valiollahpour},
-      year={2012},
-      howpublished={\url{https://histoirephilosciences.wordpress.com/depuis-le-20eme-siecles/une-nouvelle-epistemologie/t-s-kuhn/}}
+      year={24 novembre 2012},
+      note={\textit{Histo Philo Sciences}. \url{https://histoirephilosciences.wordpress.com/depuis-le-20eme-siecles/une-nouvelle-epistemologie/t-s-kuhn/}}
 }

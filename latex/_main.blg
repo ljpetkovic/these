@@ -3,48 +3,47 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: _main.aux
 The style file: apalike.bst
 Database file #1: bibliographie.bib
-Warning--I didn't find a database entry for "anouilh1958pauvre"
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
-You've used 26 entries,
+You've used 25 entries,
             1935 wiz_defined-function locations,
-            644 strings with 9915 characters,
-and the built_in function-call counts, 9154 in all, are:
-= -- 904
-> -- 316
-< -- 24
-+ -- 106
-- -- 102
-* -- 683
-:= -- 1646
-add.period$ -- 102
-call.type$ -- 26
-change.case$ -- 171
-chr.to.int$ -- 26
-cite$ -- 28
-duplicate$ -- 386
-empty$ -- 656
-format.name$ -- 132
-if$ -- 1792
+            639 strings with 9722 characters,
+and the built_in function-call counts, 8859 in all, are:
+= -- 876
+> -- 309
+< -- 22
++ -- 104
+- -- 100
+* -- 663
+:= -- 1592
+add.period$ -- 98
+call.type$ -- 25
+change.case$ -- 166
+chr.to.int$ -- 25
+cite$ -- 27
+duplicate$ -- 372
+empty$ -- 633
+format.name$ -- 129
+if$ -- 1734
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 33
-newline$ -- 156
-num.names$ -- 78
-pop$ -- 156
+missing$ -- 31
+newline$ -- 150
+num.names$ -- 75
+pop$ -- 150
 preamble$ -- 1
-purify$ -- 181
+purify$ -- 175
 quote$ -- 0
-skip$ -- 294
+skip$ -- 283
 stack$ -- 0
-substring$ -- 515
-swap$ -- 47
-text.length$ -- 5
+substring$ -- 503
+swap$ -- 45
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 138
+type$ -- 134
 warning$ -- 2
-while$ -- 69
+while$ -- 67
 width$ -- 0
-write$ -- 378
-(There were 3 warnings)
+write$ -- 363
+(There were 2 warnings)

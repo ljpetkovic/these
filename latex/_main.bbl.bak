@@ -1,5 +1,7 @@
 \begin{thebibliography}{}
 
+
+
 \bibitem[Amiri, 2012]{amiri2012}
 Amiri, V.~V. (24 novembre 2012).
 \newblock T. {S.} {K}uhn.
@@ -107,8 +109,8 @@ Kneib, M. (2011).
 
 \bibitem[Koyr{\'e}, 1957]{koyre1957closed}
 Koyr{\'e}, A. (1957).
-\newblock {\em From the Closed World to the Infinite Universe}, volume~1.
-\newblock Baltimore, Johns Hopkins Press.
+\newblock {\em From the closed world to the infinite universe}, volume~1.
+\newblock Library of Alexandria.
 \newblock
   \url{https://archive.org/details/fromclosedworldt0000koyr/page/n13/mode/2up?q=revolution}.
 
@@ -118,6 +120,13 @@ Kuhn, T.~S. (1962).
 \newblock University of {C}hicago {P}ress.
 \newblock
   \url{https://www.lri.fr/~mbl/Stanford/CS477/papers/Kuhn-SSR-2ndEd.pdf}.
+
+\bibitem[Kuhn, 1983]{kuhn1983structure}
+Kuhn, T.~S. (1983).
+\newblock {\em La structure des r{\'e}volutions scientifiques}, volume~2.
+\newblock Flammarion Paris.
+\newblock Traduit par Laure Meyer,
+  \url{https://kupdf.net/download/la-structure-des-r-eacute-volutions-scientifiques-thomas-s-kuhn_590217dadc0d60c957959eb4_pdf}.
 
 \bibitem[Landais, 2014]{landais2014frederic}
 Landais, {\'E}. (2014).

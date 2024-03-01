@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.11.13)  1 MAR 2024 11:28
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.11.13)  1 MAR 2024 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,7 +1126,10 @@ Overfull \hbox (3.94696pt too wide) in paragraph at lines 13--14
 a-ni-tés nu-mé-riques ; trai-te-ment au-to-ma-tique des langues ; champs
  []
 
-[1]) [0] (./_main.toc)
+[1]) [0] (./_main.toc
+LaTeX Font Info:    Font shape `T1/gentium/b/it' will be
+(Font)              scaled to size 10.0pt on input line 3.
+)
 \tf@toc=\write5
 \openout5 = `_main.toc'.
 
@@ -1157,23 +1160,21 @@ LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 7.0pt on input line 7.
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 8.0pt on input line 7.
-File: img/doxa_episteme.png Graphic file (type bmp)
-<img/doxa_episteme.png>
+File: img/changement_paradigme.png Graphic file (type bmp)
+<img/changement_paradigme.png>
 LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 11.
-
-Missing character: There is no ’ ("2019) in font ec-gentiumplus-regular!
-Missing character: There is no ’ ("2019) in font ec-gentiumplus-regular!
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 6.49994pt on input line 30.
+(Font)              scaled to size 6.49994pt on input line 32.
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 8.0pt on input line 30.
+(Font)              scaled to size 8.0pt on input line 32.
 LaTeX Font Info:    Trying to load font information for TU+gentium on input lin
-e 30.
-LaTeX Font Info:    No file TUgentium.fd. on input line 30.
+e 32.
+LaTeX Font Info:    No file TUgentium.fd. on input line 32.
+
 
 LaTeX Font Warning: Font shape `TU/gentium/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 30.
+(Font)              using `TU/lmr/m/n' instead on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/el/babel-greek.tex
 Package babel Info: Importing font and identification data for greek
@@ -1249,14 +1250,14 @@ xt;"
 ext;"
 
 LaTeX Font Info:    Font shape `TU/GentiumPlus(0)/m/n' will be
-(Font)              scaled to size 7.59302pt on input line 30.
+(Font)              scaled to size 7.59302pt on input line 32.
 [2
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 37.
+(Font)              <8> on input line 39.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 37.
+(Font)              <6> on input line 39.
 ) [3]
 Chapitre 3.
 
@@ -1348,28 +1349,22 @@ s : / / gastonbachelard . org / wp -[] content / uploads / 2015 / 07 / formatio
 n _
  []
 
-
-Underfull \hbox (badness 4872) in paragraph at lines 123--128
-\T1/gentium/m/n/10 par Laure Meyer, [][]$\T1/lmtt/m/n/10 https : / / kupdf . ne
-t / download / la -[] structure -[] des -[] r -[] eacute -[] volutions -[]
- []
-
+Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
+Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 [10
 
 ]
-Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
-Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 7.0pt on input line 141.
+(Font)              scaled to size 7.0pt on input line 134.
 
-Underfull \hbox (badness 2781) in paragraph at lines 163--168
+Underfull \hbox (badness 2781) in paragraph at lines 156--161
 []\T1/gentium/m/n/10 Roudinesco, É. and Plon, M. (2023).  \T1/gentium/m/it/10 D
 ic-tion-naire de la psy-cha-na-lyse\T1/gentium/m/n/10 .  Fayard.  [][]$\T1/lmtt
 /m/n/10 https : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--168
+Underfull \hbox (badness 10000) in paragraph at lines 156--161
 \T1/lmtt/m/n/10 fayard . fr / sciences -[] humaines / dictionnaire -[] de -[] l
 a -[] psychanalyse -[] nouvelle -[] edition -[]
  []
@@ -1382,11 +1377,11 @@ Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 381F821E0B80A07E32F067AA952C24C7;2717.
  ) 
 Here is how much of TeX's memory you used:
- 30120 strings out of 476191
- 608162 string characters out of 5812071
- 1033012 words of memory out of 5000000
- 50268 multiletter control sequences out of 15000+600000
- 529544 words of font info for 91 fonts, out of 8000000 for 9000
+ 30118 strings out of 476191
+ 608164 string characters out of 5812071
+ 1031988 words of memory out of 5000000
+ 50266 multiletter control sequences out of 15000+600000
+ 530008 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,11n,141p,2086b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
 
