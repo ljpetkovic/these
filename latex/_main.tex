@@ -2,9 +2,14 @@
 % \counterwithout{figure}{chapter} % pour compter la Figure 1 au lieu de Figure 1.1
 %====================== PACKAGES ======================
 \usepackage[round,authoryear]{natbib}
-\usepackage[french]{babel}
+\usepackage[greek.ancient,french]{babel}
+\usepackage{fontspec}
+\babelfont[greek]{rm}
+          [Scale=MatchLowercase]{Gentium Plus}
+\usepackage[LGR,T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{gentium}
 \usepackage{xcolor}
-% \usepackage[utf8]{inputenc}
 \frenchsetup{StandardItemLabels=true}
 %pour gérer les positionnement d'images
 \usepackage{float}
@@ -29,7 +34,8 @@
 %\setmainlanguage{french}
 %\setotherlanguage[variant=polytonic]{greek}
 %\newfontfamily{\greekfont}[Ligatures=TeX]{Linux Libertine O}
-\usepackage[T1]{fontenc}
+%\usepackage{fontspec}
+%\setmainfont{DejaVu Serif}
 \usepackage[top=2cm, bottom=2cm, left=3cm, right=3cm]{geometry}
 %Pour les galerie d'images
 \usepackage{subfig}
@@ -45,10 +51,25 @@
 \addto\captionsfrench{\renewcommand{\figurename}{\textsc{Figure}}}
 
 \usepackage{lipsum} 
-\usepackage{titlesec, blindtext, color}
-\definecolor{gray75}{gray}{0.75}
+\usepackage{blindtext, color}
+\usepackage[explicit]{titlesec}
+\definecolor{gray75}{gray}{0.35}
+%\newcommand{\hsp}{\hspace{20pt}}
+%\titleformat{\chapter}[hang]{\Huge\bfseries}{Chapitre \thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+% How can I have a vertical bar in chapter title which scales with the broken title?
 \newcommand{\hsp}{\hspace{20pt}}
-\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+\titleformat{\chapter}[hang]{\huge\bfseries}{\color{gray75}Chapitre \thechapter}{20pt}{\begin{tabular}[t]{@{\color{gray75}\vrule width 2pt\hsp}p{0.75\textwidth}}\raggedright#1\end{tabular}}
+
+\usepackage{gensymb} % pour le symbole du degré (\degree)
+
+\usepackage[
+    left = \flqq{},% 
+    right = \frqq{},% 
+    leftsub = \flq{},% 
+    rightsub = \frq{} %
+]{dirtytalk}
+
 %====================== INFORMATION ET REGLES ======================
 
 %rajouter les numérotation pour les \paragraphe et \subparagraphe
@@ -88,6 +109,12 @@ pdfstartview={FitH},
 % \fancyhf{}% Clear header/footer
 % \fancyhead[C]{}
 % \fancyfoot[C]{}% \fancyfoot[R]{\thepage}
+
+\newenvironment{myepigraph}
+  {\par\hfill\itshape
+   \begin{tabular}{@{}r@{\hspace{2em}}}} % 2em from the right margin
+  {\end{tabular}\par\medskip}
+  
 
 %======================== DEBUT DU DOCUMENT ========================
 
@@ -151,6 +178,8 @@ pdfstartview={FitH},
 
 
 \chapter{Introduction}
+
+\chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
 \input{1_intro}
 
 \chapter{Circulations numériques}

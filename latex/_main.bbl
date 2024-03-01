@@ -2,9 +2,16 @@
 
 \bibitem[Amiri, 2012]{amiri2012}
 Amiri, V.~V. (2012).
-\newblock T.s. kuhn.
+\newblock T. {S.} {K}uhn.
 \newblock
   \url{https://histoirephilosciences.wordpress.com/depuis-le-20eme-siecles/une-nouvelle-epistemologie/t-s-kuhn/}.
+
+\bibitem[Anouilh, 1956]{anouilh1956pauvre}
+Anouilh, J. (1956).
+\newblock {\em Pauvre Bitos ou le dîner de têtes}.
+\newblock Gallimard, coll. \og{}Folio\fg{}, n\degree{} 301.
+\newblock
+  \url{https://archive.org/details/anouilh-pauvre-bitos-ou-le-diner-de-tetes-1979}.
 
 \bibitem[Bachelard, 1934]{bachelard1934formation}
 Bachelard, G. (1934).
@@ -21,7 +28,7 @@ Bachelard, G. (1970).
 
 \bibitem[Bernheim, 1891]{bernheim1891suggestion}
 Bernheim, H. (1891).
-\newblock {\em De la suggestion: et de ses applications {\`a} la
+\newblock {\em De la suggestion et de ses applications {\`a} la
   th{\'e}rapeutique}.
 \newblock Octave Doin.
 \newblock \url{https://gallica.bnf.fr/ark:/12148/bpt6k97805169}.
@@ -42,8 +49,8 @@ Bogousslavsky, J. (2014).
 
 \bibitem[Broussolle et~al., 2012]{BROUSSOLLE2012301}
 Broussolle, E., Poirier, J., Clarac, F., and Barbara, J.-G. (2012).
-\newblock Figures and institutions of the neurological sciences in paris from
-  1800 to 1950. part iii: Neurology.
+\newblock Figures and institutions of the neurological sciences in {P}aris from
+  1800 to 1950. {P}art {III}: {N}eurology.
 \newblock {\em Revue Neurologique}, 168(4):301--320.
 \newblock \url{https://doi.org/10.1016/j.neurol.2011.10.006}.
 
@@ -72,8 +79,8 @@ Hey, T., Tansley, S., and Tolle, K.~M. (2009).
 
 \bibitem[Johns, 1991]{Johns1991ShouldYB}
 Johns, T.~F. (1991).
-\newblock Should you be persuaded. two samples of data-driven
-  learningmaterials.
+\newblock Should you be persuaded. two samples of data-driven learning
+  materials.
 \newblock \url{https://api.semanticscholar.org/CorpusID:53988458}.
 
 \bibitem[Joyeux-Prunel, 2019]{joyeux2019visual}
@@ -85,13 +92,13 @@ Joyeux-Prunel, B. (2019).
 
 \bibitem[Joyeux-Prunel and Gabay, 2022]{joyeux2022circulations}
 Joyeux-Prunel, B. and Gabay, S. (2022).
-\newblock Circulations des savoirs, de la recherche {\`a} l’enseignement.
+\newblock Circulations des savoirs, de la recherche {\`a} l'enseignement.
 \newblock {\em Arabesques}.
 \newblock \url{https://doi.org/10.35562/arabesques.2847}.
 
 \bibitem[Kneib, 2011]{kneib2011etude}
 Kneib, M. (2011).
-\newblock {\em {\'E}tude fonctionnelle d’un circuit inhibiteur du cortex
+\newblock {\em {\'E}tude fonctionnelle d'un circuit inhibiteur du cortex
   c{\'e}r{\'e}belleux de la souris: Importance pour la physiopathologie des
   retards mentaux}.
 \newblock PhD thesis, Strasbourg.
@@ -121,18 +128,19 @@ Kuhn, T.~S. (1983).
 
 \bibitem[Landais, 2014]{landais2014frederic}
 Landais, {\'E}. (2014).
-\newblock ‪{F}r{\'e}d{\'e}ric {D}arbellay, {\'e}d., \textit{{L}a circulation
-  des savoirs. {I}nterdisciplinarit{\'e}, concepts nomades, analogies,
-  m{\'e}taphores‪}: {B}erne, {P}. {L}ang, 2012, 245 pages.
+\newblock ‪\say{~{F}r{\'e}d{\'e}ric {D}arbellay, {\'e}d., \textit{{L}a
+  circulation des savoirs. {I}nterdisciplinarit{\'e}, concepts nomades,
+  analogies, m{\'e}taphores~}‪}: {B}erne, {P}. {L}ang, 2012, 245 pages.
 \newblock {\em Questions de communication}, 26:331--333.
 \newblock \url{https://doi.org/10.4000/questionsdecommunication.9367}.
 
 \bibitem[Manjavacas et~al., 2019]{manjavacas}
 Manjavacas, E., Long, B., and Kestemont, M. (2019).
-\newblock On the feasibility of automated detection of allusive text reuse.
-\newblock In {\em Proceedings of the 3rd Joint {SIGHUM} Workshop on
-  Computational Linguistics for Cultural Heritage, Social Sciences, Humanities
-  and Literature}, pages 104--114, Minneapolis, USA. Association for
+\newblock On the {F}easibility of {A}utomated {D}etection of {A}llusive {T}ext
+  {R}euse.
+\newblock In {\em Proceedings of the 3\textsuperscript{rd} Joint {SIGHUM}
+  Workshop on Computational Linguistics for Cultural Heritage, Social Sciences,
+  Humanities and Literature}, pages 104--114, Minneapolis, USA. Association for
   Computational Linguistics.
 \newblock \url{https://doi.org/10.18653/v1/W19-2514}.
 
@@ -145,13 +153,14 @@ Marmion, J.-F. (2015).
 
 \bibitem[Quet, 2014]{quet2014frederic}
 Quet, M. (2014).
-\newblock {F}r{\'e}d{\'e}ric {D}arbellay, \textit{{L}a circulation des savoirs.
-  {I}nterdisciplinarit{\'e}, concepts nomades, analogies, m{\'e}taphores}.
-\newblock {\em Revue d’anthropologie des connaissances}, 8(8-1).
+\newblock \say{~{F}r{\'e}d{\'e}ric {D}arbellay, \textit{{L}a circulation des
+  savoirs. {I}nterdisciplinarit{\'e}, concepts nomades, analogies,
+  m{\'e}taphores~}}.
+\newblock {\em Revue d'anthropologie des connaissances}, 8(8-1).
 \newblock \url{https://doi.org/10.3917/rac.022.0221}.
 
 \bibitem[Roudinesco and Plon, 2023]{roudinesco}
-Roudinesco, �. and Plon, M. (2023).
+Roudinesco, {\'E}. and Plon, M. (2023).
 \newblock {\em Dictionnaire de la psychanalyse}.
 \newblock Fayard.
 \newblock
@@ -167,7 +176,8 @@ Tasca, C., Rapetti, M., Carta, M.~G., and Fadda, B. (2012).
 \bibitem[Teive et~al., 2022]{teive2022thomas}
 Teive, H. A.~G., Coutinho, L., Camargo, C. H.~F., Munhoz, R.~P., and
   Walusinski, O. (2022).
-\newblock Thomas willis’ legacy on the 400 th anniversary of his birth.
+\newblock Thomas {W}illis' legacy on the 400\textsuperscript{th} anniversary of
+  his birth.
 \newblock {\em Arquivos de Neuro-Psiquiatria}, 80:759--762.
 \newblock \url{https://doi.org/10.1055/s-0042-1755278}.
 

@@ -58,7 +58,7 @@
 }
 
 @book{bernheim1891suggestion,
-  title={De la suggestion: et de ses applications {\`a} la th{\'e}rapeutique},
+  title={De la suggestion et de ses applications {\`a} la th{\'e}rapeutique},
   author={Bernheim, Hippolyte},
   year={1891},
   publisher={Octave Doin}, note={\url{https://gallica.bnf.fr/ark:/12148/bpt6k97805169}}
@@ -75,7 +75,7 @@
 }
 
 @phdthesis{kneib2011etude,
-  title={{\'E}tude fonctionnelle d’un circuit inhibiteur du cortex c{\'e}r{\'e}belleux de la souris: Importance pour la physiopathologie des retards mentaux},
+  title={{\'E}tude fonctionnelle d'un circuit inhibiteur du cortex c{\'e}r{\'e}belleux de la souris: Importance pour la physiopathologie des retards mentaux},
   author={Kneib, Marie},
   year={2011},
   school={Strasbourg},
@@ -83,7 +83,7 @@
 }
 
 @article{teive2022thomas,
-  title={Thomas Willis’ legacy on the 400 th anniversary of his birth},
+  title={Thomas {W}illis' legacy on the 400\textsuperscript{th} anniversary of his birth},
   author={Teive, H{\'e}lio Afonso Ghizoni and Coutinho, L{\'e}o and Camargo, Carlos Henrique Ferreira and Munhoz, Renato Puppi and Walusinski, Olivier},
   journal={Arquivos de Neuro-Psiquiatria},
   volume={80},
@@ -94,7 +94,7 @@
 }
 
 @article{BROUSSOLLE2012301,
-title = {Figures and institutions of the neurological sciences in Paris from 1800 to 1950. Part III: Neurology},
+title = {Figures and institutions of the neurological sciences in {P}aris from 1800 to 1950. {P}art {III}: {N}eurology},
 journal = {Revue Neurologique},
 volume = {168},
 number = {4},
@@ -124,11 +124,11 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
 }
 
 @inproceedings{manjavacas,
-    title = "On the Feasibility of Automated Detection of Allusive Text Reuse",
+    title = "On the {F}easibility of {A}utomated {D}etection of {A}llusive {T}ext {R}euse",
     author = "Manjavacas, Enrique  and
       Long, Brian  and
       Kestemont, Mike",
-    booktitle = "Proceedings of the 3rd Joint {SIGHUM} Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature",
+    booktitle = "Proceedings of the 3\textsuperscript{rd} Joint {SIGHUM} Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature",
     month = jun,
     year = "2019",
     address = "Minneapolis, USA",
@@ -138,7 +138,7 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
 }
 
 @book{roudinesco,
-    author = {Roudinesco, Élisabeth and Plon, Michel},
+    author = {Roudinesco, {\'E}lisabeth and Plon, Michel},
     title = {Dictionnaire de la psychanalyse},
     publisher = {Fayard},
     year = {2023},
@@ -146,7 +146,7 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
 }
 
 @article{landais2014frederic,
-  title={‪{F}r{\'e}d{\'e}ric {D}arbellay, {\'e}d., \textit{{L}a circulation des savoirs. {I}nterdisciplinarit{\'e}, concepts nomades, analogies, m{\'e}taphores‪}: {B}erne, {P}. {L}ang, 2012, 245 pages},
+  title={‪\say{~{F}r{\'e}d{\'e}ric {D}arbellay, {\'e}d., \textit{{L}a circulation des savoirs. {I}nterdisciplinarit{\'e}, concepts nomades, analogies, m{\'e}taphores~}‪}: {B}erne, {P}. {L}ang, 2012, 245 pages},
   author={Landais, {\'E}milie},
   journal={Questions de communication},
   volume={26},
@@ -157,13 +157,13 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
 }
 
 @article{quet2014frederic,
-  title={{F}r{\'e}d{\'e}ric {D}arbellay, \textit{{L}a circulation des savoirs. {I}nterdisciplinarit{\'e}, concepts nomades, analogies, m{\'e}taphores}},
+  title={\say{~{F}r{\'e}d{\'e}ric {D}arbellay, \textit{{L}a circulation des savoirs. {I}nterdisciplinarit{\'e}, concepts nomades, analogies, m{\'e}taphores~}}},
   author={Quet, Mathieu},
-  journal={Revue d’anthropologie des connaissances},
+  journal={Revue d'anthropologie des connaissances},
   volume={8},
   number={8-1},
   year={2014},
-  publisher={Soci{\'e}t{\'e} d’Anthropologie des Connaissances},
+  publisher={Soci{\'e}t{\'e} d'Anthropologie des Connaissances},
   note={\url{https://doi.org/10.3917/rac.022.0221}}
 }
 
@@ -180,7 +180,7 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
 }
 
 @article{joyeux2022circulations,
-  title={Circulations des savoirs, de la recherche {\`a} l’enseignement},
+  title={Circulations des savoirs, de la recherche {\`a} l'enseignement},
   author={Joyeux-Prunel, B{\'e}atrice and Gabay, Simon},
   journal={Arabesques},
   year={2022},
@@ -196,7 +196,7 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
 }
 
 @inproceedings{Johns1991ShouldYB,
-  title={Should you be persuaded. Two samples of data-driven learningmaterials},
+  title={Should you be persuaded. Two samples of data-driven learning materials},
   author={Tim F. Johns},
   year={1991},
   note={\url{https://api.semanticscholar.org/CorpusID:53988458}}
@@ -219,6 +219,13 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
   note={\url{https://www.lri.fr/~mbl/Stanford/CS477/papers/Kuhn-SSR-2ndEd.pdf}}
 }
 
+@book{anouilh1956pauvre,
+  title={Pauvre Bitos ou le dîner de têtes},
+  author={Anouilh, Jean},
+  year={1956},
+  publisher={Gallimard, coll. \og{}Folio\fg{}, n\degree{} 301},
+  note={\url{https://archive.org/details/anouilh-pauvre-bitos-ou-le-diner-de-tetes-1979}}
+}
 
 @book{koyre1962monde,
   title={Du monde clos {\`a} l'univers infini},
@@ -230,7 +237,7 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
 }
 
 @misc{amiri2012,
-      title={T.S. Kuhn}, 
+      title={T. {S.} {K}uhn}, 
       author={Amiri, Valeh Valiollahpour},
       year={2012},
       howpublished={\url{https://histoirephilosciences.wordpress.com/depuis-le-20eme-siecles/une-nouvelle-epistemologie/t-s-kuhn/}}
