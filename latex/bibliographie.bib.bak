@@ -4,7 +4,8 @@
   booktitle={{\'E}tudes},
   year={1970},
   address={Paris},
-  publisher={Vrin, pr{\'e}sentation de Georges Canguilhem}
+  publisher={Vrin, pr{\'e}sentation de Georges Canguilhem},
+  note={\url{https://www.academia.edu/27217437/BACHELARD_Gaston_%C3%89tudes_Vrin_1970_}}
 }
 
 @book{bachelard1934formation,
@@ -19,9 +20,9 @@
 @article{tasca2012women,
   title={Women {A}nd {H}ysteria {I}n {T}he {H}istory {O}f {M}ental {H}ealth},
   author={Tasca, Cecilia and Rapetti, Mariangela and Carta, Mauro Giovanni and Fadda, Bianca},
-  journal={Clinical practice and epidemiology in mental health: CP \& EMH},
+  journal={Clinical {P}ractice \& {E}pidemiology in {M}ental {H}ealth: CP \& EMH},
   volume={8},
-  pages={\ 110},
+  pages={110--119},
   year={2012},
   publisher={Bentham Science Publishers},
   note={\url{https://doi.org/10.2174/1745017901208010110}}
@@ -109,6 +110,7 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
   author={Gabay, Simon and Petkovic, Ljudmila and Bartz, Alexandre and Levenson, Matthias Gille and Du Noyer, Lucie Rondeau},
   booktitle={Humanistica 2021},
   year={2021},
+  pages={1--7},
   note={\url{https://hal.science/hal-03066108}}
 }
 
@@ -118,7 +120,7 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
   journal={Artl@s Bulletin},
   volume={8},
   number={3},
-  pages={8},
+  pages={128--144},
   year={2019},
   note={\url{https://docs.lib.purdue.edu/artlas/vol8/iss3/8/}}
 }
@@ -233,4 +235,75 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
       author={Amiri, Valeh Valiollahpour},
       year={24 novembre 2012},
       note={\textit{Histo Philo Sciences}. \url{https://histoirephilosciences.wordpress.com/depuis-le-20eme-siecles/une-nouvelle-epistemologie/t-s-kuhn/}}
+}
+
+@article{wright1980,
+ author = {John P. Wright},
+ journal = {Journal of the {H}istory of {I}deas},
+ number = {2},
+ pages = {233--247},
+ publisher = {University of Pennsylvania Press},
+ title = {Hysteria and {M}echanical {M}an},
+ volume = {41},
+ year = {1980},
+ note={\url{https://doi.org/10.2307/2709458}}
+}
+
+@book{rey2011dictionnaire,
+  title={Dictionnaire historique de la langue fran{\c{c}}aise},
+  author={Rey, Alain},
+  year={2011},
+  publisher={Le {R}obert},
+  note={\url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain%20Rey%20et%20al.%20-%20Dictionnaire%20historique%20de%20la%20langue%20francaise%204e%20%C3%A9d.%20-%20Le%20Robert%20%282010%29.pdf}}
+}
+
+@book{kant2008anthropologie,
+  title={Anthropologie d'un point de vue pragmatique \normalfont{(trad. J. Tissot)}},
+  author={Kant, {\'E}mmanuel},
+  year={1863},
+  publisher={Librairie Ladrange (originalement publié en 1798)},
+  note={\url{https://fr.wikisource.org/wiki/Sur_l%E2%80%99organe_de_l%E2%80%99%C3%A2me}}
+}
+
+@book{lepois1618,
+  title={Selectiorum observationum et consiliorum de praetervisis hactenus morbis affectibusque praeter naturum, ab aqua seu serosa colluvie et diluvie ortis, liber singularis.},
+  author={Le Pois, Carolus},
+  year={1618},
+  publisher={Authore Carolo Pisone, Ponte ad Monticulum, apud Carolum Mercatorem},
+  note={\url{https://archive.org/details/BIUSante_05814/page/n3/mode/2up}}
+}
+
+@article{tubbs2008costanzo,
+  title={Costanzo {V}arolio ({C}onstantius {V}arolius 1543--1575) and the {P}ons {V}arolli},
+  author={Tubbs, R. Shane and Loukas, Marios and Shoja, Mohammadali M. and Apaydin, Nihal and Ardalan, Mohammad R. and Shokouhi, Ghaffar and Oakes, W. Jerry},
+  journal={Neurosurgery},
+  volume={62},
+  number={3},
+  pages={734--737},
+  year={2008},
+  note={\url{https://doi.org/10.1227/01.neu.0000317323.63859.2a}}
+}
+
+@book{varolio1969nervis,
+  title={De nervis opticis nonnullisq: aliis praeter communem opinionem in humano capite obseruatis},
+  author={Varolio, Constanzo},
+  year={1573},
+  publisher={Patavii : apud P. et A. Meiettos fratres},
+  note={\url{https://gallica.bnf.fr/ark:/12148/bpt6k325486q}}
+}
+
+@book{willis1681essay,
+  title={An {E}ssay of the {P}athology of the {B}rain and {N}ervous {S}tock in which {C}onvulsive {D}iseases are {T}reated of},
+  author={Willis, Thomas},
+  year={1681},
+  publisher={London: Printed by J. B. for T. Dring},
+  note={\url{https://quod.lib.umich.edu/e/eebo/A66496.0001.001?rgn=main;view=fulltext}}
+}
+
+@book{willis1664cerebri,
+  title={Cerebri anatome: cui accessit nervorum descriptio et usus},
+  author={Willis, Thomas},
+  year={1664},
+  publisher={Londini : Typis Ja. Flesher, impensis Jo. Martyn \& Ja. Allestry, apud insigne Campanæ in C{\oe}meterio, D. Pauli},
+  note={\url{https://books.google.fr/books/?id=L2xEAAAAcAAJ&pg=PP9#v=onepage&q&f=false}}
 }
