@@ -78,8 +78,28 @@
 % ajouter de l'espace entre le numéro de la footnote et le texte de la footnote
 \usepackage[hang]{footmisc}
 \setlength{\footnotemargin}{2mm}
-\usepackage[linkbordercolor={0 0 1}]{hyperref}
+%\usepackage[linkbordercolor={0 0 1}]{hyperref}
+% pour les références croisées (page X pour une référence dans la bibliographie)
+\usepackage[backref=page]{hyperref} 
+\renewcommand\backreftwosep{, }
+ \renewcommand\backrefsep{, }
+ \renewcommand*{\backrefalt}[4]{%
+    \ifcase #1%
+     \or (page~#2)%
+     \else (pages~#2)%
+    \fi%
+    }
 \usepackage{etoolbox}
+
+% pour les backrefs : ça ne marche pas encore, à voir
+%\usepackage[backref=page]{hyperref}
+%\makeatletter
+%\patchcmd{\BR@backref}{\newblock}{\newblock(page~}{}{}
+%\patchcmd{\BR@backref}{\par}{)\par}{}{}
+%\makeatother 
+
+
+% pour que les références soient complètement encadrées
 \makeatletter
 
 \pretocmd{\NAT@citex}{%
@@ -146,11 +166,14 @@ pdfstartview={FitH},
 % \fancyhead[C]{}
 % \fancyfoot[C]{}% \fancyfoot[R]{\thepage}
 
+
+
 \newenvironment{myepigraph}
   {\par\hfill\itshape
    \begin{tabular}{@{}r@{\hspace{2em}}}} % 2em from the right margin
   {\end{tabular}\par\medskip}
   
+
 
 %======================== DEBUT DU DOCUMENT ========================
 
@@ -163,35 +186,37 @@ pdfstartview={FitH},
 %\input{title.tex} % ici mettre la page de garde de SU
 
 %page blanche
-\newpage
-~
-%ne pas numéroter cette page
-\thispagestyle{empty}
-\newpage
-\setcounter{page}{0}
-\input{remerciements}
-\thispagestyle{empty}
-\setcounter{page}{0}
-%ne pas numéroter le sommaire
-\newpage
-~
-\thispagestyle{empty}
-\setcounter{page}{0}
-%ne pas numéroter le sommaire
-
-\newpage
-
-\input{0_abstract}
-\thispagestyle{empty}
-\setcounter{page}{0}
-%ne pas numéroter le sommaire
-\newpage
-~
-\thispagestyle{empty}
-\setcounter{page}{0}
-%ne pas numéroter le sommaire
-
-\newpage
+%%%%%%%%%%%% décommenter la partie suivante jusqu'à \tableofcontents pour afficher les remerciements et le résumé
+%\newpage
+%~
+%%ne pas numéroter cette page
+%\thispagestyle{empty}
+%\newpage
+%\setcounter{page}{0}
+%\input{remerciements}
+%\thispagestyle{empty}
+%\setcounter{page}{0}
+%%ne pas numéroter le sommaire
+%\newpage
+%~
+%\thispagestyle{empty}
+%\setcounter{page}{0}
+%%ne pas numéroter le sommaire
+%
+%\newpage
+%
+%\input{0_abstract}
+%\thispagestyle{empty}
+%\setcounter{page}{0}
+%%ne pas numéroter le sommaire
+%\newpage
+%~
+%\thispagestyle{empty}
+%\setcounter{page}{0}
+%%ne pas numéroter le sommaire
+%
+%\newpage
+%%%%%%%%%%%%%% décommenter la partie au-dessus, jusqu'à \newpage pour afficher les remerciements et le résumé 
 
 \tableofcontents
 \thispagestyle{empty}

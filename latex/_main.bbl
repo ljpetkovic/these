@@ -26,7 +26,7 @@ Bachelard, G. (1970).
 \newblock {\em Id{\'e}alisme discursif}.
 \newblock Vrin, pr{\'e}sentation de Georges Canguilhem: Paris.
 \newblock
-  \url{https://www.academia.edu/27217437/BACHELARD_Gaston_%C3%89tudes_Vrin_1970_}.
+  \url{https://www.academia.edu/27217437/BACHELARD_Gaston_\%C3\%89tudes_Vrin_1970_}.
 
 \bibitem[Bernheim, 1891]{bernheim1891suggestion}
 Bernheim, H. (1891).
@@ -82,9 +82,10 @@ Gabay, S., Petkovic, L., Bartz, A., Levenson, M.~G., \& Du~Noyer, L.~R. (2021).
 
 \bibitem[Hey \textit{et~al.}, 2009]{hey2009jim}
 Hey, T., Tansley, S., \& Tolle, K.~M. (2009).
-\newblock Jim {G}ray on e{S}cience: {A} {T}ransformed {S}cientific {M}ethod.
-\newblock {\em The Fourth Paradigm}.
-\newblock \url{https://languagelog.ldc.upenn.edu/myl/JimGrayOnE-Science.pdf}.
+\newblock Jim {G}ray on e{S}cience: A {T}ransformed {S}cientific {M}ethod.
+\newblock In T. Hey, S. Tansley, \& K.~M. Tolle (Eds.), {\em The Fourth
+  Paradigm}. Microsoft Research.
+\newblock \url{http://languagelog.ldc.upenn.edu/myl/JimGrayOnE-Science.pdf}.
 
 \bibitem[Johns, 1991]{Johns1991ShouldYB}
 Johns, T.~F. (1991).
@@ -111,7 +112,7 @@ Kant, {\'E}. (1863).
   J. Tissot)}}.
 \newblock Librairie Ladrange (originalement publié en 1798).
 \newblock
-  \url{https://fr.wikisource.org/wiki/Sur_l%E2%80%99organe_de_l%E2%80%99%C3%A2me}.
+  \url{https://fr.wikisource.org/wiki/Anthropologie_d\%E2\%80\%99un_point_de_vue_pragmatique}.
 
 \bibitem[Kneib, 2011]{kneib2011etude}
 Kneib, M. (2011).
@@ -182,7 +183,7 @@ Rey, A. (2011).
 \newblock {\em Dictionnaire historique de la langue fran{\c{c}}aise}.
 \newblock Le {R}obert.
 \newblock
-  \url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain%20Rey%20et%20al.%20-%20Dictionnaire%20historique%20de%20la%20langue%20francaise%204e%20%C3%A9d.%20-%20Le%20Robert%20%282010%29.pdf}.
+  \url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain\%20Rey\%20et\%20al.\%20-\%20Dictionnaire\%20historique\%20de\%20la\%20langue\%20francaise\%204e\%20\%C3\%A9d.\%20-\%20Le\%20Robert\%20\%282010\%29.pdf}.
 
 \bibitem[Roudinesco \& Plon, 2023]{roudinesco}
 Roudinesco, {\'E}. \& Plon, M. (2023).
@@ -234,7 +235,7 @@ Willis, T. (1664).
 \newblock Londini : Typis Ja. Flesher, impensis Jo. Martyn \& Ja. Allestry,
   apud insigne Campanæ in C{\oe}meterio, D. Pauli.
 \newblock
-  \url{https://books.google.fr/books/?id=L2xEAAAAcAAJ&pg=PP9#v=onepage&q&f=false}.
+  \url{https://books.google.fr/books/?id=L2xEAAAAcAAJ&pg=PP9\#v=onepage&q&f=false}.
 
 \bibitem[Willis, 1681]{willis1681essay}
 Willis, T. (1681).

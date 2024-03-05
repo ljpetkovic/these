@@ -5,7 +5,7 @@
   year={1970},
   address={Paris},
   publisher={Vrin, pr{\'e}sentation de Georges Canguilhem},
-  note={\url{https://www.academia.edu/27217437/BACHELARD_Gaston_%C3%89tudes_Vrin_1970_}}
+  note={\url{https://www.academia.edu/27217437/BACHELARD_Gaston_\%C3\%89tudes_Vrin_1970_}}
 }
 
 @book{bachelard1934formation,
@@ -33,18 +33,9 @@
   author={Bogousslavsky, Julien},
   volume={29},
   year={2011},
-  publisher={Karger Medical and Scientific Publishers}, note={\url{https://www.biusante.parisdescartes.fr/chn/docpdf/walusinski_chapitre.pdf}}
+  publisher={Karger Medical and Scientific Publishers}, note={\url{https://nah.sen.es/en/issues/lastest-issues/135-journals/volume-2/issue-2/270-the-mysteries-of-hysteria}}
 }
 
-@article{marmion2015freud,
-  title={Freud hypnotiseur},
-  author={Marmion, Jean-Fran{\c{c}}ois},
-  journal={Freud et la psychanalyse},
-  pages={\ 22--29},
-  year={2015},
-  publisher={Sciences Humaines},
-  note={\url{https://www.cairn.info/freud-et-la-psychanalyse--9782361063542-page-22.htm}}
-}
 
 @article{bogousslavsky2014mysteries,
   title={The {M}ysteries of {H}ysteria},
@@ -62,7 +53,8 @@
   title={De la suggestion et de ses applications {\`a} la th{\'e}rapeutique},
   author={Bernheim, Hippolyte},
   year={1891},
-  publisher={Octave Doin}, note={\url{https://gallica.bnf.fr/ark:/12148/bpt6k97805169}}
+  publisher={Paris : Octave Doin}, 
+  note={\url{https://gallica.bnf.fr/ark:/12148/bpt6k97805169}}
 }
 
 @article{camargo2018jean,
@@ -94,7 +86,7 @@
   note={\url{https://doi.org/10.1055/s-0042-1755278}}
 }
 
-@article{BROUSSOLLE2012301,
+@article{broussolle2012,
 title = {Figures and institutions of the neurological sciences in {P}aris from 1800 to 1950. {P}art {III}: {N}eurology},
 journal = {Revue Neurologique},
 volume = {168},
@@ -189,13 +181,16 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
   note={\url{https://doi.org/10.35562/arabesques.2847}}
 }
 
-@article{hey2009jim,
-  title={Jim {G}ray on e{S}cience: {A} {T}ransformed {S}cientific {M}ethod.},
-  author={Hey, Tony and Tansley, Stewart and Tolle, Kristin M},
-  journal={The Fourth Paradigm},
-  year={2009},
-  note={\url{https://languagelog.ldc.upenn.edu/myl/JimGrayOnE-Science.pdf}}
+@incollection{hey2009jim,
+  author = {Hey, Tony and Tansley, Stewart and Tolle, Kristin M.},
+  booktitle = {The Fourth Paradigm},
+  editor = {Hey, Tony and Tansley, Stewart and Tolle, Kristin M.},
+  publisher = {Microsoft Research},
+  title = {Jim {G}ray on e{S}cience: A {T}ransformed {S}cientific {M}ethod.},
+  year = {2009},
+  note={\url{http://languagelog.ldc.upenn.edu/myl/JimGrayOnE-Science.pdf}}
 }
+
 
 @inproceedings{Johns1991ShouldYB,
   title={Should you be persuaded. Two samples of data-driven learning materials},
@@ -254,15 +249,15 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
   author={Rey, Alain},
   year={2011},
   publisher={Le {R}obert},
-  note={\url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain%20Rey%20et%20al.%20-%20Dictionnaire%20historique%20de%20la%20langue%20francaise%204e%20%C3%A9d.%20-%20Le%20Robert%20%282010%29.pdf}}
+  note={\url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain\%20Rey\%20et\%20al.\%20-\%20Dictionnaire\%20historique\%20de\%20la\%20langue\%20francaise\%204e\%20\%C3\%A9d.\%20-\%20Le\%20Robert\%20\%282010\%29.pdf}}
 }
 
-@book{kant2008anthropologie,
+@book{kant1863,
   title={Anthropologie d'un point de vue pragmatique \normalfont{(trad. J. Tissot)}},
   author={Kant, {\'E}mmanuel},
   year={1863},
   publisher={Librairie Ladrange (originalement publié en 1798)},
-  note={\url{https://fr.wikisource.org/wiki/Sur_l%E2%80%99organe_de_l%E2%80%99%C3%A2me}}
+  note={\url{https://fr.wikisource.org/wiki/Anthropologie_d\%E2\%80\%99un_point_de_vue_pragmatique}}
 }
 
 @book{lepois1618,
@@ -306,4 +301,25 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
   year={1664},
   publisher={Londini : Typis Ja. Flesher, impensis Jo. Martyn \& Ja. Allestry, apud insigne Campanæ in C{\oe}meterio, D. Pauli},
   note={\url{https://books.google.fr/books/?id=L2xEAAAAcAAJ&pg=PP9#v=onepage&q&f=false}}
+}
+
+@inproceedings{marmion2015,
+  title={Freud hypnotiseur},  
+  author={Marmion, Jean-Fran{\c{c}}ois}, 
+  booktitle={Freud et la psychanalyse},
+  year={2015},
+  pages={22--29},
+  publisher={Sciences Humaines},
+  note={\url{https://www.cairn.info/freud-et-la-psychanalyse--9782361063542-page-22.htm}}
+}
+
+@article{camargo2024,
+  title={Jean-{M}artin {C}harcot: the polymath},
+  author={Camargo, Carlos Henrique Ferreira and Coutinho, L{\'e}o and Correa Neto, Ylmar and Engelhardt, Eliasz and Maranh{\~a}o Filho, Pericles and Walusinski, Olivier and Teive, H{\'e}lio Afonso Ghizoni},
+  journal={Arquivos de Neuro-psiquiatria},
+  volume={81},
+  pages={1098--1111},
+  year={2024},
+  publisher={SciELO Brasil},
+  note={\url{https://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0043-1775984.pdf}}
 }

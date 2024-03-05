@@ -7,34 +7,34 @@ Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
 You've used 34 entries,
             2229 wiz_defined-function locations,
-            740 strings with 12682 characters,
-and the built_in function-call counts, 12266 in all, are:
-= -- 1215
-> -- 434
+            741 strings with 12733 characters,
+and the built_in function-call counts, 12368 in all, are:
+= -- 1221
+> -- 445
 < -- 30
-+ -- 148
-- -- 142
-* -- 929
-:= -- 2197
-add.period$ -- 134
++ -- 151
+- -- 145
+* -- 939
+:= -- 2214
+add.period$ -- 135
 call.type$ -- 34
 change.case$ -- 226
 chr.to.int$ -- 34
 cite$ -- 36
-duplicate$ -- 503
-empty$ -- 880
-format.name$ -- 180
-if$ -- 2399
+duplicate$ -- 508
+empty$ -- 892
+format.name$ -- 183
+if$ -- 2424
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 46
 newline$ -- 205
-num.names$ -- 102
-pop$ -- 213
+num.names$ -- 104
+pop$ -- 217
 preamble$ -- 1
 purify$ -- 241
 quote$ -- 0
-skip$ -- 374
+skip$ -- 372
 stack$ -- 0
 substring$ -- 732
 swap$ -- 55
@@ -43,7 +43,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 176
 warning$ -- 2
-while$ -- 96
+while$ -- 97
 width$ -- 0
-write$ -- 496
+write$ -- 497
 (There were 2 warnings)

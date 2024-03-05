@@ -1,32 +1,34 @@
 \label{sota}
 \section{Circulation des savoirs}
-De nombreux$\cdot$se$\cdot$xs chercheur$\cdot$e$\cdot$x$\cdot$s partagent le point de vue selon lequel la notion de \og{}circulation des savoirs\fg{} constitue un champ de recherche vaste, ainsi qu'un nouveau paradigme de la connaissance depuis le début du XXI\ieme{} siècle et l'avènement du Web 2.0\footnote{Cette phase de l'évolution du Web se caractérise notamment par la transformation majeure de l'Internet en vue du développement des réseaux sociaux, des blogs et des sites participatifs, tout en permettant aux utilisateurs$\cdot$trice$\cdot$x$\cdot$s de créer, partager et interagir avec du contenu Web. Nous traversons actuellement l'ère du Web 3.0 qui repose sur des technologies telles que la \textit{blockchain}, le \textit{NFT} (\textit{non-fungible token}), l'intelligence artificielle, métavers et le Web sémantique \citep{varet2023nouvelles}.}
-(\citealp{landais2014frederic,quet2014frederic}). Le terme en question reste toutefois assez complexe en raison de visions différentes sur la façon de le définir. À cet effet, \citet{quet2014frederic} souligne les points suivants :
+De nombreux$\cdot$ses chercheur$\cdot$se$\cdot$s$\cdot$x partagent le point de vue selon lequel la notion de \og{}circulation des savoirs\fg{} constitue un champ de recherche vaste, ainsi qu'un nouveau paradigme de la connaissance depuis le début du XXI\ieme{} siècle et l'avènement du Web 2.0\footnote{Cette phase de l'évolution du Web se caractérise notamment par la transformation majeure de l'Internet en vue du développement des réseaux sociaux, des blogs et des sites participatifs, tout en permettant aux utilisateur$\cdot$trice$\cdot$s$\cdot$x de créer, partager et interagir avec du contenu Web. Nous traversons actuellement l'ère du Web 3.0 qui repose sur des technologies telles que la \textit{blockchain}, le \textit{NFT} (\textit{non-fungible token}), l'intelligence artificielle, métavers et le Web sémantique \citep{varet2023nouvelles}.}
+(\citealp{landais2014frederic,quet2014frederic}). Le terme en question reste toutefois assez complexe en raison de visions différentes sur la façon de le définir. Afin d'éclairer cette problématique, \citet{quet2014frederic} souligne trois points suivants :
 \begin{enumerate}
-    \item \textbf{Éléments de circulations}. Qu’est-ce qui circule ? 
+    \item \textbf{Éléments de la circulation}. Qu'est-ce qui circule ? 
     \begin{itemize}
         \item individus (savants, techniciens, traducteurs, etc.)
         \item objets matériels (instruments scientifiques, ouvrages etc.)
         \item constructions symboliques (théories, concepts etc.)
     \end{itemize}  
-    \item \textbf{Conceptions de la circulation et méthodes d’analyse}
+    \item \textbf{Conceptions de la circulation et méthodes de son analyse}
     \begin{itemize}
         \item définition de la circulation comme \og{}traduction\fg{}, \og{}diffusion\fg{}, \og{}accès\fg{}, \og{}succès\fg{}, ou autre ;
-        \item critères méthodologiques possibles pour étudier la circulation p. ex. d’une théorie : 
+        \item critères méthodologiques possibles pour étudier la circulation p. ex. d'une \textit{théorie} : 
         \begin{itemize}
-            \item circulations géographiques des principaux concepteurs qu’on lui reconnaît
-            \item circulations et les lectures des textes qu’ils ont produits  
-            \item usages et les applications analogiques qui en sont faits dans d’autres domaines
+            \item circulations géographiques des principaux concepteurs qu'on lui reconnaît
+            \item circulations et lectures des textes produits par leurs concepteurs  
+            \item usages et applications analogiques qui en sont faits dans d'autres domaines
         \end{itemize} 
+        \item enjeux d'articulation de ces différents niveaux d'observation du point de vue méthodologique et de celui de la production du texte de recherche, dans le cas des croisements de ces niveaux
     \end{itemize}
-    \item \textbf{Définitions du savoir et approches normatives quant à la nature des savoirs}
+    \item \textbf{Conceptions analytiques et normatives des savoirs}
     \begin{itemize}
-        \item affaiblissement de l'opposition entre les catégories des \og{}savoirs profanes\fg{} et \og{}savoirs scientifiques\fg{},  revalorisation des savoirs implicites et de la dimension pratique des connaissances
-        \item circulation considérée comme porteuse de valeurs \textit{a priori} positives : confrontation à l’autre, hybridation, production de nouveauté, etc.
+        \item affaiblissement des catégories des \og{}savoirs profanes\fg{} et \og{}savoirs scientifiques\fg{}, ainsi que de l'opposition entre eux
+        \item revalorisation des savoirs implicites et de la dimension pratique des connaissances
+        \item glorification de la circulation comme porteuse de valeurs \textit{a priori} positives : confrontation à l'autre, hybridation, production de nouveauté, etc.
     \end{itemize}
 \end{enumerate}
 
-À l'ère d'aujourd'hui, marquée par le phénomène de \og{}déluge des données\fg{} (introduisant, selon Jim Gray, la quatrième paradigme de la science \citep{hey2009jim}), les recherches numériques \og{}pilotées par les données\fg{}\footnote{Traduction du terme \og{}data-driven\fg{} introduit par \citep{Johns1991ShouldYB} avec le terme ``data-driven learning''.}\og{}science pilotée par les données\fg{} et centrées sur les circulations culturelles se concrétisent à grande échelle.
+Incontestablement, l'époque actuelle est profondément marquée par le \og{}déluge des données\fg{}, phénomène représentatif de la quatrième paradigme de la science, selon Jim Gray \citep{hey2009jim}. Par conséquent, les recherches numériques sont aujourd'hui \og{}pilotées par les données\fg{}\footnote{Traduction du terme \og{}data-driven\fg{} introduit par \citep{Johns1991ShouldYB} issu du terme ``data-driven learning''.}\og{}science pilotée par les données\fg{} et centrées sur les circulations culturelles se concrétisent à grande échelle.
 
 \subsection{Études numériques des circulations}
 Les humanités numériques au service de l'analyse des circulations culturelles se manifestent sous forme de divers projets de recherche au niveau académique. Certains établissements universitaires, comme la chaire des Humanités numériques à l'université de Genève \citep{joyeux2022circulations}, ainsi que différents évènements scientifiques  (Humanistica 2023\footnote{\url{https://humanistica2023.sciencesconf.org/}}, \textsc{ACFAS} 2023\footnote{\url{https://www.crihn.org/nouvelles/2022/12/11/colloque-de-la-transformation-des-sciences-humaines-par-les-humanites-numeriques-acfas-2023/}} etc.) sont fortement axés sur cette thématique.  

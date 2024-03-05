@@ -1,7 +1,5 @@
 \begin{thebibliography}{}
 
-
-
 \bibitem[Amiri, 2012]{amiri2012}
 Amiri, V.~V. (24 novembre 2012).
 \newblock T. {S.} {K}uhn.
@@ -26,13 +24,15 @@ Bachelard, G. (1934).
 \bibitem[Bachelard, 1970]{bachelard1970idealisme}
 Bachelard, G. (1970).
 \newblock {\em Id{\'e}alisme discursif}.
-\newblock Vrin, pr{\'e}sentation de Georges Canguilhem, Paris.
+\newblock Paris: Vrin, pr{\'e}sentation de Georges Canguilhem.
+\newblock
+  \url{https://www.academia.edu/27217437/BACHELARD_Gaston_%C3%89tudes_Vrin_1970_}.
 
 \bibitem[Bernheim, 1891]{bernheim1891suggestion}
 Bernheim, H. (1891).
 \newblock {\em De la suggestion et de ses applications {\`a} la
   th{\'e}rapeutique}.
-\newblock Octave Doin.
+\newblock Paris : Octave Doin.
 \newblock \url{https://gallica.bnf.fr/ark:/12148/bpt6k97805169}.
 
 \bibitem[Bogousslavsky, 2011]{bogousslavsky2011following}
@@ -41,24 +41,32 @@ Bogousslavsky, J. (2011).
   {P}sychiatry}, volume~29.
 \newblock Karger Medical and Scientific Publishers.
 \newblock
-  \url{https://www.biusante.parisdescartes.fr/chn/docpdf/walusinski_chapitre.pdf}.
+  \url{https://nah.sen.es/en/issues/lastest-issues/135-journals/volume-2/issue-2/270-the-mysteries-of-hysteria}.
 
 \bibitem[Bogousslavsky, 2014]{bogousslavsky2014mysteries}
 Bogousslavsky, J. (2014).
 \newblock The {M}ysteries of {H}ysteria.
-\newblock {\em Neurosciences and History}, 2(2):\ 54--73.
+\newblock {\em Neurosciences and History}, 2(2), \ 54--73.
 \newblock \url{https://nah.sen.es/vmfiles/abstract/NAHV2N2201454_73EN.pdf}.
 
-\bibitem[Broussolle et~al., 2012]{BROUSSOLLE2012301}
-Broussolle, E., Poirier, J., Clarac, F., and Barbara, J.-G. (2012).
+\bibitem[Broussolle \textit{et~al.}, 2012]{broussolle2012}
+Broussolle, E., Poirier, J., Clarac, F., \& Barbara, J.-G. (2012).
 \newblock Figures and institutions of the neurological sciences in {P}aris from
   1800 to 1950. {P}art {III}: {N}eurology.
-\newblock {\em Revue Neurologique}, 168(4):301--320.
+\newblock {\em Revue Neurologique}, 168(4), 301--320.
 \newblock \url{https://doi.org/10.1016/j.neurol.2011.10.006}.
 
-\bibitem[Camargo et~al., 2018]{camargo2018jean}
+\bibitem[Camargo \textit{et~al.}, 2024]{camargo2024}
+Camargo, C. H.~F., Coutinho, L., Correa~Neto, Y., Engelhardt, E.,
+  Maranh{\~a}o~Filho, P., Walusinski, O., \& Teive, H. A.~G. (2024).
+\newblock Jean-{M}artin {C}harcot: the polymath.
+\newblock {\em Arquivos de Neuro-psiquiatria}, 81, 1098--1111.
+\newblock
+  \url{https://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0043-1775984.pdf}.
+
+\bibitem[Camargo \textit{et~al.}, 2018]{camargo2018jean}
 Camargo, C. H.~F., Marques, P.~T., de~Oliveira, L.~P., Germinian, F.~M.,
-  de~Paola, L., and Teive, H. A.~G. (2018).
+  de~Paola, L., \& Teive, H. A.~G. (2018).
 \newblock Jean-{M}artin {C}harcot's {I}nfluence on {C}areer of {S}igmund
   {F}reud, and the {I}nfluence of this {M}eeting for the {B}razilian
   {M}edicine.
@@ -66,18 +74,18 @@ Camargo, C. H.~F., Marques, P.~T., de~Oliveira, L.~P., Germinian, F.~M.,
 \newblock
   \url{https://docs.bvsalud.org/biblioref/2018/07/907032/revista542v4-artigo6.pdf}.
 
-\bibitem[Gabay et~al., 2021]{gabay2021katabase}
-Gabay, S., Petkovic, L., Bartz, A., Levenson, M.~G., and Du~Noyer, L.~R.
-  (2021).
+\bibitem[Gabay \textit{et~al.}, 2021]{gabay2021katabase}
+Gabay, S., Petkovic, L., Bartz, A., Levenson, M.~G., \& Du~Noyer, L.~R. (2021).
 \newblock Katabase: {\`A} la recherche des manuscrits vendus.
-\newblock In {\em Humanistica 2021}.
+\newblock In {\em Humanistica 2021}  (pp.\ 1--7).
 \newblock \url{https://hal.science/hal-03066108}.
 
-\bibitem[Hey et~al., 2009]{hey2009jim}
-Hey, T., Tansley, S., and Tolle, K.~M. (2009).
-\newblock Jim {G}ray on e{S}cience: {A} {T}ransformed {S}cientific {M}ethod.
-\newblock {\em The Fourth Paradigm}.
-\newblock \url{https://languagelog.ldc.upenn.edu/myl/JimGrayOnE-Science.pdf}.
+\bibitem[Hey \textit{et~al.}, 2009]{hey2009jim}
+Hey, T., Tansley, S., \& Tolle, K.~M. (2009).
+\newblock Jim {G}ray on e{S}cience: A {T}ransformed {S}cientific {M}ethod.
+\newblock In T. Hey, S. Tansley, \& K.~M. Tolle (Eds.), {\em The Fourth
+  Paradigm}. Microsoft Research.
+\newblock \url{http://languagelog.ldc.upenn.edu/myl/JimGrayOnE-Science.pdf}.
 
 \bibitem[Johns, 1991]{Johns1991ShouldYB}
 Johns, T.~F. (1991).
@@ -89,14 +97,22 @@ Johns, T.~F. (1991).
 Joyeux-Prunel, B. (2019).
 \newblock Visual {C}ontagions, the {A}rt {H}istorian, and the {D}igital
   {S}trategies to {W}ork on {T}hem.
-\newblock {\em Artl@s Bulletin}, 8(3):8.
+\newblock {\em Artl@s Bulletin}, 8(3), 128--144.
 \newblock \url{https://docs.lib.purdue.edu/artlas/vol8/iss3/8/}.
 
-\bibitem[Joyeux-Prunel and Gabay, 2022]{joyeux2022circulations}
-Joyeux-Prunel, B. and Gabay, S. (2022).
+\bibitem[Joyeux-Prunel \& Gabay, 2022]{joyeux2022circulations}
+Joyeux-Prunel, B. \& Gabay, S. (2022).
 \newblock Circulations des savoirs, de la recherche {\`a} l'enseignement.
 \newblock {\em Arabesques}.
 \newblock \url{https://doi.org/10.35562/arabesques.2847}.
+
+\bibitem[Kant, 1863]{kant1863}
+Kant, {\'E}. (1863).
+\newblock {\em Anthropologie d'un point de vue pragmatique \normalfont{(trad.
+  J. Tissot)}}.
+\newblock Librairie Ladrange (originalement publié en 1798).
+\newblock
+  \url{https://fr.wikisource.org/wiki/Sur_l%E2%80%99organe_de_l%E2%80%99%C3%A2me}.
 
 \bibitem[Kneib, 2011]{kneib2011etude}
 Kneib, M. (2011).
@@ -109,8 +125,8 @@ Kneib, M. (2011).
 
 \bibitem[Koyr{\'e}, 1957]{koyre1957closed}
 Koyr{\'e}, A. (1957).
-\newblock {\em From the closed world to the infinite universe}, volume~1.
-\newblock Library of Alexandria.
+\newblock {\em From the Closed World to the Infinite Universe}, volume~1.
+\newblock Baltimore, Johns Hopkins Press.
 \newblock
   \url{https://archive.org/details/fromclosedworldt0000koyr/page/n13/mode/2up?q=revolution}.
 
@@ -121,35 +137,36 @@ Kuhn, T.~S. (1962).
 \newblock
   \url{https://www.lri.fr/~mbl/Stanford/CS477/papers/Kuhn-SSR-2ndEd.pdf}.
 
-\bibitem[Kuhn, 1983]{kuhn1983structure}
-Kuhn, T.~S. (1983).
-\newblock {\em La structure des r{\'e}volutions scientifiques}, volume~2.
-\newblock Flammarion Paris.
-\newblock Traduit par Laure Meyer,
-  \url{https://kupdf.net/download/la-structure-des-r-eacute-volutions-scientifiques-thomas-s-kuhn_590217dadc0d60c957959eb4_pdf}.
-
 \bibitem[Landais, 2014]{landais2014frederic}
 Landais, {\'E}. (2014).
 \newblock ‪\say{~{F}r{\'e}d{\'e}ric {D}arbellay, {\'e}d., \textit{{L}a
   circulation des savoirs. {I}nterdisciplinarit{\'e}, concepts nomades,
   analogies, m{\'e}taphores~}‪}: {B}erne, {P}. {L}ang, 2012, 245 pages.
-\newblock {\em Questions de communication}, 26:331--333.
+\newblock {\em Questions de communication}, 26, 331--333.
 \newblock \url{https://doi.org/10.4000/questionsdecommunication.9367}.
 
-\bibitem[Manjavacas et~al., 2019]{manjavacas}
-Manjavacas, E., Long, B., and Kestemont, M. (2019).
+\bibitem[Le~Pois, 1618]{lepois1618}
+Le~Pois, C. (1618).
+\newblock {\em Selectiorum observationum et consiliorum de praetervisis
+  hactenus morbis affectibusque praeter naturum, ab aqua seu serosa colluvie et
+  diluvie ortis, liber singularis.}
+\newblock Authore Carolo Pisone, Ponte ad Monticulum, apud Carolum Mercatorem.
+\newblock \url{https://archive.org/details/BIUSante_05814/page/n3/mode/2up}.
+
+\bibitem[Manjavacas \textit{et~al.}, 2019]{manjavacas}
+Manjavacas, E., Long, B., \& Kestemont, M. (2019).
 \newblock On the {F}easibility of {A}utomated {D}etection of {A}llusive {T}ext
   {R}euse.
 \newblock In {\em Proceedings of the 3\textsuperscript{rd} Joint {SIGHUM}
   Workshop on Computational Linguistics for Cultural Heritage, Social Sciences,
-  Humanities and Literature}, pages 104--114, Minneapolis, USA. Association for
-  Computational Linguistics.
+  Humanities and Literature}  (pp.\ 104--114).  Minneapolis, USA: Association
+  for Computational Linguistics.
 \newblock \url{https://doi.org/10.18653/v1/W19-2514}.
 
-\bibitem[Marmion, 2015]{marmion2015freud}
+\bibitem[Marmion, 2015]{marmion2015}
 Marmion, J.-F. (2015).
 \newblock Freud hypnotiseur.
-\newblock {\em Freud et la psychanalyse}, pages \ 22--29.
+\newblock In {\em Freud et la psychanalyse}  (pp.\ 22--29).: Sciences Humaines.
 \newblock
   \url{https://www.cairn.info/freud-et-la-psychanalyse--9782361063542-page-22.htm}.
 
@@ -161,33 +178,77 @@ Quet, M. (2014).
 \newblock {\em Revue d'anthropologie des connaissances}, 8(8-1).
 \newblock \url{https://doi.org/10.3917/rac.022.0221}.
 
-\bibitem[Roudinesco and Plon, 2023]{roudinesco}
-Roudinesco, {\'E}. and Plon, M. (2023).
+\bibitem[Rey, 2011]{rey2011dictionnaire}
+Rey, A. (2011).
+\newblock {\em Dictionnaire historique de la langue fran{\c{c}}aise}.
+\newblock Le {R}obert.
+\newblock
+  \url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain%20Rey%20et%20al.%20-%20Dictionnaire%20historique%20de%20la%20langue%20francaise%204e%20%C3%A9d.%20-%20Le%20Robert%20%282010%29.pdf}.
+
+\bibitem[Roudinesco \& Plon, 2023]{roudinesco}
+Roudinesco, {\'E}. \& Plon, M. (2023).
 \newblock {\em Dictionnaire de la psychanalyse}.
 \newblock Fayard.
 \newblock
   \url{https://www.fayard.fr/sciences-humaines/dictionnaire-de-la-psychanalyse-nouvelle-edition-9782213725277}.
 
-\bibitem[Tasca et~al., 2012]{tasca2012women}
-Tasca, C., Rapetti, M., Carta, M.~G., and Fadda, B. (2012).
+\bibitem[Tasca \textit{et~al.}, 2012]{tasca2012women}
+Tasca, C., Rapetti, M., Carta, M.~G., \& Fadda, B. (2012).
 \newblock Women {A}nd {H}ysteria {I}n {T}he {H}istory {O}f {M}ental {H}ealth.
-\newblock {\em Clinical practice and epidemiology in mental health: CP \& EMH},
-  8:\ 110.
+\newblock {\em Clinical {P}ractice \& {E}pidemiology in {M}ental {H}ealth: CP
+  \& EMH}, 8, 110--119.
 \newblock \url{https://doi.org/10.2174/1745017901208010110}.
 
-\bibitem[Teive et~al., 2022]{teive2022thomas}
-Teive, H. A.~G., Coutinho, L., Camargo, C. H.~F., Munhoz, R.~P., and
-  Walusinski, O. (2022).
+\bibitem[Teive \textit{et~al.}, 2022]{teive2022thomas}
+Teive, H. A.~G., Coutinho, L., Camargo, C. H.~F., Munhoz, R.~P., \& Walusinski,
+  O. (2022).
 \newblock Thomas {W}illis' legacy on the 400\textsuperscript{th} anniversary of
   his birth.
-\newblock {\em Arquivos de Neuro-Psiquiatria}, 80:759--762.
+\newblock {\em Arquivos de Neuro-Psiquiatria}, 80, 759--762.
 \newblock \url{https://doi.org/10.1055/s-0042-1755278}.
+
+\bibitem[Tubbs \textit{et~al.}, 2008]{tubbs2008costanzo}
+Tubbs, R.~S., Loukas, M., Shoja, M.~M., Apaydin, N., Ardalan, M.~R., Shokouhi,
+  G., \& Oakes, W.~J. (2008).
+\newblock Costanzo {V}arolio ({C}onstantius {V}arolius 1543--1575) and the
+  {P}ons {V}arolli.
+\newblock {\em Neurosurgery}, 62(3), 734--737.
+\newblock \url{https://doi.org/10.1227/01.neu.0000317323.63859.2a}.
 
 \bibitem[Varet, 2023]{varet2023nouvelles}
 Varet, V. (2023).
 \newblock Les nouvelles modalit{\'e}s num{\'e}riques: \textit{blockchain},
   {W}eb 3.0, {NFT}, m{\'e}tavers...
-\newblock {\em Legipresse}, 68(HS1):59--70.
+\newblock {\em Legipresse}, 68(HS1), 59--70.
 \newblock \url{https://doi.org/10.3917/legip.hs68.0059}.
+
+\bibitem[Varolio, 1573]{varolio1969nervis}
+Varolio, C. (1573).
+\newblock {\em De nervis opticis nonnullisq: aliis praeter communem opinionem
+  in humano capite obseruatis}.
+\newblock Patavii : apud P. et A. Meiettos fratres.
+\newblock \url{https://gallica.bnf.fr/ark:/12148/bpt6k325486q}.
+
+\bibitem[Willis, 1664]{willis1664cerebri}
+Willis, T. (1664).
+\newblock {\em Cerebri anatome: cui accessit nervorum descriptio et usus}.
+\newblock Londini : Typis Ja. Flesher, impensis Jo. Martyn \& Ja. Allestry,
+  apud insigne Campanæ in C{\oe}meterio, D. Pauli.
+\newblock
+  \url{https://books.google.fr/books/?id=L2xEAAAAcAAJ&pg=PP9#v=onepage&q&f=false}.
+
+\bibitem[Willis, 1681]{willis1681essay}
+Willis, T. (1681).
+\newblock {\em An {E}ssay of the {P}athology of the {B}rain and {N}ervous
+  {S}tock in which {C}onvulsive {D}iseases are {T}reated of}.
+\newblock London: Printed by J. B. for T. Dring.
+\newblock
+  \url{https://quod.lib.umich.edu/e/eebo/A66496.0001.001?rgn=main;view=fulltext}.
+
+\bibitem[Wright, 1980]{wright1980}
+Wright, J.~P. (1980).
+\newblock Hysteria and {M}echanical {M}an.
+\newblock {\em Journal of the {H}istory of {I}deas}, 41(2), 233--247.
+\newblock \url{https://doi.org/10.2307/2709458}.
 
 \end{thebibliography}
