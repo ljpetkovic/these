@@ -614,7 +614,7 @@ FUNCTION {format.book.crossref}
 }
 
 FUNCTION {format.incoll.inproc.crossref}
-{ "In"							% this is for apalike
+{ "Dans"							% this is for apalike
   " \cite{" * crossref * "}" *
 }
 

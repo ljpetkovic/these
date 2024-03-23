@@ -5,45 +5,45 @@ The style file: apalike-etal-in-italics.bst
 Database file #1: bibliographie.bib
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
-You've used 34 entries,
+You've used 36 entries,
             2229 wiz_defined-function locations,
-            741 strings with 12733 characters,
-and the built_in function-call counts, 12368 in all, are:
-= -- 1221
-> -- 445
-< -- 30
-+ -- 151
-- -- 145
-* -- 939
-:= -- 2214
-add.period$ -- 135
-call.type$ -- 34
-change.case$ -- 226
-chr.to.int$ -- 34
-cite$ -- 36
-duplicate$ -- 508
-empty$ -- 892
-format.name$ -- 183
-if$ -- 2424
+            753 strings with 13063 characters,
+and the built_in function-call counts, 13182 in all, are:
+= -- 1305
+> -- 463
+< -- 33
++ -- 156
+- -- 150
+* -- 990
+:= -- 2348
+add.period$ -- 144
+call.type$ -- 36
+change.case$ -- 237
+chr.to.int$ -- 36
+cite$ -- 38
+duplicate$ -- 549
+empty$ -- 960
+format.name$ -- 190
+if$ -- 2599
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 46
-newline$ -- 205
-num.names$ -- 104
-pop$ -- 217
+missing$ -- 49
+newline$ -- 217
+num.names$ -- 112
+pop$ -- 231
 preamble$ -- 1
-purify$ -- 241
+purify$ -- 253
 quote$ -- 0
-skip$ -- 372
+skip$ -- 404
 stack$ -- 0
-substring$ -- 732
-swap$ -- 55
-text.length$ -- 5
+substring$ -- 788
+swap$ -- 66
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 176
+type$ -- 186
 warning$ -- 2
-while$ -- 97
+while$ -- 105
 width$ -- 0
-write$ -- 497
+write$ -- 527
 (There were 2 warnings)

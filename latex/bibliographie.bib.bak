@@ -29,7 +29,7 @@
 }
 
 @book{bogousslavsky2011following,
-  title={Following Charcot: {A} forgotten {H}istory of {N}eurology and {P}sychiatry},
+  title={Following Charcot: {A} {F}orgotten {H}istory of {N}eurology and {P}sychiatry},
   author={Bogousslavsky, Julien},
   volume={29},
   year={2011},
@@ -300,7 +300,7 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
   author={Willis, Thomas},
   year={1664},
   publisher={Londini : Typis Ja. Flesher, impensis Jo. Martyn \& Ja. Allestry, apud insigne Campanæ in C{\oe}meterio, D. Pauli},
-  note={\url{https://books.google.fr/books/?id=L2xEAAAAcAAJ&pg=PP9#v=onepage&q&f=false}}
+  note={\url{https://books.google.fr/books/?id=L2xEAAAAcAAJ&pg=PP9\#v=onepage&q&f=false}}
 }
 
 @inproceedings{marmion2015,
@@ -323,3 +323,23 @@ note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
   publisher={SciELO Brasil},
   note={\url{https://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0043-1775984.pdf}}
 }
+
+@incollection{ghermani2011,
+  title={Confessions},
+  author={Ghermani, Naima},
+  editor={Olivier Christin},
+  booktitle={Dictionnaire des concepts nomades en sciences humaines},
+  year={2011},
+  publisher={M{\'e}taili{\'e}},
+  pages={117--133},
+  note={\url{https://www.academia.edu/5335160/_Confession_}}
+  }
+
+@book{christin2011dictionnaire,
+  title={Dictionnaire des concepts nomades en sciences humaines},
+  author={Christin, Olivier},
+  year={2011},
+  publisher={M{\'e}taili{\'e}},
+  note={\url{https://www.academia.edu/31022748/Dictionnaire_des_concepts_nomades_en_sciences_humaines_vol_1}}
+}
+  
