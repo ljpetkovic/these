@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  24 MAR 2024 12:29
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  24 MAR 2024 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1982,6 +1982,14 @@ Missing character: There is no ρ ("3C1) in font nullfont!
 Missing character: There is no α ("3B1) in font nullfont!
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
 (Font)              scaled to size 8.0pt on input line 38.
+LaTeX Font Info:    Trying to load font information for TS1+gentium on input li
+ne 55.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/gentium-tug/ts1gentium.fd
+File: ts1gentium.fd 2022/05/30 Font definitions for gentium.
+)
+LaTeX Font Info:    Font shape `TS1/gentium/m/n' will be
+(Font)              scaled to size 10.0pt on input line 55.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.10004pt, for example:
@@ -2011,14 +2019,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
-LaTeX Font Info:    Trying to load font information for TS1+gentium on input li
-ne 7.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/gentium-tug/ts1gentium.fd
-File: ts1gentium.fd 2022/05/30 Font definitions for gentium.
-)
-LaTeX Font Info:    Font shape `TS1/gentium/m/n' will be
-(Font)              scaled to size 10.0pt on input line 7.
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 12.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
