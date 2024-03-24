@@ -43,8 +43,15 @@ Bogousslavsky, J. (2011).
 \newblock
   \url{https://nah.sen.es/en/issues/lastest-issues/135-journals/volume-2/issue-2/270-the-mysteries-of-hysteria}.
 
-\bibitem[Bogousslavsky, 2014]{bogousslavsky2014mysteries}
-Bogousslavsky, J. (2014).
+\bibitem[Bogousslavsky, 2014a]{bogousslavsky2014jean}
+Bogousslavsky, J. (2014a).
+\newblock Jean-{M}artin {C}harcot and {H}is {L}egacy.
+\newblock In {\em Hysteria: {T}he rise of an {E}nigma}, volume~35  (pp.\
+  44--55). Karger Publishers.
+\newblock \url{https://doi.org/10.1159/000359991}.
+
+\bibitem[Bogousslavsky, 2014b]{bogousslavsky2014mysteries}
+Bogousslavsky, J. (2014b).
 \newblock The {M}ysteries of {H}ysteria.
 \newblock {\em Neurosciences and History}, 2(2), \ 54--73.
 \newblock \url{https://nah.sen.es/vmfiles/abstract/NAHV2N2201454_73EN.pdf}.
@@ -99,6 +106,13 @@ Goetz, C. (2017).
 \newblock Charcot: {P}ast and present.
 \newblock {\em Revue Neurologique}, 173(10), 628--636.
 \newblock \url{https://doi.org/10.1016/j.neurol.2017.04.004}.
+
+\bibitem[Gomes \& Engelhardt, 2013]{gomes2013jean}
+Gomes, M. d.~M. \& Engelhardt, E. (2013).
+\newblock Jean-{M}artin {C}harcot, father of modern neurology: an homage 120
+  years after his death.
+\newblock {\em Arquivos de {N}euro-{P}siquiatria}, 71, 815--817.
+\newblock \url{https://doi.org/10.1590/0004-282X20130128}.
 
 \bibitem[Hey \textit{et~al.}, 2009]{hey2009jim}
 Hey, T., Tansley, S., \& Tolle, K.~M. (2009).
