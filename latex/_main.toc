@@ -1,17 +1,9 @@
 \babel@toc {french}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}L'erreur comme source de la connaissance scientifique}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Jean-Martin Charcot : un médecin polymathe à l'aube de la neurologie moderne}{3}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Circulations numériques}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Circulation des savoirs}{5}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Études numériques des circulations}{5}{subsection.3.1.1}%
-\contentsline {chapter}{\numberline {4}Méthodologie}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Outils existants}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Une nouvelle approche}{7}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Résultats}{8}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{9}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Discussion et perspectives}{9}{section.6.1}%
-\contentsline {chapter}{Annexe}{11}{part*.3}%
-\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{11}{chapter*.4}%
-\contentsline {chapter}{References}{12}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}L'erreur comme source de la connaissance scientifique}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Jean-Martin Charcot : un médecin polymathe à l'aube de la neurologie moderne}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Pister la circulation du discours médical au prisme du numérique}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Modalités des circulations des savoirs}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Constitution d'un concept historique}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Étude numérique des circulations culturelles}{5}{subsection.2.2.1}%
+\contentsline {chapter}{References}{6}{subsection.2.2.1}%

@@ -4,6 +4,7 @@
 \usepackage[round,authoryear]{natbib}
 \usepackage[greek.ancient,french]{babel}
 \usepackage{fontspec}
+\usepackage[normalem]{ulem}
 \babelfont[greek]{rm}
           [Scale=MatchLowercase]{Gentium Plus}
 \usepackage[LGR,T1]{fontenc}
@@ -173,11 +174,13 @@ pdfstartview={FitH},
    \begin{tabular}{@{}r@{\hspace{2em}}}} % 2em from the right margin
   {\end{tabular}\par\medskip}
   
-
+\usepackage{marginnote}
+\usepackage{ragged2e}
 
 %======================== DEBUT DU DOCUMENT ========================
 
 \begin{document}
+\reversemarginpar % For \marginpar on the left
 
 %régler l'espacement entre les lignes
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
@@ -238,25 +241,25 @@ pdfstartview={FitH},
 
 
 
-\chapter{Introduction}
-\input{1_intro}
+%\chapter{Introduction}
+%\input{1_intro}
 
 \chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
 \input{2_rupture}
 
-\chapter{Circulations numériques}
+\chapter{Pister la circulation du discours médical au prisme du numérique}
 \input{2_SotA}
 
-\chapter{Méthodologie}
-\input{3_methodo}
-
-\chapter{Résultats}
-\input{4_resultats}
-
-\chapter{Conclusion}
-\input{5_conclusion}
-
-\input{6_annexe}
+%\chapter{Méthodologie}
+%\input{3_methodo}
+%
+%\chapter{Résultats}
+%\input{4_resultats}
+%
+%\chapter{Conclusion}
+%\input{5_conclusion}
+%
+%\input{6_annexe}
 
 \newpage
 

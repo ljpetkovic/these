@@ -1,49 +1,50 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: _main.aux
 The style file: apalike-etal-in-italics.bst
 Database file #1: bibliographie.bib
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
-You've used 40 entries,
+Warning--empty journal in stengers1987d
+You've used 41 entries,
             2229 wiz_defined-function locations,
-            783 strings with 13836 characters,
-and the built_in function-call counts, 14895 in all, are:
-= -- 1486
-> -- 513
-< -- 38
-+ -- 173
-- -- 166
-* -- 1128
-:= -- 2635
-add.period$ -- 161
-call.type$ -- 40
-change.case$ -- 265
-chr.to.int$ -- 39
-cite$ -- 42
-duplicate$ -- 616
-empty$ -- 1089
-format.name$ -- 212
-if$ -- 2948
+            789 strings with 13984 characters,
+and the built_in function-call counts, 15168 in all, are:
+= -- 1512
+> -- 520
+< -- 39
++ -- 175
+- -- 168
+* -- 1146
+:= -- 2687
+add.period$ -- 164
+call.type$ -- 41
+change.case$ -- 271
+chr.to.int$ -- 40
+cite$ -- 44
+duplicate$ -- 629
+empty$ -- 1109
+format.name$ -- 215
+if$ -- 2999
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 53
-newline$ -- 241
-num.names$ -- 124
-pop$ -- 248
+missing$ -- 54
+newline$ -- 246
+num.names$ -- 127
+pop$ -- 254
 preamble$ -- 1
-purify$ -- 281
+purify$ -- 287
 quote$ -- 0
-skip$ -- 455
+skip$ -- 466
 stack$ -- 0
-substring$ -- 931
+substring$ -- 943
 swap$ -- 78
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 210
-warning$ -- 2
-while$ -- 121
+type$ -- 216
+warning$ -- 3
+while$ -- 123
 width$ -- 0
-write$ -- 589
-(There were 2 warnings)
+write$ -- 601
+(There were 3 warnings)
