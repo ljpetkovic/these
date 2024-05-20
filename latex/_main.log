@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.14)  18 MAY 2024 17:22
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.14)  20 MAY 2024 20:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,65 +1396,40 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]\T1/lmtt/m/n/10 concept
+Overfull \hbox (0.74983pt too wide) in paragraph at lines 35--35
+[]\T1/lmtt/m/n/10 Begriffsge-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
-\T1/lmtt/m/n/10 selon
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]\T1/gentium/m/n/10 definition of
- []
-
-
-Package natbib Warning: Citation `koselleck2011introduction' on page 4 undefine
-d on input line 37.
-
-
-Overfull \hbox (3.63988pt too wide) in paragraph at lines 35--38
-\T1/gentium/m/n/14.4 dé-fi-ni-tions du concept se-lon Ko-sel-leck Par op-po-si-
-tion à la pen-sée construc-
- []
-
-Missing character: There is no ’ ("2019) in font ec-gentiumplus-regular!
-Missing character: There is no – ("2013) in font ec-gentiumplus-regular!
-Missing character: There is no – ("2013) in font ec-gentiumplus-regular!
-Missing character: There is no ’ ("2019) in font ec-gentiumplus-regular!
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]\T1/lmtt/m/n/10 concept
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmtt/m/n/10 selon
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
 []\T1/gentium/m/n/10 definition of
  []
 
 [4
 
 ]
-LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 12.0pt on input line 47.
-LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
-(Font)              scaled to size 12.0pt on input line 47.
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]\T1/lmtt/m/n/10 concept
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]\T1/gentium/m/n/10 definition of
+ []
+
+LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
+(Font)              scaled to size 12.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
+(Font)              scaled to size 12.0pt on input line 40.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 [][][]\T1/gentium/m/n/8 .[][][][]$\T1/lmtt/m/n/8 https : / / www . crihn . org 
 / nouvelles / 2022 / 12 / 11 / colloque -[] de -[] la -[] transformation -[] de
 s -[] sciences -[]
  []
 
 
-Overfull \hbox (1.89328pt too wide) in paragraph at lines 50--51
+Overfull \hbox (1.89328pt too wide) in paragraph at lines 43--44
 \T1/gentium/m/n/10 forme de di-vers pro-jets de re-cherche au ni-veau aca-dé-mi
 que. Cer-tains éta-blis-se-ments uni-ver-si-taires, comme
  []
@@ -1495,59 +1470,55 @@ epts _ nomades _ en _ sciences _
 Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 7.0pt on input line 199.
+(Font)              scaled to size 7.0pt on input line 208.
 
-Underfull \hbox (badness 1038) in paragraph at lines 206--206
+Underfull \hbox (badness 1038) in paragraph at lines 215--215
 []\T1/gentium/m/n/10 Marmion, J.-F. (2015).  Freud hyp-no-ti-seur.  In \T1/gent
 ium/m/it/10 Freud et la psy-cha-na-lyse \T1/gentium/m/n/10 (pp. 22--29). : Scie
 nces Hu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
 \T1/lmtt/m/n/10 archive . org / 2 / items / alainreyetal . dictionnairehistoriq
 uedelalanguefrancaise4eed .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
 \T1/lmtt/m/n/10 lerobert2010 / Alain % 20Rey % 20et % 20al . %20 -[] %20Diction
 naire % 20historique % 20de % 20la %
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 228--228
+Underfull \hbox (badness 4072) in paragraph at lines 237--237
 []\T1/gentium/m/n/10 Roudinesco, É. & Plon, M. (2023).  \T1/gentium/m/it/10 Dic
 -tion-naire de la psy-cha-na-lyse\T1/gentium/m/n/10 .  Fayard.  [][]$\T1/lmtt/m
 /n/10 https : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 \T1/lmtt/m/n/10 fayard . fr / sciences -[] humaines / dictionnaire -[] de -[] l
 a -[] psychanalyse -[] nouvelle -[] edition -[]
  []
 
-[7])
-
-Package natbib Warning: There were undefined citations.
-
-[8] (./_main.aux)
+[7]) [8] (./_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 45BA1D493B4C0A6D61578BDB04694DE7;2491.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 0A6FCD5C1D23D46713E93B8418EFB787;1971.
+(rerunfilecheck)             Checksum: 656B322146D52C99D3A3E658ED886C11;2154.
  ) 
 Here is how much of TeX's memory you used:
- 30736 strings out of 476191
- 620053 string characters out of 5812072
- 1040409 words of memory out of 5000000
- 50882 multiletter control sequences out of 15000+600000
+ 30744 strings out of 476191
+ 620298 string characters out of 5812072
+ 1040448 words of memory out of 5000000
+ 50890 multiletter control sequences out of 15000+600000
  527868 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,11n,143p,2755b,737s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,11n,143p,2755b,735s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on _main.pdf (10 pages).
