@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.14)  21 MAY 2024 18:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.14)  22 MAY 2024 19:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1181,80 +1181,80 @@ LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 14.4pt on input line 1.
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 10.0pt on input line 2.
+(Font)              scaled to size 10.0pt on input line 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
 []\T1/lmtt/m/n/10 progrès de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
 []\T1/gentium/m/n/10 progrès de
  []
 
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 7.0pt on input line 7.
+(Font)              scaled to size 7.0pt on input line 8.
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 8.0pt on input line 7.
+(Font)              scaled to size 8.0pt on input line 8.
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
 []\T1/lmtt/m/n/10 changement
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
 \T1/lmtt/m/n/10 de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
 []\T1/gentium/m/n/10 changement
  []
 
 
-Overfull \hbox (11.2498pt too wide) in paragraph at lines 13--13
+Overfull \hbox (11.2498pt too wide) in paragraph at lines 14--14
 []\T1/lmtt/m/n/10 discontinuité 
  []
 
 File: img/changement_paradigme.png Graphic file (type bmp)
 <img/changement_paradigme.png>
 LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 18.
+(Font)              scaled to size 10.0pt on input line 19.
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
 []\T1/lmtt/m/n/10 erreurs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
 []\T1/gentium/m/n/10 erreurs pre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []\T1/lmtt/m/n/10 évolution
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 \T1/lmtt/m/n/10 de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []\T1/gentium/m/n/10 évolution de
  []
 
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 6.49994pt on input line 39.
+(Font)              scaled to size 6.49994pt on input line 40.
 LaTeX Font Info:    Trying to load font information for TU+gentium on input lin
-e 39.
-LaTeX Font Info:    No file TUgentium.fd. on input line 39.
+e 40.
+LaTeX Font Info:    No file TUgentium.fd. on input line 40.
 
 LaTeX Font Warning: Font shape `TU/gentium/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 39.
+(Font)              using `TU/lmr/m/n' instead on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/el/babel-greek.tex
 Package babel Info: Importing font and identification data for greek
@@ -1330,36 +1330,36 @@ xt;"
 ext;"
 
 LaTeX Font Info:    Font shape `TU/GentiumPlus(0)/m/n' will be
-(Font)              scaled to size 7.59302pt on input line 39.
+(Font)              scaled to size 7.59302pt on input line 40.
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 8.0pt on input line 39.
+(Font)              scaled to size 8.0pt on input line 40.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []\T1/lmtt/m/n/10 trouble
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 41--41
+Underfull \hbox (badness 5245) in paragraph at lines 42--42
 []\T1/gentium/m/n/10 trouble cé-ré-
  []
 
 
-Overfull \hbox (11.2498pt too wide) in paragraph at lines 47--47
+Overfull \hbox (11.2498pt too wide) in paragraph at lines 48--48
 []\T1/lmtt/m/n/10 contributions 
  []
 
 
-Overfull \hbox (5.99982pt too wide) in paragraph at lines 51--51
+Overfull \hbox (5.99982pt too wide) in paragraph at lines 52--52
 []\T1/lmtt/m/n/10 appellations 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+gentium on input li
-ne 57.
+ne 58.
 (/usr/share/texlive/texmf-dist/tex/latex/gentium-tug/ts1gentium.fd
 File: ts1gentium.fd 2011/01/13 Font definitions for gentium.
 )
 LaTeX Font Info:    Font shape `TS1/gentium/m/n' will be
-(Font)              scaled to size 10.0pt on input line 57.
+(Font)              scaled to size 10.0pt on input line 58.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1370,7 +1370,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.10004pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 []\T1/lmtt/m/n/10 avis
  []
 
@@ -1470,35 +1470,35 @@ epts _ nomades _ en _ sciences _
 Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 7.0pt on input line 208.
+(Font)              scaled to size 7.0pt on input line 215.
 
-Underfull \hbox (badness 1038) in paragraph at lines 215--215
+Underfull \hbox (badness 1038) in paragraph at lines 222--222
 []\T1/gentium/m/n/10 Marmion, J.-F. (2015).  Freud hyp-no-ti-seur.  In \T1/gent
 ium/m/it/10 Freud et la psy-cha-na-lyse \T1/gentium/m/n/10 (pp. 22--29). : Scie
 nces Hu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 \T1/lmtt/m/n/10 archive . org / 2 / items / alainreyetal . dictionnairehistoriq
 uedelalanguefrancaise4eed .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 \T1/lmtt/m/n/10 lerobert2010 / Alain % 20Rey % 20et % 20al . %20 -[] %20Diction
 naire % 20historique % 20de % 20la %
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 237--237
+Underfull \hbox (badness 4072) in paragraph at lines 244--244
 []\T1/gentium/m/n/10 Roudinesco, É. & Plon, M. (2023).  \T1/gentium/m/it/10 Dic
 -tion-naire de la psy-cha-na-lyse\T1/gentium/m/n/10 .  Fayard.  [][]$\T1/lmtt/m
 /n/10 https : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 \T1/lmtt/m/n/10 fayard . fr / sciences -[] humaines / dictionnaire -[] de -[] l
 a -[] psychanalyse -[] nouvelle -[] edition -[]
  []
@@ -1510,13 +1510,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 45BA1D493B4C0A6D61578BDB04694DE7;2491.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 656B322146D52C99D3A3E658ED886C11;2154.
+(rerunfilecheck)             Checksum: 0E0964D51A8DD7240548360264E89CE4;2205.
  ) 
 Here is how much of TeX's memory you used:
- 30744 strings out of 476191
- 620298 string characters out of 5812072
- 1040448 words of memory out of 5000000
- 50890 multiletter control sequences out of 15000+600000
+ 30753 strings out of 476191
+ 620485 string characters out of 5812072
+ 1040556 words of memory out of 5000000
+ 50899 multiletter control sequences out of 15000+600000
  527868 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,11n,143p,2755b,735s stack positions out of 5000i,500n,10000p,200000b,80000s
