@@ -414,3 +414,22 @@ note={\url{https://doi.org/10.1016/j.neurol.2017.04.004}}
   publisher={Hachette UK},
   note={\url{https://files.libcom.org/files/Eric\%20Hobsbawm\%20-\%20Age\%20Of\%20Revolution\%201789\%20-1848.pdf}}
 }
+
+@article{nemickiene2011concept,
+  title={``{C}oncept'' in {M}odern {L}inguistics: the {C}omponent of the {C}oncept ``{G}ood''},
+  author={Nemickien{\.e}, {\v{Z}}ivil{\.e}},
+  year={2011},
+  journal={Filologija},
+  volume={16},
+  pages={26--36},
+  note={\url{https://core.ac.uk/outputs/62656539?source=oai}}
+}
+
+@article{lihachev1997,
+  title={\foreignlanguage{russian}{Концептосфера русского языка}},
+  author={\foreignlanguage{russian}{Лихачёв, Д.}},
+  year={1997},
+  journal={\foreignlanguage{russian}{Русская словесность: Антология}},
+  note={\url{https://www.lihachev.ru/pic/site/files/fulltext/ocherk_po_philos/13.pdf}},
+  language={russian}
+}

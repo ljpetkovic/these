@@ -24,9 +24,9 @@ Bachelard, G. (1934).
 \bibitem[Bachelard, 1970]{bachelard1970idealisme}
 Bachelard, G. (1970).
 \newblock {\em Id{\'e}alisme discursif}.
-\newblock Paris: Vrin, pr{\'e}sentation de Georges Canguilhem.
+\newblock Vrin, pr{\'e}sentation de Georges Canguilhem: Paris.
 \newblock
-  \url{https://www.academia.edu/27217437/BACHELARD_Gaston_%C3%89tudes_Vrin_1970_}.
+  \url{https://www.academia.edu/27217437/BACHELARD_Gaston_\%C3\%89tudes_Vrin_1970_}.
 
 \bibitem[Bernheim, 1891]{bernheim1891suggestion}
 Bernheim, H. (1891).
@@ -37,14 +37,21 @@ Bernheim, H. (1891).
 
 \bibitem[Bogousslavsky, 2011]{bogousslavsky2011following}
 Bogousslavsky, J. (2011).
-\newblock {\em Following Charcot: {A} forgotten {H}istory of {N}eurology and
+\newblock {\em Following Charcot: {A} {F}orgotten {H}istory of {N}eurology and
   {P}sychiatry}, volume~29.
 \newblock Karger Medical and Scientific Publishers.
 \newblock
   \url{https://nah.sen.es/en/issues/lastest-issues/135-journals/volume-2/issue-2/270-the-mysteries-of-hysteria}.
 
-\bibitem[Bogousslavsky, 2014]{bogousslavsky2014mysteries}
-Bogousslavsky, J. (2014).
+\bibitem[Bogousslavsky, 2014a]{bogousslavsky2014jean}
+Bogousslavsky, J. (2014a).
+\newblock Jean-{M}artin {C}harcot and {H}is {L}egacy.
+\newblock In {\em Hysteria: {T}he rise of an {E}nigma}, volume~35  (pp.\
+  44--55). Karger Publishers.
+\newblock \url{https://doi.org/10.1159/000359991}.
+
+\bibitem[Bogousslavsky, 2014b]{bogousslavsky2014mysteries}
+Bogousslavsky, J. (2014b).
 \newblock The {M}ysteries of {H}ysteria.
 \newblock {\em Neurosciences and History}, 2(2), \ 54--73.
 \newblock \url{https://nah.sen.es/vmfiles/abstract/NAHV2N2201454_73EN.pdf}.
@@ -74,11 +81,47 @@ Camargo, C. H.~F., Marques, P.~T., de~Oliveira, L.~P., Germinian, F.~M.,
 \newblock
   \url{https://docs.bvsalud.org/biblioref/2018/07/907032/revista542v4-artigo6.pdf}.
 
+\bibitem[Christin, 2011]{christin2011dictionnaire}
+Christin, O. (2011).
+\newblock {\em Dictionnaire des concepts nomades en sciences humaines}.
+\newblock M{\'e}taili{\'e}.
+\newblock
+  \url{https://www.academia.edu/31022748/Dictionnaire_des_concepts_nomades_en_sciences_humaines_vol_1}.
+
+\bibitem[\foreignlanguage{russian}{Лихачёв}, 1997]{lihachev1997}
+\foreignlanguage{russian}{Лихачёв, Д.} (1997).
+\newblock \foreignlanguage{russian}{Концептосфера русского
+  языка}.
+\newblock {\em \foreignlanguage{russian}{Русская словесность:
+  Антология}}.
+\newblock
+  \url{https://www.lihachev.ru/pic/site/files/fulltext/ocherk_po_philos/13.pdf}.
+
 \bibitem[Gabay \textit{et~al.}, 2021]{gabay2021katabase}
 Gabay, S., Petkovic, L., Bartz, A., Levenson, M.~G., \& Du~Noyer, L.~R. (2021).
 \newblock Katabase: {\`A} la recherche des manuscrits vendus.
 \newblock In {\em Humanistica 2021}  (pp.\ 1--7).
 \newblock \url{https://hal.science/hal-03066108}.
+
+\bibitem[Ghermani, 2011]{ghermani2011}
+Ghermani, N. (2011).
+\newblock Confessions.
+\newblock In O. Christin (Ed.), {\em Dictionnaire des concepts nomades en
+  sciences humaines}  (pp.\ 117--133). M{\'e}taili{\'e}.
+\newblock \url{https://www.academia.edu/5335160/_Confession_}.
+
+\bibitem[Goetz, 2017]{GOETZ2017628}
+Goetz, C. (2017).
+\newblock Charcot: {P}ast and present.
+\newblock {\em Revue Neurologique}, 173(10), 628--636.
+\newblock \url{https://doi.org/10.1016/j.neurol.2017.04.004}.
+
+\bibitem[Gomes \& Engelhardt, 2013]{gomes2013jean}
+Gomes, M. d.~M. \& Engelhardt, E. (2013).
+\newblock Jean-{M}artin {C}harcot, father of modern neurology: an homage 120
+  years after his death.
+\newblock {\em Arquivos de {N}euro-{P}siquiatria}, 71, 815--817.
+\newblock \url{https://doi.org/10.1590/0004-282X20130128}.
 
 \bibitem[Hey \textit{et~al.}, 2009]{hey2009jim}
 Hey, T., Tansley, S., \& Tolle, K.~M. (2009).
@@ -86,6 +129,13 @@ Hey, T., Tansley, S., \& Tolle, K.~M. (2009).
 \newblock In T. Hey, S. Tansley, \& K.~M. Tolle (Eds.), {\em The Fourth
   Paradigm}. Microsoft Research.
 \newblock \url{http://languagelog.ldc.upenn.edu/myl/JimGrayOnE-Science.pdf}.
+
+\bibitem[Hobsbawm, 2010]{hobsbawm2010age}
+Hobsbawm, E. (2010).
+\newblock {\em Age of revolution: 1789-1848}.
+\newblock Hachette UK.
+\newblock
+  \url{https://files.libcom.org/files/Eric\%20Hobsbawm\%20-\%20Age\%20Of\%20Revolution\%201789\%20-1848.pdf}.
 
 \bibitem[Johns, 1991]{Johns1991ShouldYB}
 Johns, T.~F. (1991).
@@ -112,7 +162,7 @@ Kant, {\'E}. (1863).
   J. Tissot)}}.
 \newblock Librairie Ladrange (originalement publié en 1798).
 \newblock
-  \url{https://fr.wikisource.org/wiki/Sur_l%E2%80%99organe_de_l%E2%80%99%C3%A2me}.
+  \url{https://fr.wikisource.org/wiki/Anthropologie_d\%E2\%80\%99un_point_de_vue_pragmatique}.
 
 \bibitem[Kneib, 2011]{kneib2011etude}
 Kneib, M. (2011).
@@ -122,6 +172,15 @@ Kneib, M. (2011).
 \newblock PhD thesis, Strasbourg.
 \newblock
   \url{https://publication-theses.unistra.fr/public/theses_doctorat/2011/KNEIB_Marie_2011.pdf}.
+
+\bibitem[Koselleck \& Richter, 2011]{koselleck2011introduction}
+Koselleck, R. \& Richter, M. (2011).
+\newblock Introduction and {P}refaces to the {G}eschichtliche {G}rundbegriffe:
+  ({B}asic {C}oncepts in {H}istory: {A} {H}istorical {D}ictionary of
+  {P}olitical and {S}ocial {L}anguage in {G}ermany).
+\newblock {\em Contributions to the History of Concepts}, 6(1), 1--37.
+\newblock
+  \url{https://www.berghahnjournals.com/view/journals/contributions/6/1/choc060102.xml}.
 
 \bibitem[Koyr{\'e}, 1957]{koyre1957closed}
 Koyr{\'e}, A. (1957).
@@ -170,6 +229,13 @@ Marmion, J.-F. (2015).
 \newblock
   \url{https://www.cairn.info/freud-et-la-psychanalyse--9782361063542-page-22.htm}.
 
+\bibitem[Nemickien{\.e}, 2011]{nemickiene2011concept}
+Nemickien{\.e}, {\v{Z}}. (2011).
+\newblock ``{C}oncept'' in {M}odern {L}inguistics: the {C}omponent of the
+  {C}oncept ``{G}ood''.
+\newblock {\em Filologija}, 16, 26--36.
+\newblock \url{https://core.ac.uk/outputs/62656539?source=oai}.
+
 \bibitem[Quet, 2014]{quet2014frederic}
 Quet, M. (2014).
 \newblock \say{~{F}r{\'e}d{\'e}ric {D}arbellay, \textit{{L}a circulation des
@@ -183,7 +249,7 @@ Rey, A. (2011).
 \newblock {\em Dictionnaire historique de la langue fran{\c{c}}aise}.
 \newblock Le {R}obert.
 \newblock
-  \url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain%20Rey%20et%20al.%20-%20Dictionnaire%20historique%20de%20la%20langue%20francaise%204e%20%C3%A9d.%20-%20Le%20Robert%20%282010%29.pdf}.
+  \url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain\%20Rey\%20et\%20al.\%20-\%20Dictionnaire\%20historique\%20de\%20la\%20langue\%20francaise\%204e\%20\%C3\%A9d.\%20-\%20Le\%20Robert\%20\%282010\%29.pdf}.
 
 \bibitem[Roudinesco \& Plon, 2023]{roudinesco}
 Roudinesco, {\'E}. \& Plon, M. (2023).
@@ -191,6 +257,11 @@ Roudinesco, {\'E}. \& Plon, M. (2023).
 \newblock Fayard.
 \newblock
   \url{https://www.fayard.fr/sciences-humaines/dictionnaire-de-la-psychanalyse-nouvelle-edition-9782213725277}.
+
+\bibitem[Stengers, 1987]{stengers1987d}
+Stengers, I. (1987).
+\newblock D'une science {\`a} l'autre.: Des concepts nomades.
+\newblock \url{https://archive.org/details/dunesciencealaut0000unse}.
 
 \bibitem[Tasca \textit{et~al.}, 2012]{tasca2012women}
 Tasca, C., Rapetti, M., Carta, M.~G., \& Fadda, B. (2012).
@@ -206,6 +277,12 @@ Teive, H. A.~G., Coutinho, L., Camargo, C. H.~F., Munhoz, R.~P., \& Walusinski,
   his birth.
 \newblock {\em Arquivos de Neuro-Psiquiatria}, 80, 759--762.
 \newblock \url{https://doi.org/10.1055/s-0042-1755278}.
+
+\bibitem[Teive \textit{et~al.}, 2014]{teive2014126}
+Teive, H. A.~G., Germiniani, F., Munhoz, R.~P., \& Paola, L.~d. (2014).
+\newblock 126 hysterical years - the contribution of {C}harcot.
+\newblock {\em Arquivos de Neuro-Psiquiatria}, 72, 636--639.
+\newblock \url{https://doi.org/10.1590/0004-282x20140068. PMID: 25098481}.
 
 \bibitem[Tubbs \textit{et~al.}, 2008]{tubbs2008costanzo}
 Tubbs, R.~S., Loukas, M., Shoja, M.~M., Apaydin, N., Ardalan, M.~R., Shokouhi,
@@ -235,7 +312,7 @@ Willis, T. (1664).
 \newblock Londini : Typis Ja. Flesher, impensis Jo. Martyn \& Ja. Allestry,
   apud insigne Campanæ in C{\oe}meterio, D. Pauli.
 \newblock
-  \url{https://books.google.fr/books/?id=L2xEAAAAcAAJ&pg=PP9#v=onepage&q&f=false}.
+  \url{https://books.google.fr/books/?id=L2xEAAAAcAAJ&pg=PP9\#v=onepage&q&f=false}.
 
 \bibitem[Willis, 1681]{willis1681essay}
 Willis, T. (1681).

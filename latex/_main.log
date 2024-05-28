@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.14)  22 MAY 2024 19:11
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.14)  28 MAY 2024 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -31,7 +31,15 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count190
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/01/26 3.70 The Babel package
 \babel@savecnt=\count191
 \U@D=\dimen139
@@ -54,6 +62,12 @@ File: tuenc-greek.def 2020/10/13 2.0 Greek LICRs for XeTeX and LuaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
 )))
+(/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
+Package babel Info: Making " an active character on input line 124.
+Package babel Info: Default for \cyrdash is provided on input line 163.
+)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
 Language: french 2021/07/20 v3.5m French support from the babel system
 Package babel Info: Hyphen rules for 'acadian' set to \l@french
@@ -71,7 +85,7 @@ Package french.ldf Info: No need for active punctuation characters
 \FB@guilf=\XeTeXcharclass5
 \FB@guilnul=\XeTeXcharclass6
 \FBguill@level=\count197
-\FBold@everypar=\toks16
+\FBold@everypar=\toks18
 \FB@Mht=\dimen140
 \mc@charclass=\count198
 \mc@charfam=\count199
@@ -89,7 +103,7 @@ Package french.ldf Info: No need for active punctuation characters
 (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -139,7 +153,7 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 \UL@box=\box51
 \UL@hyphenbox=\box52
 \UL@skip=\skip51
-\UL@hook=\toks18
+\UL@hook=\toks20
 \UL@height=\dimen151
 \UL@pe=\count287
 \UL@pixel=\dimen152
@@ -154,6 +168,9 @@ Package babel Info: Importing font and identification data for french
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/ot2enc.def
+File: ot2enc.def 2001/08/11 v3.3a Cyrillic encoding definition file
+)
 (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
 File: lgrenc.def 2020/10/13 2.0 LGR Greek font encoding definitions
 
@@ -209,8 +226,8 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks19
-\XKV@tempa@toks=\toks20
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
 )
 \XKV@depth=\count288
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -235,17 +252,29 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
+(/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks23
+\SOUL@lasttoken=\toks24
+\SOUL@cmds=\toks25
+\SOUL@buffer=\toks26
+\SOUL@token=\toks27
+\SOUL@spaceskip=\skip52
+\SOUL@ttwidth=\dimen154
+\SOUL@uldp=\dimen155
+\SOUL@ulht=\dimen156
+)
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count289
-\float@exts=\toks21
+\float@exts=\toks28
 \float@box=\box54
-\@float@everytoks=\toks22
+\@float@everytoks=\toks29
 \@floatcapt=\box55
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip52
+\@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -253,12 +282,12 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
-\ex@=\dimen154
+\@emptytoks=\toks30
+\ex@=\dimen157
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen155
+\pmbraise@=\dimen158
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
@@ -275,7 +304,7 @@ LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box56
 \strutbox@=\box57
-\big@size=\dimen156
+\big@size=\dimen159
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count295
@@ -283,21 +312,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip16
 \c@parentequation=\count297
 \dspbrk@lvl=\count298
-\tag@help=\toks24
+\tag@help=\toks31
 \row@=\count299
 \column@=\count300
 \maxfields@=\count301
-\andhelp@=\toks25
-\eqnshift@=\dimen157
-\alignsep@=\dimen158
-\tagshift@=\dimen159
-\tagwidth@=\dimen160
-\totwidth@=\dimen161
-\lineht@=\dimen162
-\@envbody=\toks26
-\multlinegap=\skip53
-\multlinetaggap=\skip54
-\mathdisplay@stack=\toks27
+\andhelp@=\toks32
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks33
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks34
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
@@ -315,8 +344,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 107.
 )
-\Gin@req@height=\dimen163
-\Gin@req@width=\dimen164
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
 )
 (/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
@@ -329,9 +358,9 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen165
-\pgfutil@tempdimb=\dimen166
+\pgfutil@everybye=\toks35
+\pgfutil@tempdima=\dimen168
+\pgfutil@tempdimb=\dimen169
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -348,32 +377,32 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks31
+\pgfkeys@tmptoks=\toks38
 ))
-\pgf@x=\dimen167
-\pgf@y=\dimen168
-\pgf@xa=\dimen169
-\pgf@ya=\dimen170
-\pgf@xb=\dimen171
-\pgf@yb=\dimen172
-\pgf@xc=\dimen173
-\pgf@yc=\dimen174
-\pgf@xd=\dimen175
-\pgf@yd=\dimen176
+\pgf@x=\dimen170
+\pgf@y=\dimen171
+\pgf@xa=\dimen172
+\pgf@ya=\dimen173
+\pgf@xb=\dimen174
+\pgf@yb=\dimen175
+\pgf@xc=\dimen176
+\pgf@yc=\dimen177
+\pgf@xd=\dimen178
+\pgf@yd=\dimen179
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
 \c@pgf@counta=\count302
 \c@pgf@countb=\count303
 \c@pgf@countc=\count304
 \c@pgf@countd=\count305
-\t@pgf@toka=\toks32
-\t@pgf@tokb=\toks33
-\t@pgf@tokc=\toks34
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
 \pgf@sys@id@count=\count306
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
@@ -409,12 +438,12 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen177
+\pgfmath@dimen=\dimen180
 \pgfmath@count=\count310
 \pgfmath@box=\box59
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -440,32 +469,32 @@ thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen178
-\pgf@picmaxx=\dimen179
-\pgf@picminy=\dimen180
-\pgf@picmaxy=\dimen181
-\pgf@pathminx=\dimen182
-\pgf@pathmaxx=\dimen183
-\pgf@pathminy=\dimen184
-\pgf@pathmaxy=\dimen185
-\pgf@xx=\dimen186
-\pgf@xy=\dimen187
-\pgf@yx=\dimen188
-\pgf@yy=\dimen189
-\pgf@zx=\dimen190
-\pgf@zy=\dimen191
+\pgf@picminx=\dimen181
+\pgf@picmaxx=\dimen182
+\pgf@picminy=\dimen183
+\pgf@picmaxy=\dimen184
+\pgf@pathminx=\dimen185
+\pgf@pathmaxx=\dimen186
+\pgf@pathminy=\dimen187
+\pgf@pathmaxy=\dimen188
+\pgf@xx=\dimen189
+\pgf@xy=\dimen190
+\pgf@yx=\dimen191
+\pgf@yy=\dimen192
+\pgf@zx=\dimen193
+\pgf@zy=\dimen194
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen192
-\pgf@path@lasty=\dimen193
+\pgf@path@lastx=\dimen195
+\pgf@path@lasty=\dimen196
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen194
-\pgf@shorten@start@additional=\dimen195
+\pgf@shorten@end@additional=\dimen197
+\pgf@shorten@start@additional=\dimen198
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -478,14 +507,14 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen196
+\pgflinewidth=\dimen199
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen197
-\pgf@pt@y=\dimen198
-\pgf@pt@temp=\dimen199
+\pgf@pt@x=\dimen256
+\pgf@pt@y=\dimen257
+\pgf@pt@temp=\dimen258
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -501,11 +530,11 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen256
+\pgfarrowsep=\dimen259
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen257
+\pgf@max=\dimen260
 \pgf@sys@shading@range@num=\count313
 \pgf@shadingcount=\count314
 )
@@ -541,8 +570,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen258
-\pgf@nodesepend=\dimen259
+\pgf@nodesepstart=\dimen261
+\pgf@nodesepend=\dimen262
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -556,10 +585,10 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen260
-\pgffor@skip=\dimen261
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
+\pgffor@iter=\dimen263
+\pgffor@skip=\dimen264
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
@@ -568,16 +597,16 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 .code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count315
-\pgfplotmarksize=\dimen262
+\pgfplotmarksize=\dimen265
 )
-\tikz@lastx=\dimen263
-\tikz@lasty=\dimen264
-\tikz@lastxsaved=\dimen265
-\tikz@lastysaved=\dimen266
-\tikz@lastmovetox=\dimen267
-\tikz@lastmovetoy=\dimen268
-\tikzleveldistance=\dimen269
-\tikzsiblingdistance=\dimen270
+\tikz@lastx=\dimen266
+\tikz@lasty=\dimen267
+\tikz@lastxsaved=\dimen268
+\tikz@lastysaved=\dimen269
+\tikz@lastmovetox=\dimen270
+\tikz@lastmovetoy=\dimen271
+\tikzleveldistance=\dimen272
+\tikzsiblingdistance=\dimen273
 \tikz@figbox=\box65
 \tikz@figbox@bg=\box66
 \tikz@tempbox=\box67
@@ -607,14 +636,14 @@ File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count324
 \calc@Bcount=\count325
-\calc@Adimen=\dimen271
-\calc@Bdimen=\dimen272
-\calc@Askip=\skip55
-\calc@Bskip=\skip56
+\calc@Adimen=\dimen274
+\calc@Bdimen=\dimen275
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count326
-\calc@Cskip=\skip57
+\calc@Cskip=\skip58
 )
 \c@@todonotes@numberoftodonotes=\count327
 )
@@ -624,34 +653,34 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen273
+\col@sep=\dimen276
 \ar@mcellbox=\box69
-\extrarowheight=\dimen274
-\NC@list=\toks40
-\extratabsurround=\skip58
-\backup@length=\skip59
+\extrarowheight=\dimen277
+\NC@list=\toks47
+\extratabsurround=\skip59
+\backup@length=\skip60
 \ar@cellbox=\box70
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen275
-\TX@old@table=\dimen276
-\TX@old@col=\dimen277
-\TX@target=\dimen278
-\TX@delta=\dimen279
+\TX@col@width=\dimen278
+\TX@old@table=\dimen279
+\TX@old@col=\dimen280
+\TX@target=\dimen281
+\TX@delta=\dimen282
 \TX@cols=\count328
-\TX@ftn=\toks41
+\TX@ftn=\toks48
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/abstract/abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
-\abstitleskip=\skip60
-\absleftindent=\skip61
-\absrightindent=\skip62
-\absparindent=\skip63
-\absparsep=\skip64
+\abstitleskip=\skip61
+\absleftindent=\skip62
+\absrightindent=\skip63
+\absparindent=\skip64
+\absparsep=\skip65
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -665,15 +694,15 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@cnth=\count329
 \Gm@cntv=\count330
 \c@Gm@tempcnt=\count331
-\Gm@bindingoffset=\dimen280
-\Gm@wd@mp=\dimen281
-\Gm@odd@mp=\dimen282
-\Gm@even@mp=\dimen283
-\Gm@layoutwidth=\dimen284
-\Gm@layoutheight=\dimen285
-\Gm@layouthoffset=\dimen286
-\Gm@layoutvoffset=\dimen287
-\Gm@dimlist=\toks42
+\Gm@bindingoffset=\dimen283
+\Gm@wd@mp=\dimen284
+\Gm@odd@mp=\dimen285
+\Gm@even@mp=\dimen286
+\Gm@layoutwidth=\dimen287
+\Gm@layoutheight=\dimen288
+\Gm@layouthoffset=\dimen289
+\Gm@layoutvoffset=\dimen290
+\Gm@dimlist=\toks49
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
@@ -683,13 +712,13 @@ Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen288
-\captionmargin@=\dimen289
-\captionwidth=\dimen290
-\caption@tempdima=\dimen291
-\caption@indent=\dimen292
-\caption@parindent=\dimen293
-\caption@hangindent=\dimen294
+\captionmargin=\dimen291
+\captionmargin@=\dimen292
+\captionwidth=\dimen293
+\caption@tempdima=\dimen294
+\caption@indent=\dimen295
+\caption@parindent=\dimen296
+\caption@hangindent=\dimen297
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
@@ -698,31 +727,31 @@ Package caption Info: french babel package is loaded.
 Package caption Info: float package is loaded.
 )
 \c@KVtest=\count334
-\sf@farskip=\skip65
-\sf@captopadj=\dimen295
-\sf@capskip=\skip66
-\sf@nearskip=\skip67
+\sf@farskip=\skip66
+\sf@captopadj=\dimen298
+\sf@capskip=\skip67
+\sf@nearskip=\skip68
 \c@subfigure=\count335
 \c@subfigure@save=\count336
 \c@lofdepth=\count337
 \c@subtable=\count338
 \c@subtable@save=\count339
 \c@lotdepth=\count340
-\sf@top=\skip68
-\sf@bottom=\skip69
+\sf@top=\skip69
+\sf@bottom=\skip70
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip70
-\f@nch@O@elh=\skip71
-\f@nch@O@erh=\skip72
-\f@nch@O@olh=\skip73
-\f@nch@O@orh=\skip74
-\f@nch@O@elf=\skip75
-\f@nch@O@erf=\skip76
-\f@nch@O@olf=\skip77
-\f@nch@O@orf=\skip78
+\f@nch@headwidth=\skip71
+\f@nch@O@elh=\skip72
+\f@nch@O@erh=\skip73
+\f@nch@O@olh=\skip74
+\f@nch@O@orh=\skip75
+\f@nch@O@elf=\skip76
+\f@nch@O@erf=\skip77
+\f@nch@O@olf=\skip78
+\f@nch@O@orf=\skip79
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -762,14 +791,14 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box71
-\beforetitleunit=\skip79
-\aftertitleunit=\skip80
-\ttl@plus=\dimen296
-\ttl@minus=\dimen297
-\ttl@toksa=\toks43
-\titlewidth=\dimen298
-\titlewidthlast=\dimen299
-\titlewidthfirst=\dimen300
+\beforetitleunit=\skip80
+\aftertitleunit=\skip81
+\ttl@plus=\dimen299
+\ttl@minus=\dimen300
+\ttl@toksa=\toks50
+\titlewidth=\dimen301
+\titlewidthlast=\dimen302
+\titlewidthfirst=\dimen303
 )
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
@@ -790,8 +819,8 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks44
-\footnotemargin=\dimen301
+\FN@temptoken=\toks51
+\footnotemargin=\dimen304
 \c@pp@next@reset=\count363
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
@@ -831,7 +860,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen302
+\@linkdim=\dimen305
 \Hy@linkcounter=\count364
 \Hy@pagecounter=\count365
 
@@ -857,6 +886,7 @@ File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 File: puenc-greekbasic.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (
 greek block) (HO)
 ))
+Package hyperref Info: Option `unicode' set `true' on input line 3167.
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
 Package hyperref Info: Hyper index ON on input line 4200.
@@ -888,14 +918,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ))
 \c@Hy@tempcnt=\count367
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen303
+\XeTeXLinkMargin=\dimen306
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
 \Fld@menulength=\count368
-\Field@Width=\dimen304
-\Fld@charsize=\dimen305
+\Field@Width=\dimen307
+\Fld@charsize=\dimen308
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -928,7 +958,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 \HyField@AnnotCount=\count373
 \Fld@listcount=\count374
 \c@bookmark@seq@number=\count375
-\Hy@SectionHShift=\skip81
+\Hy@SectionHShift=\skip82
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -936,37 +966,15 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 )
 \c@NAT@total@cites=\count377
 \c@NAT@count@cites=\count378
-Package hyperref Info: Option `colorlinks' set `true' on input line 158.
-
-(/usr/share/texlive/texmf-dist/tex/latex/marginnote/marginnote.sty
-Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
-\c@mn@abspage=\count379
-)
-(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
-Package: ragged2e 2021/12/15 v3.1 ragged2e Package
-\CenteringLeftskip=\skip82
-\RaggedLeftLeftskip=\skip83
-\RaggedRightLeftskip=\skip84
-\CenteringRightskip=\skip85
-\RaggedLeftRightskip=\skip86
-\RaggedRightRightskip=\skip87
-\CenteringParfillskip=\skip88
-\RaggedLeftParfillskip=\skip89
-\RaggedRightParfillskip=\skip90
-\JustifyingParfillskip=\skip91
-\CenteringParindent=\skip92
-\RaggedLeftParindent=\skip93
-\RaggedRightParindent=\skip94
-\JustifyingParindent=\skip95
-)
+Package hyperref Info: Option `colorlinks' set `true' on input line 165.
 LaTeX Font Info:    Trying to load font information for T1+gentium on input lin
-e 182.
+e 188.
 
 (/usr/share/texlive/texmf-dist/tex/latex/gentium-tug/t1gentium.fd
 File: t1gentium.fd 2011/01/13 Font definitions for gentium.
 )
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 10.0pt on input line 182.
+(Font)              scaled to size 10.0pt on input line 188.
  (./_main.aux
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 4
 .
@@ -997,39 +1005,47 @@ Package babel Info: The following font families will use the default
 )
 \openout1 = `_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 182.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 188.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-82.
+88.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 188.
+LaTeX Font Info:    Trying to load font information for OT2+cmr on input line 1
+88.
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
+File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 188.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1
-82.
+88.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
 
 (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/puenc-greek.def
 File: puenc-greek.def 2020/10/18 2.0 Greek LICRs for PDF strings
@@ -1037,7 +1053,8 @@ File: puenc-greek.def 2020/10/18 2.0 Greek LICRs for PDF strings
 (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
 ))
-LaTeX Info: Redefining \up on input line 182.
+LaTeX Info: Redefining \th on input line 188.
+LaTeX Info: Redefining \up on input line 188.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1077,18 +1094,18 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 182.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 182
+LaTeX Info: Redefining \celsius on input line 188.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 188
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 182.
-Package gensymb Info: Using \Omega for \ohm on input line 182.
+LaTeX Info: Redefining \ohm on input line 188.
+Package gensymb Info: Using \Omega for \ohm on input line 188.
 
 Package gensymb Warning: Not defining \micro.
 
-Package hyperref Info: Link coloring ON on input line 182.
+Package hyperref Info: Link coloring ON on input line 188.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1098,50 +1115,50 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count380
+\c@section@level=\count379
 )
-LaTeX Info: Redefining \ref on input line 182.
-LaTeX Info: Redefining \pageref on input line 182.
-LaTeX Info: Redefining \nameref on input line 182.
+LaTeX Info: Redefining \ref on input line 188.
+LaTeX Info: Redefining \pageref on input line 188.
+LaTeX Info: Redefining \nameref on input line 188.
 
 (./_main.out) (./_main.out)
 \@outlinefile=\write4
 \openout4 = `_main.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 182.
+Package backref Info: ** backref set up for natbib ** on input line 188.
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 20.74pt on input line 224.
+(Font)              scaled to size 20.74pt on input line 230.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
-(Font)              scaled to size 20.74pt on input line 224.
+(Font)              scaled to size 20.74pt on input line 230.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-24.
+30.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-24.
+30.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-224.
+230.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-224.
+230.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 224.
+(Font)              <20.74> on input line 230.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 224.
+(Font)              <14.4> on input line 230.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 224.
+(Font)              <12> on input line 230.
  (./_main.toc
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
@@ -1160,18 +1177,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [0
 
 
-]
-Package marginnote Info: Using workaround for absolute page number on input lin
-e 229.
- [0]
-Package marginnote Info: Using workaround for absolute page number on input lin
-e 240.
-
+] [0]
 Chapitre 1.
 LaTeX Font Info:    Font shape `T1/gentium/b/it' will be
-(Font)              scaled to size 20.74pt on input line 247.
+(Font)              scaled to size 20.74pt on input line 253.
 
-Overfull \hbox (35.60686pt too wide) in paragraph at lines 247--247
+Overfull \hbox (35.60686pt too wide) in paragraph at lines 253--253
 |[][]| 
  []
 
@@ -1386,7 +1397,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3]
 Chapitre 2.
 
-Overfull \hbox (35.60686pt too wide) in paragraph at lines 250--250
+Overfull \hbox (35.60686pt too wide) in paragraph at lines 256--256
 |[][]| 
  []
 
@@ -1396,40 +1407,115 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
 
-Overfull \hbox (0.74983pt too wide) in paragraph at lines 35--35
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]\T1/lmtt/m/n/10 concept-
+ []
+
+
+Overfull \hbox (5.99982pt too wide) in paragraph at lines 36--36
+\T1/lmtt/m/n/10 mathématique 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]\T1/gentium/m/n/10 definition of
+ []
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/ru/babel-russian.tex
+Package babel Info: Importing font and identification data for russian
+(babel)             from babel-ru.ini. Reported on input line 11.
+)
+
+Package fontspec Warning: Font "Times New Roman" does not contain requested
+(fontspec)                Script "Cyrillic".
+
+
+Package fontspec Warning: Language 'Russian' not available for font 'Times New
+(fontspec)                Roman' with script ''.
+
+
+Package fontspec Info: Times New Roman scale = 0.963629354430423.
+
+
+Package fontspec Info: Times New Roman scale = 0.963629354430423.
+
+
+Package fontspec Info: Times New Roman/B scale = 0.944047646899576.
+
+
+Package fontspec Info: Times New Roman/I scale = 0.9753419359739781.
+
+
+Package fontspec Info: Times New Roman/BI scale = 0.9521947404438363.
+
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures=TeX,Script=Cyrillic,Language=Russian,Scale=Ma
+tchLowercase,Script=Cyrillic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.963629354430423]"Times New
+(fontspec)             Roman/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.944047646899576]"Times New
+(fontspec)             Roman/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9753419359739781]"Times New
+(fontspec)             Roman/I/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9521947404438363]"Times New
+(fontspec)             Roman/BI/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 9.63623pt on input line 36.
+[4
+
+]
+Overfull \hbox (0.74983pt too wide) in paragraph at lines 52--52
 []\T1/lmtt/m/n/10 Begriffsge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []\T1/gentium/m/n/10 definition of
  []
 
-[4
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+Underfull \hbox (badness 1158) in paragraph at lines 52--52
+[]\T1/gentium/m/n/10 collectifs sin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
 []\T1/lmtt/m/n/10 concept
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
 []\T1/gentium/m/n/10 definition of
  []
 
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 12.0pt on input line 40.
+(Font)              scaled to size 12.0pt on input line 58.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
-(Font)              scaled to size 12.0pt on input line 40.
+(Font)              scaled to size 12.0pt on input line 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 [][][]\T1/gentium/m/n/8 .[][][][]$\T1/lmtt/m/n/8 https : / / www . crihn . org 
 / nouvelles / 2022 / 12 / 11 / colloque -[] de -[] la -[] transformation -[] de
 s -[] sciences -[]
  []
 
 
-Overfull \hbox (1.89328pt too wide) in paragraph at lines 43--44
+Overfull \hbox (1.89328pt too wide) in paragraph at lines 61--62
 \T1/gentium/m/n/10 forme de di-vers pro-jets de re-cherche au ni-veau aca-dé-mi
 que. Cer-tains éta-blis-se-ments uni-ver-si-taires, comme
  []
@@ -1464,41 +1550,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--90
 epts _ nomades _ en _ sciences _
  []
 
+
+LaTeX Font Warning: Font shape `TU/gentium/m/it' undefined
+(Font)              using `TU/gentium/m/n' instead on input line 99.
+
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
+(Font)              scaled to size 9.75342pt on input line 99.
 [6
 
 ]
 Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 7.0pt on input line 215.
+(Font)              scaled to size 7.0pt on input line 224.
 
-Underfull \hbox (badness 1038) in paragraph at lines 222--222
+Underfull \hbox (badness 1038) in paragraph at lines 231--231
 []\T1/gentium/m/n/10 Marmion, J.-F. (2015).  Freud hyp-no-ti-seur.  In \T1/gent
 ium/m/it/10 Freud et la psy-cha-na-lyse \T1/gentium/m/n/10 (pp. 22--29). : Scie
 nces Hu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 \T1/lmtt/m/n/10 archive . org / 2 / items / alainreyetal . dictionnairehistoriq
 uedelalanguefrancaise4eed .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 \T1/lmtt/m/n/10 lerobert2010 / Alain % 20Rey % 20et % 20al . %20 -[] %20Diction
 naire % 20historique % 20de % 20la %
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 244--244
+Underfull \hbox (badness 4072) in paragraph at lines 260--260
 []\T1/gentium/m/n/10 Roudinesco, É. & Plon, M. (2023).  \T1/gentium/m/it/10 Dic
 -tion-naire de la psy-cha-na-lyse\T1/gentium/m/n/10 .  Fayard.  [][]$\T1/lmtt/m
 /n/10 https : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
 \T1/lmtt/m/n/10 fayard . fr / sciences -[] humaines / dictionnaire -[] de -[] l
 a -[] psychanalyse -[] nouvelle -[] edition -[]
  []
@@ -1510,15 +1602,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 45BA1D493B4C0A6D61578BDB04694DE7;2491.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 0E0964D51A8DD7240548360264E89CE4;2205.
+(rerunfilecheck)             Checksum: A8B3780E6D69083FF1545FC2DD1D855B;2310.
  ) 
 Here is how much of TeX's memory you used:
- 30753 strings out of 476191
- 620485 string characters out of 5812072
- 1040556 words of memory out of 5000000
- 50899 multiletter control sequences out of 15000+600000
- 527868 words of font info for 91 fonts, out of 8000000 for 9000
+ 31476 strings out of 476191
+ 629731 string characters out of 5812072
+ 1047810 words of memory out of 5000000
+ 51587 multiletter control sequences out of 15000+600000
+ 528277 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,11n,143p,2755b,735s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,11n,152p,2755b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on _main.pdf (10 pages).
