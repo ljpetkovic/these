@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.14)  28 MAY 2024 18:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.14)  28 MAY 2024 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1127,38 +1127,38 @@ LaTeX Info: Redefining \nameref on input line 188.
 
 Package backref Info: ** backref set up for natbib ** on input line 188.
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 20.74pt on input line 230.
+(Font)              scaled to size 20.74pt on input line 232.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
-(Font)              scaled to size 20.74pt on input line 230.
+(Font)              scaled to size 20.74pt on input line 232.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-30.
+32.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-30.
+32.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-230.
+232.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-230.
+232.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 230.
+(Font)              <20.74> on input line 232.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 230.
+(Font)              <14.4> on input line 232.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 230.
+(Font)              <12> on input line 232.
  (./_main.toc
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
@@ -1174,15 +1174,23 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `_main.toc'.
 
- [0
+ [1
 
+
+
+] (./_main.toc)
+\tf@toc=\write6
+\openout6 = `_main.toc'.
+
+
+[0
 
 ] [0]
 Chapitre 1.
 LaTeX Font Info:    Font shape `T1/gentium/b/it' will be
-(Font)              scaled to size 20.74pt on input line 253.
+(Font)              scaled to size 20.74pt on input line 256.
 
-Overfull \hbox (35.60686pt too wide) in paragraph at lines 253--253
+Overfull \hbox (35.60686pt too wide) in paragraph at lines 256--256
 |[][]| 
  []
 
@@ -1397,7 +1405,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3]
 Chapitre 2.
 
-Overfull \hbox (35.60686pt too wide) in paragraph at lines 256--256
+Overfull \hbox (35.60686pt too wide) in paragraph at lines 259--259
 |[][]| 
  []
 
@@ -1476,53 +1484,68 @@ tchLowercase,Script=Cyrillic].
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 9.63623pt on input line 36.
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\T1/lmtt/m/n/10 concept-
+ []
+
+
+Overfull \hbox (5.99982pt too wide) in paragraph at lines 38--38
+\T1/lmtt/m/n/10 linguistique 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\T1/gentium/m/n/10 definition of
+ []
+
 [4
 
 ]
-Overfull \hbox (0.74983pt too wide) in paragraph at lines 52--52
+Overfull \hbox (0.74983pt too wide) in paragraph at lines 51--51
 []\T1/lmtt/m/n/10 Begriffsge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 []\T1/gentium/m/n/10 definition of
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 52--52
+Underfull \hbox (badness 1158) in paragraph at lines 51--51
 []\T1/gentium/m/n/10 collectifs sin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 []\T1/lmtt/m/n/10 concept
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 []\T1/gentium/m/n/10 definition of
  []
 
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 12.0pt on input line 58.
+(Font)              scaled to size 12.0pt on input line 57.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
-(Font)              scaled to size 12.0pt on input line 58.
+(Font)              scaled to size 12.0pt on input line 57.
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 [][][]\T1/gentium/m/n/8 .[][][][]$\T1/lmtt/m/n/8 https : / / www . crihn . org 
 / nouvelles / 2022 / 12 / 11 / colloque -[] de -[] la -[] transformation -[] de
 s -[] sciences -[]
  []
 
 
-Overfull \hbox (1.89328pt too wide) in paragraph at lines 61--62
+Overfull \hbox (1.89328pt too wide) in paragraph at lines 60--61
 \T1/gentium/m/n/10 forme de di-vers pro-jets de re-cherche au ni-veau aca-dé-mi
 que. Cer-tains éta-blis-se-ments uni-ver-si-taires, comme
  []
 
 ) [5] (./_main.bbl (./_main.brf)
-\tf@brf=\write6
-\openout6 = `_main.brf'.
+\tf@brf=\write7
+\openout7 = `_main.brf'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -1600,17 +1623,17 @@ a -[] psychanalyse -[] nouvelle -[] edition -[]
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 45BA1D493B4C0A6D61578BDB04694DE7;2491.
+(rerunfilecheck)             Checksum: A217207ECD40B7D14E828982CCA004D6;2629.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: A8B3780E6D69083FF1545FC2DD1D855B;2310.
+(rerunfilecheck)             Checksum: 6E21408F6629BEE72FD67CBE2D39BBFB;2310.
  ) 
 Here is how much of TeX's memory you used:
- 31476 strings out of 476191
- 629731 string characters out of 5812072
- 1047810 words of memory out of 5000000
+ 31478 strings out of 476191
+ 629751 string characters out of 5812072
+ 1047819 words of memory out of 5000000
  51587 multiletter control sequences out of 15000+600000
  528277 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,11n,152p,2755b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on _main.pdf (10 pages).
+Output written on _main.pdf (11 pages).

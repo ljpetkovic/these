@@ -227,6 +227,9 @@ pdfstartview={FitH},
 %\newpage
 %%%%%%%%%%%%%% décommenter la partie au-dessus, jusqu'à \newpage pour afficher les remerciements et le résumé 
 
+\cleardoublepage
+\pdfbookmark{\contentsname}{toc}
+\tableofcontents
 \tableofcontents
 \thispagestyle{empty}
 \setcounter{page}{0}
