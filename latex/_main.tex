@@ -1,4 +1,4 @@
-\documentclass[a4paper]{report}
+\documentclass[a4paper,12pt]{report}
 % \counterwithout{figure}{chapter} % pour compter la Figure 1 au lieu de Figure 1.1
 %====================== PACKAGES ======================
 \usepackage[round,authoryear]{natbib}
@@ -17,13 +17,18 @@
 \newcommand\textcyr[1]{{\fontencoding{OT2}\selectfont #1}}
 \usepackage{lmodern}
 \usepackage{gentium}
-\usepackage{xcolor,soul}
+\usepackage[x11names]{xcolor}
+\usepackage{soul}
 \frenchsetup{StandardItemLabels=true}
 %pour gérer les positionnement d'images
 \usepackage{float}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
+\setlength{\marginparwidth}{2cm} % Adjust marginpar width if needed
+
+\newcommand{\smalltodo}[2][]{\todo[size=\scriptsize, color=RoyalBlue2, textcolor=white #1]{#2}}
+
 \usepackage{url}
 %pour les informations sur un document compilé en PDF et les liens externes / internes
 %pour la mise en page des tableaux
@@ -186,6 +191,7 @@ pdfstartview={FitH},
 %======================== DEBUT DU DOCUMENT ========================
 
 \begin{document}
+
 \reversemarginpar % For \marginpar on the left
 
 %régler l'espacement entre les lignes
@@ -229,7 +235,6 @@ pdfstartview={FitH},
 
 \cleardoublepage
 \pdfbookmark{\contentsname}{toc}
-\tableofcontents
 \tableofcontents
 \thispagestyle{empty}
 \setcounter{page}{0}
@@ -280,6 +285,8 @@ pdfstartview={FitH},
 \bibliographystyle{apalike-etal-in-italics}
 %inclusion de la biblio
 \bibliography{bibliographie.bib}
+\todo[size=\footnotesize]{This is a smaller margin note.}
+
 %voir wiki pour plus d'information sur la syntaxe des entrées d'une bibliographie
 
 
