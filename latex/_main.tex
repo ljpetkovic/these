@@ -1,20 +1,13 @@
 \documentclass[a4paper,12pt]{report}
 % \counterwithout{figure}{chapter} % pour compter la Figure 1 au lieu de Figure 1.1
 %====================== PACKAGES ======================
+
 \usepackage[round,authoryear]{natbib}
 \usepackage[utf8]{inputenc}
 \usepackage[greek.ancient,russian,french]{babel}
 \usepackage{fontspec}
-\usepackage[normalem]{ulem}
-\babelfont[greek]{rm}
-          [Scale=MatchLowercase]{Gentium Plus}
-\babelfont[russian]{rm}[
-  Scale=MatchLowercase,
-  Script=Cyrillic
-]{Times New Roman} % Ensure proper font for Cyrillic
+\babelfont[russian]{rm}[Scale=MatchLowercase,Script=Cyrillic]{Times New Roman}
 \usepackage[OT2,LGR,T1]{fontenc}
-%This command changes the input locally into OT2
-\newcommand\textcyr[1]{{\fontencoding{OT2}\selectfont #1}}
 \usepackage{lmodern}
 \usepackage{gentium}
 \usepackage[x11names]{xcolor}
@@ -27,13 +20,14 @@
 \usepackage[colorinlistoftodos]{todonotes}
 \setlength{\marginparwidth}{2cm} % Adjust marginpar width if needed
 
-\newcommand{\smalltodo}[2][]{\todo[size=\scriptsize, color=RoyalBlue2, textcolor=white #1]{#2}}
+\newcommand{\smalltodo}[2][]{\todo[size=\scriptsize, color=white, linecolor=blue, textcolor=black #1]{#2}}
 
 \usepackage{url}
 %pour les informations sur un document compilé en PDF et les liens externes / internes
 %pour la mise en page des tableaux
 \usepackage{array}
 \usepackage{tabularx}
+\usepackage[round,authoryear]{natbib}
 %pour utiliser \floatbarrier
 %\usepackage{placeins}
 %\usepackage{floatrow}
@@ -102,7 +96,22 @@
      \else (pages~#2)%
     \fi%
     }
-\usepackage{etoolbox}
+
+
+\usepackage{etoolbox} % for patching natbib commands
+
+% Patch \NAT@citex to suppress initials
+\makeatletter
+\patchcmd{\NAT@citex}
+  {\ifNAT@swa\else\if*#2*\else\NAT@cmt#2\fi
+   \if\relax\NAT@date\relax\else\NAT@@close\fi\fi}
+  {\ifNAT@swa\else\if*#2*\else\NAT@cmt#2\fi\fi}
+  {}{}
+\patchcmd{\NAT@citex}
+  {\def\NAT@numclose{\@citeb}\def\@citea{\NAT@separator}}
+  {\def\NAT@numclose{\@citeb}\def\@citea{\NAT@separator}}
+  {}{}
+\makeatother
 
 % pour les backrefs : ça ne marche pas encore, à voir
 %\usepackage[backref=page]{hyperref}

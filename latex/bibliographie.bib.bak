@@ -433,3 +433,13 @@ note={\url{https://doi.org/10.1016/j.neurol.2017.04.004}}
   note={\url{https://www.lihachev.ru/pic/site/files/fulltext/ocherk_po_philos/13.pdf}},
   language={russian}
 }
+
+@book{stepanov1997,
+  title={\foreignlanguage{russian}{Концепты. Тонкая пленка цивилизации}},
+  author={\foreignlanguage{russian}{Степанов, Ю.}},
+  year={2022},
+  publisher={Litres},
+  language={russian},
+  hyphenation={russian}
+}
+

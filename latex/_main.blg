@@ -6,45 +6,45 @@ Database file #1: bibliographie.bib
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
 Warning--empty journal in stengers1987d
-You've used 45 entries,
+You've used 46 entries,
             2229 wiz_defined-function locations,
-            816 strings with 15072 characters,
-and the built_in function-call counts, 16466 in all, are:
-= -- 1646
-> -- 554
-< -- 43
-+ -- 185
-- -- 178
-* -- 1240
-:= -- 2923
-add.period$ -- 180
-call.type$ -- 45
-change.case$ -- 295
-chr.to.int$ -- 44
-cite$ -- 48
-duplicate$ -- 684
-empty$ -- 1206
-format.name$ -- 231
-if$ -- 3251
+            820 strings with 15231 characters,
+and the built_in function-call counts, 16741 in all, are:
+= -- 1671
+> -- 561
+< -- 44
++ -- 187
+- -- 180
+* -- 1257
+:= -- 2974
+add.period$ -- 183
+call.type$ -- 46
+change.case$ -- 300
+chr.to.int$ -- 45
+cite$ -- 49
+duplicate$ -- 698
+empty$ -- 1229
+format.name$ -- 234
+if$ -- 3305
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 59
-newline$ -- 270
-num.names$ -- 139
-pop$ -- 270
+missing$ -- 61
+newline$ -- 275
+num.names$ -- 142
+pop$ -- 278
 preamble$ -- 1
-purify$ -- 312
+purify$ -- 318
 quote$ -- 0
-skip$ -- 509
+skip$ -- 519
 stack$ -- 0
-substring$ -- 1026
-swap$ -- 82
+substring$ -- 1038
+swap$ -- 83
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 238
+type$ -- 242
 warning$ -- 3
-while$ -- 135
+while$ -- 137
 width$ -- 0
-write$ -- 659
+write$ -- 671
 (There were 3 warnings)
