@@ -59,6 +59,7 @@
       <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>french.lbx</file>
+      <file>russian.lbx</file>
       <file>greek.lbx</file>
     </requires>
   </internal>
@@ -79,6 +80,9 @@
     </provides>
     <requires type="dynamic">
       <file>_main.bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>bibliographie.bib</file>
     </requires>
   </external>
 </requests>
