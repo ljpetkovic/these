@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.14)  31 MAY 2024 19:46
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.14)  3 JUN 2024 10:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1476,7 +1476,7 @@ LaTeX Font Warning: Font shape `TU/gentium/m/it' undefined
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
 (Font)              scaled to size 11.7041pt on input line 99.
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 \T1/lmtt/m/n/12 org / files / Eric % 20Hobsbawm % 20 -[] %20Age % 20Of % 20Revo
 lution % 201789 % 20 -[]
  []
@@ -1490,13 +1490,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-Underfull \hbox (badness 1275) in paragraph at lines 191--191
+Underfull \hbox (badness 1275) in paragraph at lines 192--192
 \T1/gentium/m/n/12 Grund-be-griffe : (Ba-sic Concepts in His-tory : A His-to-ri
 -cal Dic-tio-nary of Po-li-ti-cal
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 205--205
+Underfull \hbox (badness 1577) in paragraph at lines 206--206
 []\T1/gentium/m/n/12 Kuhn, T. S. (1962).  \T1/gentium/m/it/12 The Struc-ture of
  Scien-ti-fic Re-vo-lu-tions\T1/gentium/m/n/12 .  Uni-ver-sity of Chi-cago
  []
@@ -1504,69 +1504,69 @@ Underfull \hbox (badness 1577) in paragraph at lines 205--205
 Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 
-Underfull \hbox (badness 3525) in paragraph at lines 213--213
+Underfull \hbox (badness 3525) in paragraph at lines 214--214
 []\T1/gentium/m/n/12 Landais, É. (2014).  ^^S Fré-dé-ric Dar-bel-lay, éd., \T1/
 gentium/m/it/12 La cir-cu-la-tion des sa-voirs. In-ter-dis-
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 213--213
+Underfull \hbox (badness 3168) in paragraph at lines 214--214
 \T1/gentium/m/it/12 ci-pli-na-rité, concepts no-mades, ana-lo-gies, mé-ta-phore
 s \T1/gentium/m/n/12 ^^T : Berne, P. Lang, 2012, 245
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 213--213
+Underfull \hbox (badness 1348) in paragraph at lines 214--214
 \T1/gentium/m/n/12 pages.  \T1/gentium/m/it/12 Ques-tions de com-mu-ni-ca-tion\
 T1/gentium/m/n/12 , 26, 331--333.  [][]$\T1/lmtt/m/n/12 https : / / doi . org /
  10 . 4000 /
  []
 
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 8.0pt on input line 231.
+(Font)              scaled to size 8.0pt on input line 232.
 
-Underfull \hbox (badness 1603) in paragraph at lines 238--238
+Underfull \hbox (badness 1603) in paragraph at lines 239--239
 \T1/gentium/m/n/12 Sciences Hu-maines.  [][]$\T1/lmtt/m/n/12 https : / / www . 
 cairn . info / freud -[] et -[] la -[] psychanalyse -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 []\T1/gentium/m/n/12 Rey, A. (2011).  \T1/gentium/m/it/12 Dic-tion-naire his-to
 -rique de la langue fran-çaise\T1/gentium/m/n/12 .  Le Ro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 \T1/gentium/m/n/12 bert.  [][]$\T1/lmtt/m/n/12 https : / / ia601001 . us . arch
 ive . org / 2 / items / alainreyetal .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 \T1/lmtt/m/n/12 dictionnairehistoriquedelalanguefrancaise4eed . lerobert2010 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 \T1/lmtt/m/n/12 Alain % 20Rey % 20et % 20al . %20 -[] %20Dictionnaire % 20histo
 rique % 20de % 20la %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 \T1/lmtt/m/n/12 20langue % 20francaise % 204e % 20 % C3 % A9d . %20 -[] %20Le %
  20Robert % 20 % 282010 %
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 267--267
+Underfull \hbox (badness 6428) in paragraph at lines 268--268
 []\T1/gentium/m/n/12 Roudinesco, É. & Plon, M. (2023).  \T1/gentium/m/it/12 Dic
 -tion-naire de la psy-cha-na-lyse\T1/gentium/m/n/12 .  Fayard.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 [][]$\T1/lmtt/m/n/12 https : / / www . fayard . fr / sciences -[] humaines / di
 ctionnaire -[] de -[] la -[]
  []
@@ -1580,7 +1580,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10]
-Underfull \hbox (badness 1107) in paragraph at lines 323--323
+Underfull \hbox (badness 1107) in paragraph at lines 324--324
 \T1/gentium/m/n/12 Ty-pis Ja. Fle-sher, im-pen-sis Jo. Mar-tyn & Ja. Al-les-try
 , apud in-signe Cam-panæ in
  []
@@ -1603,16 +1603,21 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: A217207ECD40B7D14E828982CCA004D6;2629.
-Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: CC7B4054988F93E2841C240762024817;2325.
+
+Package rerunfilecheck Warning: File `_main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `_main.brf':
+(rerunfilecheck)             Before: 3E81F1A34009A262DACF1574FED9CC0F;2325
+(rerunfilecheck)             After:  A2C4588D40855525BA19596B16D945A5;2325.
  ) 
 Here is how much of TeX's memory you used:
- 32011 strings out of 476191
- 639255 string characters out of 5812072
- 1070790 words of memory out of 5000000
- 52140 multiletter control sequences out of 15000+600000
+ 32002 strings out of 476191
+ 639057 string characters out of 5812072
+ 1070463 words of memory out of 5000000
+ 52131 multiletter control sequences out of 15000+600000
  531742 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,137p,2716b,1037s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,11n,137p,2716b,1037s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on _main.pdf (13 pages).

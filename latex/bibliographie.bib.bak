@@ -431,14 +431,16 @@ note={\url{https://doi.org/10.1016/j.neurol.2017.04.004}}
   year={1997},
   journal={\foreignlanguage{russian}{Русская словесность: Антология}},
   note={\url{https://www.lihachev.ru/pic/site/files/fulltext/ocherk_po_philos/13.pdf}},
+  sortname = {Lihachev1997}
 }
 
-@book{stepanov1997,
+@book{stepanov2007,
   title={\foreignlanguage{russian}{Концепты. Тонкая пленка цивилизации}},
   author={\foreignlanguage{russian}{Степанов, Ю. С.}},
-  year={2022},
-  publisher={Litres},
+  year={2007},
+  publisher={\foreignlanguage{russian}{Москва: Языки славянских культур}},
   language={russian},
-  hyphenation={russian}
+  hyphenation={russian},
+  sortname = {Stepanov2007} % Add this field for sorting
 }
 

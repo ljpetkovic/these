@@ -3,12 +3,16 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: _main.aux
 The style file: apalike-etal-in-italics.bst
 Database file #1: bibliographie.bib
+I was expecting a `,' or a `}'---line 444 of file bibliographie.bib
+ :   sortname = {Stepanov2007} 
+ :                             % Add this field for sorting
+I'm skipping whatever remains of this entry
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
 Warning--empty journal in stengers1987d
 You've used 46 entries,
             2229 wiz_defined-function locations,
-            820 strings with 15238 characters,
+            821 strings with 15323 characters,
 and the built_in function-call counts, 16741 in all, are:
 = -- 1671
 > -- 561
@@ -47,4 +51,4 @@ warning$ -- 3
 while$ -- 137
 width$ -- 0
 write$ -- 671
-(There were 3 warnings)
+(There was 1 error message)

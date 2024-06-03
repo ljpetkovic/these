@@ -295,7 +295,6 @@ pdfstartview={FitH},
 \bibliographystyle{apalike-etal-in-italics}
 %inclusion de la biblio
 \bibliography{bibliographie.bib}
-\todo[size=\footnotesize]{This is a smaller margin note.}
 
 %voir wiki pour plus d'information sur la syntaxe des entrées d'une bibliographie
 
