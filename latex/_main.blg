@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: _main.aux
 The style file: apalike-etal-in-italics.bst
@@ -10,45 +10,45 @@ I'm skipping whatever remains of this entry
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
 Warning--empty journal in stengers1987d
-You've used 46 entries,
+You've used 47 entries,
             2229 wiz_defined-function locations,
-            821 strings with 15323 characters,
-and the built_in function-call counts, 16741 in all, are:
-= -- 1671
-> -- 561
-< -- 44
-+ -- 187
-- -- 180
-* -- 1257
-:= -- 2974
-add.period$ -- 183
-call.type$ -- 46
-change.case$ -- 300
-chr.to.int$ -- 45
-cite$ -- 49
-duplicate$ -- 698
-empty$ -- 1229
-format.name$ -- 234
-if$ -- 3305
+            828 strings with 15546 characters,
+and the built_in function-call counts, 17038 in all, are:
+= -- 1698
+> -- 569
+< -- 45
++ -- 189
+- -- 182
+* -- 1275
+:= -- 3028
+add.period$ -- 187
+call.type$ -- 47
+change.case$ -- 305
+chr.to.int$ -- 46
+cite$ -- 50
+duplicate$ -- 714
+empty$ -- 1256
+format.name$ -- 237
+if$ -- 3365
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 61
-newline$ -- 275
-num.names$ -- 142
-pop$ -- 278
+missing$ -- 62
+newline$ -- 281
+num.names$ -- 146
+pop$ -- 285
 preamble$ -- 1
-purify$ -- 318
+purify$ -- 324
 quote$ -- 0
-skip$ -- 519
+skip$ -- 529
 stack$ -- 0
-substring$ -- 1038
-swap$ -- 83
+substring$ -- 1050
+swap$ -- 84
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 242
+type$ -- 246
 warning$ -- 3
-while$ -- 137
+while$ -- 139
 width$ -- 0
-write$ -- 671
+write$ -- 685
 (There was 1 error message)

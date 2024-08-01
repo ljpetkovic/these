@@ -265,8 +265,8 @@ pdfstartview={FitH},
 
 
 
-%\chapter{Introduction}
-%\input{1_intro}
+\chapter{Introduction}
+\input{1_intro}
 
 \chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
 \input{2_rupture}
