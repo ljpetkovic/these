@@ -10,45 +10,45 @@ I'm skipping whatever remains of this entry
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
 Warning--empty journal in stengers1987d
-You've used 47 entries,
+You've used 48 entries,
             2229 wiz_defined-function locations,
-            828 strings with 15546 characters,
-and the built_in function-call counts, 17038 in all, are:
-= -- 1698
-> -- 569
-< -- 45
-+ -- 189
-- -- 182
-* -- 1275
-:= -- 3028
-add.period$ -- 187
-call.type$ -- 47
-change.case$ -- 305
-chr.to.int$ -- 46
-cite$ -- 50
-duplicate$ -- 714
-empty$ -- 1256
-format.name$ -- 237
-if$ -- 3365
+            832 strings with 15664 characters,
+and the built_in function-call counts, 17354 in all, are:
+= -- 1727
+> -- 582
+< -- 46
++ -- 193
+- -- 186
+* -- 1298
+:= -- 3085
+add.period$ -- 190
+call.type$ -- 48
+change.case$ -- 311
+chr.to.int$ -- 47
+cite$ -- 51
+duplicate$ -- 728
+empty$ -- 1279
+format.name$ -- 244
+if$ -- 3427
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 62
-newline$ -- 281
-num.names$ -- 146
-pop$ -- 285
+missing$ -- 64
+newline$ -- 286
+num.names$ -- 149
+pop$ -- 294
 preamble$ -- 1
-purify$ -- 324
+purify$ -- 331
 quote$ -- 0
-skip$ -- 529
+skip$ -- 539
 stack$ -- 0
-substring$ -- 1050
-swap$ -- 84
+substring$ -- 1062
+swap$ -- 85
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 246
+type$ -- 250
 warning$ -- 3
-while$ -- 139
+while$ -- 141
 width$ -- 0
-write$ -- 685
+write$ -- 697
 (There was 1 error message)
