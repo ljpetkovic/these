@@ -1,5 +1,21 @@
 \begin{thebibliography}{}
 
+\bibitem[Alrahabi, 2021]{alrahabi2021ariane}
+Alrahabi, M. (2021).
+\newblock Ariane: dispositif de fouille et de lecture synth{\'e}tique de
+  textes.
+\newblock In {\em DigitAl Humanities and cuLtural herItAge: data and knowledge
+  management and analysis (Atelier Dahlia)}.
+\newblock \url{https://hal.science/hal-03167271}.
+
+\bibitem[Alrahabi, 2022]{alrahabi2022obvie}
+Alrahabi, M. (2022).
+\newblock Obvie: interface web pour la fouille et la comparaison de textes.
+\newblock In {\em Atelier DigitAl Humanities and cuLtural herItAge: data and
+  knowledge management and analysis durant la conf{\'e}rence francophone sur
+  l'Extraction et la Gestion des Connaissances (egc2022)}.
+\newblock \url{https://hal.science/hal-03543362/}.
+
 \bibitem[Amiri, 2012]{amiri2012}
 Amiri, V.~V. (24 novembre 2012).
 \newblock T. {S.} {K}uhn.
@@ -43,15 +59,8 @@ Bogousslavsky, J. (2011).
 \newblock
   \url{https://nah.sen.es/en/issues/lastest-issues/135-journals/volume-2/issue-2/270-the-mysteries-of-hysteria}.
 
-\bibitem[Bogousslavsky, 2014a]{bogousslavsky2014jean}
-Bogousslavsky, J. (2014a).
-\newblock Jean-{M}artin {C}harcot and {H}is {L}egacy.
-\newblock In {\em Hysteria: {T}he rise of an {E}nigma}, volume~35  (pp.\
-  44--55). Karger Publishers.
-\newblock \url{https://doi.org/10.1159/000359991}.
-
-\bibitem[Bogousslavsky, 2014b]{bogousslavsky2014mysteries}
-Bogousslavsky, J. (2014b).
+\bibitem[Bogousslavsky, 2014]{bogousslavsky2014mysteries}
+Bogousslavsky, J. (2014).
 \newblock The {M}ysteries of {H}ysteria.
 \newblock {\em Neurosciences and History}, 2(2), \ 54--73.
 \newblock \url{https://nah.sen.es/vmfiles/abstract/NAHV2N2201454_73EN.pdf}.
@@ -81,29 +90,32 @@ Camargo, C. H.~F., Marques, P.~T., de~Oliveira, L.~P., Germinian, F.~M.,
 \newblock
   \url{https://docs.bvsalud.org/biblioref/2018/07/907032/revista542v4-artigo6.pdf}.
 
-\bibitem[Christin, 2011]{christin2011dictionnaire}
-Christin, O. (2011).
-\newblock {\em Dictionnaire des concepts nomades en sciences humaines}.
-\newblock M{\'e}taili{\'e}.
+\bibitem[Charcot, 1892]{charcot1892oeuvres}
+Charcot, J.~M. (1892).
+\newblock {\em \OE{}uvres compl{\`e}tes de J. M. Charcot. Leçons sur les
+  maladies du système nerveux.}, volume~1.
+\newblock Bureaux du progr{\`e}s medical.
 \newblock
-  \url{https://www.academia.edu/31022748/Dictionnaire_des_concepts_nomades_en_sciences_humaines_vol_1}.
+  \url{https://patrimoine.sorbonne-universite.fr/viewer/3468/?offset=1\#page=2&viewer=picture&o=&n=0&q=}.
 
-\bibitem[\foreignlanguage{russian}{Лихачёв, Д. C.}, 1997]{lihachev1997}
-\foreignlanguage{russian}{Лихачёв, Д. C.} (1997).
-\newblock \foreignlanguage{russian}{Концептосфера русского
-  языка}.
-\newblock {\em \foreignlanguage{russian}{Русская словесность:
-  Антология}}.
-\newblock
-  \url{https://www.lihachev.ru/pic/site/files/fulltext/ocherk_po_philos/13.pdf}.
+\bibitem[Charcot, 1897]{charcot1897foi}
+Charcot, J.-M. (1897).
+\newblock {\em La foi qui gu{\'e}rit}.
+\newblock F. Alcan (Paris).
+\newblock \url{https://gallica.bnf.fr/ark:/12148/bpt6k68008w}.
 
-\bibitem[\foreignlanguage{russian}{Степанов, Ю. С.},
-  2007]{stepanov2007}
-\foreignlanguage{russian}{Степанов, Ю. С.} (2007).
-\newblock {\em \foreignlanguage{russian}{Концепты. Тонкая
-  пленка цивилизации}}.
-\newblock \foreignlanguage{russian}{Москва: Языки
-  славянских культур}.
+\bibitem[Chaudet, 2022]{chaudet2022illuminati}
+Chaudet, C. (2022).
+\newblock Les {\guillemotleft} {I}lluminati {\guillemotright} du pamphlet au
+  roman: circulations d’un discours complotiste {\`a} grande {\'e}chelle
+  depuis le tournant du {XIX}\ieme{} si{\`e}cle.
+\newblock {\em Mots. Les langages du politique}, (pp.\ 19--36).
+\newblock \url{https://www.cairn.info/revue-mots-2022-3-page-19.htm}.
+
+\bibitem[Devlin \textit{et~al.}, 2019]{devlin2019}
+Devlin, J., Chang, M.-W., Lee, K., \& Toutanova, K. (2019).
+\newblock Bert: Pre-training of {D}eep {B}idirectional {T}ransformers for
+  {L}anguage {U}nderstanding.
 
 \bibitem[Gabay \textit{et~al.}, 2021]{gabay2021katabase}
 Gabay, S., Petkovic, L., Bartz, A., Levenson, M.~G., \& Du~Noyer, L.~R. (2021).
@@ -118,6 +130,15 @@ Ghermani, N. (2011).
   sciences humaines}  (pp.\ 117--133). M{\'e}taili{\'e}.
 \newblock \url{https://www.academia.edu/5335160/_Confession_}.
 
+\bibitem[Giry \& Nouvel, 2022]{giry2022etudier}
+Giry, J. \& Nouvel, D. (2022).
+\newblock {\'E}tudier les discours {\guillemotleft} conspirationnistes
+  {\guillemotright} et leur circulation sur {T}witter: Les th{\'e}ories du
+  complot comme objets du traitement automatique du langage et de l'analyse des
+  donn{\'e}es textuelles.
+\newblock {\em Mots. Les langages du politique}, (pp.\ 37--55).
+\newblock \url{https://www.cairn.info/revue-mots-2022-3-page-37.htm}.
+
 \bibitem[Goetz, 2017]{GOETZ2017628}
 Goetz, C. (2017).
 \newblock Charcot: {P}ast and present.
@@ -130,6 +151,12 @@ Gomes, M. d.~M. \& Engelhardt, E. (2013).
   years after his death.
 \newblock {\em Arquivos de {N}euro-{P}siquiatria}, 71, 815--817.
 \newblock \url{https://doi.org/10.1590/0004-282X20130128}.
+
+\bibitem[Grootendorst \textit{et~al.}, 2023]{grootendorst2023}
+Grootendorst, M., Mishra, A., Matsak, A., OysterMax, Govil, P., Ogura, Y.,
+  Warmerdam, V.~D., \& yusuke1997 (2023).
+\newblock Maartengr/keybert: v0.8.
+\newblock \url{https://doi.org/10.5281/zenodo.8388690}.
 
 \bibitem[Hey \textit{et~al.}, 2009]{hey2009jim}
 Hey, T., Tansley, S., \& Tolle, K.~M. (2009).
@@ -147,9 +174,16 @@ Hobsbawm, E. (2010).
 
 \bibitem[Johns, 1991]{Johns1991ShouldYB}
 Johns, T.~F. (1991).
-\newblock Should you be persuaded. two samples of data-driven learning
-  materials.
+\newblock Should {Y}ou be {P}ersuaded. {T}wo {S}amples of {D}ata-{D}riven
+  {L}earning {M}aterials.
 \newblock \url{https://api.semanticscholar.org/CorpusID:53988458}.
+
+\bibitem[Jolly \textit{et~al.}, 2024]{jolly2024exploring}
+Jolly, A., Pandey, V., Singh, I., \& Sharma, N. (2024).
+\newblock Exploring {B}iomedical {N}amed {E}ntity {R}ecognition via
+  {S}ci{S}pacy and {B}io{BERT} models.
+\newblock {\em The Open Biomedical Engineering Journal}, 18(1).
+\newblock \url{https://doi.org/10.2174/0118741207289680240510045617}.
 
 \bibitem[Joyeux-Prunel, 2019]{joyeux2019visual}
 Joyeux-Prunel, B. (2019).
@@ -170,16 +204,17 @@ Kant, {\'E}. (1863).
   J. Tissot)}}.
 \newblock Librairie Ladrange (originalement publié en 1798).
 \newblock
-  \url{https://fr.wikisource.org/wiki/Anthropologie_d\%E2\%80\%99un_point_de_vue_pragmatique}.
+  \url{https://fr.wikisource.org/wiki/Page:Kant\_-\_Anthropologie.djvu/452}.
 
-\bibitem[Kneib, 2011]{kneib2011etude}
-Kneib, M. (2011).
-\newblock {\em {\'E}tude fonctionnelle d'un circuit inhibiteur du cortex
-  c{\'e}r{\'e}belleux de la souris: Importance pour la physiopathologie des
-  retards mentaux}.
-\newblock PhD thesis, Strasbourg.
+\bibitem[Koehler, 2013]{KOEHLER201393}
+Koehler, P.~J. (2013).
+\newblock Chapter 6 -- {C}harcot, {L}a {S}alpêtrière, and {H}ysteria as
+  {R}epresented in {E}uropean {L}iterature.
+\newblock In S. Finger, F. Boller, \& A. Stiles (Eds.), {\em Literature,
+  Neurology, and Neuroscience: Neurological and Psychiatric Disorders}, volume
+  206 of {\em Progress in Brain Research}  (pp.\ 93--122). Elsevier.
 \newblock
-  \url{https://publication-theses.unistra.fr/public/theses_doctorat/2011/KNEIB_Marie_2011.pdf}.
+  \url{https://www.sciencedirect.com/science/article/pii/B9780444633644000235}.
 
 \bibitem[Koselleck \& Richter, 2011]{koselleck2011introduction}
 Koselleck, R. \& Richter, M. (2011).
@@ -195,7 +230,7 @@ Koyr{\'e}, A. (1957).
 \newblock {\em From the Closed World to the Infinite Universe}, volume~1.
 \newblock Baltimore, Johns Hopkins Press.
 \newblock
-  \url{https://archive.org/details/fromclosedworldt0000koyr/page/n13/mode/2up?q=revolution}.
+  \url{https://archive.org/details/fromclosedworldt0000koyr/page/2/mode/2up?q=\%22revolution\%22}.
 
 \bibitem[Kuhn, 1962]{kuhn1962structure}
 Kuhn, T.~S. (1962).
@@ -237,19 +272,54 @@ Manjavacas, E., Long, B., \& Kestemont, M. (2019).
   for Computational Linguistics.
 \newblock \url{https://doi.org/10.18653/v1/W19-2514}.
 
-\bibitem[Marmion, 2015]{marmion2015}
-Marmion, J.-F. (2015).
-\newblock Freud hypnotiseur.
-\newblock In {\em Freud et la psychanalyse}  (pp.\ 22--29).: Sciences Humaines.
+\bibitem[Mirbeau \& Michel, 1995]{mirbeau1995chroniques}
+Mirbeau, O. \& Michel, P. (1995).
+\newblock {\em Chroniques du diable}, volume 555.
+\newblock Presses Univ. Franche-Comt{\'e}.
 \newblock
-  \url{https://www.cairn.info/freud-et-la-psychanalyse--9782361063542-page-22.htm}.
+  \url{https://mirbeau.asso.fr/darticlesfrancais/Marquer-Mirbeau\%20et\%20Charcot.pdfen}.
+
+\bibitem[Monteiro \textit{et~al.}, 2021]{monteiro2021}
+Monteiro, F., Nardi, A., \& Gomes, M. (2021).
+\newblock The 400\textsuperscript{th} anniversary of the birth of {T}homas
+  {W}illis (1621-1675): an invaluable contributor to neuroscience.
+\newblock {\em Revista Brasileira de Psiquiatria}, 44.
+\newblock \url{https://doi.org/10.1590/1516-4446-2021-2159}.
+
+\bibitem[Navarro \textit{et~al.}, 2023]{navarro2023clinical}
+Navarro, D.~F., Ijaz, K., Rezazadegan, D., Rahimi-Ardabili, H., Dras, M.,
+  Coiera, E., \& Berkovsky, S. (2023).
+\newblock Clinical named entity recognition and relation extraction using
+  natural language processing of medical free text: A systematic review.
+\newblock {\em International Journal of Medical Informatics}, 177, 105122.
+\newblock \url{https://doi.org/10.1016/j.ijmedinf.2023.105122}.
 
 \bibitem[Nemickien{\.e}, 2011]{nemickiene2011concept}
 Nemickien{\.e}, {\v{Z}}. (2011).
 \newblock ``{C}oncept'' in {M}odern {L}inguistics: the {C}omponent of the
   {C}oncept ``{G}ood''.
 \newblock {\em Filologija}, 16, 26--36.
-\newblock \url{https://core.ac.uk/reader/62656539}.
+\newblock \url{https://core.ac.uk/outputs/62656539?source=oai}.
+
+\bibitem[Nerima \textit{et~al.}, 2006]{nerima2006}
+Nerima, L., Seretan, V., \& Wehrli, E. (2006).
+\newblock Le problème des collocations en {TAL}.
+\newblock {\em Nouveaux cahiers de linguistique française}, 27, 95--115.
+\newblock
+  \url{https://access.archive-ouverte.unige.ch/access/metadata/fc3fad28-5b90-42ec-bea5-0c6d54cb5452/download}.
+
+\bibitem[Petkovic \textit{et~al.}, 2022]{petkovic2022impact}
+Petkovic, L., Alrahabi, M., \& Glenn, R. (2022).
+\newblock Impact de la correction automatique de l’ocr/htr sur la
+  reconnaissance d’entit{\'e}s nomm{\'e}es dans un corpus bruit{\'e}.
+\newblock {\em Journal of Information Sciences}, 21(2), 42--57.
+\newblock \url{https://doi.org/10.34874/IMIST.PRSM/jis-v21i2.36599}.
+
+\bibitem[Petkovic \textit{et~al.}, 2023]{petkovic2023circulation}
+Petkovic, L., Alrahabi, M., \& Roe, G. (2023).
+\newblock Circulation du discours m{\'e}dical de jean-martin charcot.
+\newblock In {\em Humanistica 2023}.
+\newblock \url{https://hal.science/HUMANISTICA-2023/hal-04107099v1}.
 
 \bibitem[Quet, 2014]{quet2014frederic}
 Quet, M. (2014).
@@ -259,28 +329,71 @@ Quet, M. (2014).
 \newblock {\em Revue d'anthropologie des connaissances}, 8(8-1).
 \newblock \url{https://doi.org/10.3917/rac.022.0221}.
 
-\bibitem[Rey, 2011]{rey2011dictionnaire}
-Rey, A. (2011).
-\newblock {\em Dictionnaire historique de la langue fran{\c{c}}aise}.
+\bibitem[Rennesson \textit{et~al.}, 2020]{RENNESSON202015}
+Rennesson, M., Georget, M., Paillard, C., Perrin, O., Pigeotte, H., \& Tête,
+  C. (2020).
+\newblock Le thésaurus, un vocabulaire contrôlé pour parler le même
+  langage.
+\newblock {\em Médecine Palliative}, 19(1), 15--23.
+\newblock Documentation et pratiques documentaires en soins palliatifs.
+  Coordonné par Caroline Tête.
+
+\bibitem[Rey, 1998]{rey2011dictionnaire}
+Rey, A. (1998).
+\newblock {\em Dictionnaire historique de la langue fran{\c{c}}aise. Tome 2}.
 \newblock Le {R}obert.
 \newblock
-  \url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain\%20Rey\%20et\%20al.\%20-\%20Dictionnaire\%20historique\%20de\%20la\%20langue\%20francaise\%204e\%20\%C3\%A9d.\%20-\%20Le\%20Robert\%20\%282010\%29.pdf}.
+  \url{https://www.plouffe.fr/simon/Dictionnaires/Le\%20Robert\%20Dictionnaire\%20Historique\%202a.pdf}.
 
-\bibitem[Roudinesco \& Plon, 2023]{roudinesco}
-Roudinesco, {\'E}. \& Plon, M. (2023).
-\newblock {\em Dictionnaire de la psychanalyse}.
-\newblock Fayard.
+\bibitem[Riffaterre, 1980]{riffaterre1980trace}
+Riffaterre, M. (1980).
+\newblock La trace de l'intertexte.
+\newblock {\em Pens{\'e}e (La) Paris}, (215), 4--18.
+\newblock \url{https://api.semanticscholar.org/CorpusID:170902390}.
+
+\bibitem[Riguet, 2018]{riguet2018impact}
+Riguet, M. (2018).
+\newblock L'impact de la physiologie dans la critique litt{\'e}raire de la fin
+  du {XIX}\textsuperscript{{\`e}me} si{\`e}cle: l'exemple de {C}laude
+  {B}ernard.
+\newblock {\em Epist{\'e}mocritique: Litt{\'e}rature et savoirs}.
+\newblock \url{https://hal.science/hal-01903871}.
+
+\bibitem[Robertson \textit{et~al.}, 2009]{robertson2009probabilistic}
+Robertson, S., Zaragoza, H., \textit{et~al.} (2009).
+\newblock The probabilistic relevance framework: Bm25 and beyond.
+\newblock {\em Foundations and Trends{\textregistered} in Information
+  Retrieval}, 3(4), 333--389.
+\newblock \url{https://dx.doi.org/10.1561/1500000019}.
+
+\bibitem[Robertson \& Jones, 1976]{robertson1976relevance}
+Robertson, S.~E. \& Jones, K.~S. (1976).
+\newblock Relevance {W}eighting of {S}earch {T}erms.
+\newblock {\em Journal of the American Society for Information science}, 27(3),
+  129--146.
 \newblock
-  \url{https://www.fayard.fr/sciences-humaines/dictionnaire-de-la-psychanalyse-nouvelle-edition-9782213725277}.
+  \url{https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.4630270302?casa_token=TfyVkMGkDQsAAAAA:TCuXWzGHjo31RdxGR9jECRG2rZzqv0K3GOzHF7yAa2NfxtDFqxe-MmSHMC6e8OFiFxI4sLj2aW6OyDk}.
 
-\bibitem[Schlanger \& Stengers, 1991]{schlanger1989concepts}
-Schlanger, J. \& Stengers, I. (1991).
-\newblock {\em Les concepts scientifiques: invention et pouvoir}.
-\newblock Gallimard.
+\bibitem[Roe \textit{et~al.}, 2023]{roe2023enlightenment}
+Roe, G., Fedchenko, V., \& Nicolosi, D.~M. (2023).
+\newblock Enlightenment {I}nflluencers: {N}etworks of {T}ext {R}euse in
+  18\textsuperscript{th}-century {F}rance.
+\newblock In {\em Digital Humanities 2023}  (pp.\ 296--299).
+\newblock \url{https://doi.org/10.5281/zenodo.8107964}.
+
+\bibitem[Schopf \textit{et~al.}, 2022]{schopf2022}
+Schopf, T., Klimek, S., \& Matthes, F. (2022).
+\newblock Pattern{R}ank: {L}everaging {P}retrained {L}anguage {M}odels and
+  {P}art of {S}peech for {U}nsupervised {K}eyphrase {E}xtraction.
+\newblock In {\em Proceedings of the 14\textsuperscript{th} International Joint
+  Conference on Knowledge Discovery, Knowledge Engineering and Knowledge
+  Management}: SCITEPRESS -- Science and Technology Publications.
+\newblock \url{http://dx.doi.org/10.5220/0011546600003335}.
 
 \bibitem[Stengers, 1987]{stengers1987d}
 Stengers, I. (1987).
-\newblock D'une science {\`a} l'autre.: Des concepts nomades.
+\newblock {\em D'une science {\`a} l'autre.: Des concepts nomades}.
+\newblock Seuil.
 \newblock \url{https://archive.org/details/dunesciencealaut0000unse}.
 
 \bibitem[Tasca \textit{et~al.}, 2012]{tasca2012women}
@@ -325,6 +438,12 @@ Varolio, C. (1573).
   in humano capite obseruatis}.
 \newblock Patavii : apud P. et A. Meiettos fratres.
 \newblock \url{https://gallica.bnf.fr/ark:/12148/bpt6k325486q}.
+
+\bibitem[Vaswani \textit{et~al.}, 2023]{vaswani2023}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
+  Kaiser, L., \& Polosukhin, I. (2023).
+\newblock Attention {I}s {A}ll {Y}ou {N}eed.
+\newblock \url{https://arxiv.org/abs/1706.03762}.
 
 \bibitem[Willis, 1664]{willis1664cerebri}
 Willis, T. (1664).

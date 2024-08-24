@@ -3,52 +3,52 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: _main.aux
 The style file: apalike-etal-in-italics.bst
 Database file #1: bibliographie.bib
-I was expecting a `,' or a `}'---line 444 of file bibliographie.bib
- :   sortname = {Stepanov2007} 
- :                             % Add this field for sorting
-I'm skipping whatever remains of this entry
+Warning--entry type for "grootendorst2023" isn't style-file defined
+--line 478 of file bibliographie.bib
+Warning--I'm ignoring RENNESSON202015's extra "note" field
+--line 607 of file bibliographie.bib
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
-Warning--empty journal in stengers1987d
-You've used 48 entries,
+Warning--there's a number but no volume in riffaterre1980trace
+You've used 64 entries,
             2229 wiz_defined-function locations,
-            832 strings with 15664 characters,
-and the built_in function-call counts, 17354 in all, are:
-= -- 1727
-> -- 582
-< -- 46
-+ -- 193
-- -- 186
-* -- 1298
-:= -- 3085
-add.period$ -- 190
-call.type$ -- 48
-change.case$ -- 311
-chr.to.int$ -- 47
-cite$ -- 51
-duplicate$ -- 728
-empty$ -- 1279
-format.name$ -- 244
-if$ -- 3427
-int.to.chr$ -- 2
+            941 strings with 20546 characters,
+and the built_in function-call counts, 24316 in all, are:
+= -- 2398
+> -- 949
+< -- 53
++ -- 323
+- -- 313
+* -- 1903
+:= -- 4321
+add.period$ -- 253
+call.type$ -- 64
+change.case$ -- 453
+chr.to.int$ -- 64
+cite$ -- 67
+duplicate$ -- 974
+empty$ -- 1713
+format.name$ -- 389
+if$ -- 4773
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 64
-newline$ -- 286
-num.names$ -- 149
-pop$ -- 294
+missing$ -- 78
+newline$ -- 381
+num.names$ -- 199
+pop$ -- 412
 preamble$ -- 1
-purify$ -- 331
+purify$ -- 472
 quote$ -- 0
-skip$ -- 539
+skip$ -- 713
 stack$ -- 0
-substring$ -- 1062
-swap$ -- 85
-text.length$ -- 8
+substring$ -- 1449
+swap$ -- 118
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 250
+type$ -- 346
 warning$ -- 3
-while$ -- 141
+while$ -- 190
 width$ -- 0
-write$ -- 697
-(There was 1 error message)
+write$ -- 931
+(There were 5 warnings)

@@ -6,7 +6,7 @@
 \contentsline {chapter}{\numberline {2}Pister la circulation du discours médical au prisme du numérique}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Modalités des circulations des savoirs}{6}{section.2.1}%
 \contentsline {section}{\numberline {2.2}À partir de quel moment un concept devient-il pertinent ?}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Études numériques des circulations culturelles}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Études numériques des circulations culturelles}{9}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Valorisation du fonds Charcot}{10}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Constitution du corpus Charcot}{10}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Description du fonds Charcot}{10}{subsection.3.1.1}%
