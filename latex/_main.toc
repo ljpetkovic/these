@@ -1,17 +1,17 @@
 \babel@toc {french}{}\relax 
 \contentsline {chapter}{Introduction}{1}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}La rupture comme source du progrès scientifique}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Jean-Martin Charcot : un médecin polymathe à l'aube de la neurologie moderne}{5}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Pister la circulation du discours médical au prisme du numérique}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Modalités des circulations des savoirs}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Constitution des concepts scientifiques}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Études numériques des circulations culturelles}{9}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Valorisation du fonds Charcot}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Constitution du corpus Charcot}{11}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Description du fonds Charcot}{11}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Outils existants}{13}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Une nouvelle approche}{13}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Migration du discours médical de Charcot}{14}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{15}{chapter.5}%
-\contentsline {chapter}{References}{16}{chapter.5}%
+\contentsline {section}{\numberline {1.1}L'erreur comme source du progrès scientifique}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}{4}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Pister la circulation du discours médical au prisme du numérique}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Modalités des circulations des savoirs}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Constitution des concepts scientifiques}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Études numériques des circulations culturelles}{8}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Valorisation du fonds Charcot}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Constitution du corpus Charcot}{10}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Description du fonds Charcot}{10}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Outils existants}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Une nouvelle approche}{12}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Migration du discours médical de Charcot}{13}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{14}{chapter.5}%
+\contentsline {chapter}{References}{15}{chapter.5}%

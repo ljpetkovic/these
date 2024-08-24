@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  24 AUG 2024 14:43
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  24 AUG 2024 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1345,36 +1345,26 @@ LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 8.
- [2
-
-]
+LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
+(Font)              scaled to size 10.95pt on input line 3.
 File: img/changement_paradigme.png Graphic file (type bmp)
 <img/changement_paradigme.png>
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 10.95pt on input line 19.
+(Font)              scaled to size 10.95pt on input line 18.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
-(Font)              scaled to size 10.95pt on input line 19.
+(Font)              scaled to size 10.95pt on input line 18.
 LaTeX Font Info:    Font shape `T1/gentium/b/sc' will be
-(Font)              scaled to size 10.95pt on input line 19.
+(Font)              scaled to size 10.95pt on input line 18.
+ [2
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.55003pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.55003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
-
-[3]
+]
 LaTeX Font Info:    Trying to load font information for TU+gentium on input lin
-e 40.
-LaTeX Font Info:    No file TUgentium.fd. on input line 40.
+e 46.
+LaTeX Font Info:    No file TUgentium.fd. on input line 46.
 
 
 LaTeX Font Warning: Font shape `TU/gentium/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 40.
+(Font)              using `TU/lmr/m/n' instead on input line 46.
 
 
 Package fontspec Info: Times New Roman scale = 0.963629354430423.
@@ -1419,20 +1409,39 @@ wercase,Script=Cyrillic].
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 9.63623pt on input line 40.
+(Font)              scaled to size 9.63623pt on input line 46.
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 10.0pt on input line 40.
+(Font)              scaled to size 10.0pt on input line 46.
 
-Overfull \hbox (3.7334pt too wide) in paragraph at lines 42--44
+Package natbib Warning: Citation `monteiro2021' on page 3 undefined on input li
+ne 49.
+
+
+Overfull \hbox (3.7334pt too wide) in paragraph at lines 48--50
 []\T1/gentium/m/n/12 Pour mieux com-prendre l'im-por-tance de ce chan-ge-ment d
 e pen-sée ra-di-cal, il convient
  []
 
 
-Overfull \hbox (4.28262pt too wide) in paragraph at lines 45--45
-|[]\T1/gentium/b/n/17.28 Jean-Martin Char-cot : un mé-de-cin po-ly-mathe à l'au
-be
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+
+[3]
+
+Package natbib Warning: Citation `mirbeau1995chroniques' on page 4 undefined on
+ input line 59.
+
+
+Package natbib Warning: Citation `mirbeau1995chroniques' on page 4 undefined on
+ input line 59.
+
+
+Package natbib Warning: Citation `KOEHLER201393' on page 4 undefined on input l
+ine 59.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1444,36 +1453,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]
 LaTeX Font Info:    Trying to load font information for TS1+gentium on input li
-ne 58.
+ne 65.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/gentium-tug/ts1gentium.fd
 File: ts1gentium.fd 2022/05/30 Font definitions for gentium.
 )
 LaTeX Font Info:    Font shape `TS1/gentium/m/n' will be
-(Font)              scaled to size 12.0pt on input line 58.
+(Font)              scaled to size 12.0pt on input line 65.
 
-Overfull \hbox (10.48698pt too wide) in paragraph at lines 61--62
+Overfull \hbox (10.48698pt too wide) in paragraph at lines 68--69
 []\T1/gentium/m/n/12 Pierre Ja-net (1839-1916), phi-lo-sophe, neu-ro-logue et p
 sy-chiatre, concep-teur des termes
  []
 
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 29.05003pt, for example:
-(fancyhdr)                \setlength{\headheight}{29.05003pt}.
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-17.05003pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[5])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 29.05003pt, for example:
-(fancyhdr)                \setlength{\headheight}{29.05003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-17.05003pt}.
-
-[6]
+[5]
 Chapitre 2.
 
 Overfull \hbox (26.32384pt too wide) in paragraph at lines 298--298
@@ -1485,7 +1486,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--298
 
  []
 
-(./2_SotA.tex [7
+(./2_SotA.tex
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 4.
+ [6
 
 ]
 Overfull \hbox (3.21371pt too wide) in paragraph at lines 27--28
@@ -1555,7 +1559,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]
+[7]
 Overfull \hbox (4.47742pt too wide) in paragraph at lines 59--60
 \T1/gentium/m/n/12 trice à l'égard de leur émer-gence, no-tam-ment pour dé-ter-
 mi-ner à quel mo-ment un concept
@@ -1576,7 +1580,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[9]
+[8]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1585,7 +1589,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[10
+[9
 
 ]
 Chapitre 3.
@@ -1616,7 +1620,7 @@ Overfull \hbox (3.13245pt too wide) in paragraph at lines 4--5
 -rique pa-tri-mo-niale de Sor-bonne
  []
 
-[11
+[10
 
 ]
 
@@ -1627,7 +1631,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12])
+[11])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1636,7 +1640,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[12]
 Chapitre 4.
 
 Overfull \hbox (26.32384pt too wide) in paragraph at lines 304--304
@@ -1648,7 +1652,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--304
 
  []
 
-[14
+[13
 
 ]
 Chapitre 5.
@@ -1662,7 +1666,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--307
 
  []
 
-[15
+[14
 
 ] (./_main.bbl (./_main.brf)
 \tf@brf=\write6
@@ -1723,7 +1727,7 @@ Underfull \hbox (badness 1472) in paragraph at lines 58--58
   \T1/gentium/m/it/12 Neu-ros-ciences and His-tory\T1/gentium/m/n/12 ,
  []
 
-[16
+[15
 
 ]
 Underfull \hbox (badness 2042) in paragraph at lines 90--90
@@ -1757,7 +1761,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17]
+[16]
 Underfull \hbox (badness 1275) in paragraph at lines 192--192
 \T1/gentium/m/n/12 Grund-be-griffe : (Ba-sic Concepts in His-tory : A His-to-ri
 -cal Dic-tio-nary of Po-li-ti-cal
@@ -1816,7 +1820,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]
+[17]
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
 (Font)              scaled to size 8.0pt on input line 239.
 
@@ -1874,13 +1878,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19]
+[18]
 Underfull \hbox (badness 1107) in paragraph at lines 336--336
 \T1/gentium/m/n/12 Ty-pis Ja. Fle-sher, im-pen-sis Jo. Mar-tyn & Ja. Al-les-try
 , apud in-signe Cam-panæ in
  []
 
 )
+
+Package natbib Warning: There were undefined citations.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1889,33 +1896,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20] (./_main.aux)
+[19] (./_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 188EE4EAEBF6061DD17F4978E7708ADB;4001.
-
-Package rerunfilecheck Warning: File `_main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `_main.brf':
-(rerunfilecheck)             Before: 9A4C3533A2DFF773B64DB26B8B8ED9FB;2583
-(rerunfilecheck)             After:  4B1F5C6E5726552B21DDEEEE8FFD90EF;2580.
+(rerunfilecheck)             Checksum: 30373DB0362B6CDD2FDA2E11FD3F025A;3935.
+Package rerunfilecheck Info: File `_main.brf' has not changed.
+(rerunfilecheck)             Checksum: 9497524C8A84818F660996976A930D7A;3427.
  ) 
 Here is how much of TeX's memory you used:
- 33030 strings out of 476683
- 665821 string characters out of 5804046
+ 32942 strings out of 476683
+ 663756 string characters out of 5804046
  1868018 words of memory out of 5000000
- 52633 multiletter control sequences out of 15000+600000
- 588477 words of font info for 110 fonts, out of 8000000 for 9000
+ 52545 multiletter control sequences out of 15000+600000
+ 590416 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,11n,142p,2716b,1037s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,11n,142p,2716b,964s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.pdf (22 pages).
+Output written on _main.pdf (21 pages).
