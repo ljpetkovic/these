@@ -20,6 +20,7 @@
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 \setlength{\marginparwidth}{2cm} % Adjust marginpar width if needed
+\usepackage{multirow}
 
 \newcommand{\smalltodo}[2][]{\todo[size=\scriptsize, color=white, linecolor=blue, textcolor=black #1]{#2}}
 
@@ -34,6 +35,7 @@
 %\usepackage{floatrow}
 %espacement entre les lignes
 \usepackage{setspace}
+\onehalfspacing
 %modifier la mise en page de l'abstract
 \usepackage{abstract}
 %police et mise en page (marges) du document
@@ -43,19 +45,33 @@
 %\newfontfamily{\greekfont}[Ligatures=TeX]{Linux Libertine O}
 %\usepackage{fontspec}
 %\setmainfont{DejaVu Serif}
-\usepackage[top=2cm, bottom=2cm, left=4cm, right=4cm]{geometry}
+\usepackage[top=2cm, bottom=2cm, left=3cm, right=3cm]{geometry}
 %Pour les galerie d'images
 \usepackage{subfig}
 \usepackage{fancyhdr}
+\usepackage{pdflscape}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\rightmark}
 \fancyhead[R]{\thepage}
+
 \renewcommand{\headrulewidth}{0.4pt}% Default \headrulewidth is 0.4pt
 \renewcommand{\footrulewidth}{0.4pt}% Default \footrulewidth is 0pt
+\usepackage[labelfont=bf]{caption}
 
+% Define the custom page style
+\fancypagestyle{mylandscape}{
+    \fancyhf{} % Clear all header and footer fields
+    \fancyfoot[C]{\rotatebox{90}{\thepage}} % Rotate the page number 90 degrees
+    \renewcommand{\headrulewidth}{0pt} % No header line
+    \renewcommand{\footrulewidth}{0pt} % No footer line
+}
+
+\captionsetup{justification=centering,font=small}
 % renommer « Fig. » en « Figure »
 \addto\captionsfrench{\renewcommand{\figurename}{\textsc{Figure}}}
+
+\addto\captionsfrench{\def\tablename{Tableau}}
 
 \usepackage{lipsum} 
 \usepackage{blindtext, color}
@@ -65,8 +81,9 @@
 %\titleformat{\chapter}[hang]{\Huge\bfseries}{Chapitre \thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
 % How can I have a vertical bar in chapter title which scales with the broken title?
-\newcommand{\hsp}{\hspace{20pt}}
-\titleformat{\chapter}[hang]{\huge\bfseries}{\color{gray75}Chapitre \thechapter}{20pt}{\begin{tabular}[t]{@{\color{gray75}\vrule width 2pt\hsp}p{0.75\textwidth}}\raggedright#1\end{tabular}}
+\newcommand{\hsp}{\hspace{16pt}}
+\titleformat{\chapter}[hang]{\LARGE}{\color{gray75}\textsc{Chapitre} \thechapter}{14pt}{\begin{tabular}[t]{@{\color{gray75}\hsp}p{0.75\textwidth}}\raggedright\textsc{#1}\end{tabular}\\\hrule}
+
 
 \usepackage{gensymb} % pour le symbole du degré (\degree)
 
@@ -89,6 +106,7 @@
 %\usepackage[linkbordercolor={0 0 1}]{hyperref}
 % pour les références croisées (page X pour une référence dans la bibliographie)
 \usepackage[backref=page]{hyperref} 
+
 \renewcommand\backreftwosep{, }
  \renewcommand\backrefsep{, }
  \renewcommand*{\backrefalt}[4]{%
@@ -178,6 +196,8 @@ pdfstartview={FitH},
     urlbordercolor=red,
     pdftitle={Overleaf Example},
     pdfpagemode=FullScreen}					% ajuste la page à la largueur de l'écran
+    
+\usepackage{multicol}
 
 \AtBeginDocument{\hypersetup{pdfborder={0 0 1}}}
 \setpdflinkmargin{2pt}
@@ -189,7 +209,7 @@ pdfstartview={FitH},
 % \fancyhead[C]{}
 % \fancyfoot[C]{}% \fancyfoot[R]{\thepage}
 
-
+\usepackage{colortbl}
 
 \newenvironment{myepigraph}
   {\par\hfill\itshape
@@ -201,13 +221,15 @@ pdfstartview={FitH},
 
 %======================== DEBUT DU DOCUMENT ========================
 
+%======================== DEBUT DU DOCUMENT ========================
+
 \begin{document}
 
 \reversemarginpar % For \marginpar on the left
 
 %régler l'espacement entre les lignes
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
-
+\onehalfspacing
 %page de garde
 %\input{title.tex} % ici mettre la page de garde de SU
 
@@ -266,7 +288,8 @@ pdfstartview={FitH},
 
 
 
-\chapter{Introduction}
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
 \input{1_intro}
 
 \chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
