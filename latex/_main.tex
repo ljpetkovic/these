@@ -1,4 +1,5 @@
-\documentclass[a4paper,12pt]{report}
+\documentclass[a4paper,12pt]{book}
+
 % \counterwithout{figure}{chapter} % pour compter la Figure 1 au lieu de Figure 1.1
 %====================== PACKAGES ======================
 
@@ -288,8 +289,8 @@ pdfstartview={FitH},
 
 
 
-\chapter*{Introduction}
-\addcontentsline{toc}{chapter}{Introduction}
+\chapter{Introduction}
+%\addcontentsline{toc}{chapter}{Introduction}
 \input{1_intro}
 
 \chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
@@ -304,10 +305,12 @@ pdfstartview={FitH},
 \chapter{Migration du discours médical de Charcot}
 \input{4_resultats}
 %
+
 \chapter{Conclusion}
-%\input{5_conclusion}
+%\addcontentsline{toc}{chapter}{Conclusion}
+\input{5_conclusion}
 %
-\input{6_annexe}
+
 
 \newpage
 
@@ -315,10 +318,13 @@ pdfstartview={FitH},
 \nocite{*}
 
 %choix du style de la biblio
-\addcontentsline{toc}{chapter}{References}
+\addcontentsline{toc}{chapter}{Bibliographie}
 \bibliographystyle{apalike-etal-in-italics}
 %inclusion de la biblio
 \bibliography{bibliographie.bib}
+
+%\addcontentsline{toc}{chapter}{Annexe}
+%\input{6_annexe}
 
 %voir wiki pour plus d'information sur la syntaxe des entrées d'une bibliographie
 

@@ -1,9 +1,11 @@
 %Ne pas numéroter cette partie
 \part*{Annexe}
-%Rajouter la ligne "Annexes" dans le sommaire
-\addcontentsline{toc}{chapter}{Annexe}
 
-\chapter*{Annexe}
+%Rajouter la ligne "Annexes" dans le sommaire
+%\addcontentsline{toc}{chapter}{Annexe}
+
+\chapter*{Liste des termes et expressions popularisées par Charcot}
+
 
 
 %changer le format des sections, subsections pour apparaittre sans le num de chapitre
@@ -14,11 +16,24 @@
 %recommencer la numérotation des section à "1"
 \setcounter{section}{0}
 
-\section*{Liste des termes et expressions popularisées par Charcot}
+%\section*{Liste des termes et expressions popularisées par Charcot}
 
 \addcontentsline{toc}{section}{\protect\numberline{}Liste des termes et expressions popularisées par Charcot}%
 
+\begin{table}[]
+\centering
+\begin{tabular}{|l|cccc|cccc|}
+\hline
+\textit{Terme} & Fréquence & \textsc{TF-IDF} & \textsc{BM25} & \textsc{BERT} & Fréquence & \textsc{TF-IDF} & \textsc{BM25} & \textsc{BERT} \\
+\hline
+% Data rows go here
+\end{tabular}
+\caption{Calcul de pertinence des concepts selon les métriques \textsc{TF-IDF}, \textsc{BM25} et \textsc{BERT} dans les corpus \og{}Charcot\fg{} et \og{}Autres\fg{}.}
+\end{table}
 
 
+
+\label{tab:calculs_stat}
+\end{landscape}
 
 

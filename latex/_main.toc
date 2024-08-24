@@ -1,23 +1,20 @@
 \babel@toc {french}{}\relax 
-\contentsline {chapter}{Introduction}{1}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}L'erreur comme source du progrès scientifique}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}{4}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Pister la circulation du discours médical au prisme du numérique}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Modalités des circulations des savoirs}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}À partir de quel moment un concept devient-il pertinent ?}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Études numériques des circulations culturelles}{9}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Valorisation du fonds Charcot}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Description du fonds Charcot}{10}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Constitution du corpus Charcot}{12}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Migration du discours médical de Charcot}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{13}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Extraction des phrases-clés : méthodes statistiques}{13}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{16}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Librairie \texttt {keybert}}{17}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Approche \textit {PatternRank}}{18}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{20}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Discussion et perspectives}{20}{section.5.1}%
-\contentsline {chapter}{Annexe}{22}{part*.12}%
-\contentsline {section}{\numberline {}Liste des termes et expressions popularisées par Charcot}{22}{chapter*.13}%
-\contentsline {chapter}{References}{23}{chapter*.13}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}L'erreur comme source du progrès scientifique}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}{5}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Pister la circulation du discours médical au prisme du numérique}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modalités des circulations des savoirs}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}À partir de quel moment un concept devient-il pertinent ?}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Études numériques des circulations culturelles}{10}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Valorisation du fonds Charcot}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Description du fonds Charcot}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Constitution du corpus Charcot}{13}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Migration du discours médical de Charcot}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Extraction des phrases-clés : méthodes statistiques}{15}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{18}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Librairie \texttt {keybert}}{19}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Approche \textit {PatternRank}}{20}{subsection.5.3.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{23}{chapter.6}%
+\contentsline {chapter}{Bibliographie}{24}{chapter.6}%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  24 AUG 2024 15:02
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 AUG 2024 01:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,10 +6,10 @@ entering extended mode
 (./_main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count181
 \c@chapter=\count182
@@ -726,8 +726,20 @@ Package: abstract 2009/06/08 v1.2a configurable abstracts
 \absrightindent=\skip65
 \absparindent=\skip66
 \absparsep=\skip67
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+
+
+! LaTeX Error: Environment abstract undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104   \renewenvironment{abstract}
+                                   {%
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -1017,7 +1029,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 )
 \c@NAT@total@cites=\count378
 \c@NAT@count@cites=\count379
-Package hyperref Info: Option `colorlinks' set `true' on input line 198.
+Package hyperref Info: Option `colorlinks' set `true' on input line 199.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
@@ -1095,13 +1107,13 @@ Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 \rownum=\count390
 )
 LaTeX Font Info:    Trying to load font information for T1+gentium on input lin
-e 226.
+e 227.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/gentium-tug/t1gentium.fd
 File: t1gentium.fd 2022/05/30 Font definitions for gentium.
 )
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 12.0pt on input line 226.
+(Font)              scaled to size 12.0pt on input line 227.
 
 (./_main.aux
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 3
@@ -1133,47 +1145,47 @@ Package babel Info: The following font families will use the default
 )
 \openout1 = `_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 226.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 227.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-26.
+27.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 227.
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
-26.
+27.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 227.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
-26.
+27.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 226.
-LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 227.
+LaTeX Font Info:    ... okay on input line 227.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/greek-fontenc/puenc-greek.def
 File: puenc-greek.def 2023/03/08 2.2.1 Greek LICRs for PDF strings
@@ -1182,8 +1194,8 @@ File: puenc-greek.def 2023/03/08 2.2.1 Greek LICRs for PDF strings
 File: greek-fontenc.def 2023/03/08 2.2.1 Common Greek font encoding definitions
 
 ))
-LaTeX Info: Redefining \th on input line 226.
-LaTeX Info: Redefining \up on input line 226.
+LaTeX Info: Redefining \th on input line 227.
+LaTeX Info: Redefining \up on input line 227.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1191,7 +1203,7 @@ LaTeX Info: Redefining \up on input line 226.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
@@ -1200,21 +1212,21 @@ LaTeX Info: Redefining \up on input line 226.
 * \textheight=731.23584pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-52.36449pt
+* \topmargin=-47.23828pt
 * \headheight=12.0pt
-* \headsep=25.0pt
+* \headsep=19.8738pt
 * \topskip=12.0pt
 * \footskip=30.0pt
 * \marginparwidth=56.9055pt
-* \marginparsep=10.0pt
+* \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1222,59 +1234,59 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 226.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 226
+LaTeX Info: Redefining \celsius on input line 227.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 227
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 226.
-Package gensymb Info: Using \Omega for \ohm on input line 226.
+LaTeX Info: Redefining \ohm on input line 227.
+Package gensymb Info: Using \Omega for \ohm on input line 227.
 
 Package gensymb Warning: Not defining \micro.
 
-Package backref Info: ** backref set up for natbib ** on input line 226.
-Package hyperref Info: Link coloring ON on input line 226.
+Package backref Info: ** backref set up for natbib ** on input line 227.
+Package hyperref Info: Link coloring ON on input line 227.
 (./_main.out) (./_main.out)
 \@outlinefile=\write4
 \openout4 = `_main.out'.
 
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 20.74pt on input line 271.
+(Font)              scaled to size 20.74pt on input line 272.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-71.
+72.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-71.
+72.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-271.
+272.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-271.
+272.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 271.
+(Font)              <20.74> on input line 272.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 271.
+(Font)              <14.4> on input line 272.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 271.
+(Font)              <12> on input line 272.
 LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
-(Font)              scaled to size 20.74pt on input line 271.
+(Font)              scaled to size 20.74pt on input line 272.
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
 
  []
 
@@ -1300,7 +1312,14 @@ LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
 
 
 ] [0]
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+Chapitre 1.
+
+Overfull \hbox (26.32384pt too wide) in paragraph at lines 292--292
+|[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
 
  []
 
@@ -1317,23 +1336,30 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 2.
-
-
-LaTeX Warning: Reference `methodo' on page 1 undefined on input line 6.
-
 ) [1
 
 ]
-Chapitre 1.
-LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
-(Font)              scaled to size 20.74pt on input line 295.
 
-Overfull \hbox (26.32384pt too wide) in paragraph at lines 295--295
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2
+
+]
+Chapitre 2.
+LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
+(Font)              scaled to size 20.74pt on input line 296.
+
+Overfull \hbox (26.32384pt too wide) in paragraph at lines 296--296
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 
  []
 
@@ -1352,9 +1378,7 @@ LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 10.95pt on input line 18.
 LaTeX Font Info:    Font shape `T1/gentium/b/sc' will be
 (Font)              scaled to size 10.95pt on input line 18.
- [2
-
-]
+ [3]
 LaTeX Font Info:    Trying to load font information for TU+gentium on input lin
 e 46.
 LaTeX Font Info:    No file TUgentium.fd. on input line 46.
@@ -1423,7 +1447,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[3]
+[4]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1432,7 +1456,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[4]
+[5]
 LaTeX Font Info:    Trying to load font information for TS1+gentium on input li
 ne 65.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/gentium-tug/ts1gentium.fd
@@ -1455,15 +1479,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[5]
-Chapitre 2.
+[6]
+Chapitre 3.
 
-Overfull \hbox (26.32384pt too wide) in paragraph at lines 298--298
+Overfull \hbox (26.32384pt too wide) in paragraph at lines 299--299
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 
  []
 
@@ -1473,7 +1497,7 @@ Overfull \hbox (0.94046pt too wide) in paragraph at lines 25--26
 ion pra-tique des connais-sances ; 
  []
 
-[6
+[7
 
 ]
 Overfull \hbox (3.21371pt too wide) in paragraph at lines 26--27
@@ -1489,7 +1513,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[7]
+[8]
 Overfull \hbox (4.47742pt too wide) in paragraph at lines 50--51
 \T1/gentium/m/n/12 trice à l'égard de leur émer-gence, no-tam-ment pour dé-ter-
 mi-ner à quel mo-ment un concept
@@ -1508,14 +1532,9 @@ g / nouvelles / 2022 / 12 / 11 / colloque -[] de -[] la -[] transformation -[]
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.55003pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.55003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[8])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1524,15 +1543,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[9]
-Chapitre 3.
+[9])
 
-Overfull \hbox (26.32384pt too wide) in paragraph at lines 301--301
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+
+[10]
+Chapitre 4.
+
+Overfull \hbox (26.32384pt too wide) in paragraph at lines 302--302
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
 
  []
 
@@ -1566,7 +1594,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
  2C % 20Jean -[] Martin % 22 % 29 & lang = fr &
  []
 
-[10
+[11
 
 ]
 
@@ -1577,7 +1605,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11])
+[12])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1586,15 +1614,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12]
-Chapitre 4.
+[13]
 
-Overfull \hbox (26.32384pt too wide) in paragraph at lines 304--304
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14
+
+]
+Chapitre 5.
+
+Overfull \hbox (26.32384pt too wide) in paragraph at lines 305--305
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 
  []
 
@@ -1614,9 +1653,10 @@ File: img/bulbe_rachidien_mini.png Graphic file (type bmp)
 <img/bulbe_rachidien_mini.png>
 File: img/textpair.png Graphic file (type bmp)
 <img/textpair.png>
-[13
+[15]
+Underfull \vbox (badness 3168) has occurred while \output is active []
 
-]
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1625,9 +1665,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[14]
+[16]
 
-LaTeX Warning: Reference `tab:calculs_stat' on page 15 undefined on input line 
+LaTeX Warning: Reference `tab:calculs_stat' on page 17 undefined on input line 
 33.
 
 File: img/Charcot_Autres_250523.png Graphic file (type bmp)
@@ -1638,7 +1678,7 @@ LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `tab:calculs_stat' on page 15 undefined on input line 
+LaTeX Warning: Reference `tab:calculs_stat' on page 17 undefined on input line 
 42.
 
 
@@ -1655,7 +1695,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[15]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
 [][][]\T1/gentium/m/n/10 .[][]\T1/gentium/m/it/10 Cf. \T1/gentium/m/n/10 le dé-
 pôt Gi-tHub [][]$\T1/lmtt/m/n/10 https : / / github . com / ljpetkovic / Charco
@@ -1669,6 +1709,10 @@ LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 48.
 
+Underfull \vbox (badness 7379) has occurred while \output is active []
+
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.55003pt}.
@@ -1676,7 +1720,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[16]
+[18]
 File: img/keybert.png Graphic file (type bmp)
 <img/keybert.png>
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1697,7 +1741,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[17]
+[19]
 File: img/patternrank_workflow.png Graphic file (type bmp)
 <img/patternrank_workflow.png>
 
@@ -1712,7 +1756,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[18]
+[20]
 File: img/termes_partages.png Graphic file (type bmp)
 <img/termes_partages.png>
 )
@@ -1724,39 +1768,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[19]
-Chapitre 5.
+[21]
 
-Overfull \hbox (26.32384pt too wide) in paragraph at lines 307--307
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+
+[22
+
+]
+Chapitre 6.
+
+Overfull \hbox (26.32384pt too wide) in paragraph at lines 309--309
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 
  []
 
-(./5_conclusion.tex) (./6_annexe.tex [20
-
-]
-LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 24.88pt on input line 2.
-LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
-(Font)              scaled to size 24.88pt on input line 2.
- [21
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-
- []
-
-) [22
-
-] (./_main.bbl (./_main.brf)
+(./5_conclusion.tex) [23] (./_main.bbl (./_main.brf)
 \tf@brf=\write6
 \openout6 = `_main.brf'.
 
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
@@ -1805,9 +1855,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--61
  journals / volume -[] 2 / issue -[]
  []
 
-[23
-
-]
+[25]
 Underfull \hbox (badness 5908) in paragraph at lines 100--100
 []\T1/gentium/m/n/12 Charcot, J. M. (1892).  \T1/gentium/m/it/12 ×uvres com-plè
 tes de J. M. Char-cot. Le-çons sur les ma-la-
@@ -1834,7 +1882,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 174--174
 \T1/lmtt/m/n/12 org / files / Eric % 20Hobsbawm % 20 -[] %20Age % 20Of % 20Revo
 lution % 201789 % 20 -[]
@@ -1854,7 +1902,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[27]
 Underfull \hbox (badness 1577) in paragraph at lines 241--241
 []\T1/gentium/m/n/12 Kuhn, T. S. (1962).  \T1/gentium/m/it/12 The Struc-ture of
  Scien-ti-fic Re-vo-lu-tions\T1/gentium/m/n/12 .  Uni-ver-sity of Chi-cago
@@ -1915,7 +1963,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 310--310
 \T1/lmtt/m/n/12 unige . ch / access / metadata / fc3fad28 -[] 5b90 -[] 42ec -[]
  bea5 -[] 0c6d54cb5452 /
@@ -1945,7 +1993,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 376--376
 []\T1/gentium/m/n/12 Robertson, S. E. & Jones, K. S. (1976).  Re-le-vance Weigh
 -ting of Search
@@ -1982,7 +2030,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
+[30]
 Underfull \hbox (badness 1107) in paragraph at lines 455--455
 \T1/gentium/m/n/12 Ty-pis Ja. Fle-sher, im-pen-sis Jo. Mar-tyn & Ja. Al-les-try
 , apud in-signe Cam-panæ in
@@ -1997,33 +2045,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29] (./_main.aux)
+[31] (./_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 3E916F416BB254B57945FF6AB779D72D;5754.
-
-Package rerunfilecheck Warning: File `_main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `_main.brf':
-(rerunfilecheck)             Before: 6F48FC32A827F8CDEFFE1498F2FE18FD;4820
-(rerunfilecheck)             After:  44155AF4775B858CF5A3C6ADD9992F81;4820.
+(rerunfilecheck)             Checksum: A05C583574EE92C9AF53B756EAD17B6A;5144.
+Package rerunfilecheck Info: File `_main.brf' has not changed.
+(rerunfilecheck)             Checksum: B3808B95DE4E517FE29731CBF9C7D1C1;4804.
  ) 
 Here is how much of TeX's memory you used:
- 32942 strings out of 476683
- 662967 string characters out of 5804046
+ 32937 strings out of 476683
+ 662823 string characters out of 5804046
  1857018 words of memory out of 5000000
- 52539 multiletter control sequences out of 15000+600000
- 607369 words of font info for 111 fonts, out of 8000000 for 9000
+ 52536 multiletter control sequences out of 15000+600000
+ 603574 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,17n,142p,2716b,654s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,142p,2716b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.pdf (31 pages).
+Output written on _main.pdf (33 pages).
