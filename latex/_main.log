@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 AUG 2024 01:51
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 AUG 2024 01:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1666,20 +1666,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [16]
-
-LaTeX Warning: Reference `tab:calculs_stat' on page 17 undefined on input line 
-33.
-
 File: img/Charcot_Autres_250523.png Graphic file (type bmp)
 <img/Charcot_Autres_250523.png>
 LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
 (Font)              scaled to size 10.95pt on input line 38.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `tab:calculs_stat' on page 17 undefined on input line 
-42.
 
 
 Overfull \hbox (1.4575pt too wide) in paragraph at lines 42--44
@@ -1791,11 +1784,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--309
 
  []
 
-(./5_conclusion.tex) [23] (./_main.bbl (./_main.brf)
-\tf@brf=\write6
-\openout6 = `_main.brf'.
-
-
+(./5_conclusion.tex) [23] (./6_annexe.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1807,6 +1796,62 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [24
 
 ]
+LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
+(Font)              scaled to size 24.88pt on input line 2.
+LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
+(Font)              scaled to size 24.88pt on input line 2.
+ [25] [26]
+Chapitre 7.
+
+Overfull \hbox (26.32384pt too wide) in paragraph at lines 7--7
+|[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+
+ []
+
+[27
+
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 24.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   !
+l.37 \raisebox{}{\makebox[\linewidth]{\thepage}}
+                                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   !
+l.37 \raisebox{}{\makebox[\linewidth]{\thepage}}
+                                                
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 37--38
+[][] 
+ []
+
+[28
+
+]) (./_main.bbl (./_main.brf)
+\tf@brf=\write6
+\openout6 = `_main.brf'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
@@ -1855,7 +1900,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--61
  journals / volume -[] 2 / issue -[]
  []
 
-[25]
+[29
+
+
+]
 Underfull \hbox (badness 5908) in paragraph at lines 100--100
 []\T1/gentium/m/n/12 Charcot, J. M. (1892).  \T1/gentium/m/it/12 ×uvres com-plè
 tes de J. M. Char-cot. Le-çons sur les ma-la-
@@ -1882,7 +1930,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 174--174
 \T1/lmtt/m/n/12 org / files / Eric % 20Hobsbawm % 20 -[] %20Age % 20Of % 20Revo
 lution % 201789 % 20 -[]
@@ -1902,7 +1950,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27]
+[31]
 Underfull \hbox (badness 1577) in paragraph at lines 241--241
 []\T1/gentium/m/n/12 Kuhn, T. S. (1962).  \T1/gentium/m/it/12 The Struc-ture of
  Scien-ti-fic Re-vo-lu-tions\T1/gentium/m/n/12 .  Uni-ver-sity of Chi-cago
@@ -1963,7 +2011,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 310--310
 \T1/lmtt/m/n/12 unige . ch / access / metadata / fc3fad28 -[] 5b90 -[] 42ec -[]
  bea5 -[] 0c6d54cb5452 /
@@ -1993,7 +2041,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 376--376
 []\T1/gentium/m/n/12 Robertson, S. E. & Jones, K. S. (1976).  Re-le-vance Weigh
 -ting of Search
@@ -2030,7 +2078,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30]
+[34]
 Underfull \hbox (badness 1107) in paragraph at lines 455--455
 \T1/gentium/m/n/12 Ty-pis Ja. Fle-sher, im-pen-sis Jo. Mar-tyn & Ja. Al-les-try
 , apud in-signe Cam-panæ in
@@ -2045,25 +2093,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31] (./_main.aux)
+[35] (./_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: A05C583574EE92C9AF53B756EAD17B6A;5144.
+(rerunfilecheck)             Checksum: D614E03752BA12187B4F82AC9F08A9ED;5225.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
 (rerunfilecheck)             Checksum: B3808B95DE4E517FE29731CBF9C7D1C1;4804.
  ) 
 Here is how much of TeX's memory you used:
- 32937 strings out of 476683
- 662823 string characters out of 5804046
+ 32945 strings out of 476683
+ 662953 string characters out of 5804046
  1857018 words of memory out of 5000000
- 52536 multiletter control sequences out of 15000+600000
- 603574 words of font info for 109 fonts, out of 8000000 for 9000
+ 52541 multiletter control sequences out of 15000+600000
+ 607369 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,17n,142p,2716b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.pdf (33 pages).
+Output written on _main.pdf (37 pages).

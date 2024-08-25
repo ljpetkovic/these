@@ -4,7 +4,7 @@
 %Rajouter la ligne "Annexes" dans le sommaire
 %\addcontentsline{toc}{chapter}{Annexe}
 
-\chapter*{Liste des termes et expressions popularisées par Charcot}
+\chapter{Annexe}
 
 
 
@@ -18,8 +18,9 @@
 
 %\section*{Liste des termes et expressions popularisées par Charcot}
 
-\addcontentsline{toc}{section}{\protect\numberline{}Liste des termes et expressions popularisées par Charcot}%
-
+%\addcontentsline{toc}{section}{\protect\numberline{}Liste des termes et expressions popularisées par Charcot}%
+\begin{landscape}
+\thispagestyle{empty}
 \begin{table}[]
 \centering
 \begin{tabular}{|l|cccc|cccc|}
@@ -30,6 +31,8 @@
 \end{tabular}
 \caption{Calcul de pertinence des concepts selon les métriques \textsc{TF-IDF}, \textsc{BM25} et \textsc{BERT} dans les corpus \og{}Charcot\fg{} et \og{}Autres\fg{}.}
 \end{table}
+\vfill
+\raisebox{}{\makebox[\linewidth]{\thepage}}
 
 
 
