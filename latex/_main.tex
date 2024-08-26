@@ -96,6 +96,12 @@
 ]{dirtytalk}
 
 %====================== INFORMATION ET REGLES ======================
+\usepackage{minitoc}
+%change TOC header
+\addto{\captionsfrench}{% Making babel aware of special titles
+  \renewcommand{\mtctitle}{Sommaire}
+}
+
 
 %rajouter les numérotation pour les \paragraphe et \subparagraphe
 \setcounter{secnumdepth}{4}
@@ -225,7 +231,8 @@ pdfstartview={FitH},
 %======================== DEBUT DU DOCUMENT ========================
 
 \begin{document}
-
+\dominitoc% Initialization
+\tableofcontents
 \reversemarginpar % For \marginpar on the left
 
 %régler l'espacement entre les lignes
@@ -290,20 +297,26 @@ pdfstartview={FitH},
 
 
 \chapter{Introduction}
+\minitoc
 %\addcontentsline{toc}{chapter}{Introduction}
 \input{1_intro}
 
 \chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
+\minitoc% Creating an actual minitoc
 \input{2_rupture}
 
 \chapter{Pister la circulation du discours médical au prisme du numérique}
+\minitoc
 \input{2_SotA}
 
 \chapter{Valorisation du fonds Charcot}
+\minitoc
 \input{3_methodo}
 %
 \chapter{Migration du discours médical de Charcot}
+\minitoc
 \input{4_resultats}
+
 %
 
 \chapter{Conclusion}

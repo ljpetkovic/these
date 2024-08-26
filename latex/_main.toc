@@ -3,19 +3,20 @@
 \contentsline {chapter}{\numberline {2}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}L'erreur comme source du progrès scientifique}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}{5}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Pister la circulation du discours médical au prisme du numérique}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modalités des circulations des savoirs}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}À partir de quel moment un concept devient-il pertinent ?}{8}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Études numériques des circulations culturelles}{10}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Valorisation du fonds Charcot}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Description du fonds Charcot}{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Constitution du corpus Charcot}{13}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Migration du discours médical de Charcot}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Extraction des phrases-clés : méthodes statistiques}{15}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{18}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Librairie \texttt {keybert}}{19}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Approche \textit {PatternRank}}{20}{subsection.5.3.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{23}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Annexe}{27}{chapter.7}%
-\contentsline {chapter}{Bibliographie}{29}{table.caption.12}%
+\contentsline {chapter}{\numberline {3}Pister la circulation du discours médical au prisme du numérique}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modalités des circulations des savoirs}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}À partir de quel moment un concept devient-il pertinent ?}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Études numériques des circulations culturelles}{12}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Valorisation du fonds Charcot}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Description du fonds Charcot}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Constitution du corpus Charcot}{17}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Migration du discours médical de Charcot}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Extraction des phrases-clés : méthodes statistiques}{20}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{22}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Librairie \texttt {keybert}}{23}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Approche \textit {PatternRank}}{24}{subsection.5.3.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{27}{chapter.6}%
+\partbegin 
+\contentsline {chapter}{\numberline {7}Annexe}{31}{chapter.7}%
+\contentsline {chapter}{Bibliographie}{33}{table.caption.13}%
