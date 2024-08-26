@@ -1,5 +1,5 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{\reset@font\mtcSfont 19}{section.5.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}Extraction des phrases-clés : méthodes statistiques}{\reset@font\mtcSfont 20}{section.5.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{\reset@font\mtcSfont 22}{section.5.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.1}Librairie \texttt {keybert}}{\reset@font\mtcSSfont 23}{subsection.5.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.2}Approche \textit {PatternRank}}{\reset@font\mtcSSfont 24}{subsection.5.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{\reset@font\mtcSfont 17}{section.5.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}Extraction des phrases-clés : méthodes statistiques}{\reset@font\mtcSfont 18}{section.5.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{\reset@font\mtcSfont 20}{section.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.1}Librairie \texttt {keybert}}{\reset@font\mtcSSfont 21}{subsection.5.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.2}Approche \textit {PatternRank}}{\reset@font\mtcSSfont 22}{subsection.5.3.2}}

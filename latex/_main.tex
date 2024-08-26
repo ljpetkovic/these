@@ -234,8 +234,7 @@ pdfstartview={FitH},
 %======================== DEBUT DU DOCUMENT ========================
 
 \begin{document}
-\dominitoc% Initialization
-\tableofcontents
+
 \reversemarginpar % For \marginpar on the left
 
 %régler l'espacement entre les lignes
@@ -279,6 +278,7 @@ pdfstartview={FitH},
 
 \cleardoublepage
 \pdfbookmark{\contentsname}{toc}
+\dominitoc% Initialization
 \tableofcontents
 \thispagestyle{empty}
 \setcounter{page}{0}
@@ -305,19 +305,15 @@ pdfstartview={FitH},
 \input{1_intro}
 
 \chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
-\minitoc% Creating an actual minitoc
 \input{2_rupture}
 
 \chapter{Pister la circulation du discours médical au prisme du numérique}
-\minitoc
 \input{2_SotA}
 
 \chapter{Valorisation du fonds Charcot}
-\minitoc
 \input{3_methodo}
 %
 \chapter{Migration du discours médical de Charcot}
-\minitoc
 \input{4_resultats}
 
 %
