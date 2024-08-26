@@ -4,6 +4,9 @@
 %====================== PACKAGES ======================
 
 \usepackage[round,authoryear]{natbib}
+\makeatletter
+\def\NAT@nmfmt#1{{\scshape\NAT@up#1}}
+\makeatother
 \usepackage[utf8]{inputenc}
 \usepackage[greek.ancient,russian,french]{babel}
 \usepackage{fontspec}
