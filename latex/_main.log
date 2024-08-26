@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  26 AUG 2024 19:31
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  26 AUG 2024 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2306,7 +2306,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: D614E03752BA12187B4F82AC9F08A9ED;5225.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 1CBB9C5A05A1A188FF7A41741F5FE414;4808.
+(rerunfilecheck)             Checksum: 6E627EE12BB197F6821EE8EF887F0C6B;4808.
  ) 
 Here is how much of TeX's memory you used:
  35049 strings out of 476683
