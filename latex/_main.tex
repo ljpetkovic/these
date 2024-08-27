@@ -23,6 +23,7 @@
 \usepackage{float}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\graphicspath{ {figures/} }
 \usepackage{adjustbox}
 \usepackage[colorinlistoftodos]{todonotes}
 \setlength{\marginparwidth}{2cm} % Adjust marginpar width if needed
@@ -57,7 +58,7 @@
 \usepackage{fancyhdr}
 \usepackage{pdflscape}
 \pagestyle{fancy}
-\fancyhf{}
+%\fancyhf{}
 \fancyhead[L]{\rightmark}
 \fancyhead[R]{\thepage}
 
@@ -129,7 +130,11 @@
     }
 
 
-\usepackage{etoolbox} % for patching natbib commands
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\cleardoublepage}{\thispagestyle{empty}}{}{}{}
+\makeatother
+
 
 % Patch \NAT@citex to suppress initials
 \makeatletter
@@ -278,15 +283,28 @@ pdfstartview={FitH},
 %\newpage
 %%%%%%%%%%%%%% décommenter la partie au-dessus, jusqu'à \newpage pour afficher les remerciements et le résumé 
 
-\cleardoublepage
-\pdfbookmark{\contentsname}{toc}
-\dominitoc% Initialization
-\tableofcontents
-\thispagestyle{empty}
-\setcounter{page}{0}
-%ne pas numéroter le sommaire
+% Remove page numbers for the Table of Contents and List of Figures
 
-\newpage
+\clearpage
+\pagestyle{empty} % Temporarily disable fancyhdr
+\pdfbookmark{\contentsname}{toc}
+\tableofcontents
+
+\clearpage
+\listoffigures
+
+\clearpage
+\listoftables
+
+% Re-enable fancyhdr and page numbers after the unnumbered pages
+\clearpage
+\pagestyle{fancy}
+\setcounter{page}{1} % Or the appropriate page number
+
+
+
+
+
 
 %espacement entre les lignes d'un tableau
 \renewcommand{\arraystretch}{1.5}
