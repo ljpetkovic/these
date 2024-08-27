@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  27 AUG 2024 17:52
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  27 AUG 2024 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1778,7 +1778,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[12])
+[12]
+File: img/analyse_quadrant.png Graphic file (type bmp)
+<img/analyse_quadrant.png>
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -2364,15 +2367,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 65A69C659EFFDAF5CAAC0E02676D39BB;5225.
+(rerunfilecheck)             Checksum: BCA43BD23C53287624013E7CD6BB2B1C;5225.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: EA128CF2C10D5FB881AE5A0A2F1A852E;4809.
+(rerunfilecheck)             Checksum: FFEFF33F18AD62AC474F3DDDE0392F6A;4809.
  ) 
 Here is how much of TeX's memory you used:
- 35948 strings out of 476683
- 711429 string characters out of 5804046
+ 35957 strings out of 476683
+ 711674 string characters out of 5804046
  1857018 words of memory out of 5000000
- 55280 multiletter control sequences out of 15000+600000
+ 55288 multiletter control sequences out of 15000+600000
  614248 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,142p,2716b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
