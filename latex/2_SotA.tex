@@ -73,8 +73,7 @@ La question de recherche sous-tendant ce mémoire s'approche tangentiellement de
 
 Pour ce qui est des projets individuels, la question de l'estimation de l'importance d'une entité issue d'un domaine ontologique occupe une place centrale dans le travail de \citet{soulet2024}, ce qui a résulté dans le développement de l'outil de représentation des connaissances Rankingdom\footnote{\url{https://rankingdom.org/about}.}. L'un de ses aspects concerne les déclinaisons de la notion d'importance d'une entité, chacune correspondant à une métrique, comme présenté dans le tableau \ref{tab:rankingdom}.
 
-
-\begin{table}[!h]
+\begin{table}[H]
 \centering
 \footnotesize
 \resizebox{\textwidth}{!}{ % Resize the table to fit within text width
@@ -100,7 +99,7 @@ de toutes les entités impactées\end{tabular}               & L'impact de Charc
 \caption{Aperçu des métriques Rankingdom pour quantifier l'importance d'une entité.}
 \label{tab:rankingdom}
 \end{table}
-\bigskip
+
 De plus, des calculs effectués à partir de la portée et de l'influence de Charcot permettent de générer un graphique de \og{}quadrant magique de Gartner\fg{} (angl. \textit{Gartner Magic Quadrant})\footnote{Le nom provient de la société américaine de conseil Gartner qui \og{}publie chaque année les résultats de ses analyses dans plus de 100 secteurs technologiques\fg{} \citep{gartner}.}. Cette représentation sur la figure \ref{fig:analyse_quadrant} met en valeur quatre types d'entités : 
 \begin{itemize}
 \item \textbf{acteurs de niche} : entités avec une portée et une influence modestes (p. ex. Pierre Marie) ;
@@ -109,7 +108,7 @@ De plus, des calculs effectués à partir de la portée et de l'influence de Cha
 \item \textit{\textbf{leaders}} : entités les plus importantes, avec une grande portée, connues à grande échelle et dans plusieurs domaines, tout en étant reconnues comme ayant une grande influence (Charcot).
 \end{itemize}
 
-\begin{figure}[!ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{img/analyse_quadrant.png}
     \caption[Caption for LOF]{Positionnement de l'entité \texttt{Jean-Martin Charcot} au sein de son domaine et comparaison avec les entités les plus similaires à lui \textit{via} une analyse de quadrant de l'outil Rankingdom\protect\footnotemark{.}}
@@ -117,8 +116,23 @@ De plus, des calculs effectués à partir de la portée et de l'influence de Cha
     \label{fig:analyse_quadrant}
 \end{figure}
 
+\footnotetext{\url{https://www.rankingdom.org/entity/Q20710?search=jean-martin+charcot}. Le domaine dans lequel Charcot figure est relativement large, y compris les figures du domaine médical (p. ex. Bourneville), mais aussi littéraire (Arsène Arnaud Claretie).}
+
+\bigskip
+L'impact de Charcot peut également être visualisé à l'aide de Rankingdom à travers le graphique qui apporte une dimension temporelle (figure \ref{fig:impact_temporel}). Il s'agit notamment de la cumulation temporelle de son impact, où l'on peut observer qu'il s'étend sur la période 1856--1994. 
+
+\begin{figure}[hb]
+    \centering
+    \includegraphics[width=1\textwidth]{img/impact_temporel.png}
+    \caption[Caption for LOF]{Analyse temporelle de l'impact de l'entité \texttt{Jean-Martin Charcot} à l'aide de l'outil Rankingdom\protect\footnotemark{.}}
+    % Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
+    \label{fig:impact_temporel}
+\end{figure}
+
 \footnotetext{\url{https://www.rankingdom.org/entity/Q20710?search=jean-martin+charcot}.}
-\hl{desc brève des points principaux de cet outil : temporal analysis}
+
+Enfin, il est également possible de lister les entités impactées, comprenant les personnes (p. ex. Sigmund Freud), les notions médicales (SEP) ou bien les entités géographiques afférentes (Île Charcot).
+
 
 %Les humanités numériques au service de l'analyse des circulations culturelles
 %

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  28 AUG 2024 01:30
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  28 AUG 2024 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1451,9 +1451,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--294
 
 (./_main.lof
 LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
-(Font)              scaled to size 12.0pt on input line 19.
+(Font)              scaled to size 12.0pt on input line 20.
 
-Overfull \hbox (85.30316pt too wide) in paragraph at lines 20--20
+Overfull \hbox (85.30316pt too wide) in paragraph at lines 21--21
  [][] [][][]\T1/gentium/m/n/12 Les 15 termes les plus fré-quents par-ta-gés par
  les deux cor-pus se-lon \T1/lmtt/m/n/12 keyphrase-vectorizers\T1/gentium/m/n/1
 2 .[][] [][]  
@@ -1778,14 +1778,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [12]
-Overfull \hbox (6.12927pt too wide) in paragraph at lines 109--110
+Overfull \hbox (6.12927pt too wide) in paragraph at lines 108--109
 \T1/gentium/m/n/12 échelle et dans plu-sieurs do-maines, tout en étant re-con-n
 ues comme ayant une grande
  []
 
 File: img/analyse_quadrant.png Graphic file (type bmp)
 <img/analyse_quadrant.png>
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1795,6 +1798,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [13]
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . rankingdom
+ . org / entity / Q20710 ? search = jean -[] martin + charcot$[][]\T1/gentium/m
+/n/10 . Le do-
+ []
+
+File: img/impact_temporel.png Graphic file (type bmp)
+<img/impact_temporel.png>
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -2376,15 +2388,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: B72344FA30D7AAF90651B51E09E1B05C;5225.
+(rerunfilecheck)             Checksum: C4C8A6CCAE55E71729DCE1BE22171D97;5225.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: DFD85C3644E05D10CD75AD67F6AA157E;4955.
+(rerunfilecheck)             Checksum: 0229FD44D743D4FABC34276CE00D9D28;4955.
  ) 
 Here is how much of TeX's memory you used:
- 35977 strings out of 476683
- 711902 string characters out of 5804046
- 1858018 words of memory out of 5000000
- 55302 multiletter control sequences out of 15000+600000
+ 35987 strings out of 476683
+ 712147 string characters out of 5804046
+ 1857018 words of memory out of 5000000
+ 55311 multiletter control sequences out of 15000+600000
  614248 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,142p,2716b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
