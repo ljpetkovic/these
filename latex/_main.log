@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  28 AUG 2024 14:29
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  28 AUG 2024 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1450,6 +1450,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--294
  []
 
 (./_main.lof
+Overfull \hbox (4.94919pt too wide) in paragraph at lines 9--9
+ [][] [][][]\T1/gentium/m/n/12 Positionnement de l'en-tité \T1/lmtt/m/n/12 Jean
+-Martin Charcot \T1/gentium/m/n/12 au sein de son do-maine 
+ []
+
 LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
 (Font)              scaled to size 12.0pt on input line 20.
 
@@ -2386,9 +2391,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [39] (./_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: C4C8A6CCAE55E71729DCE1BE22171D97;5225.
