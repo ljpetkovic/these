@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  28 AUG 2024 16:37
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  1 SEP 2024 00:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -762,27 +762,7 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/abstract/abstract.sty
-Package: abstract 2009/06/08 v1.2a configurable abstracts
-\abstitleskip=\skip63
-\absleftindent=\skip64
-\absrightindent=\skip65
-\absparindent=\skip66
-\absparsep=\skip67
-
-
-! LaTeX Error: Environment abstract undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104   \renewenvironment{abstract}
-                                   {%
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -825,31 +805,31 @@ Package caption Info: french babel package is loaded.
 Package caption Info: float package is loaded.
 )
 \c@KVtest=\count337
-\sf@farskip=\skip68
+\sf@farskip=\skip63
 \sf@captopadj=\dimen320
-\sf@capskip=\skip69
-\sf@nearskip=\skip70
+\sf@capskip=\skip64
+\sf@nearskip=\skip65
 \c@subfigure=\count338
 \c@subfigure@save=\count339
 \c@lofdepth=\count340
 \c@subtable=\count341
 \c@subtable@save=\count342
 \c@lotdepth=\count343
-\sf@top=\skip71
-\sf@bottom=\skip72
+\sf@top=\skip66
+\sf@bottom=\skip67
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip73
-\f@nch@O@elh=\skip74
-\f@nch@O@erh=\skip75
-\f@nch@O@olh=\skip76
-\f@nch@O@orh=\skip77
-\f@nch@O@elf=\skip78
-\f@nch@O@erf=\skip79
-\f@nch@O@olf=\skip80
-\f@nch@O@orf=\skip81
+\f@nch@headwidth=\skip68
+\f@nch@O@elh=\skip69
+\f@nch@O@erh=\skip70
+\f@nch@O@olh=\skip71
+\f@nch@O@orh=\skip72
+\f@nch@O@elf=\skip73
+\f@nch@O@erf=\skip74
+\f@nch@O@olf=\skip75
+\f@nch@O@orf=\skip76
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -901,8 +881,8 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box71
-\beforetitleunit=\skip82
-\aftertitleunit=\skip83
+\beforetitleunit=\skip77
+\aftertitleunit=\skip78
 \ttl@plus=\dimen321
 \ttl@minus=\dimen322
 \ttl@toksa=\toks50
@@ -936,8 +916,8 @@ Package: mtcmess 2006/03/14
 Package minitoc Info: I0001
 (minitoc)             *** minitoc package, version 62 ***.
 \tf@mtc=\write4
-\mtcindent=\skip84
-\mtcskipamount=\skip85
+\mtcindent=\skip79
+\mtcskipamount=\skip80
 Package minitoc Info: I0005
 (minitoc)             compatible with hyperref.
 Package minitoc Info: I0023
@@ -968,7 +948,7 @@ Package minitoc Info: I0031
 \c@minitocdepth=\count367
 \c@ptc=\count368
 \c@parttocdepth=\count369
-\ptcindent=\skip86
+\ptcindent=\skip81
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
 (minitoc)              on input line 4910.
@@ -1116,7 +1096,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 \HyField@AnnotCount=\count380
 \Fld@listcount=\count381
 \c@bookmark@seq@number=\count382
-\Hy@SectionHShift=\skip87
+\Hy@SectionHShift=\skip82
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -1140,8 +1120,8 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \page@free=\dimen334
 \premulticols=\dimen335
 \postmulticols=\dimen336
-\multicolsep=\skip88
-\multicolbaselineskip=\skip89
+\multicolsep=\skip83
+\multicolbaselineskip=\skip84
 \partial@page=\box76
 \last@line=\box77
 \maxbalancingoverflow=\dimen337
@@ -1198,7 +1178,7 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 \everycr=\toks53
-\minrowclearance=\skip90
+\minrowclearance=\skip85
 \rownum=\count396
 )
 LaTeX Font Info:    Trying to load font information for T1+gentium on input lin
@@ -1509,6 +1489,10 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 2.
+LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
+(Font)              scaled to size 10.0pt on input line 5.
+LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 5.
  [1
 
 ])
@@ -1625,10 +1609,6 @@ wercase,Script=Cyrillic].
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 9.63623pt on input line 48.
-LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 10.0pt on input line 48.
-LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 48.
 
 Overfull \hbox (3.7334pt too wide) in paragraph at lines 50--52
 []\T1/gentium/m/n/12 Pour mieux com-prendre l'im-por-tance de ce chan-ge-ment d
@@ -2400,13 +2380,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: C4C8A6CCAE55E71729DCE1BE22171D97;5225.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 0229FD44D743D4FABC34276CE00D9D28;4955.
+(rerunfilecheck)             Checksum: 242448A5D9CAAC708F3CDD2B55CF2EA7;4999.
  ) 
 Here is how much of TeX's memory you used:
- 35987 strings out of 476683
- 712147 string characters out of 5804046
+ 35921 strings out of 476683
+ 710887 string characters out of 5804046
  1857018 words of memory out of 5000000
- 55311 multiletter control sequences out of 15000+600000
+ 55249 multiletter control sequences out of 15000+600000
  614248 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,142p,2716b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
