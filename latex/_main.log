@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  1 SEP 2024 00:04
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  11 SEP 2024 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1489,11 +1489,20 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 2.
+LaTeX Font Info:    Trying to load font information for TS1+gentium on input li
+ne 4.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/gentium-tug/ts1gentium.fd
+File: ts1gentium.fd 2022/05/30 Font definitions for gentium.
+)
+LaTeX Font Info:    Font shape `TS1/gentium/m/n' will be
+(Font)              scaled to size 12.0pt on input line 4.
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 10.0pt on input line 5.
+(Font)              scaled to size 10.0pt on input line 11.
 LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 5.
- [1
+(Font)              scaled to size 10.0pt on input line 11.
+
+[1
 
 ])
 
@@ -1636,14 +1645,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [5]
-LaTeX Font Info:    Trying to load font information for TS1+gentium on input li
-ne 67.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/gentium-tug/ts1gentium.fd
-File: ts1gentium.fd 2022/05/30 Font definitions for gentium.
-)
-LaTeX Font Info:    Font shape `TS1/gentium/m/n' will be
-(Font)              scaled to size 12.0pt on input line 67.
-
 Overfull \hbox (10.48698pt too wide) in paragraph at lines 70--71
 []\T1/gentium/m/n/12 Pierre Ja-net (1839-1916), phi-lo-sophe, neu-ro-logue et p
 sy-chiatre, concep-teur des termes
@@ -2380,7 +2381,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: C4C8A6CCAE55E71729DCE1BE22171D97;5225.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 242448A5D9CAAC708F3CDD2B55CF2EA7;4999.
+(rerunfilecheck)             Checksum: A50B7BC0B95A6CB4BB5ADA3C61C31FA1;4999.
  ) 
 Here is how much of TeX's memory you used:
  35921 strings out of 476683
