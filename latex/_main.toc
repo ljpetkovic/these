@@ -5,18 +5,19 @@
 \contentsline {section}{\numberline {2.2}Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}{5}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Pister la circulation du discours médical au prisme du numérique}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Modalités des circulations des savoirs}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}À partir de quel moment un concept devient-il pertinent ?}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.2}À partir de quel moment une forme linguistique devient-elle un \textit {concept} ?}{10}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Études numériques des circulations culturelles}{12}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Valorisation du fonds Charcot}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Description du fonds Charcot}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Constitution du corpus Charcot}{17}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Migration du discours médical de Charcot}{19}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{19}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Extraction des phrases-clés : méthodes statistiques}{20}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{22}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Librairie \texttt {keybert}}{23}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Approche \textit {PatternRank}}{24}{subsection.5.3.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{27}{chapter.6}%
+\contentsline {chapter}{\numberline {4}Valorisation du fonds Charcot}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Description du fonds Charcot}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Constitution du corpus Charcot}{19}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Migration du discours médical de Charcot}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Extraction des phrases-clés : méthodes statistiques}{22}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Extraction des phrases-clés : méthode à base d'apprentissage profond}{24}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Librairie \texttt {keybert}}{25}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Approche \textit {PatternRank}}{26}{subsection.5.3.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{29}{chapter.6}%
+\contentsline {chapter}{Annexe}{30}{chapter.6}%
 \partbegin 
-\contentsline {chapter}{\numberline {7}Annexe}{31}{chapter.7}%
-\contentsline {chapter}{Bibliographie}{33}{table.caption.17}%
+\contentsline {chapter}{\numberline {7}Annexe}{33}{chapter.7}%
+\contentsline {chapter}{Bibliographie}{35}{table.caption.17}%

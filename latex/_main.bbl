@@ -44,12 +44,29 @@ Bachelard, G. (1970).
 \newblock
   \url{https://www.academia.edu/27217437/BACHELARD_Gaston_\%C3\%89tudes_Vrin_1970_}.
 
+\bibitem[Bal, 2002]{bal2002travelling}
+Bal, M. (2002).
+\newblock {\em Travelling {C}oncepts in the {H}umanities: {A} {R}ough {G}uide}.
+\newblock University of Toronto Press.
+\newblock
+  \url{https://s3.amazonaws.com/arena-attachments/89974/705194c45c063480ed0bb3af6fdd2dfc.pdf}.
+
 \bibitem[Bernheim, 1891]{bernheim1891suggestion}
 Bernheim, H. (1891).
 \newblock {\em De la suggestion et de ses applications {\`a} la
   th{\'e}rapeutique}.
 \newblock Paris : Octave Doin.
 \newblock \url{https://gallica.bnf.fr/ark:/12148/bpt6k97805169}.
+
+\bibitem[Bezan{\c{c}}on \& Lejeune, 2023]{bezancon2023}
+Bezan{\c{c}}on, J. \& Lejeune, G. (2023).
+\newblock Reconnaissance de d{\'e}figements dans des tweets en fran{\c{c}}ais
+  par des mesures de similarit{\'e} sur des alignements textuels.
+\newblock In C. Servan \& A. Vilnat (Eds.), {\em Actes de CORIA-TALN 2023.
+  Actes de la 30\ieme{} Conf{\'e}rence sur le Traitement Automatique des
+  Langues Naturelles (TALN), volume 1 : travaux de recherche originaux --
+  articles longs}  (pp.\ 56--67).  Paris, France: ATALA.
+\newblock \url{https://aclanthology.org/2023.jeptalnrecital-long.5}.
 
 \bibitem[Bogousslavsky, 2011]{bogousslavsky2011following}
 Bogousslavsky, J. (2011).
@@ -298,6 +315,12 @@ Morin, C. \& M{\'e}sangeau, J. (2022).
 \newblock {\em Mots. Les langages du politique}, (pp.\ 57--78).
 \newblock \url{https://shs.cairn.info/revue-mots-2022-3-page-57?lang=fr}.
 
+\bibitem[Mounin, 1968]{mounin1968clefs}
+Mounin, G. (1968).
+\newblock {\em Clefs pour la linguistique}.
+\newblock Collection Clefs. Seghers.
+\newblock \url{https://books.google.fr/books?id=7SgDAAAAMAAJ}.
+
 \bibitem[Navarro \textit{et~al.}, 2023]{navarro2023clinical}
 Navarro, D.~F., Ijaz, K., Rezazadegan, D., Rahimi-Ardabili, H., Dras, M.,
   Coiera, E., \& Berkovsky, S. (2023).
@@ -463,6 +486,13 @@ Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
   Kaiser, L., \& Polosukhin, I. (2023).
 \newblock Attention {I}s {A}ll {Y}ou {N}eed.
 \newblock \url{https://arxiv.org/abs/1706.03762}.
+
+\bibitem[White, 1997]{white1997jean}
+White, M.~B. (1997).
+\newblock Jean-{M}artin {C}harcot's {C}ontributions to the {I}nterface
+  {B}etween {N}eurology and {P}sychiatry.
+\newblock {\em Canadian Journal of Neurological Sciences}, 24(3), 254--260.
+\newblock \url{https://doi.org/10.1017/S0317167100021909}.
 
 \bibitem[Willis, 1664]{willis1664cerebri}
 Willis, T. (1664).
