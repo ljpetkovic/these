@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  8 DEC 2024 18:57
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  9 DEC 2024 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1498,10 +1498,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
-(Font)              scaled to size 12.0pt on input line 61.
-
-Underfull \vbox (badness 2088) has occurred while \output is active []
-
+(Font)              scaled to size 12.0pt on input line 66.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1513,64 +1510,70 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 71.
+(Font)              scaled to size 10.0pt on input line 76.
 
-Overfull \hbox (4.47742pt too wide) in paragraph at lines 71--72
+Overfull \hbox (4.47742pt too wide) in paragraph at lines 76--77
 \T1/gentium/m/n/12 trice à l'égard de leur émer-gence, no-tam-ment pour dé-ter-
 mi-ner à quel mo-ment un concept
  []
 
+Missing character: There is no — ("2014) in font ec-gentiumplus-regular!
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 10.0pt on input line 82.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 86.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 86.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 86.
+(Font)              scaled to size 10.0pt on input line 89.
 
-Underfull \hbox (badness 5460) in paragraph at lines 86--86
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.05003pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.05003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-17.05003pt}.
+
+[4]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 93.
+
+Underfull \hbox (badness 5460) in paragraph at lines 93--93
 [][][]\T1/gentium/m/n/10 .[][]\T1/gentium/m/it/10 Cf. \T1/gentium/m/n/10 les pr
 o-jets de la chaire : [][]$\T1/lmtt/m/n/10 https : / / www . unige . ch / lettr
 es / humanites -[] numeriques /
  []
 
 
-Overfull \hbox (3.65735pt too wide) in paragraph at lines 86--87
+Overfull \hbox (3.65735pt too wide) in paragraph at lines 93--94
 []\T1/gentium/m/n/12 certaines chaires uni-ver-si-taires, no-tam-ment celle des
  Hu-ma-ni-tés nu-mé-riques à l'uni-
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.55003pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.55003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . fabula . o
 rg / actualites / 86846 / circulation -[] des -[] ecrits -[] litteraires -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . crihn . or
 g / nouvelles / 2022 / 12 / 11 / colloque -[] de -[] la -[] transformation -[]
  []
 
 LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
-(Font)              scaled to size 10.0pt on input line 119.
+(Font)              scaled to size 10.0pt on input line 126.
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 10.95pt on input line 120.
+(Font)              scaled to size 10.95pt on input line 127.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
-(Font)              scaled to size 10.95pt on input line 120.
+(Font)              scaled to size 10.95pt on input line 127.
 LaTeX Font Info:    Font shape `T1/gentium/b/sc' will be
-(Font)              scaled to size 10.95pt on input line 120.
+(Font)              scaled to size 10.95pt on input line 127.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1412) has occurred while \output is active []
 
 
 
@@ -1583,9 +1586,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5]
 LaTeX Font Info:    Font shape `T1/gentium/b/it' will be
-(Font)              scaled to size 12.0pt on input line 127.
+(Font)              scaled to size 12.0pt on input line 134.
 
-Overfull \hbox (6.12927pt too wide) in paragraph at lines 129--130
+Overfull \hbox (6.12927pt too wide) in paragraph at lines 136--137
 \T1/gentium/m/n/12 échelle et dans plu-sieurs do-maines, tout en étant re-con-n
 ues comme ayant une grande
  []
@@ -1593,9 +1596,9 @@ ues comme ayant une grande
 File: img/analyse_quadrant.png Graphic file (type bmp)
 <img/analyse_quadrant.png>
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 10.95pt on input line 135.
+(Font)              scaled to size 10.95pt on input line 142.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 135.
+(Font)              <10.95> on input line 142.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1609,7 +1612,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . rankingdom
  . org / entity / Q20710 ? search = jean -[] martin + charcot$[][]\T1/gentium/m
 /n/10 . Le do-
@@ -1916,12 +1919,12 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 3DC3FB9B6E2A34EE4D2A59F043671E61;1660.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 4E20AA542DE4E0D277EFB525A18AC435;2040.
+(rerunfilecheck)             Checksum: 14FD1628C28BB111AD824DA4049D50D2;2046.
  ) 
 Here is how much of TeX's memory you used:
  35620 strings out of 476683
  704850 string characters out of 5804046
- 1857018 words of memory out of 5000000
+ 1859018 words of memory out of 5000000
  55035 multiletter control sequences out of 15000+600000
  601012 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
