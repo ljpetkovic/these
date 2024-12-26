@@ -33,7 +33,7 @@ Le terme en question reste toutefois assez complexe en raison de visions différ
 
 Dans le cadre de l'analyse de l'impact scientifique de Charcot, nous étudions \textit{in fine} la circulation de ses théories et des concepts médicaux dont il était inventeur (p. ex. \textit{SLA}) et transmetteur (p. ex. \textit{hystérie})\footnote{Comme déjà expliqué dans la partie \ref{hysterie}, Charcot n'a pas inventé ce terme, mais en réinterprété le sens.}. Cette démarche nous oblige de :
 \begin{enumerate}
-\item formaliser en premier lieu la définition du terme \textsc{concept scientifique}, identifiable dans un corpus numérique, tout en prenant en compte les difficultés inhérentes à la définition du terme \textsc{concept} \textit{per se}, ainsi qu'à celle de ses termes apparentés : \textsc{mot-clé} ou \textsc{terme} (partie \ref{concept}) ;
+\item formaliser en premier lieu la définition du terme \textsc{concept scientifique}, identifiable dans un corpus numérique, tout en prenant en compte les difficultés inhérentes à la définition du terme \textsc{concept} \textit{per se}, ainsi qu'à celle de ses termes apparentés : \textsc{terme} ou \textsc{mot-clé} (partie \ref{concept}) ;
 \item comprendre, conceptualiser et opérationnaliser \og{}comment des concepts, des théories ou des méthodes circulent, s'échangent, s'empruntent, se transfèrent et se transforment dans le passage d'une discipline à une autre\fg{}, questionnement partagé avec \citeauthor{landais2014frederic} (\citeyear{landais2014frederic}, p.~331) (partie \ref{circulations}).
 \end{enumerate}
 
@@ -43,8 +43,53 @@ Dans le cadre de l'analyse de l'impact scientifique de Charcot, nous étudions \
 \section{À partir de quel moment une forme linguistique devient-elle un \textit{concept} ?}
 \label{concept}
 
-Les termes \textsc{mot-clé}, \textsc{terme} ou \textsc{concept} figurent parmi les notions fréquemment employées dans les disciplines aussi théoriques (linguistique générale, épistémologie ou philosophie) que numériques ou celles ayant un aspect appliqué (p. ex. traitement automatique des langues). 
-Malgré leur présence répandue dans les domaines cités, ainsi que leur utilisation devenue quasi banale dans le langage courant, ces notions demeurent sans définition définitive en raison de la disparité des contextes dans lesquels elles sont utilisées. 
+Les termes \textsc{concept}, \textsc{terme} ou \textsc{mot-clé} figurent parmi des notions fondamentales dans les disciplines aussi théoriques (linguistique générale, épistémologie ou philosophie) que numériques ou celles ayant un aspect appliqué (p. ex. traitement automatique des langues). 
+Malgré leur présence répandue dans les domaines cités, ainsi que leur utilisation devenue quasi banale dans le langage courant, ces notions demeurent sans définition fixe et universellement acceptée en raison de la disparité des contextes dans lesquels elles sont utilisées. Quelques remarques de \citeauthor{Lecourt1999} (\citeyear{Lecourt1999}, p.~261-263) méritent d'être soulignées ici :
+
+\begin{description}
+\item[Concept] L'invention de l'entité du concept remonte à l'ère d'Aristote, qui l'a caractérisé comme une abstraction, un mode de connaissance médiat et général, et comme mode de classification entre le genre et l'espèce (\textit{intension} et \textit{extension}, respectivement). Par exemple, l'intension du concept de chat est sa définition : \og{}animal à quattre pattes de la famille des félins\fg{}, tandis que son extension est un chat concret : le chat tigré, mon chat etc. Le concept est donc définissable et représente un résultat de l'abstraction du donné\footnote{Le concept de \og{}donné\fg{} est utilisé en philosophie pour désigner \og{}ce qui est immédiatement présent à l'esprit avant que celui-ci n'y applique ses procédés d'élaboration\fg{}, \url{http://stella.atilf.fr/Dendien/scripts/tlfiv5/advanced.exe?8;s=2289545040;.}} empirique qui forme une de ses extensions. Cette notion n'est pas à confondre avec celle de l'\textsc{idée}, qui représente elle-même l'objet de connaissance et la condition même du concept, distinction faite de manière systématique chez Kant.
+
+Au-delà des définitions des concepts présentées ci-dessus du point de vue phénoménologique, à travers l'intension et l'extension, un concept peut également être compris comme un élément d'un jugement, qui peut être une loi scientifique. En d'autres mots, la conception d'un concept inclut non seulement les descriptions d'un sujet en utilisant les prédicats à une place (un sujet \og{}le chat\fg{} et une propriété \og{}être noir\fg{} dans l'exemple \og{}le chat est noir\fg{}), mais s'étend aussi aux relations binaires (un sujet \og{}le chat\fg{} et un objet \og{}un chien\fg{} dans l'exemple \og{}le chat voit un chien\fg{}), ou même relations entre des concepts plus abstraits (\og{}Dans un triangle rectangle, le carré de la longueur de l'hypoténuse est égal à la somme des carrés des longueurs des deux côtés de l'angle droit\fg{}). Cette observation s'inscrit dans une conception des concepts plus \og{}inférentielle\fg{}.  
+\end{description}
+
+CONCEPT SCIENTIFIQUE : 
+\begin{itemize}
+\item \og{}ne peut pas laisser indifférent, implique et impose une prise de position\fg{} \citep[p.~11]{stengers1987d}
+\item pas de neutralité --> controversé, discussions, polémiques, consensus \citep[p.~12]{stengers1987d}
+\end{itemize}
+
+%Le mot \og{}concept\fg{} est un terme générique qui renvoie à un grand nombre de théories provenant de divers domaines de pensée, sans qu'il en existe une qui soit exhaustive et universellement acceptée.
+
+
+En revanche, selon les linguistes, un concept a une structure double, constituée du sens linguistique et culturel.
+%dont linguistique (générale, cognitive, psycholinguistique, ethnolinguistique), philosophie, métaphysique ou mathématiques
+Sa couche intérieure est constituée du noyau étymologique sur lequel repose ensuite la couche périphérique qui hérite les éléments formés par la culture, les traditions et les expériences humaines
+%\foreignlanguage{russian}{(Степанов, \citeyear{stepanov2007}}). 
+\footnote{En linguoculturologie, on retrouve le terme \og{}concept linguo-culturel\fg{} qui reflète cette nature double du concept.}. Il peut être exprimé par de différentes éléments du langage, soit : lexèmes, idiomes, collocations, phrases ou textes entiers \citep[p.~5]{nemickiene2011concept}. Dans le domaine du traitement automatique des langues (\textsc{TAL}), le terme \og concept \fg{} peut s'apparenter à celui des \og entités nommées \fg{}, comme en témoignent les recherches sur l'extraction automatique de la terminologie biomédicale (\citealp{jolly2024exploring,navarro2023clinical}). Un concept d'un domaine de connaissance peut faire partie d'un thésaurus, liste organisée de termes contrôlés et normalisés, auquel cas le concept est appelé \og descripteur \fg{}. \citep[p.~16]{RENNESSON202015}.
+
+Dans le souci de différencier ces notions à travers les disciplines citées, nous présentons ci-dessous quelques-uns de leurs traits discriminatoires qui ne prétendent être ni exhaustifs ni limitatifs :
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+        & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Philosophie\\ Épistémologie\end{tabular}} & \multicolumn{1}{c|}{Linguistique} & \multicolumn{1}{c|}{TAL} \\ \hline
+\textsc{Idée}    & objet de connaissance                                                                                          \citep[p.~261]{Lecourt1999} &                                   &                          \\ \hline
+\textsc{Concept} & représentation de l'objet de connaissance \citep[p.~261]{Lecourt1999}                                                                                       &                                   &                          \\ \hline
+\textsc{Terme}   &                                                                                          &                                   &                          \\ \hline
+\textsc{Mot-clé} &                                                                                          &                                   &                          \\ \hline
+\end{tabular}
+\end{table}
+
+%\begin{description}
+%    \item[Concept] ...
+%    \item[Mot-clé] ...
+%    \item[Terme] ...
+%\end{description}
+
+
+
+Pour nous, concept scientifique est opérationnalisé comme un terme scientifique.
 
 Un exemple de ce phénomène est le terme \textsc{mot}, qui véhicule une réalité particulière appartenant à chaque langue (\citeauthor{mounin1968clefs} \citeyear{mounin1968clefs}, p. 65). 
 
@@ -59,11 +104,7 @@ Même si l'on reprend la description de Saussure qui considère le mot comme \og
 \end{itemize}
 
 
-Le mot \og{}concept\fg{} est un terme générique qui renvoie à un grand nombre de théories provenant de divers domaines de pensée, sans qu'il en existe une qui soit exhaustive et universellement acceptée. D'après \citeauthor{Lecourt1999} (\citeyear{Lecourt1999}, p. 224), l'invention de l'entité du concept remonte à l'ère d'Aristote, qui l'a caractérisé comme une abstraction, un mode de connaissance à la fois médiat et général, et comme mode de classification entre le genre et l'espèce (\textit{intension} et \textit{extension}). En revanche, selon les linguistes, un concept a une structure double, constituée du sens linguistique et culturel.
-%dont linguistique (générale, cognitive, psycholinguistique, ethnolinguistique), philosophie, métaphysique ou mathématiques
-Sa couche intérieure est constituée du noyau étymologique sur lequel repose ensuite la couche périphérique qui hérite les éléments formés par la culture, les traditions et les expériences humaines
-%\foreignlanguage{russian}{(Степанов, \citeyear{stepanov2007}}). 
-\footnote{En linguoculturologie, on retrouve le terme \og{}concept linguo-culturel\fg{} qui reflète cette nature double du concept.}. Il peut être exprimé par de différentes éléments du langage, soit : lexèmes, idiomes, collocations, phrases ou textes entiers \citep[p.~5]{nemickiene2011concept}. Dans le domaine du traitement automatique des langues (\textsc{TAL}), le terme \og concept \fg{} peut s'apparenter à celui des \og entités nommées \fg{}, comme en témoignent les recherches sur l'extraction automatique de la terminologie biomédicale (\citealp{jolly2024exploring,navarro2023clinical}). Un concept d'un domaine de connaissance peut faire partie d'un thésaurus, liste organisée de termes contrôlés et normalisés, auquel cas le concept est appelé \og descripteur \fg{}. \citep[p.~16]{RENNESSON202015}.
+
 
 
 
