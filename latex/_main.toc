@@ -2,5 +2,5 @@
 \contentsline {chapter}{\numberline {1}Pister la circulation du discours médical au prisme du numérique}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Modalités des circulations des savoirs}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}À partir de quel moment une forme linguistique devient-elle un \textit {concept} ?}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Études numériques des circulations culturelles}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Études numériques des circulations culturelles}{6}{section.1.3}%
 \contentsline {chapter}{Bibliographie}{9}{figure.caption.5}%

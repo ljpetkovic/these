@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  26 DEC 2024 19:41
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  27 DEC 2024 17:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1504,14 +1504,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
-(Font)              scaled to size 12.0pt on input line 68.
-
-Overfull \hbox (66.3922pt too wide) in paragraph at lines 74--82
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+(Font)              scaled to size 12.0pt on input line 77.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1522,6 +1515,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.05003pt}.
 
 [3]
+Overfull \hbox (66.3922pt too wide) in paragraph at lines 83--91
+ [][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 29.05003pt, for example:
@@ -1532,59 +1529,63 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]
 LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 117.
+(Font)              scaled to size 10.0pt on input line 126.
 
-Overfull \hbox (4.47742pt too wide) in paragraph at lines 117--118
+Overfull \hbox (4.47742pt too wide) in paragraph at lines 126--127
 \T1/gentium/m/n/12 trice à l'égard de leur émer-gence, no-tam-ment pour dé-ter-
 mi-ner à quel mo-ment un concept
  []
 
 Missing character: There is no — ("2014) in font ec-gentiumplus-regular!
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 10.0pt on input line 130.
+(Font)              scaled to size 10.0pt on input line 139.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.55003pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                Make it at least 29.05003pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.05003pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+(fancyhdr)                \addtolength{\topmargin}{-17.05003pt}.
 
 [5]
-Underfull \hbox (badness 5460) in paragraph at lines 134--134
+Underfull \hbox (badness 5460) in paragraph at lines 143--143
 [][][]\T1/gentium/m/n/10 .[][]\T1/gentium/m/it/10 Cf. \T1/gentium/m/n/10 les pr
 o-jets de la chaire : [][]$\T1/lmtt/m/n/10 https : / / www . unige . ch / lettr
 es / humanites -[] numeriques /
  []
 
 
-Overfull \hbox (3.65735pt too wide) in paragraph at lines 134--135
+Overfull \hbox (3.65735pt too wide) in paragraph at lines 143--144
 []\T1/gentium/m/n/12 certaines chaires uni-ver-si-taires, no-tam-ment celle des
  Hu-ma-ni-tés nu-mé-riques à l'uni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . fabula . o
 rg / actualites / 86846 / circulation -[] des -[] ecrits -[] litteraires -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . crihn . or
 g / nouvelles / 2022 / 12 / 11 / colloque -[] de -[] la -[] transformation -[]
  []
 
 LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
-(Font)              scaled to size 10.0pt on input line 167.
+(Font)              scaled to size 10.0pt on input line 176.
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 10.95pt on input line 168.
+(Font)              scaled to size 10.95pt on input line 177.
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
-(Font)              scaled to size 10.95pt on input line 168.
+(Font)              scaled to size 10.95pt on input line 177.
 LaTeX Font Info:    Font shape `T1/gentium/b/sc' will be
-(Font)              scaled to size 10.95pt on input line 168.
+(Font)              scaled to size 10.95pt on input line 177.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1412) has occurred while \output is active []
 
 
 
@@ -1597,9 +1598,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6]
 LaTeX Font Info:    Font shape `T1/gentium/b/it' will be
-(Font)              scaled to size 12.0pt on input line 175.
+(Font)              scaled to size 12.0pt on input line 184.
 
-Overfull \hbox (6.12927pt too wide) in paragraph at lines 177--178
+Overfull \hbox (6.12927pt too wide) in paragraph at lines 186--187
 \T1/gentium/m/n/12 échelle et dans plu-sieurs do-maines, tout en étant re-con-n
 ues comme ayant une grande
  []
@@ -1607,9 +1608,9 @@ ues comme ayant une grande
 File: img/analyse_quadrant.png Graphic file (type bmp)
 <img/analyse_quadrant.png>
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 10.95pt on input line 183.
+(Font)              scaled to size 10.95pt on input line 192.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 183.
+(Font)              <10.95> on input line 192.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1623,7 +1624,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . rankingdom
  . org / entity / Q20710 ? search = jean -[] martin + charcot$[][]\T1/gentium/m
 /n/10 . Le do-
@@ -1920,13 +1921,18 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 347C0B3EA1781CC2E265A2103BEA11A8;1660.
-Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: AAC318DF9BDA7C175E8C0EB0690B06F5;2362.
+
+Package rerunfilecheck Warning: File `_main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `_main.brf':
+(rerunfilecheck)             Before: DABF0B6797412CDA34399A23702F80BC;2362
+(rerunfilecheck)             After:  6A0F73006FCE076827A46EA9CA955816;2362.
  ) 
 Here is how much of TeX's memory you used:
  35620 strings out of 476683
  704850 string characters out of 5804046
- 1858018 words of memory out of 5000000
+ 1859018 words of memory out of 5000000
  55035 multiletter control sequences out of 15000+600000
  601012 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
