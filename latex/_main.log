@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  27 DEC 2024 17:04
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  30 DEC 2024 04:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1503,9 +1503,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.05003pt}.
 
 [2]
+Overfull \hbox (0.74602pt too wide) in paragraph at lines 59--61
+\T1/gentium/m/n/12 tion ^^T col-lec-tive is-sue du contexte socio-historique (p
+. ex. in-té-rac-tion entre les scien-
+ []
+
 LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
 (Font)              scaled to size 12.0pt on input line 77.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 29.05003pt, for example:
@@ -1536,13 +1540,6 @@ Overfull \hbox (4.47742pt too wide) in paragraph at lines 126--127
 mi-ner à quel mo-ment un concept
  []
 
-Missing character: There is no — ("2014) in font ec-gentiumplus-regular!
-LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 10.0pt on input line 139.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 29.05003pt, for example:
@@ -1552,6 +1549,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.05003pt}.
 
 [5]
+Missing character: There is no — ("2014) in font ec-gentiumplus-regular!
+LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
+(Font)              scaled to size 10.0pt on input line 139.
+
 Underfull \hbox (badness 5460) in paragraph at lines 143--143
 [][][]\T1/gentium/m/n/10 .[][]\T1/gentium/m/it/10 Cf. \T1/gentium/m/n/10 les pr
 o-jets de la chaire : [][]$\T1/lmtt/m/n/10 https : / / www . unige . ch / lettr
@@ -1576,18 +1577,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--144
 g / nouvelles / 2022 / 12 / 11 / colloque -[] de -[] la -[] transformation -[]
  []
 
-LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
-(Font)              scaled to size 10.0pt on input line 176.
-LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
-(Font)              scaled to size 10.95pt on input line 177.
-LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
-(Font)              scaled to size 10.95pt on input line 177.
-LaTeX Font Info:    Font shape `T1/gentium/b/sc' will be
-(Font)              scaled to size 10.95pt on input line 177.
-
-Underfull \vbox (badness 1412) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1597,6 +1586,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [6]
+LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
+(Font)              scaled to size 10.0pt on input line 176.
+LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
+(Font)              scaled to size 10.95pt on input line 177.
+LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
+(Font)              scaled to size 10.95pt on input line 177.
+LaTeX Font Info:    Font shape `T1/gentium/b/sc' will be
+(Font)              scaled to size 10.95pt on input line 177.
 LaTeX Font Info:    Font shape `T1/gentium/b/it' will be
 (Font)              scaled to size 12.0pt on input line 184.
 
@@ -1611,10 +1608,6 @@ LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
 (Font)              scaled to size 10.95pt on input line 192.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 192.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1926,13 +1919,13 @@ Package rerunfilecheck Warning: File `_main.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `_main.brf':
-(rerunfilecheck)             Before: DABF0B6797412CDA34399A23702F80BC;2362
-(rerunfilecheck)             After:  6A0F73006FCE076827A46EA9CA955816;2362.
+(rerunfilecheck)             Before: 822EE8A04E2A4F173D73415449276CC0;2509
+(rerunfilecheck)             After:  D08D8BDD07A5B9AB92EA7A272F53864F;2509.
  ) 
 Here is how much of TeX's memory you used:
  35620 strings out of 476683
  704850 string characters out of 5804046
- 1859018 words of memory out of 5000000
+ 1857018 words of memory out of 5000000
  55035 multiletter control sequences out of 15000+600000
  601012 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
