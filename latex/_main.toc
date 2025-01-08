@@ -1,5 +1,6 @@
 \babel@toc {french}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}L'erreur comme source du progrès scientifique}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}{5}{section.2.2}%

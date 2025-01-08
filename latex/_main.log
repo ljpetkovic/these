@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 JAN 2025 14:09
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  8 JAN 2025 20:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1407,15 +1407,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--291
 LaTeX Font Info:    Font shape `T1/gentium/b/n' will be
 (Font)              scaled to size 12.0pt on input line 2.
 LaTeX Font Info:    Font shape `T1/gentium/b/it' will be
-(Font)              scaled to size 12.0pt on input line 3.
+(Font)              scaled to size 12.0pt on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
+(Font)              <6> on input line 5.
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 12.0pt on input line 8.
+(Font)              scaled to size 12.0pt on input line 9.
 LaTeX Font Info:    Font shape `T1/gentium/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 14.
+(Font)              scaled to size 12.0pt on input line 15.
 )
 \tf@toc=\write6
 \openout6 = `_main.toc'.
@@ -1439,7 +1439,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--322
  []
 
 Package minitoc Info: I0006
-(minitoc)             _main.mtc1 is empty on input line 325.
+(minitoc)             _main.mtc1 is empty on input line 324.
 (./1_intro.tex
 LaTeX Font Info:    Font shape `T1/gentium/m/n' will be
 (Font)              scaled to size 7.79993pt on input line 1.
@@ -1585,12 +1585,6 @@ wercase,Script=Cyrillic].
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 9.63623pt on input line 48.
 
-Overfull \hbox (3.7334pt too wide) in paragraph at lines 50--52
-[]\T1/gentium/m/n/12 Pour mieux com-prendre l'im-por-tance de ce chan-ge-ment d
-e pen-sée ra-di-cal, il convient
- []
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.55003pt}.
@@ -1599,9 +1593,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [4]
+Overfull \hbox (3.7334pt too wide) in paragraph at lines 50--52
+[]\T1/gentium/m/n/12 Pour mieux com-prendre l'im-por-tance de ce chan-ge-ment d
+e pen-sée ra-di-cal, il convient
+ []
+
 LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
 (Font)              scaled to size 10.0pt on input line 58.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1616,7 +1614,6 @@ Overfull \hbox (10.48698pt too wide) in paragraph at lines 70--71
 sy-chiatre, concep-teur des termes
  []
 
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1625,7 +1622,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[6]
+[6])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -2404,14 +2401,14 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 780D5EF3B294B652387E56B8AEED3E91;5165.
+(rerunfilecheck)             Checksum: 293414341FA9BC260E6A0799E968243A;5269.
 
 Package rerunfilecheck Warning: File `_main.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `_main.brf':
-(rerunfilecheck)             Before: E3008F7B34CD8FD48254347EA1C390E7;6488
-(rerunfilecheck)             After:  85862B2428A32B775676F88B6A65E8B1;6488.
+(rerunfilecheck)             Before: DBB6B9B2CB24FE3C62807A3B33AE501A;6598
+(rerunfilecheck)             After:  DFBC9D4E75AD048650C7F67BF146F4EB;6488.
  ) 
 Here is how much of TeX's memory you used:
  35931 strings out of 476683
