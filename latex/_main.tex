@@ -103,6 +103,8 @@
 
 %====================== INFORMATION ET REGLES ======================
 \usepackage{minitoc}
+% Enable minitocs for all chapters or sections
+\dominitoc
 %change TOC header
 \addto{\captionsfrench}{% Making babel aware of special titles
   \renewcommand{\mtctitle}{Sommaire}
@@ -320,9 +322,10 @@ pdfstartview={FitH},
 
 
 \chapter{Introduction}
-\minitoc
-\addcontentsline{toc}{chapter}{Introduction}
+%\minitoc
+%\addcontentsline{toc}{section}{Introduction}
 \input{1_intro}
+
 
 \chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
 \input{2_rupture}
