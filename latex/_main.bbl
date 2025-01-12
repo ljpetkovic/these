@@ -437,6 +437,13 @@ Roe, G., Fedchenko, V., \& Nicolosi, D.~M. (2023).
 \newblock In {\em Digital Humanities 2023}  (pp.\ 296--299).
 \newblock \url{https://doi.org/10.5281/zenodo.8107964}.
 
+\bibitem[Rumelhard, 1986]{rumelhard1986}
+Rumelhard, G. (1986).
+\newblock {\em La génétique et ses représentations dans l'enseignement}.
+\newblock Berne : Peter Lang.
+\newblock
+  \url{https://shs.cairn.info/mots-cles-de-la-didactique-des-sciences--9782804157166-page-23?lang=fr}.
+
 \bibitem[Schopf \textit{et~al.}, 2022]{schopf2022}
 Schopf, T., Klimek, S., \& Matthes, F. (2022).
 \newblock Pattern{R}ank: {L}everaging {P}retrained {L}anguage {M}odels and
