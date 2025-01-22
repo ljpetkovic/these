@@ -80,7 +80,18 @@ Concernant plus précisément le concept scientifique, l'épistémologie en esqu
 \item le concept scientifique peut être compris comme un n\oe{}ud dans un réseau de relations organisé, au sein duquel il dialogue avec d'autres concepts et théories scientifiques.
 \end{itemize}
 
-Si nous nous limitons aux théories abordées jusqu'à maintenant, nous pouvons considérer que les concepts médicaux de Charcot ont eu le rôle des vecteurs de la crise conceptuelle, ce qui représentait une forme de \textit{Sattelzeit} dans le domaine de la médecine. Autrement dit, ces concepts ont été détournés de leurs sens initiaux ayant une apparence formelle neutre (descriptions des pathologies), vers ceux exerçant un certain impact sur la communauté scientifique que nous souhaitons mesurer informatiquement. Néanmoins, l'analyse numérique des concepts n'est pas une tâche triviale, puisque tous les logiciels ne traitent pas des textes de la même manière. En effet, les logiciels comme \textsc{TXM}\footnote{\url{https://txm.gitpages.huma-num.fr/textometrie/}}, Sketch Engine\footnote{\url{https://www.sketchengine.eu/}} ou \textsc{IR}a\textsc{M}u\textsc{T}e\textsc{Q}\footnote{\url{http://www.iramuteq.org/}} traitent les documents comme des séquences de formes graphiques (p. ex. \og{}hystérie\fg{} et \og{}arthrite déformante\fg{} sont composées d'une et de deux formes graphiques, respectivement). Il s'agit des séquences contiguës de caractères alphabétiques délimités par des non-lettres ou les délimiteurs, qui peuvent être considérées comme des informations potentiellement  pertinentes pour une étude. D'autres logiciels, comme \textsc{N}oo\textsc{J}\footnote{\url{https://nooj.univ-fcomte.fr/}}, pourraient traiter ces informations comme les \textit{unités linguistiques atomiques} \citep[pp.~2-3]{silberztein2022linguistic}, quel que soit le nombre de formes graphiques, afin de rendre les analyses plus fiables. Ainsi, les formes \og{}hystérie\fg{} et \og{}arthrite déformante\fg{} seraient toutes les deux traitées comme une unité linguistique atomique.
+Si nous nous limitons aux théories abordées jusqu'à maintenant, nous pouvons considérer que les concepts médicaux de Charcot ont eu le rôle des vecteurs de la crise conceptuelle, ce qui représentait une forme de \textit{Sattelzeit} dans le domaine de la médecine. Autrement dit, ces concepts ont été détournés de leurs sens initiaux ayant une apparence formelle neutre (descriptions des pathologies), vers ceux exerçant un certain impact sur la communauté scientifique que nous souhaitons mesurer informatiquement. Néanmoins, l'analyse numérique des concepts n'est pas une tâche triviale non plus, car tous les logiciels ne traitent pas des textes de la même manière. D'après \citeauthor{silberztein2022linguistic} (\citeyear{silberztein2022linguistic}, p.~2), les logiciels comme \textsc{TXM}\footnote{\url{https://txm.gitpages.huma-num.fr/textometrie/}}, Sketch Engine\footnote{\url{https://www.sketchengine.eu/}} ou \textsc{IR}a\textsc{M}u\textsc{T}e\textsc{Q}\footnote{\url{http://www.iramuteq.org/}} traitent les documents comme des \textit{séquences de formes graphiques} (dans notre cas, les séquences \og{}hystérie\fg{} et \og{}arthrite déformante\fg{} seraient composées d'une et de deux formes graphiques, respectivement). Ces formes sont définies comme les séquences contiguës de caractères alphabétiques délimités par des non-lettres ou les délimiteurs, qui peuvent être considérées comme des informations potentiellement  pertinentes pour une étude. D'autres logiciels, comme \textsc{N}oo\textsc{J}\footnote{\url{https://nooj.univ-fcomte.fr/}}, peuvent traiter ces séquences comme les \textit{unités linguistiques atomiques}, quel que soit le nombre de formes graphiques \citep[pp.~2-3]{silberztein2022linguistic}. Ainsi, l'unité linguistique atomique \og{}hystérie\fg{} serait recensée dans un dictionnaire des entrées lexicales simples (\textsc{DELAS}), tandis que \og{}arthrite déformante\fg{} ferait partie du dictionnaire des entrées lexicales composées (\textsc{DELAC}).
+
+
+\begin{itemize}
+\item extraction terminologique \texttt{TermSuite} \citep{cram2016terminology}
+\item approche linguistique : analyse syntaxique, POS tagging qui a ses limitations
+\item approche statistique, mesure de pertinence : \textit{termhood} et \textit{unithood} \citep[pp.~6-7]{kageura1996}
+\item approche apprentissage machine / profond : \citep{tran2023recent}
+\item Pour nous, concept scientifique est opérationnalisé comme un terme scientifique.
+\end{itemize}
+
+
 
 %Motasem :
 %revenir sur les concepts de l'index
@@ -110,7 +121,7 @@ Un exemple de ce phénomène est le terme \textsc{mot}, qui véhicule une réali
 
 Nous n'entendons pas le terme \textsc{concept} dans le sens de Saussure,.... signe = concept (signifié) + image acoustique (signifiant)
 
-Même si l'on reprend la description de Saussure qui considère le mot comme \og une image acoustique associé à un concept \fg{}, nous nous heurtons ensuite au problème de la définition du terme \textsc{concept}. Le structuralisme linguistique de Bloomfield souligne ce point, en ajoutant que les linguistes ne sont pas outillés pour démêler complètement ce réseau complexe. Ce structuraliste poursuit en disant que le langage peut en effet être perçu comme une abstraction construite à partir de nos connaissances sur celui-ci, mais qu'il faut \og décrire d'abord le fonctionnement de cet instrument de communication \fg{} et expliquer comment nous (dé)construisons les énoncés en tant que locuteurs ou auditeurs (\citeauthor{mounin1968clefs} \citeyear{mounin1968clefs}, pp. 94-95).
+Même si l'on reprend la description de Saussure qui considère le mot comme \og une image acoustique associé à un concept \fg{}, nous nous heurtons ensuite au problème de la définition du terme \textit{concept}. Le structuralisme linguistique de Bloomfield souligne ce point, en ajoutant que les linguistes ne sont pas outillés pour démêler complètement ce réseau complexe. Ce structuraliste poursuit en disant que le langage peut en effet être perçu comme une abstraction construite à partir de nos connaissances sur celui-ci, mais qu'il faut \og décrire d'abord le fonctionnement de cet instrument de communication \fg{} et expliquer comment nous (dé)construisons les énoncés en tant que locuteurs ou auditeurs (\citeauthor{mounin1968clefs} \citeyear{mounin1968clefs}, pp. 94-95).
 
 \begin{itemize}
 \item ok, et c'est quoi le concept en linguistique (de Saussure) et en analyse du discours
@@ -135,8 +146,6 @@ Dans le souci de différencier ces notions à travers les disciplines citées, n
 \textsc{Mot-clé} &                                                                                          &                                   &                          \\ \hline
 \end{tabular}
 \end{table}
-
-Pour nous, concept scientifique est opérationnalisé comme un terme scientifique.
 
 \begin{itemize}
 \item \textbf{Proposer de formaliser la définition du concept (identifiables dans un corpus), mots clés ? Embeddings ? —>} 

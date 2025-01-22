@@ -150,6 +150,13 @@ Christin, O. (2011).
 \newblock
   \url{https://editions-metailie.com/livre/dictionnaire-des-concepts-nomades-en-sciences-humaines/}.
 
+\bibitem[Cram \& Daille, 2016]{cram2016terminology}
+Cram, D. \& Daille, B. (2016).
+\newblock Terminology {E}xtraction with {T}erm {V}ariant {D}etection.
+\newblock In {\em Proceedings of ACL-2016 system demonstrations}  (pp.\
+  13--18).
+\newblock \url{https://aclanthology.org/P16-4003.pdf}.
+
 \bibitem[Devlin \textit{et~al.}, 2019]{devlin2019}
 Devlin, J., Chang, M.-W., Lee, K., \& Toutanova, K. (2019).
 \newblock Bert: Pre-training of {D}eep {B}idirectional {T}ransformers for
@@ -241,6 +248,13 @@ Joyeux-Prunel, B. \& Gabay, S. (2022).
 \newblock Circulations des savoirs, de la recherche {\`a} l'enseignement.
 \newblock {\em Arabesques}.
 \newblock \url{https://doi.org/10.35562/arabesques.2847}.
+
+\bibitem[Kageura \& Umino, 1996]{kageura1996}
+Kageura, K. \& Umino, B. (1996).
+\newblock Methods of {A}utomatic {T}erm {R}ecognition: {A} {R}eview.
+\newblock {\em Terminology. International Journal of Theoretical and Applied
+  Issues in Specialized Communication}, 3(2), 259--289.
+\newblock \url{https://doi.org/10.1075/term.3.2.03kag}.
 
 \bibitem[Kant, 1863]{kant1863}
 Kant, {\'E}. (1863).
@@ -494,6 +508,13 @@ Teive, H. A.~G., Germiniani, F., Munhoz, R.~P., \& Paola, L.~d. (2014).
 \newblock 126 hysterical years - the contribution of {C}harcot.
 \newblock {\em Arquivos de Neuro-Psiquiatria}, 72, 636--639.
 \newblock \url{https://doi.org/10.1590/0004-282x20140068. PMID: 25098481}.
+
+\bibitem[Tran \textit{et~al.}, 2023]{tran2023recent}
+Tran, H. T.~H., Martinc, M., Caporusso, J., Doucet, A., \& Pollak, S. (2023).
+\newblock The {R}ecent {A}dvances in {A}utomatic {T}erm {E}xtraction: {A}
+  {S}urvey.
+\newblock {\em arXiv preprint arXiv:2301.06767}.
+\newblock \url{https://arxiv.org/pdf/2301.06767}.
 
 \bibitem[Tubbs \textit{et~al.}, 2008]{tubbs2008costanzo}
 Tubbs, R.~S., Loukas, M., Shoja, M.~M., Apaydin, N., Ardalan, M.~R., Shokouhi,
