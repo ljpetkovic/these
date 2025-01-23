@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  22 JAN 2025 21:37
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  23 JAN 2025 02:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1784,13 +1784,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-Overfull \hbox (0.16914pt too wide) in paragraph at lines 83--84
+Overfull \hbox (0.16914pt too wide) in paragraph at lines 85--86
 []\T1/gentium/m/n/12 Si nous nous li-mi-tons aux théo-ries abor-dées jus-qu'à m
 ain-te-nant, nous pou-vons consi-
  []
 
 
-Overfull \hbox (8.1385pt too wide) in paragraph at lines 89--90
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+
+[16]
+Overfull \hbox (8.1385pt too wide) in paragraph at lines 92--93
 []\T1/gentium/m/n/12 approche sta-tis-tique, me-sure de per-ti-nence : \T1/gent
 ium/m/it/12 term-hood \T1/gentium/m/n/12 et \T1/gentium/m/it/12 uni-thood \T1/g
 entium/m/n/12 ([][][]\T1/gentium/m/sc/12 Ka-geura & Umino\T1/gentium/m/n/12 ,
@@ -1798,47 +1806,39 @@ entium/m/n/12 ([][][]\T1/gentium/m/sc/12 Ka-geura & Umino\T1/gentium/m/n/12 ,
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[16]
-Overfull \hbox (77.40817pt too wide) in paragraph at lines 137--148
+[17]
+Overfull \hbox (77.40817pt too wide) in paragraph at lines 140--151
  [][] 
  []
 
 Missing character: There is no — ("2014) in font ec-gentiumplus-bold!
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[17]
-Underfull \hbox (badness 5460) in paragraph at lines 165--165
+Underfull \hbox (badness 5460) in paragraph at lines 168--168
 [][][]\T1/gentium/m/n/10 .[][]\T1/gentium/m/it/10 Cf. \T1/gentium/m/n/10 les pr
 o-jets de la chaire : [][]$\T1/lmtt/m/n/10 https : / / www . unige . ch / lettr
 es / humanites -[] numeriques /
  []
 
 
-Overfull \hbox (3.65735pt too wide) in paragraph at lines 165--166
+Overfull \hbox (3.65735pt too wide) in paragraph at lines 168--169
 []\T1/gentium/m/n/12 certaines chaires uni-ver-si-taires, no-tam-ment celle des
  Hu-ma-ni-tés nu-mé-riques à l'uni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . fabula . o
 rg / actualites / 86846 / circulation -[] des -[] ecrits -[] litteraires -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . crihn . or
 g / nouvelles / 2022 / 12 / 11 / colloque -[] de -[] la -[] transformation -[]
  []
@@ -1852,13 +1852,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [18]
-Overfull \hbox (6.12927pt too wide) in paragraph at lines 208--209
-\T1/gentium/m/n/12 échelle et dans plu-sieurs do-maines, tout en étant re-con-n
-ues comme ayant une grande
- []
-
-File: img/analyse_quadrant.png Graphic file (type bmp)
-<img/analyse_quadrant.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1868,7 +1861,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+Overfull \hbox (6.12927pt too wide) in paragraph at lines 211--212
+\T1/gentium/m/n/12 échelle et dans plu-sieurs do-maines, tout en étant re-con-n
+ues comme ayant une grande
+ []
+
+File: img/analyse_quadrant.png Graphic file (type bmp)
+<img/analyse_quadrant.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 [][][]\T1/gentium/m/n/10 .[][][][]$\T1/lmtt/m/n/10 https : / / www . rankingdom
  . org / entity / Q20710 ? search = jean -[] martin + charcot$[][]\T1/gentium/m
 /n/10 . Le do-
@@ -1890,6 +1891,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout7 = `_main.brf'.
 
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+
+[21]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+
+[22
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
@@ -1932,9 +1953,7 @@ Underfull \hbox (badness 2799) in paragraph at lines 67--67
  in the Hu-ma-ni-ties : A Rough Guide\T1/gentium/m/n/12 .  Uni-ver-
  []
 
-[21
-
-]
+[23]
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
 (Font)              scaled to size 7.79993pt on input line 84.
 
@@ -1981,7 +2000,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22]
+[24]
 Underfull \hbox (badness 1127) in paragraph at lines 152--152
 \T1/gentium/m/n/12 lié.  [][]$\T1/lmtt/m/n/12 https : / / editions -[] metailie
  . com / livre / dictionnaire -[] des -[] concepts -[]
@@ -1995,28 +2014,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 232--232
 []\T1/gentium/m/n/12 Hobsbawm, E. (2010).  \T1/gentium/m/it/12 The Age of Re-vo
 -lu-tion : 1789-1848\T1/gentium/m/n/12 .  Ha-chette UK.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 232--232
 [][]$\T1/lmtt/m/n/12 https : / / files . libcom . org / files / Eric % 20Hobsba
 wm % 20 -[] %20Age % 20Of %
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 285--285
+Underfull \hbox (badness 1275) in paragraph at lines 292--292
 \T1/gentium/m/n/12 Grund-be-griffe : (Ba-sic Concepts in His-tory : A His-to-ri
 -cal Dic-tio-nary of Po-li-ti-cal
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 299--299
-[]\T1/gentium/m/n/12 Kuhn, T. S. (1962).  \T1/gentium/m/it/12 The Struc-ture of
- Scien-ti-fic Re-vo-lu-tions\T1/gentium/m/n/12 .  Uni-ver-sity of Chi-cago
  []
 
 
@@ -2027,50 +2040,55 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
+[26]
+Underfull \hbox (badness 1577) in paragraph at lines 306--306
+[]\T1/gentium/m/n/12 Kuhn, T. S. (1962).  \T1/gentium/m/it/12 The Struc-ture of
+ Scien-ti-fic Re-vo-lu-tions\T1/gentium/m/n/12 .  Uni-ver-sity of Chi-cago
+ []
+
 Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 Missing character: There is no ‪ ("202A) in font ec-gentiumplus-regular!
 
-Underfull \hbox (badness 3525) in paragraph at lines 307--307
+Underfull \hbox (badness 3525) in paragraph at lines 314--314
 []\T1/gentium/m/n/12 Landais, É. (2014).  ^^S Fré-dé-ric Dar-bel-lay, éd., \T1/
 gentium/m/it/12 La cir-cu-la-tion des sa-voirs. In-ter-dis-
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 307--307
+Underfull \hbox (badness 3168) in paragraph at lines 314--314
 \T1/gentium/m/it/12 ci-pli-na-rité, concepts no-mades, ana-lo-gies, mé-ta-phore
 s \T1/gentium/m/n/12 ^^T : Berne, P. Lang, 2012, 245
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 307--307
+Underfull \hbox (badness 1348) in paragraph at lines 314--314
 \T1/gentium/m/n/12 pages.  \T1/gentium/m/it/12 Ques-tions de com-mu-ni-ca-tion\
 T1/gentium/m/n/12 , 26, 331--333.  [][]$\T1/lmtt/m/n/12 https : / / doi . org /
  10 . 4000 /
  []
 
 
-Underfull \hbox (badness 4341) in paragraph at lines 322--322
+Underfull \hbox (badness 4341) in paragraph at lines 329--329
 []\T1/gentium/m/n/12 Lecourt, D., Ed. (1999).  \T1/gentium/m/it/12 Dic-tion-nai
 re d'his-toire et phi-lo-so-phie des sciences\T1/gentium/m/n/12 .  Puf.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 [][]$\T1/lmtt/m/n/12 https : / / www . librairiedalloz . fr / livre / 978213054
 4999 -[] dictionnaire -[] d -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 \T1/lmtt/m/n/12 histoire -[] et -[] philosophie -[] des -[] sciences -[] 4e -[]
  edition -[] dominique -[] lecourt/$[][]\T1/gentium/m/n/12 .
  []
 
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
-(Font)              scaled to size 8.0pt on input line 332.
+(Font)              scaled to size 8.0pt on input line 339.
 
-Underfull \hbox (badness 4378) in paragraph at lines 339--339
+Underfull \hbox (badness 4378) in paragraph at lines 346--346
 \T1/gentium/m/n/12 Comté.  [][]$\T1/lmtt/m/n/12 https : / / mirbeau . asso . fr
  / darticlesfrancais / Marquer -[] Mirbeau %
  []
@@ -2083,8 +2101,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
 \T1/lmtt/m/n/12 unige . ch / access / metadata / fc3fad28 -[] 5b90 -[] 42ec -[]
  bea5 -[] 0c6d54cb5452 /
  []
@@ -2092,48 +2110,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 380--380
 Missing character: There is no ’ ("2019) in font ec-gentiumplus-regular!
 Missing character: There is no ’ ("2019) in font ec-gentiumplus-regular!
 
-Underfull \hbox (badness 4647) in paragraph at lines 417--417
+Underfull \hbox (badness 4647) in paragraph at lines 424--424
 []\T1/gentium/m/n/12 Rey, A. (1998).  \T1/gentium/m/it/12 Dic-tion-naire his-to
 -rique de la langue fran-çaise. Tome 2\T1/gentium/m/n/12 .  Le Ro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \T1/gentium/m/n/12 bert.  [][]$\T1/lmtt/m/n/12 https : / / www . plouffe . fr /
  simon / Dictionnaires / Le % 20Robert %
  []
 
 LaTeX Font Info:    Font shape `TS1/gentium/m/it' will be
-(Font)              scaled to size 12.0pt on input line 438.
-
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
-[]\T1/gentium/m/n/12 Robertson, S. E. & Jones, K. S. (1976).  Re-le-vance Weigh
--ting of Search
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
-\T1/gentium/m/n/12 Terms.  \T1/gentium/m/it/12 Jour-nal of the Ame-ri-can So-ci
-ety for In-for-ma-tion science\T1/gentium/m/n/12 , 27(3),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
-\T1/gentium/m/n/12 129--146.  [][]$\T1/lmtt/m/n/12 https : / / asistdl . online
-library . wiley . com / doi /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
-\T1/lmtt/m/n/12 pdf / 10 . 1002 / asi . 4630270302 ? casa _ token = TfyVkMGkDQs
-AAAAA :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
-\T1/lmtt/m/n/12 TCuXWzGHjo31RdxGR9jECRG2rZzqv0K3GOzHF7yAa2NfxtDFqxe -[]
- []
-
+(Font)              scaled to size 12.0pt on input line 445.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2142,14 +2131,61 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
-Underfull \hbox (badness 2762) in paragraph at lines 460--460
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]\T1/gentium/m/n/12 Robertson, S. E. & Jones, K. S. (1976).  Re-le-vance Weigh
+-ting of Search
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+\T1/gentium/m/n/12 Terms.  \T1/gentium/m/it/12 Jour-nal of the Ame-ri-can So-ci
+ety for In-for-ma-tion science\T1/gentium/m/n/12 , 27(3),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+\T1/gentium/m/n/12 129--146.  [][]$\T1/lmtt/m/n/12 https : / / asistdl . online
+library . wiley . com / doi /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+\T1/lmtt/m/n/12 pdf / 10 . 1002 / asi . 4630270302 ? casa _ token = TfyVkMGkDQs
+AAAAA :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+\T1/lmtt/m/n/12 TCuXWzGHjo31RdxGR9jECRG2rZzqv0K3GOzHF7yAa2NfxtDFqxe -[]
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 467--467
 \T1/gentium/m/n/12 Pe-ter Lang.  [][]$\T1/lmtt/m/n/12 https : / / shs . cairn .
  info / mots -[] cles -[] de -[] la -[] didactique -[] des -[]
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 484--484
+Underfull \hbox (badness 3396) in paragraph at lines 476--476
+[]\T1/gentium/m/n/12 Saussure, F. d., Bally, C., Se-che-haye, A., & Ried-lin-ge
+r, A. (1915).  \T1/gentium/m/it/12 Cours de lin-
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 476--476
+\T1/gentium/m/it/12 guis-tique gé-né-rale / Fer-di-nand de Saus-sure ; pu-blié 
+par Charles Bailly et Al-bert Sé-che-
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 476--476
+\T1/gentium/m/it/12 haye avec la col-la-bo-ra-tion de Al-bert Ried-lin-ger\T1/g
+entium/m/n/12 .  Grande bi-blio-thèque Payot. Ge-
+ []
+
+
+Underfull \hbox (badness 5862) in paragraph at lines 500--500
 []\T1/gentium/m/n/12 Soulet, A. (2024).  Vers l'ana-lyse à la de-mande des conn
 ais-sances de Wi-ki-
  []
@@ -2162,8 +2198,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27]
-Underfull \hbox (badness 1107) in paragraph at lines 561--561
+[29]
+Underfull \hbox (badness 1107) in paragraph at lines 577--577
 \T1/gentium/m/n/12 Ty-pis Ja. Fle-sher, im-pen-sis Jo. Mar-tyn & Ja. Al-les-try
 , apud in-signe Cam-panæ in
  []
@@ -2193,7 +2229,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28] (./_main.aux)
+[30] (./_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2204,17 +2240,17 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 3452B9A464317163D824C547003BBE34;4157.
+(rerunfilecheck)             Checksum: 59A8B100E099B12F1AADEFDBEFCAC3EA;4529.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 65F2B9694F4ACECB52B792ED2E4927E7;6624.
+(rerunfilecheck)             Checksum: 9CEA383073F3605BA1AE5338C13E3463;6821.
  ) 
 Here is how much of TeX's memory you used:
- 35836 strings out of 476683
- 709760 string characters out of 5804046
- 1859018 words of memory out of 5000000
- 55209 multiletter control sequences out of 15000+600000
+ 35852 strings out of 476683
+ 710026 string characters out of 5804046
+ 1858018 words of memory out of 5000000
+ 55225 multiletter control sequences out of 15000+600000
  605570 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,19n,142p,2716b,687s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,142p,2716b,685s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.pdf (30 pages).
+Output written on _main.pdf (32 pages).

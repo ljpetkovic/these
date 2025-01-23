@@ -162,6 +162,13 @@ Devlin, J., Chang, M.-W., Lee, K., \& Toutanova, K. (2019).
 \newblock Bert: Pre-training of {D}eep {B}idirectional {T}ransformers for
   {L}anguage {U}nderstanding.
 
+\bibitem[Drouin, 2003]{drouin2003}
+Drouin, P. (2003).
+\newblock Term extraction using non-technical corpora as a point of leverage.
+\newblock {\em Terminology. International Journal of Theoretical and Applied
+  Issues in Specialized Communication}, 9(1), 99--115.
+\newblock \url{https://doi.org/10.1075/term.9.1.06dro}.
+
 \bibitem[Gabay \textit{et~al.}, 2021]{gabay2021katabase}
 Gabay, S., Petkovic, L., Bartz, A., Levenson, M.~G., \& Du~Noyer, L.~R. (2021).
 \newblock Katabase: {\`A} la recherche des manuscrits vendus.
@@ -457,6 +464,15 @@ Rumelhard, G. (1986).
 \newblock Berne : Peter Lang.
 \newblock
   \url{https://shs.cairn.info/mots-cles-de-la-didactique-des-sciences--9782804157166-page-23?lang=fr}.
+
+\bibitem[Saussure \textit{et~al.}, 1915]{saussure1915}
+Saussure, F.~d., Bally, C., Sechehaye, A., \& Riedlinger, A. (1915).
+\newblock {\em Cours de linguistique générale / Ferdinand de Saussure ;
+  publié par Charles Bailly et Albert Séchehaye avec la collaboration de
+  Albert Riedlinger}.
+\newblock Grande bibliothèque Payot. Genève: Payot.
+\newblock
+  \url{https://www.arbredor.com/collections/etudes-et-essais/77-cours-de-linguistique-generale}.
 
 \bibitem[Schopf \textit{et~al.}, 2022]{schopf2022}
 Schopf, T., Klimek, S., \& Matthes, F. (2022).
