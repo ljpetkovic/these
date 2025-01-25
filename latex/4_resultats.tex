@@ -19,6 +19,18 @@ Concernant l'alignement des séquences similaires aux deux corpus, \textsc{TextP
     \caption{Alignement et comparaison d'un texte de Charcot à celui de Georges Gilles de la Tourette (le seul résultat) en lançant la requête \textit{sclérose latérale amyotrophique}.}
     \label{fig:textpair}
 \end{figure}
+
+\section{Extraction de la terminologie : approche linguistique}
+Approche linguistique
+
+Explication des étiquettes POS
+\begin{figure}[H] % Use [H] to force the figure to stay in place
+	\centering
+	\includegraphics[width=\linewidth]{img/repartition_POS.png}
+	\caption{Analyse comparative des séquences syntaxiques constituant les termes scientifiques dans le corpus \og{}Charcot\fg{} et \og{}Autres\fg{}.}
+	\label{fig:changement_paradigme}
+\end{figure}
+
 \section{Extraction des phrases-clés : méthodes statistiques}
 \label{methodo_stat}
 Afin de surmonter les limites rencontrées avec ces deux outils, nous avons proposé une nouvelle méthode pour identifier des concepts dans les deux corpus en nous basant sur le poids de leur apparition, calculé selon trois différentes mesures de pondération\footnote{Le code est disponible en ligne : \url{https://github.com/ljpetkovic/Charcot\_circulations}.} :
@@ -41,6 +53,8 @@ Comme nous pouvons l'observer sur la figure \ref{fig:bm25}, la mesure \textsc{BM
 
 D'autre part, nous avons utilisé \textsc{BERT} pour mesurer le poids des termes dans les deux corpus. Bien que ce type de modèle ne fournisse pas directement de poids pour les mots, nous pourrions cependant en extraire des informations utiles pour estimer l'importance ou le poids des mots dans les textes. Différentes approches sont généralement utilisées pour obtenir une représentation de l'importance des mots, en exploitant les informations des plongements lexicaux et des mécanismes d'attention \citep{vaswani2023}. Pour ce travail en cours, nous avons utilisé le modèle \texttt{bert-base-multilingual-cased}. Les premiers résultats obtenus se trouvent dans le tableau \ref{tab:calculs_stat} et restent à améliorer. Cependant, nous avons observé que les termes les plus pertinents pour le discours de Charcot étaient ceux qui désignent les noms des différentes pathologies (\textit{diplopie}, \textit{myélite partielle}, \textit{état de mal épileptique}, \textit{paralysie labio-glosso-laryngée} etc.), contrairement à d'autres notions plus abstraites (\textit{vicieuses}, \textit{délire}, \textit{miracle}) qui sont prédominantes dans le corpus
 \og{}Autres\fg{} (termes non renseignés dans le tableau en question). La présence de ce dernier type de notion n'est pas étonnant, étant donné que Charcot aborde la question des guérisons miraculeuses dans ses recherches\footnote{Voir notamment son \oe{}uvre \textit{La foi qui guérit} \citep{charcot1897foi}.}. 
+
+
 
 \section{Extraction des phrases-clés : méthode à base d'apprentissage profond}
 En complément de la méthode du calcul de pertinence des termes médicaux fournis de manière supervisée (partie \ref{methodo_stat}), nous exposons ici des résultats de l'approche non-supervisée pour extraire des mots/phrases-clés  pertinents à partir de nos deux corpus\footnote{\textit{Cf.} le dépôt GitHub \url{https://github.com/ljpetkovic/Charcot\_KeyBERT\_Keyphrase-Vectorizers/}.}. L'objectif de cette approche est de détecter les termes communs entre les deux corpus et de montrer la répartition des termes les plus pertinents dans le réseau de Charcot. Deux algorithmes librement disponibles sont présentés ici pour illustrer cette dernière approche : \texttt{keybert} \citep{grootendorst2023}\footnote{\url{https://maartengr.github.io/KeyBERT/}} et \texttt{keyphrase-vectorizers}\footnote{\url{https://pypi.org/project/keyphrase-vectorizers/}}. Lors du passage à l'échelle avec la quantité de données considérable (voir le tableau \ref{tab:corpus}), nous avons fait face un manque de puissance de calcul des ordinateurs locaux. Pour faciliter l'extraction des phrases-clés, nous avons obtenu l'accès à la plateforme technologique \textsc{MeSU} et un accompagnement technique grâce à l'unité de service \textsc{SACADO} (Service d'Aide au Calcul et à l'Analyse de Données)\footnote{\url{https://sacado.sorbonne-universite.fr/fr/}.} de Sorbonne Université.
