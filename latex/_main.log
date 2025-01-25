@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 JAN 2025 05:58
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 JAN 2025 17:54
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1251,9 +1251,6 @@ Package babel Info: The following font families will use the default
 
 LaTeX Warning: Label `circulations' multiply defined.
 
-
-LaTeX Warning: Label `fig:changement_paradigme' multiply defined.
-
 )
 \openout1 = `_main.aux'.
 
@@ -1810,14 +1807,12 @@ Overfull \hbox (5.80466pt too wide) in paragraph at lines 89--90
  []
 
 
-Overfull \hbox (77.40817pt too wide) in paragraph at lines 141--152
- [][] 
+Overfull \hbox (9.73206pt too wide) in paragraph at lines 90--91
+[]\T1/gentium/m/n/12 extraction ter-mi-no-lo-gique \T1/lmtt/m/n/12 TermSuite[][
+][][][] \T1/gentium/m/n/12 ([][][]\T1/gentium/m/sc/12 Cram & Daille\T1/gentium/
+m/n/12 , 2016[][]) : sca-lable, \T1/lmtt/m/n/12 TreeTagger 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no — ("2014) in font ec-gentiumplus-bold!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1827,6 +1822,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [17]
+Overfull \hbox (77.40817pt too wide) in paragraph at lines 141--152
+ [][] 
+ []
+
+Missing character: There is no — ("2014) in font ec-gentiumplus-bold!
+
 Underfull \hbox (badness 5460) in paragraph at lines 169--169
 [][][]\T1/gentium/m/n/10 .[][]\T1/gentium/m/it/10 Cf. \T1/gentium/m/n/10 les pr
 o-jets de la chaire : [][]$\T1/lmtt/m/n/10 https : / / www . unige . ch / lettr
@@ -1885,6 +1886,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--223
 
 File: img/impact_temporel.png Graphic file (type bmp)
 <img/impact_temporel.png>
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1893,7 +1895,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[20])
+[20]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -1969,7 +1971,110 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24])
+[24]
+
+! Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54        Corpus &
+                     \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}\small N...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...20cm} \\ \small de documents\end{tabular}}
+                                                   & \multicolumn{1}{c|}{\be...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...20cm} \\ \small de documents\end{tabular}}
+                                                   & \multicolumn{1}{c|}{\be...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...20cm} \\ \small de documents\end{tabular}}
+                                                   & \multicolumn{1}{c|}{\be...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...c@{}}\small Nombre de tokens\end{tabular}}
+                                                   & {\begin{tabular}[c]{@{}...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...c@{}}\small Nombre de tokens\end{tabular}}
+                                                   & {\begin{tabular}[c]{@{}...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...ar}[c]{@{}c@{}}\small Mémoire\end{tabular}
+                                                  } \\ \hline
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...@{}}\small Mémoire\end{tabular}} \\ \hline
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2027,8 +2132,12 @@ Overfull \hbox (2.48552pt too wide) in paragraph at lines 23--23
 -tique| 
  []
 
-File: img/repartition_POS.png Graphic file (type bmp)
-<img/repartition_POS.png>
+
+Underfull \hbox (badness 6110) in paragraph at lines 25--25
+[][][]\T1/gentium/m/n/10 .[][]Les ré-sul-tats sont dis-po-nibles dans le dé-pôt
+ Gi-tHub [][]$\T1/lmtt/m/n/10 https : / / github . com / ljpetkovic /
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2038,13 +2147,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
-Overfull \hbox (7.18062pt too wide) in paragraph at lines 43--44
-\T1/gentium/m/n/12 pu-la-ri-sés par Char-cot, comme \T1/gentium/m/it/12 hys-té-
-rie\T1/gentium/m/n/12 , \T1/gentium/m/it/12 sclé-rose la-té-rale \T1/gentium/m/
-n/12 etc. ([][][]\T1/gentium/m/sc/12 Ca-margo \T1/gentium/m/scit/12 et al.\T1/g
-entium/m/n/12 , 2024[][], p. 1102)[][][][][].
- []
 
+! Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...ey!10}\multicolumn{3}{|c|}{Corpus Charcot}
+                                                                            ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...      & \multicolumn{2}{c|}{Corpus Autres}
+                                                                            ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: img/repartition_motifs_POS.png Graphic file (type bmp)
+<img/repartition_motifs_POS.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -2053,19 +2195,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[29]
+[30]
+Overfull \hbox (7.18062pt too wide) in paragraph at lines 108--109
+\T1/gentium/m/n/12 pu-la-ri-sés par Char-cot, comme \T1/gentium/m/it/12 hys-té-
+rie\T1/gentium/m/n/12 , \T1/gentium/m/it/12 sclé-rose la-té-rale \T1/gentium/m/
+n/12 etc. ([][][]\T1/gentium/m/sc/12 Ca-margo \T1/gentium/m/scit/12 et al.\T1/g
+entium/m/n/12 , 2024[][], p. 1102)[][][][][].
+ []
 
-LaTeX Warning: Reference `tab:calculs_stat' on page 30 undefined on input line 
-45.
+
+LaTeX Warning: Reference `tab:calculs_stat' on page 31 undefined on input line 
+110.
 
 File: img/Charcot_Autres_250523.png Graphic file (type bmp)
 <img/Charcot_Autres_250523.png>
 
-LaTeX Warning: Reference `tab:calculs_stat' on page 30 undefined on input line 
-54.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (1.4575pt too wide) in paragraph at lines 54--56
+LaTeX Warning: Reference `tab:calculs_stat' on page 31 undefined on input line 
+119.
+
+
+Overfull \hbox (1.4575pt too wide) in paragraph at lines 119--121
 \T1/gentium/m/n/12 Pour ce tra-vail en cours, nous avons uti-lisé le mo-dèle \T
 1/lmtt/m/n/12 bert-base-multilingual-cased\T1/gentium/m/n/12 .
  []
@@ -2078,34 +2230,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 [][][]\T1/gentium/m/n/10 .[][]\T1/gentium/m/it/10 Cf. \T1/gentium/m/n/10 le dé-
 pôt Gi-tHub [][]$\T1/lmtt/m/n/10 https : / / github . com / ljpetkovic / Charco
 t _ KeyBERT _ Keyphrase -[]
  []
 
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 62.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.55003pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.55003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
-
-[31]
-File: img/keybert.png Graphic file (type bmp)
-<img/keybert.png>
-File: img/keybert_autres.png Graphic file (type bmp)
-<img/keybert_autres.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Font Info:    Font shape `T1/gentium/b/it' will be
-(Font)              scaled to size 14.4pt on input line 92.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -2115,11 +2246,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [32]
-File: img/patternrank_workflow.png Graphic file (type bmp)
-<img/patternrank_workflow.png>
-LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
-(Font)              scaled to size 10.95pt on input line 107.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 127.
+File: img/keybert.png Graphic file (type bmp)
+<img/keybert.png>
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img/keybert_autres.png Graphic file (type bmp)
+<img/keybert_autres.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Font shape `T1/gentium/b/it' will be
+(Font)              scaled to size 14.4pt on input line 157.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -2129,9 +2270,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [33]
-File: img/termes_partages.png Graphic file (type bmp)
-<img/termes_partages.png>
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -2141,6 +2279,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [34]
+File: img/patternrank_workflow.png Graphic file (type bmp)
+<img/patternrank_workflow.png>
+LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
+(Font)              scaled to size 10.95pt on input line 172.
+File: img/termes_partages.png Graphic file (type bmp)
+<img/termes_partages.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+
+[35]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.55003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.55003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
+
+[36]
 Chapitre 6.
 
 Overfull \hbox (26.32384pt too wide) in paragraph at lines 347--347
@@ -2152,7 +2319,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 347--347
 
  []
 
-(./5_conclusion.tex) [35
+(./5_conclusion.tex) [37
 
 ] (./_main.bbl (./_main.brf)
 \tf@brf=\write7
@@ -2167,7 +2334,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36
+[38
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -2212,7 +2379,7 @@ Underfull \hbox (badness 2799) in paragraph at lines 67--67
  in the Hu-ma-ni-ties : A Rough Guide\T1/gentium/m/n/12 .  Uni-ver-
  []
 
-[37]
+[39]
 LaTeX Font Info:    Font shape `T1/gentium/m/it' will be
 (Font)              scaled to size 7.79993pt on input line 84.
 
@@ -2259,7 +2426,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38]
+[40]
 Underfull \hbox (badness 1127) in paragraph at lines 152--152
 \T1/gentium/m/n/12 lié.  [][]$\T1/lmtt/m/n/12 https : / / editions -[] metailie
  . com / livre / dictionnaire -[] des -[] concepts -[]
@@ -2273,7 +2440,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 239--239
 []\T1/gentium/m/n/12 Hobsbawm, E. (2010).  \T1/gentium/m/it/12 The Age of Re-vo
 -lu-tion : 1789-1848\T1/gentium/m/n/12 .  Ha-chette UK.
@@ -2299,7 +2466,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40]
+[42]
 Underfull \hbox (badness 1577) in paragraph at lines 313--313
 []\T1/gentium/m/n/12 Kuhn, T. S. (1962).  \T1/gentium/m/it/12 The Struc-ture of
  Scien-ti-fic Re-vo-lu-tions\T1/gentium/m/n/12 .  Uni-ver-sity of Chi-cago
@@ -2360,7 +2527,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 394--394
 \T1/lmtt/m/n/12 unige . ch / access / metadata / fc3fad28 -[] 5b90 -[] 42ec -[]
  bea5 -[] 0c6d54cb5452 /
@@ -2388,7 +2555,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42]
+[44]
 LaTeX Font Info:    Font shape `TS1/gentium/m/it' will be
 (Font)              scaled to size 12.0pt on input line 460.
 
@@ -2458,7 +2625,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43]
+[45]
 Underfull \hbox (badness 1107) in paragraph at lines 592--592
 \T1/gentium/m/n/12 Ty-pis Ja. Fle-sher, im-pen-sis Jo. Mar-tyn & Ja. Al-les-try
 , apud in-signe Cam-panæ in
@@ -2472,7 +2639,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44])
+[46])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the _main.maf file.
@@ -2497,7 +2664,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45] (./_main.aux)
+[47] (./_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2507,24 +2674,18 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `_main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `_main.out':
-(rerunfilecheck)             Before: 34611EE2EFA8EA45B1D37D815C5BCBCD;7098
-(rerunfilecheck)             After:  0E2AF121BC3AFDB984A7D1C199A912F1;7227.
+Package rerunfilecheck Info: File `_main.out' has not changed.
+(rerunfilecheck)             Checksum: 0E2AF121BC3AFDB984A7D1C199A912F1;7227.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 3723DC4AB45CF5055C0BD706B2E33630;7465.
+(rerunfilecheck)             Checksum: 6FF71F8F3BB6795C26A57D51F9597FD4;7466.
  ) 
 Here is how much of TeX's memory you used:
- 36014 strings out of 476683
- 713383 string characters out of 5804046
- 1857018 words of memory out of 5000000
- 55356 multiletter control sequences out of 15000+600000
+ 36018 strings out of 476683
+ 713517 string characters out of 5804046
+ 1858018 words of memory out of 5000000
+ 55360 multiletter control sequences out of 15000+600000
  612392 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,142p,2716b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.pdf (48 pages).
+Output written on _main.pdf (50 pages).

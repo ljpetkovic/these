@@ -18,9 +18,9 @@
 \contentsline {chapter}{\numberline {5}Migration du discours médical de Charcot}{27}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{27}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Extraction de la terminologie : approche linguistique}{28}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Extraction des phrases-clés : méthodes statistiques}{29}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Extraction des phrases-clés : méthode à base d'apprentissage profond}{31}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Librairie \texttt {keybert}}{31}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Approche \textit {PatternRank}}{32}{subsection.5.4.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{35}{chapter.6}%
-\contentsline {chapter}{Bibliographie}{36}{chapter.6}%
+\contentsline {section}{\numberline {5.3}Extraction des phrases-clés : méthodes statistiques}{30}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Extraction des phrases-clés : méthode à base d'apprentissage profond}{32}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Librairie \texttt {keybert}}{33}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Approche \textit {PatternRank}}{34}{subsection.5.4.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{37}{chapter.6}%
+\contentsline {chapter}{Bibliographie}{38}{chapter.6}%
