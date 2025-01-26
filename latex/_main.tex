@@ -15,7 +15,7 @@
 \usepackage[T2A,LGR,T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{gentium}
-\usepackage[x11names]{xcolor}
+\usepackage[x11names,table,xcdraw]{xcolor}
 \definecolor{maroon}{cmyk}{0,0.87,0.68,0.32}
 \usepackage{soul}
 \frenchsetup{StandardItemLabels=true}
@@ -241,6 +241,10 @@ pdfstartview={FitH},
 % prevent LaTeX from adding excessive white space:
 \raggedbottom
 
+\usepackage{tikz}
+\usepackage{array}
+
+
 %======================== DEBUT DU DOCUMENT ========================
 
 %======================== DEBUT DU DOCUMENT ========================
@@ -324,14 +328,14 @@ pdfstartview={FitH},
 
 
 
-\chapter{Introduction}
-%\minitoc
-%\addcontentsline{toc}{section}{Introduction}
-\input{1_intro}
-
-
-\chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
-\input{2_rupture}
+%\chapter{Introduction}
+%%\minitoc
+%%\addcontentsline{toc}{section}{Introduction}
+%\input{1_intro}
+%
+%
+%\chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
+%\input{2_rupture}
 
 \chapter{Pister la circulation du discours médical au prisme du numérique}
 \input{2_SotA}
@@ -344,10 +348,10 @@ pdfstartview={FitH},
 %
 %
 %
-\chapter{Conclusion}
-%%\addcontentsline{toc}{chapter}{Conclusion}
-\input{5_conclusion}
-%%
+%\chapter{Conclusion}
+%%%\addcontentsline{toc}{chapter}{Conclusion}
+%\input{5_conclusion}
+%%%
 
 
 \newpage

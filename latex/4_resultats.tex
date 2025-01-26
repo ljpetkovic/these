@@ -22,72 +22,77 @@ Concernant l'alignement des séquences similaires aux deux corpus, \textsc{TextP
 
 \section{Extraction de la terminologie : approche linguistique}
 
-Dans le cadre de l'approche linguistique de l'extraction terminologique, nous avons tenté d'utiliser l'outil \texttt{TermoStat}. Bien que le traitement d'un échantillon minuscule des corpus (p. ex. 1-2 documents) ait pu se terminer avec succès, le passage à l'échelle de l'intégralité des corpus n'a pas été possible en raison des limitations citées dans la section \ref{termes}. Même en respectant la limite du corpus de 30 Mo, le traitement a été extrêmement chronophage, sans pour autant générer aucun résultat après plusieurs jours de calcul. En revanche, l'utilisation de l'outil \texttt{TermSuite} s'est avéré comme un moyen alternatif bien plus efficace pour générer les résultats souhaités, étant donné que le traitement de chaque corpus a duré environ une vingtaine de minutes\footnote{Les résultats sont disponibles dans le dépôt GitHub \url{https://github.com/ljpetkovic/Charcot\_TermSuite}}. Nous disposons de deux tableaux issus de l'extraction des termes correspondant aux deux corpus, ainsi que de leurs diverses caractéristiques (fréquence documentaire, motifs syntaxiques des parties du discours (POS), \textsc{TF-IDF}, spécificité$\dots$). Concernant les motifs syntaxiques, nous en avons extrait 6 types, marqués par leurs étiquettes \texttt{TreeTagger}, dont 5 sont communs aux deux corpus, sauf \texttt{N A A}, présent uniquement dans le corpus \og{}Charcot\fg{} (tableau \ref{tab:types_motifs_POS}). 
-
-
-
-(tableau \ref{tab:repartition_POS}).
-
-ex. sclérose latérale amyotrophique
-
-Aucune occurrence extraite dans les 2 corpus
-
-on n'a extrait que "latérale" (A) charcot analyses .ods et "bilatérale", "collatérales" dans autres analyses .ods
-
-TermSuite ne parvient pas à extraire d'autres 3+ grammes pertinentes, à part 6 N P N (autres), 12 N P N et 3 N A A (Charcot).
-
-ANALYSE GRAPHIQUE
-À partir des tableaux dynamiques issus des données de départ, nous avons créé le graphique à colonnes permettant de comparer les répartitions des motifs syntaxiques constituant les termes médicaux extraits en termes de leurs effectifs dans les corpus Charcot et Autres (figure \ref{fig:repartition_POS}).
-
-
-Décommenter le tableau et révéler les autres cellules
-
-
+Dans le cadre de l'approche linguistique de l'extraction terminologique, nous avons tenté d'utiliser l'outil \texttt{TermoStat}. Bien que le traitement d'un échantillon minuscule des corpus (1-2 documents) ait pu se terminer avec succès, le passage à l'échelle de l'intégralité des corpus n'a pas été possible en raison des limitations citées dans la section \ref{termes}. Même en respectant la limite du corpus de 30 Mo, le traitement a été extrêmement chronophage, sans pour autant générer aucun résultat après plusieurs jours de calcul. En revanche, l'utilisation de l'outil \texttt{TermSuite} s'est avéré comme un moyen alternatif bien plus efficace pour générer les résultats souhaités, étant donné que le traitement de chaque corpus a duré environ une vingtaine de minutes\footnote{Les résultats sont disponibles dans le dépôt GitHub \url{https://github.com/ljpetkovic/Charcot\_TermSuite}}. Nous disposons de deux tableaux issus de l'extraction des termes uniques correspondant aux deux corpus, ainsi que de leurs diverses caractéristiques (fréquence documentaire, fréquence brute, motifs syntaxiques des parties du discours, \textsc{TF-IDF}, spécificité$\dots$). Concernant les motifs syntaxiques, nous en avons extrait 6 types, marqués par leurs étiquettes \texttt{TreeTagger} comme illustré dans le tableau \ref{tab:POS_tags}. 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{|c|c|c|c|c|}
-		\hline\hline
-	\multicolumn{1}{|c|}{Corpus} & Étiquette & Effectif	& Séquence & Exemple \\
-		\hline
-	\multicolumn{1}{|c|}{C \& A} & \multicolumn{1}{|c|}{\textsc{A}}	& \multicolumn{1}{|c|}{\texttt{adjectif}} & XX & \multicolumn{1}{|c|}{\textit{cérébral}} \\
-%	\multicolumn{1}{|c|}{C \& A} & \multicolumn{1}{|c|}{\textsc{N}}	& \multicolumn{1}{|c|}{\texttt{nom}} & \multicolumn{1}{|c|}{\textit{hystérie}} \\
-%	\multicolumn{1}{|c|}{C \& A} & \multicolumn{1}{|c|}{\textsc{N A}}	& \multicolumn{1}{|c|}{\texttt{nom + adjectif}} & \multicolumn{1}{|c|}{\textit{lame médullaire}} \\
-%	\multicolumn{1}{|c|}{C} & \multicolumn{1}{|c|}{\textsc{N A A}}	& \multicolumn{1}{|c|}{\texttt{nom + adjectif + adjectif}} & \multicolumn{1}{|c|}{\textit{système nerveux central}} \\
-%	\multicolumn{1}{|c|}{C \& A} & \multicolumn{1}{|c|}{\textsc{N P N}}	& \multicolumn{1}{|c|}{\texttt{nom + préposition + nom}} & \multicolumn{1}{|c|}{\textit{trouble de sensibilité}} \\
-%	\multicolumn{1}{|c|}{C \& A} & \multicolumn{1}{|c|}{\textsc{R}}	& \multicolumn{1}{|c|}{\texttt{adverbe}} & \multicolumn{1}{|c|}{\textit{[d']emblée}} \\
-%	\hline\hline
+	\begin{tabular}{c|c}
+		Étiquette & Signification \\\hline
+		\textsc{A} & \texttt{adjectif}\\
+		\textsc{N} & \texttt{nom}\\ 
+		\textsc{N A} & \texttt{nom + adjectif}\\
+		\textsc{N A A} & \texttt{nom + adjectif + adjectif}\\
+		\textsc{N P N} & \texttt{nom + préposition + nom}\\
+		\textsc{R} & \texttt{adverbe}
 	\end{tabular}
-	\caption{Types des motifs syntaxiques présents dans les corpus \og{}Charcot\fg{} (\textsc{C}) et \og{}Autres\fg{} (\textsc{A}).}
-	\label{tab:types_motifs_POS}
-\end{table}
+	\caption{Étiquettes \texttt{TreeTagger} extraites avec \texttt{TermSuite}, accompagnées de leurs significations.}
+	\label{tab:POS_tags}
+\end{table} 
 
-%\begin{itemize}
-%	\item \textsc{A} : \texttt{adjectif} (\textit{cérébral})
-%	\item \textsc{N} : \texttt{nom} (\textit{hystérie})
-%	\item \textsc{N A} : \texttt{nom + adjectif} (\textit{lame médullaire})
-%	\item \textsc{N A A} : \texttt{nom + adjectif + adjectif} (\textit{système nerveux central})
-%	\item \textsc{N P N} : \texttt{nom + préposition + nom} (\textit{trouble de sensibilité})
-%	\item \textsc{R} : \texttt{adverbe} : \textit{[d']emblée}
-%\end{itemize} 
-
-
+Le tableau \ref{tab:repartition_POS} montre les motifs syntaxiques extraits, avec leurs fréquences absolues (nombres d'occurrences extraites), leurs fréquences relatives (pourcentages de toutes les étiquettes extraites), avec des exemples des termes représentatifs correspondant à chaque motif.
 \begin{table}[h]
 	\centering
-	\begin{tabular}{|lrr|rl|}
-		\hline\hline
-		\rowcolor{grey!10}\multicolumn{3}{|c|}{Corpus Charcot}                                                                    & \multicolumn{2}{c|}{Corpus Autres}                               \\ \hline
-		\multicolumn{1}{|c|}{Motif POS}      & \multicolumn{1}{c|}{Effectif} & \multicolumn{1}{c|}{Fréquence (\%)} & \multicolumn{1}{c|}{Effectif} & \multicolumn{1}{c|}{Fréquence (\%)} \\ \hline
-		\multicolumn{1}{|l|}{\textsc{A}}              & \multicolumn{1}{r|}{151}               & 30,14                   & \multicolumn{1}{r|}{149}               & \multicolumn{1}{r|}{29,80}                   \\ \hline
-		\rowcolor{yellow!30}\multicolumn{1}{|l|}{\textsc{N}}              & \multicolumn{1}{r|}{261}               & 52,10                   & \multicolumn{1}{r|}{271}               & \multicolumn{1}{r|}{54,20}                   \\ \hline
-		\multicolumn{1}{|l|}{\textsc{N A}}            & \multicolumn{1}{r|}{73}                & 14,57                   & \multicolumn{1}{r|}{73}                & \multicolumn{1}{r|}{14,60}                   \\ \hline
-		\multicolumn{1}{|l|}{\textsc{N A A}}          & \multicolumn{1}{r|}{3}                 & 0,60                    & \multicolumn{1}{r|}{0}                 & \multicolumn{1}{r|}{0,00}                    \\ \hline
-		\multicolumn{1}{|l|}{\textsc{N P N}}          & \multicolumn{1}{r|}{12}                & 2,40                    & \multicolumn{1}{r|}{6}                 & \multicolumn{1}{r|}{1,20}                    \\ \hline
-		\multicolumn{1}{|l|}{\textsc{R}}              & \multicolumn{1}{r|}{1}                 & 0,20                    & \multicolumn{1}{r|}{1}                 & \multicolumn{1}{r|}{0,20}                    \\ \hline\hline
-		\multicolumn{1}{|l|}{\textbf{Total}} & \multicolumn{1}{r|}{\textbf{501}}      & 100,00                  & \multicolumn{1}{r|}{\textbf{500}}      & \multicolumn{1}{r|}{100,00}                 \\ \hline\hline
-	\end{tabular}
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{|lrrr|rrl|}
+			\hline\hline
+			\rowcolor{grey!10}\multicolumn{4}{|c|}{Corpus Charcot}                                                                    & \multicolumn{3}{|c|}{Corpus Autres}                               \\ \hline
+			\multicolumn{1}{|c|}{Motif POS}      & \multicolumn{1}{c|}{Effectif} & \multicolumn{1}{c|}{Fréq. relat. (\%)} & \multicolumn{1}{c|}{Exemple} & \multicolumn{1}{c|}{Effectif} & \multicolumn{1}{c|}{Fréq. relat. (\%)} & \multicolumn{1}{c|}{Exemple}\\ \hline
+			\multicolumn{1}{|c|}{\textsc{A}}              & \multicolumn{1}{r|}{151}               &  \multicolumn{1}{r|}{30,14}                   & \multicolumn{1}{c|}{\textit{cérébral}} & \multicolumn{1}{r|}{149}               & \multicolumn{1}{r|}{29,80}      &   \multicolumn{1}{c|}{\textit{hypnotique}}          \\ \hline
+			\rowcolor{yellow!30}\multicolumn{1}{|c|}{\textsc{N}}              & \multicolumn{1}{r|}{261}               & \multicolumn{1}{r|}{52,10}                   & \multicolumn{1}{c|}{\textit{hystérie}} & \multicolumn{1}{r|}{271}               & \multicolumn{1}{r|}{54,20} & \multicolumn{1}{c|}{\textit{somnambule}}                  \\ \hline
+			\multicolumn{1}{|c|}{\textsc{N A}}            & \multicolumn{1}{r|}{73}                & \multicolumn{1}{r|}{14,57}                   &
+			\multicolumn{1}{c|}{\textit{système nerveux}} 	& \multicolumn{1}{r|}{73}                & \multicolumn{1}{r|}{14,60}       	&
+			\multicolumn{1}{c|}{\textit{lame médullaire}}            \\ \hline
+			\multicolumn{1}{|c|}{\textsc{N A A}}          & \multicolumn{1}{r|}{3}                 & \multicolumn{1}{r|}{0,60}                    &
+			\multicolumn{1}{c|}{\textit{système nerveux central}} &
+			\multicolumn{1}{r|}{0}                 & \multicolumn{1}{r|}{0,00}           &
+			\multicolumn{1}{c|}{--}         \\ \hline
+			\multicolumn{1}{|c|}{\textsc{N P N}}          & \multicolumn{1}{r|}{12}                & \multicolumn{1}{r|}{2,40}                    &
+			\multicolumn{1}{c|}{\textit{cas de folie}} &
+			\multicolumn{1}{r|}{6}                 & \multicolumn{1}{r|}{1,20}   &
+			\multicolumn{1}{c|}{\textit{scissure de sylvius}}                 \\ \hline
+			\multicolumn{1}{|c|}{\textsc{R}}              & \multicolumn{1}{r|}{1}                 & \multicolumn{1}{r|}{0,20}                    &
+			\multicolumn{1}{c|}{\textit{[d']emblée}} &
+			\multicolumn{1}{r|}{1}                 & \multicolumn{1}{r|}{0,20}       &
+			\multicolumn{1}{c|}{\textit{obliquement}}             \\ \hline\hline
+			\multicolumn{1}{|c|}{\textbf{Total}} & \multicolumn{1}{r|}{\textbf{501}}      & \multicolumn{1}{r|}{100,00}                  &
+			\multicolumn{1}{r|}{\cellcolor{blue!25}} &
+			\multicolumn{1}{r|}{\textbf{500}}      & \multicolumn{1}{r|}{100,00} &
+			\multicolumn{1}{r|}{\cellcolor{blue!25}}                 \\ \hline\hline
+		\end{tabular}
+	}
 	\caption{Répartition des parties du discours constituant les termes médicaux dans les corpus \og{}Charcot\fg{} et \og{}Autres\fg{}.}
 	\label{tab:repartition_POS}
 \end{table}
+Nous soulignons que 5 motifs sont communs aux deux corpus, hormis celui de \texttt{[N A A]}, extrait uniquement à partir du corpus \og{}Charcot\fg{}. Toutefois, il est intéressant de noter qu'aucune occurrence du terme très fréquent \textit{sclérose latérale amyotrophique}, ainsi que de ses éléments constitutifs \textit{sclérose} et \textit{amyotrophique}, n'a été extraite ; on n'en retrouve les traces que dans l'adjectif \texttt{[A]} extrait \textit{latérale}. Les trigrammes sont les séquences les plus longues extraites, notamment 6 occurrences de \texttt{[N P N]} (corpus \og{}Autres\fg{}), 12 de \texttt{[N P N]} et 3 de \texttt{[N A A]} (les deux dernières dans le corpus \og{}Charcot\fg{}). Cela laisse à penser que \texttt{TermSuite} ne parvient pas à extraire les termes médicaux sous forme de quadrigrammes (\textit{sclérose en plaques disséminées}) ou des séquences plus longues (\textit{état de mal hystéro-épileptique}) qui sont bel et bien mentionnées dans les deux corpus. En plus, cette expérience confirme les limites de l'approche linguistique de l'extraction des termes scientifiques à base de règles, notamment à l'aide des expressions régulières et des automates à états finis. En effet, il est bien connu que leur construction est une tâche fastidieuse, restrictive et non maintenable sur le long terme, surtout en cas d'un grand ensemble de termes.
+
+
+
+
+\hl{ANALYSE GRAPHIQUE}
+À partir des tableaux dynamiques issus des données de départ, nous avons créé le graphique à colonnes permettant de comparer les répartitions des motifs syntaxiques constituant les termes médicaux extraits en termes de leurs effectifs dans les corpus Charcot et Autres (figure \ref{fig:repartition_POS}).
+
+\begin{itemize}
+	\item DF : fréquence documentaire
+	\item spécificité
+	\item TF-IDF
+	\item fréquence absolue de chaque terme extrait
+\end{itemize}
+
+
+
+
+
+
+
 
 \begin{figure}[H] % Use [H] to force the figure to stay in place
 	\centering
