@@ -1,17 +1,26 @@
 \babel@toc {french}{}\relax 
-\contentsline {chapter}{\numberline {1}Pister la circulation du discours médical au prisme du numérique}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Modalités des circulations des savoirs}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Comment les mots deviennent-ils des concepts ?}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Repérage des termes scientifiques dans un corpus numérique}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Études numériques des circulations culturelles}{8}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Valorisation du fonds Charcot}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Description du fonds Charcot}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Constitution du corpus Charcot}{15}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Migration du discours médical de Charcot}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Extraction de la terminologie : approche linguistique}{18}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Extraction des phrases-clés : méthodes statistiques}{21}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Extraction des phrases-clés : méthode à base d'apprentissage profond}{23}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Librairie \texttt {keybert}}{24}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Approche \textit {PatternRank}}{25}{subsection.3.4.2}%
-\contentsline {chapter}{Bibliographie}{27}{figure.caption.16}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Valorisation des archives patrimoniales et recherches quantitatives des circulations des savoirs : état actuel}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Problématique + méthodo du recueil de données + hypothèses}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objectif de l'étude, portée + annonce du plan}{3}{section.1.4}%
+\contentsline {chapter}{\numberline {2}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}L'erreur comme source du progrès scientifique}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}{7}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Pister la circulation du discours médical au prisme du numérique}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modalités des circulations des savoirs}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Comment les mots deviennent-ils des concepts ?}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Repérage des termes scientifiques dans un corpus numérique}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Études numériques des circulations culturelles}{18}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Valorisation du fonds Charcot}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Description du fonds Charcot}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Constitution du corpus Charcot}{25}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Migration du discours médical de Charcot}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Extraction de la terminologie : approche linguistique}{28}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Extraction des phrases-clés : méthodes statistiques}{31}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Extraction des phrases-clés : méthode à base d'apprentissage profond}{33}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Librairie \texttt {keybert}}{34}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Approche \textit {PatternRank}}{35}{subsection.5.4.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{37}{chapter.6}%
+\contentsline {chapter}{Bibliographie}{38}{chapter.6}%
