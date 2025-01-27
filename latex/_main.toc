@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {5.2}Extraction de la terminologie : approche linguistique}{28}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Extraction des phrases-clés : méthodes statistiques}{31}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Extraction des phrases-clés : méthode à base d'apprentissage profond}{33}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Librairie \texttt {keybert}}{33}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Approche \textit {PatternRank}}{34}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.1}Librairie \texttt {keybert}}{34}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Approche \textit {PatternRank}}{35}{subsection.5.4.2}%
 \contentsline {chapter}{\numberline {6}Conclusion}{37}{chapter.6}%
 \contentsline {chapter}{Bibliographie}{38}{chapter.6}%

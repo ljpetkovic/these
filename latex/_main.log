@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  27 JAN 2025 07:59
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  27 JAN 2025 08:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2196,13 +2196,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30]
-Overfull \hbox (7.18062pt too wide) in paragraph at lines 125--126
-\T1/gentium/m/n/12 pu-la-ri-sés par Char-cot, comme \T1/gentium/m/it/12 hys-té-
-rie\T1/gentium/m/n/12 , \T1/gentium/m/it/12 sclé-rose la-té-rale \T1/gentium/m/
-n/12 etc. ([][][]\T1/gentium/m/sc/12 Ca-margo \T1/gentium/m/scit/12 et al.\T1/g
-entium/m/n/12 , 2024[][], p. 1102)[][][][][].
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -2212,12 +2205,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [31]
+Overfull \hbox (7.18062pt too wide) in paragraph at lines 125--126
+\T1/gentium/m/n/12 pu-la-ri-sés par Char-cot, comme \T1/gentium/m/it/12 hys-té-
+rie\T1/gentium/m/n/12 , \T1/gentium/m/it/12 sclé-rose la-té-rale \T1/gentium/m/
+n/12 etc. ([][][]\T1/gentium/m/sc/12 Ca-margo \T1/gentium/m/scit/12 et al.\T1/g
+entium/m/n/12 , 2024[][], p. 1102)[][][][][].
+ []
+
 
 LaTeX Warning: Reference `tab:calculs_stat' on page 32 undefined on input line 
 127.
 
 File: img/Charcot_Autres_250523.png Graphic file (type bmp)
 <img/Charcot_Autres_250523.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 LaTeX Warning: Reference `tab:calculs_stat' on page 32 undefined on input line 
 136.
@@ -2229,6 +2232,13 @@ Overfull \hbox (1.4575pt too wide) in paragraph at lines 136--138
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[][][]\T1/gentium/m/n/10 .[][]\T1/gentium/m/it/10 Cf. \T1/gentium/m/n/10 le dé-
+pôt Gi-tHub [][]$\T1/lmtt/m/n/10 https : / / github . com / ljpetkovic / Charco
+t _ KeyBERT _ Keyphrase -[]
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.55003pt}.
@@ -2237,14 +2247,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.55003pt}.
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
-[][][]\T1/gentium/m/n/10 .[][]\T1/gentium/m/it/10 Cf. \T1/gentium/m/n/10 le dé-
-pôt Gi-tHub [][]$\T1/lmtt/m/n/10 https : / / github . com / ljpetkovic / Charco
-t _ KeyBERT _ Keyphrase -[]
- []
-
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 144.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.55003pt, for example:
@@ -2277,6 +2282,9 @@ File: img/patternrank_workflow.png Graphic file (type bmp)
 <img/patternrank_workflow.png>
 LaTeX Font Info:    Font shape `T1/gentium/m/scit' will be
 (Font)              scaled to size 10.95pt on input line 189.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2668,7 +2676,7 @@ LaTeX Warning: There were multiply-defined labels.
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 0E2AF121BC3AFDB984A7D1C199A912F1;7227.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: F315248760C3EBF93E6CD91800017044;7530.
+(rerunfilecheck)             Checksum: AD8DCF365B6B9B3A4B46627E8509B50A;7530.
  ) 
 Here is how much of TeX's memory you used:
  36030 strings out of 476683
