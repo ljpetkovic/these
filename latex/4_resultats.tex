@@ -22,7 +22,7 @@ Concernant l'alignement des séquences similaires aux deux corpus, \textsc{TextP
 
 \section{Extraction de la terminologie : approche linguistique}
 
-Dans le cadre de l'approche linguistique de l'extraction terminologique, nous avons tenté d'utiliser l'outil \texttt{TermoStat}. Bien que le traitement d'un échantillon minuscule des corpus (1-2 documents) ait pu se terminer avec succès, le passage à l'échelle de l'intégralité des corpus n'a pas été possible en raison des limitations citées dans la section \ref{termes}. Même en respectant la limite du corpus de 30 Mo, le traitement a été extrêmement chronophage, sans pour autant générer aucun résultat après plusieurs jours de calcul. En revanche, l'utilisation de l'outil \texttt{TermSuite} s'est avéré comme un moyen alternatif bien plus efficace pour générer les résultats souhaités, étant donné que le traitement de chaque corpus a duré environ une vingtaine de minutes\footnote{Les résultats sont disponibles dans le dépôt GitHub \url{https://github.com/ljpetkovic/Charcot\_TermSuite}}. Nous disposons de deux tableaux issus de l'extraction des termes uniques correspondant aux deux corpus, ainsi que de leurs diverses caractéristiques (fréquence documentaire, fréquence brute, motifs syntaxiques des parties du discours, \textsc{TF-IDF}, spécificité$\dots$). Concernant les motifs syntaxiques, nous en avons extrait 6 types, marqués par leurs étiquettes \texttt{TreeTagger} comme illustré dans le tableau \ref{tab:POS_tags}. 
+Dans le cadre de l'approche linguistique de l'extraction terminologique, nous avons tenté d'utiliser l'outil \texttt{TermoStat}. Bien que le traitement d'un échantillon minuscule des corpus (1-2 documents) ait pu se terminer avec succès, le passage à l'échelle de l'intégralité des corpus n'a pas été possible en raison des limitations citées dans la section \ref{termes}. Même en respectant la limite du corpus de 30 Mo, le traitement a été extrêmement chronophage, sans pour autant générer aucun résultat après plusieurs jours de calcul. En revanche, l'utilisation de l'outil \texttt{TermSuite} s'est avéré comme un moyen alternatif bien plus efficace pour générer les résultats souhaités, étant donné que le traitement de chaque corpus a duré environ une vingtaine de minutes\footnote{Les résultats sont disponibles dans le dépôt GitHub \url{https://github.com/ljpetkovic/Charcot\_TermSuite}}. Nous disposons de deux tableaux issus de l'extraction des termes uniques correspondant aux deux corpus, ainsi que de leurs diverses caractéristiques (motifs syntaxiques des parties du discour, fréquences brute et documentaire, \textsc{TF-IDF}, spécificité$\dots$). Concernant les motifs syntaxiques, nous en avons extrait 6 types, marqués par leurs étiquettes \texttt{TreeTagger} comme illustré dans le tableau \ref{tab:POS_tags}. 
 \begin{table}[h]
 	\centering
 	\begin{tabular}{c|c}
@@ -46,19 +46,19 @@ Le tableau \ref{tab:repartition_POS} montre les motifs syntaxiques extraits, ave
 			\hline\hline
 			\rowcolor{grey!10}\multicolumn{4}{|c|}{Corpus Charcot}                                                                    & \multicolumn{3}{|c|}{Corpus Autres}                               \\ \hline
 			\multicolumn{1}{|c|}{Motif POS}      & \multicolumn{1}{c|}{Effectif} & \multicolumn{1}{c|}{Fréq. relat. (\%)} & \multicolumn{1}{c|}{Exemple} & \multicolumn{1}{c|}{Effectif} & \multicolumn{1}{c|}{Fréq. relat. (\%)} & \multicolumn{1}{c|}{Exemple}\\ \hline
-			\multicolumn{1}{|c|}{\textsc{A}}              & \multicolumn{1}{r|}{151}               &  \multicolumn{1}{r|}{30,14}                   & \multicolumn{1}{c|}{\textit{cérébral}} & \multicolumn{1}{r|}{149}               & \multicolumn{1}{r|}{29,80}      &   \multicolumn{1}{c|}{\textit{hypnotique}}          \\ \hline
 			\rowcolor{yellow!30}\multicolumn{1}{|c|}{\textsc{N}}              & \multicolumn{1}{r|}{261}               & \multicolumn{1}{r|}{52,10}                   & \multicolumn{1}{c|}{\textit{hystérie}} & \multicolumn{1}{r|}{271}               & \multicolumn{1}{r|}{54,20} & \multicolumn{1}{c|}{\textit{somnambule}}                  \\ \hline
+			\multicolumn{1}{|c|}{\textsc{A}}              & \multicolumn{1}{r|}{151}               &  \multicolumn{1}{r|}{30,14}                   & \multicolumn{1}{c|}{\textit{cérébral}} & \multicolumn{1}{r|}{149}               & \multicolumn{1}{r|}{29,80}      &   \multicolumn{1}{c|}{\textit{hypnotique}}          \\ \hline
 			\multicolumn{1}{|c|}{\textsc{N A}}            & \multicolumn{1}{r|}{73}                & \multicolumn{1}{r|}{14,57}                   &
 			\multicolumn{1}{c|}{\textit{système nerveux}} 	& \multicolumn{1}{r|}{73}                & \multicolumn{1}{r|}{14,60}       	&
 			\multicolumn{1}{c|}{\textit{lame médullaire}}            \\ \hline
-			\multicolumn{1}{|c|}{\textsc{N A A}}          & \multicolumn{1}{r|}{3}                 & \multicolumn{1}{r|}{0,60}                    &
-			\multicolumn{1}{c|}{\textit{système nerveux central}} &
-			\multicolumn{1}{r|}{0}                 & \multicolumn{1}{r|}{0,00}           &
-			\multicolumn{1}{c|}{--}         \\ \hline
 			\multicolumn{1}{|c|}{\textsc{N P N}}          & \multicolumn{1}{r|}{12}                & \multicolumn{1}{r|}{2,40}                    &
 			\multicolumn{1}{c|}{\textit{cas de folie}} &
 			\multicolumn{1}{r|}{6}                 & \multicolumn{1}{r|}{1,20}   &
 			\multicolumn{1}{c|}{\textit{scissure de sylvius}}                 \\ \hline
+			\multicolumn{1}{|c|}{\textsc{N A A}}          & \multicolumn{1}{r|}{3}                 & \multicolumn{1}{r|}{0,60}                    &
+			\multicolumn{1}{c|}{\textit{système nerveux central}} &
+			\multicolumn{1}{r|}{0}                 & \multicolumn{1}{r|}{0,00}           &
+			\multicolumn{1}{c|}{--}         \\ \hline
 			\multicolumn{1}{|c|}{\textsc{R}}              & \multicolumn{1}{r|}{1}                 & \multicolumn{1}{r|}{0,20}                    &
 			\multicolumn{1}{c|}{\textit{[d']emblée}} &
 			\multicolumn{1}{r|}{1}                 & \multicolumn{1}{r|}{0,20}       &
@@ -72,32 +72,46 @@ Le tableau \ref{tab:repartition_POS} montre les motifs syntaxiques extraits, ave
 	\caption{Répartition des parties du discours constituant les termes médicaux dans les corpus \og{}Charcot\fg{} et \og{}Autres\fg{}.}
 	\label{tab:repartition_POS}
 \end{table}
-Nous soulignons que 5 motifs sont communs aux deux corpus, hormis celui de \texttt{[N A A]}, extrait uniquement à partir du corpus \og{}Charcot\fg{}. Toutefois, il est intéressant de noter qu'aucune occurrence du terme très fréquent \textit{sclérose latérale amyotrophique}, ainsi que de ses éléments constitutifs \textit{sclérose} et \textit{amyotrophique}, n'a été extraite ; on n'en retrouve les traces que dans l'adjectif \texttt{[A]} extrait \textit{latérale}. Les trigrammes sont les séquences les plus longues extraites, notamment 6 occurrences de \texttt{[N P N]} (corpus \og{}Autres\fg{}), 12 de \texttt{[N P N]} et 3 de \texttt{[N A A]} (les deux dernières dans le corpus \og{}Charcot\fg{}). Dans la figure \ref{fig:repartition_POS}, nous exposons les répartitions des motifs syntaxiques constituant les termes médicaux extraits en termes de leurs effectifs dans les corpus \og{}Charcot\fg{} et \og{}Autres\fg{}. Nous nous apercevons que les motifs les plus fréquents sont les unigrammes (mots individuels) de noms \texttt{[N]} et les adjectifs \texttt{[A]}, alors que les bigrammes et les trigrammes sont présents dans une moindre mesure. Cela laisse à penser que \texttt{TermSuite} ne parvient pas à extraire les termes médicaux sous forme de quadrigrammes (séquence de quatre mots consécutifs, p. ex. \textit{sclérose en plaques disséminées}) ou des séquences plus longues (\textit{état de mal hystéro-épileptique}) qui sont bel et bien mentionnées dans les deux corpus. En plus, cette expérience confirme les limites de l'approche linguistique de l'extraction des termes scientifiques à base de règles, notamment à l'aide des expressions régulières et des automates à états finis. En effet, il est bien connu que leur construction est une tâche fastidieuse, restrictive et non maintenable sur le long terme, surtout en cas d'un grand ensemble de termes.
+Nous soulignons que 5 motifs sont communs aux deux corpus, hormis celui de \texttt{[N A A]}, extrait uniquement à partir du corpus \og{}Charcot\fg{}. Toutefois, il est intéressant de noter qu'aucune occurrence du terme très fréquent \textit{sclérose latérale amyotrophique}, ainsi que de ses éléments constitutifs \textit{sclérose} et \textit{amyotrophique}, n'a été extraite ; on n'en retrouve les traces que dans l'adjectif \texttt{[A]} extrait \textit{latérale}. Les trigrammes sont les séquences les plus longues extraites, notamment 6 occurrences de \texttt{[N P N]} (corpus \og{}Autres\fg{}), 12 de \texttt{[N P N]} et 3 de \texttt{[N A A]} (les deux dernières dans le corpus \og{}Charcot\fg{}). Les séquences plus longues sont très pertinentes pour l'extraction de la terminologie précise (p. ex. \textit{sclérose} est terme moins précis que \textit{sclérose latérale amyotrophique}). Dans la figure \ref{fig:repartition_POS}, nous exposons les répartitions des motifs syntaxiques constituant les termes médicaux extraits en termes de leurs effectifs dans les corpus \og{}Charcot\fg{} et \og{}Autres\fg{}. Nous nous apercevons que les motifs les plus fréquents sont les unigrammes (mots individuels) de noms \texttt{[N]} et les adjectifs \texttt{[A]}, alors que les bigrammes et les trigrammes sont présents dans une moindre mesure. Cela laisse à penser que \texttt{TermSuite} ne parvient pas à extraire les termes médicaux sous forme de quadrigrammes (séquence de quatre mots consécutifs, p. ex. \textit{sclérose en plaques disséminées}) ou des séquences plus longues (\textit{état de mal hystéro-épileptique}) qui sont bel et bien mentionnées dans les deux corpus. En plus, cette expérience confirme les limites de l'approche linguistique de l'extraction des termes scientifiques à base de règles, notamment à l'aide des expressions régulières et des automates à états finis. En effet, il est bien connu que leur construction est une tâche fastidieuse, restrictive et non maintenable sur le long terme, surtout en cas d'un grand ensemble de termes.
 
-
-\hl{AUTRES MÉTRIQUES}
-
-
-\begin{itemize}
-	\item DF : fréquence documentaire
-	\item spécificité
-	\item TF-IDF
-	\item fréquence absolue de chaque terme extrait
-\end{itemize}
-
-
-
-
-
-
-
-
-\begin{figure}[H] % Use [H] to force the figure to stay in place
+\begin{figure}[h] % Use [H] to force the figure to stay in place
 	\centering
 	\includegraphics[width=\linewidth]{img/repartition_motifs_POS.png}
 	\caption{Analyse comparative des séquences syntaxiques constituant les termes scientifiques dans le corpus \og{}Charcot\fg{} et \og{}Autres\fg{}.}
 	\label{fig:repartition_POS}
 \end{figure}
+
+Pour ce qui est de la mesure \textsc{TF-IDF},
+%une corrélation linéaire positive forte avec le coefficient de détermination \textsc{R}\textsuperscript{2} de $0,93$ (situé dans l'intervalle $[-1, 1]$) a été constatée entre la fréquence brute et la mesure \textsc{TF-IDF} des termes dans le corpus \og{}Charcot\fg{} (indiquée en rouge sur la figure \ref{fig:correlation_Charcot}). 
+%Autrement dit, plus un terme est fréquent, plus il est considéré comme pertinent selon la mesure \textsc{TF-IDF}. 
+elle mesure la pertinence d'un terme en calculant sa fréquence brute moins l'inverse de sa fréquence documentaire (le nombre de documents contenant ce terme indique sa dispersion). L'intuition derrière cette mesure se résumerait ainsi : si un terme apparaît souvent dans quelques documents, il s'agit d'un terme spécialisé. En revanche, si un terme apparaît souvent dans beaucoup de documents, il sera moins pertinent (un exemple classique de ce phénomène sont les mots vides, p. ex. \textit{par exemple}). 
+%La moyenne indiquée par la ligne verte représente la répartition des valeurs \textsc{TF-IDF} normalisées entre $0$ et $1$ autour de leur valeur centrale (\textsc{0,09}), tandis que la médiane (\textsc{0,04}), indiqué en bleu clair, sépare les données en deux groupes égaux. 
+%Les valeurs \textsc{TF-IDF} sont inférieures dans le cas des bigrammes et des trigrammes dans le corpus \og{}Charcot\fg{}, contrairement aux unigrammes qui sont classés comme plus pertinents. Par exemple, \textit{pathologie nerveuse} et \textit{cas de paralysie} sont le bigramme et le trigramme les mieux classés avec leurs valeurs de \textsc{TF-IDF} de $0,33$ et de $0,05$, respectivement.
+Nous remarquons que les bigrammes comme, p. ex. \textit{paralysie générale} ($0,53$) et \textit{lame médullaire} ($0,51$) n'ont été sous-valorisés dans aucun corpus par rapport aux unigrammes selon cette mesure, puisqu'ils figurent dans les parties supérieures des listes des termes extraites. Cela ne s'applique pas aux trigrammes comme \textit{troubles de sensibilité} ($0,10$) et \textit{pli de passage} ($0,14$). Enfin, nous avons également récupéré les résultats de la spécificité des termes extraits. Cette mesure se réfère au ratio d'étrangeté (angl. \textit{weirdness ratio}) \citep{khurshid2000weirdness}, soit à la \og{}termicité\fg{} des termes dans le corpus par rapport au langage général. Elle exprime le degré de relation d'un terme avec un domaine spécifique. Par exemple, le terme \textit{atrophie} a une termicité plus élevée ($4,44$) que \textit{maladie nerveuses} ($3,15$) dans le corpus \og{}Charcot\fg{} ; le même rapport est observé pour les termes \textit{atrophie} ($4,38$) et \textit{antécédent personnel} ($3,17$) dans le corpus \og{}Autres\fg{}.
+
+%\begin{figure}[h] % Use [H] to force the figure to stay in place
+%	\centering
+%	\includegraphics[width=\linewidth]{img/correlation_Charcot.png}
+%	\caption{Corrélation linéaire positive entre la fréquence brute et \textsc{TF-IDF} dans le corpus \og{}Charcot\fg{}.}
+%	\label{fig:correlation_Charcot}
+%\end{figure}
+
+%\begin{figure}[h] % Use [H] to force the figure to stay in place
+%	\centering
+%	\includegraphics[width=\linewidth]{img/correlation_Autres.png}
+%	\caption{Corrélation linéaire positive entre la fréquence brute et \textsc{TF-IDF} dans le corpus \og{}Charcot\fg{}.}
+%	\label{fig:correlation_Autres}
+%\end{figure}
+
+
+
+
+
+
+
+
+
+
 
 \section{Extraction des phrases-clés : méthodes statistiques}
 \label{methodo_stat}

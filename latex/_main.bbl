@@ -278,6 +278,13 @@ Kant, {\'E}. (1863).
 \newblock
   \url{https://fr.wikisource.org/wiki/Page:Kant\_-\_Anthropologie.djvu/452}.
 
+\bibitem[Khurshid \textit{et~al.}, 2000]{khurshid2000weirdness}
+Khurshid, A., Gillman, L., \& Tostevin, L. (2000).
+\newblock Weirdness indexing for logical document extrapolation and retrieval.
+\newblock In {\em Proceedings of the Eighth Text Retrieval Conference
+  (TREC-8)}.
+\newblock \url{https://trec.nist.gov/pubs/trec8/papers/surrey2.pdf}.
+
 \bibitem[Koehler, 2013]{KOEHLER201393}
 Koehler, P.~J. (2013).
 \newblock Chapter 6 -- {C}harcot, {L}a {S}alpêtrière, and {H}ysteria as
