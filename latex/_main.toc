@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Valorisation des archives patrimoniales et recherches quantitatives des circulations des savoirs : état actuel}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Problématique + méthodo du recueil de données + hypothèses}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Problématique + méthodo du recueil de données + hypothèses}{2}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Objectif de l'étude, portée + annonce du plan}{3}{section.1.4}%
 \contentsline {chapter}{\numberline {2}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}L'erreur comme source du progrès scientifique}{5}{section.2.1}%
