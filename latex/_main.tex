@@ -10,11 +10,14 @@
 \usepackage[utf8]{inputenc}
 \usepackage[greek.ancient,russian,french]{babel}
 \usepackage{fontspec}
-\babelfont[greek]{rm}[Scale=MatchLowercase,Script=Cyrillic]{Times New Roman}
-\babelfont[russian]{rm}[Scale=MatchLowercase,Script=Cyrillic]{Times New Roman}
+\babelfont[greek]{rm}[Scale=MatchLowercase,Script=Greek]{Gentium Plus}
+\babelfont[russian]{rm}[Scale=MatchLowercase,Script=Cyrillic]{Gentium Plus}
+
 \usepackage[T2A,LGR,T1]{fontenc}
 \usepackage{lmodern}
-\usepackage{gentium}
+%\usepackage{gentium}
+\setmainfont{Gentium Plus}
+
 \usepackage[x11names,table,xcdraw]{xcolor}
 \definecolor{maroon}{cmyk}{0,0.87,0.68,0.32}
 \usepackage{soul}
@@ -36,7 +39,7 @@
 %pour la mise en page des tableaux
 \usepackage{array}
 \usepackage{tabularx}
-\usepackage[round,authoryear]{natbib}
+%\usepackage[round,authoryear]{natbib}
 %pour utiliser \floatbarrier
 %\usepackage{placeins}
 %\usepackage{floatrow}
@@ -334,7 +337,8 @@ pdfstartview={FitH},
 \input{1_intro}
 
 
-\chapter{La rupture épistémologique en médecine : la notion d'\textit{hystérie}}
+\chapter{Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}
+\label{rupture}
 \input{2_rupture}
 
 \chapter{Pister la circulation du discours médical au prisme du numérique}

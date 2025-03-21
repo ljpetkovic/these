@@ -22,41 +22,59 @@
 
 
 
-Ce projet de thèse propose une étude interdisciplinaire avec le focus sur la valorisation numérique du fonds patrimonial de Jean-Martin Charcot, fondateur de la neurologie moderne au XIX\ieme{} siècle en France. 
+Ce projet de thèse propose une étude interdisciplinaire avec le focus sur la valorisation numérique du fonds patrimonial de Jean-Martin Charcot (ci-après \og{}fonds Charcot\fg{}), fondateur de la neurologie moderne au XIX\ieme{} siècle en France. 
 L'intérêt de poursuivre ce parcours doctoral puise ses racines dans les participations de l'autrice de ce mémoire aux travaux portant sur l'exploration numérique des ressources textuelles aussi diverses que les paroles de chansons rock d'ex-Yougoslavie \citep{petkovic2019creation}, les manuscrits de M\textsuperscript{me} de Sévigné (\citealp{gabay2020quantifying,gabay2021katabase}) ou les catalogues d'expositions dans le cadre du projet \textit{Virtual Contagions}\footnote{\url{https://www.unige.ch/visualcontagions/}.}. 
 À ces projets s'ajoute également le stage effectué au sein de l'équipe-projet Observatoire des Textes, des Idées et des Corpus (\textsc{ObTIC})\footnote{\url{https://obtic.sorbonne-universite.fr/presentation/}.} de Sorbonne Université entre le 29 mars 2021 et le 31 juillet 2021, sous l'encadrement de Prof. D\textsuperscript{r} Glenn Roe et D\textsuperscript{r} Motasem Alrahabi, ingénieur de recherche. Dans le cadre du projet de la Très Grande Bibliothèque (\textsc{TGB}), l'enjeu de ce stage a été d'exploiter le corpus constitué d'un grand volume de documents \textsc{XML} en français, océrisés\footnote{Forme francisée dérivée de l'abréviation anglaise \textsc{OCR} pour \textit{optical character recognition}, soit \og{}reconnaissance optique de caractères\fg{}.} (transcrits automatiquement) et non corrigés, issus des collections Gallica de la Bibliothèque nationale de France (\textsc{BnF}). 
-À l'issue du stage, le projet de recherche doctoral a été mis en place lors de la campagne d'attribution de contrats doctoraux 2021 par l'institut Observatoire des patrimoines de l'Alliance Sorbonne Université (\textsc{OPUS})\footnote{\url{https://institut-opus.sorbonne-universite.fr/node/478}}. Il a pour objectif de répondre aux enjeux de l'institut, mais aussi à ceux de la communauté des humanités numériques, dont les projets traitent des objets patrimoniaux sous toutes leurs formes : (im)matériels, culturels ou naturels. Au carrefour de l'histoire des sciences et de la linguistique computationnelle, ce projet fait également partie des travaux de l'axe \#3 qui sont menés par l'équipe-projet \textsc{ObTIC} et qui sont tournés vers le dialogue constant entre les recherches qualitatives et quantitatives. Enfin, le présent mémoire vise également à approfondir les recherches issues du travail de \citet{petkovic2023circulation} s'inscrivant dans l'optique de l'exploration quantitative des circulations des concepts médicaux. 
+À l'issue du stage, le projet de recherche doctoral a été mis en place lors de la campagne d'attribution de contrats doctoraux 2021 par l'institut Observatoire des patrimoines de l'Alliance Sorbonne Université (\textsc{OPUS})\footnote{\url{https://institut-opus.sorbonne-universite.fr/node/478}}. Il a pour objectif de répondre aux enjeux de l'institut, mais aussi à ceux de la communauté des humanités numériques, dont les projets traitent des objets patrimoniaux sous toutes leurs formes : (im)matériels, culturels ou naturels. Au carrefour de l'histoire des sciences et de la linguistique computationnelle, ce projet fait également partie des travaux de l'axe \#3 qui sont menés par l'équipe-projet \textsc{ObTIC} et qui sont tournés vers le dialogue constant entre les recherches qualitatives et quantitatives. Le présent mémoire vise également à approfondir les recherches issues du travail de \citet{petkovic2023circulation} s'inscrivant dans l'optique de l'exploration quantitative des circulations des concepts médicaux. 
 
+Dans le cadre de la valorisation numérique du fonds Charcot, le cœur de cette recherche porte sur l’exploration de la circulation des savoirs, telle qu’elle se manifeste à travers les reprises du discours médical de Charcot dans les ouvrages d’autres scientifiques. La motivation initiale à poursuivre ce travail de recherche découle de l’abondance des études consacrées à la valorisation des archives patrimoniales et aux circulations culturelles (recensées dans la section \ref{sect:sota}). Par ailleurs, l’intention de mener à bien ce projet se renforce face à la confusion que suscite le terme \textit{circulation des savoirs}, souvent méconnu des chercheur$\cdot$se$\cdot$x$\cdot$s ne travaillant pas dans le domaine du \textsc{TAL} ou des humanités numériques.
+Cette barrière disciplinaire est apparue de manière particulièrement tangible lors des échanges de l’autrice avec les historiens des sciences et les spécialistes de Charcot. C’est pourquoi cette thèse entend constituer un pas vers la démystification des méthodes quantitatives, mises au service des recherches en histoire de la médecine, en histoire des sciences, et plus largement dans le champ des sciences humaines et sociales (ci-après \og{}\textsc{SHS}\fg{}).
+
+\section{Problématique}
+
+Dans le cadre de cette thèse, nous nous intéressons tout particulièrement à l'analyse de la genèse et de la migration du discours médical de la pathologie anatomique, de la neurologie et de la psychologie dans les écrits de Charcot réalisés en collaboration et dans ceux de ses disciples, collaborateurs et successeurs qui constituent son \og{}réseau scientifique\fg{}. Si l'importance des contributions scientifiques de Charcot est un sujet largement étudié du point de vue de l'histoire des neurosciences (\citealp{bogousslavsky2011following,broussolle2012,camargo2024}, parmi beaucoup d'autres), cet aspect reste inexploré dans une perspective quantitative. Cela n'est pas très étonnant, étant donné que l'étude des textes dans les archives Internet et des données en ligne dans un contexte de circulation des connaissances en général reste un domaine en cours de développement \citep{milia2023}. À ce titre, nous nous tâchons à mesurer informatiquement l'impact des travaux de Charcot sur son réseau scientifique. Cette mesure se fonde sur l'analyse des concepts-clés en matière de son discours scientifique, et plus particulièrement sur l'opérationnalisation du terme \og{}influence\fg{}, définie ici comme une intertextualité uni-directionnelle, allant des écrits de Charcot (ci-après corpus \og{}Charcot\fg{}) vers ceux de son réseau scientifique (ci-après corpus \og{}Autres\fg{}). Il s'agit donc \textit{in fine} d'aborder computationnellement la question des circulations, non pas des artefacts matériels comme les manuscrits \citep{gabay2021katabase} et les images \citep{joyeux2019visual}, mais des phénomènes textuels complexes \citep{manjavacas} ayant une dimension théorique forte. 
+
+Le pré-requis pour analyser ce type de circulation est de formaliser les concepts scientifiques identifiables dans notre corpus d'étude.
+Cela est intrinsèquement lié au double objectif de cette thèse, car nous souhaitons :
+\begin{itemize} 
+	\item formaliser une approche numérique pour tracer l'évolution des concepts médicaux en général ;
+	\item en prenant comme cas d'étude les archives de Charcot, pister numériquement la circulation de son discours médical dans la communauté scientifique contemporaine.
+\end{itemize}
+\medskip
+
+C'est donc de cette problématique que découle la question de déterminer s'il est possible de mesurer l'impact de Charcot sur son réseau scientifique en s'appuyant sur les termes scientifiques qu'il a employés et qui ont été repris par la suite. Dans la lignée de pensée de \citet{milia2023}, nous considérons un texte comme point d'entrée pour étudier les tendances de la circulation des idées à l'aide des caractéristiques structurelles spécifiques. En l'occurrence, nous avançons l'hypothèse que certains termes médicaux dont Charcot a été l'inventeur (\textit{sclérose latérale amyotrophique} -- \textit{SLA}) ou le transmetteur (\textit{hystérie}) ont été repris de manière significative dans les écrits de son réseau scientifique. Ces termes se déclinent sous forme des unigrammes (mots uniques), mais aussi des expressions à mots multiples (angl. \textit{multi-word expressions}), plus précisément des collocations, \og{}associations conventionnelles de mots, arbitraires et récurrentes, dont les éléments ne sont pas nécessairement contigus et dont la signification est largement transparente\fg{} \citep[p. 96]{nerima2006}. La complexité syntaxique de ces termes, qui constituent le champ notionnel médical et potentiellement des savoirs en circulation, peut être résumée ainsi :
+\begin{table}[h]
+	\centering
+	\begin{tabular}{l|l}
+		\multicolumn{1}{c|}{Partie(s) du discours} & \multicolumn{1}{c}{Exemple} \\
+		\hline
+		\textsc{nom} & \textit{hystérie}\\
+		\textsc{nom + adjectif} & \textit{ataxie locomotrice}\\
+		\textsc{nom + adjectif + adjectif} & \textit{sclérose latérale amyotrophique}\\
+		\textsc{nom + préposition + nom + adjectif} & \textit{état de mal hystéro-épileptique}
+	\end{tabular}
+	\caption{Exemples des concepts scientifiques avec leurs parties du discours.}
+\end{table}
 
 
 
 
 \section{Valorisation des archives patrimoniales et recherches quantitatives des circulations des savoirs : état actuel}
-...SotA, cadre théorique de la thèse
+\label{sect:sota}
+	\begin{table}[h]
+	\centering
+	\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{3.5cm}|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
+		\hline
+		Type & Titre & Paie plus importante \\
+			\hline
+	\end{tabularx}
+\end{table}
+
+\hl{SotA, cadre théorique de la thèse}
 
 \url{https://docs.google.com/document/d/1eoW3mDiHYB9vrPtG-5pdPuaUAAUJpWDa/edit\#heading=h.gjdgxs}
-\section{Problématique + méthodo du recueil de données + hypothèses}
-Notre objectif de thèse est double, car nous souhaitons :
-\begin{itemize} 
-	\item formaliser une approche pour tracer l'évolution des concepts médicaux en général ;
-	\item en prenant comme cas d'étude les archives de Charcot, pister numériquement la circulation de son discours médical.
-\end{itemize}
 
-Nous nous intéressons tout particulièrement à l'analyse de la genèse et de la migration du discours médical de la pathologie anatomique, de la neurologie et de la psychologie dans les écrits de Charcot réalisés en collaboration et dans ceux de ses disciples et continuateurs. Si l'importance des contributions scientifiques de Charcot est un sujet largement étudié du point de vue théorique (\citealp{bogousslavsky2011following,broussolle2012,camargo2024} ), cet aspect reste inexploré dans une perspective quantitative.
-
-À ce titre, nous nous tâchons à mesurer informatiquement l'impact des travaux de Charcot sur son réseau scientifique\footnote{Nous engloberons sous ce terme l'ensemble de ses collègues et successeurs.}. Cette mesure se fonde sur l'analyse des concepts-clés en matière de son discours scientifique, et plus particulièrement sur l'opérationnalisation du terme \og{}influence\fg{}, définie ici comme une intertextualité uni-directionnelle, allant des écrits de Charcot (ci-après corpus \og{}Charcot\fg{}) vers ceux de ses collaborateurs et successeurs (ci-après corpus \og{}Autres\fg{}). Les objectifs de cette thèse consistaient donc à formaliser la définition de la notion des concepts scientifiques identifiables dans notre corpus d'étude, et à proposer une démarche de l'exploration de ces concepts du point de vue numérique. Il s'agit donc \textit{in fine} d'aborder computationnellement la question des circulations, non pas des artefacts matériels comme les manuscrits \citep{gabay2021katabase} et les images \citep{joyeux2019visual}, mais des phénomènes textuels complexes \citep{manjavacas} ayant une dimension théorique forte. Cela nous permettra d'y analyser également le discours médical de Charcot à travers l'extraction des expressions à mots multiples \citep[p. 96]{nerima2006}\footnote{angl. \textit{multi-word expressions}, se déclinant sous la forme suivante, entre autres : \textsc{substantif + adjectif + adjectif}. Exemple : la pathologie \textit{sclérose latérale amyotrophique}.}, qui constituent potentiellement des champs lexicaux et des savoirs en circulation.
-
-
-
-Est-il possible de mesurer l’impact de Charcot sur son réseau*
-scientifique en s’appuyant sur les termes scientifiques qu’il a employés?
-
-hypothèse ...
-\section{Objectif de l'étude, portée + annonce du plan}
-
-
-
-Ce mémoire est structuré en cinq parties principales : après l'introduction, nous esquissons l'évolution des théories scientifiques dans une perspective épistémologique, en prenant comme cas d'étude les contributions majeures de Charcot (chapitre \ref{circulations}).
+Ce mémoire est structuré en cinq parties principales : après l'introduction, nous esquissons l'évolution des théories scientifiques dans une perspective épistémologique, en prenant comme cas d'étude les contributions majeures de Charcot (chapitre \ref{rupture}).
 Ensuite, nous proposons une revue de la littérature portant sur les modalités des circulations des objets patrimoniaux du point de vue numérique (chapitre \ref{sota}). Le chapitre \ref{corpus} donne un aperçu de la constitution du corpus de recherche. Le chapitre \ref{resultats} présente les premières tentatives de l'analyse computationnelle de l'impact de Charcot sur son réseau scientifique, ainsi que les limites de ces approches, en proposant une nouvelle méthode pour la quantification de la pertinence des expressions polylexicales. Enfin, le chapitre \ref{conclusion} propose une conclusion et des pistes pour des recherches futures.
 
 
