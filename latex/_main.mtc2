@@ -1,2 +1,7 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{\reset@font\mtcSfont 5}{section.2.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Les contributions de Charcot}{\reset@font\mtcSfont 7}{section.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Constitution du corpus Charcot}{\reset@font\mtcSfont 19}{section.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{\reset@font\mtcSfont 22}{section.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Extraction de la terminologie : approche linguistique}{\reset@font\mtcSfont 23}{section.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Extraction des phrases-clés : méthodes statistiques}{\reset@font\mtcSfont 26}{section.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Extraction des phrases-clés : méthode à base d'apprentissage profond}{\reset@font\mtcSfont 28}{section.2.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.1}Librairie \texttt {keybert}}{\reset@font\mtcSSfont 28}{subsection.2.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.2}Approche \textit {PatternRank}}{\reset@font\mtcSSfont 29}{subsection.2.5.2}}

@@ -27,12 +27,12 @@ L'intérêt de poursuivre ce parcours doctoral puise ses racines dans les partic
 À ces projets s'ajoute également le stage effectué au sein de l'équipe-projet Observatoire des Textes, des Idées et des Corpus (\textsc{ObTIC})\footnote{\url{https://obtic.sorbonne-universite.fr/presentation/}.} de Sorbonne Université entre le 29 mars 2021 et le 31 juillet 2021, sous l'encadrement de Prof. D\textsuperscript{r} Glenn Roe et D\textsuperscript{r} Motasem Alrahabi, ingénieur de recherche. Dans le cadre du projet de la Très Grande Bibliothèque (\textsc{TGB}), l'enjeu de ce stage a été d'exploiter le corpus constitué d'un grand volume de documents \textsc{XML} en français, océrisés\footnote{Forme francisée dérivée de l'abréviation anglaise \textsc{OCR} pour \textit{optical character recognition}, soit \og{}reconnaissance optique de caractères\fg{}.} (transcrits automatiquement) et non corrigés, issus des collections Gallica de la Bibliothèque nationale de France (\textsc{BnF}). 
 À l'issue du stage, le projet de recherche doctoral a été mis en place lors de la campagne d'attribution de contrats doctoraux 2021 par l'institut Observatoire des patrimoines de l'Alliance Sorbonne Université (\textsc{OPUS})\footnote{\url{https://institut-opus.sorbonne-universite.fr/node/478}}. Il a pour objectif de répondre aux enjeux de l'institut, mais aussi à ceux de la communauté des humanités numériques, dont les projets traitent des objets patrimoniaux sous toutes leurs formes : (im)matériels, culturels ou naturels. Au carrefour de l'histoire des sciences et de la linguistique computationnelle, ce projet fait également partie des travaux de l'axe \#3 qui sont menés par l'équipe-projet \textsc{ObTIC} et qui sont tournés vers le dialogue constant entre les recherches qualitatives et quantitatives. Le présent mémoire vise également à approfondir les recherches issues du travail de \citet{petkovic2023circulation} s'inscrivant dans l'optique de l'exploration quantitative des circulations des concepts médicaux. 
 
-Dans le cadre de la valorisation numérique du fonds Charcot, le cœur de cette recherche porte sur l’exploration de la circulation des savoirs, telle qu’elle se manifeste à travers les reprises du discours médical de Charcot dans les ouvrages d’autres scientifiques. La motivation initiale à poursuivre ce travail de recherche découle de l’abondance des études consacrées à la valorisation des archives patrimoniales et aux circulations culturelles (recensées dans la section \ref{sect:sota}). Par ailleurs, l’intention de mener à bien ce projet se renforce face à la confusion que suscite le terme \textit{circulation des savoirs}, souvent méconnu des chercheur$\cdot$se$\cdot$x$\cdot$s ne travaillant pas dans le domaine du \textsc{TAL} ou des humanités numériques.
+Dans le cadre de la valorisation numérique du fonds Charcot, le cœur de cette recherche porte sur l’exploration de la circulation des savoirs, telle qu’elle se manifeste à travers les reprises du discours médical de Charcot dans les ouvrages d’autres scientifiques. La motivation initiale à poursuivre ce travail de recherche découle de l’abondance des études consacrées à la valorisation des archives patrimoniales et aux circulations culturelles (recensées dans la section \ref{sect:sota}). Par ailleurs, l’intention de mener à bien ce projet se renforce face à la confusion que suscite le terme \textit{circulation des savoirs}, souvent méconnu des chercheur$\cdot$se$\cdot$s$\cdot$x ne travaillant pas dans le domaine du \textsc{TAL} ou des humanités numériques.
 Cette barrière disciplinaire est apparue de manière particulièrement tangible lors des échanges de l’autrice avec les historiens des sciences et les spécialistes de Charcot. C’est pourquoi cette thèse entend constituer un pas vers la démystification des méthodes quantitatives, mises au service des recherches en histoire de la médecine, en histoire des sciences, et plus largement dans le champ des sciences humaines et sociales (ci-après \og{}\textsc{SHS}\fg{}).
 
 \section{Problématique}
 
-Dans le cadre de cette thèse, nous nous intéressons tout particulièrement à l'analyse de la genèse et de la migration du discours médical de la pathologie anatomique, de la neurologie et de la psychologie dans les écrits de Charcot réalisés en collaboration et dans ceux de ses disciples, collaborateurs et successeurs qui constituent son \og{}réseau scientifique\fg{}. Si l'importance des contributions scientifiques de Charcot est un sujet largement étudié du point de vue de l'histoire des neurosciences (\citealp{bogousslavsky2011following,broussolle2012,camargo2024}, parmi beaucoup d'autres), cet aspect reste inexploré dans une perspective quantitative. Cela n'est pas très étonnant, étant donné que l'étude des textes dans les archives Internet et des données en ligne dans un contexte de circulation des connaissances en général reste un domaine en cours de développement \citep{milia2023}. À ce titre, nous nous tâchons à mesurer informatiquement l'impact des travaux de Charcot sur son réseau scientifique. Cette mesure se fonde sur l'analyse des concepts-clés en matière de son discours scientifique, et plus particulièrement sur l'opérationnalisation du terme \og{}influence\fg{}, définie ici comme une intertextualité uni-directionnelle, allant des écrits de Charcot (ci-après corpus \og{}Charcot\fg{}) vers ceux de son réseau scientifique (ci-après corpus \og{}Autres\fg{}). Il s'agit donc \textit{in fine} d'aborder computationnellement la question des circulations, non pas des artefacts matériels comme les manuscrits \citep{gabay2021katabase} et les images \citep{joyeux2019visual}, mais des phénomènes textuels complexes \citep{manjavacas} ayant une dimension théorique forte. 
+Les savoirs participent à un double mouvement d'héritage et de transmission. En effet, leur circulation à travers le temps reflète ces dynamiques de transmission, essentielles à la formation de courants de pensée, ainsi qu'à l'affirmation d’une identité construite autour d'un savoir partagé \citep[p.~251]{adell2011chapitre}. Dans le cadre de cette thèse, cette circulation se manifeste à travers l'analyse de la genèse et de la migration du discours médical -- en pathologie anatomique, neurologie et psychologie -- dans les écrits co-rédigés par Charcot ainsi que dans ceux de ses disciples, collaborateurs et successeurs constituant son \og{}réseau scientifique\fg{}. Si l'importance des contributions scientifiques de Charcot est un sujet largement étudié du point de vue de l'histoire des neurosciences (\citealp{bogousslavsky2011following,broussolle2012,camargo2024}, parmi de nombreux autres travaux), cet aspect reste inexploré dans une perspective quantitative. Cela n'est pas très étonnant, étant donné que l'étude des textes dans les archives Internet et des données en ligne dans un contexte de circulation des connaissances en général reste un domaine en cours de développement \citep{milia2023}. À ce titre, nous nous tâchons à mesurer informatiquement l'impact des travaux de Charcot sur son réseau scientifique. Cette mesure se fonde sur l'analyse des concepts-clés en matière de son discours scientifique, et plus particulièrement sur l'opérationnalisation du terme \og{}influence\fg{}, définie ici comme une intertextualité uni-directionnelle, allant des écrits de Charcot (ci-après corpus \og{}Charcot\fg{}) vers ceux de son réseau scientifique (ci-après corpus \og{}Autres\fg{}). Il s'agit donc \textit{in fine} d'aborder computationnellement la question des circulations, non pas des artefacts matériels comme les manuscrits \citep{gabay2021katabase} et les images \citep{joyeux2019visual}, mais des phénomènes textuels complexes \citep{manjavacas} ayant une dimension théorique forte. 
 
 Le pré-requis pour analyser ce type de circulation est de formaliser les concepts scientifiques identifiables dans notre corpus d'étude.
 Cela est intrinsèquement lié au double objectif de cette thèse, car nous souhaitons :
@@ -42,7 +42,7 @@ Cela est intrinsèquement lié au double objectif de cette thèse, car nous souh
 \end{itemize}
 \medskip
 
-C'est donc de cette problématique que découle la question de déterminer s'il est possible de mesurer l'impact de Charcot sur son réseau scientifique en s'appuyant sur les termes scientifiques qu'il a employés et qui ont été repris par la suite. Dans la lignée de pensée de \citet{milia2023}, nous considérons un texte comme point d'entrée pour étudier les tendances de la circulation des idées à l'aide des caractéristiques structurelles spécifiques. En l'occurrence, nous avançons l'hypothèse que certains termes médicaux dont Charcot a été l'inventeur (\textit{sclérose latérale amyotrophique} -- \textit{SLA}) ou le transmetteur (\textit{hystérie}) ont été repris de manière significative dans les écrits de son réseau scientifique. Ces termes se déclinent sous forme des unigrammes (mots uniques), mais aussi des expressions à mots multiples (angl. \textit{multi-word expressions}), plus précisément des collocations, \og{}associations conventionnelles de mots, arbitraires et récurrentes, dont les éléments ne sont pas nécessairement contigus et dont la signification est largement transparente\fg{} \citep[p. 96]{nerima2006}. La complexité syntaxique de ces termes, qui constituent le champ notionnel médical et potentiellement des savoirs en circulation, peut être résumée ainsi :
+C'est donc de cette problématique que découle la question de savoir s'il est possible de mesurer l'impact de Charcot sur l'histoire des neurosciences à travers les termes scientifiques qu'il a employés et qui ont été repris par son réseau scientifique. Dans la lignée de pensée de \citet{milia2023}, nous considérons un texte comme point d'entrée pour étudier les tendances de la circulation des idées à l'aide des caractéristiques structurelles spécifiques. En l'occurrence, nous avançons l'hypothèse que certains termes médicaux dont Charcot a été l'inventeur (\textit{sclérose latérale amyotrophique} -- \textit{SLA}) ou le transmetteur (\textit{hystérie}) ont été repris de manière significative dans les écrits de son réseau. Ces termes se déclinent sous forme des unigrammes (mots uniques), mais aussi des expressions à mots multiples (angl. \textit{multi-word expressions}), plus précisément des collocations, \og{}associations conventionnelles de mots, arbitraires et récurrentes, dont les éléments ne sont pas nécessairement contigus et dont la signification est largement transparente\fg{} \citep[p. 96]{nerima2006}. La complexité syntaxique de ces termes, qui constituent le champ notionnel médical et potentiellement des savoirs en circulation, peut être résumée ainsi :
 \begin{table}[h]
 	\centering
 	\begin{tabular}{l|l}
@@ -56,28 +56,42 @@ C'est donc de cette problématique que découle la question de déterminer s'il 
 	\caption{Exemples des concepts scientifiques avec leurs parties du discours.}
 \end{table}
 
+\section{Modalités des circulations des savoirs}
+De nombreux$\cdot$ses chercheur$\cdot$se$\cdot$s$\cdot$x partagent le point de vue selon lequel la notion de circulation des savoirs constitue un champ de recherche vaste, ainsi qu'un nouveau paradigme de la connaissance depuis le début du XXI\ieme{} siècle et l'avènement du Web \textsc{2.0} (\citealp{landais2014frederic,quet2014frederic}). Cette phase de l'évolution du Web se caractérisait notamment par la transformation majeure de l'Internet en vue du développement des réseaux sociaux, des blogs et des sites participatifs, tout en permettant aux utilisateur$\cdot$trice$\cdot$s$\cdot$x de créer, partager et interagir avec du contenu Web. Nous traversons actuellement l'ère du Web \textsc{3.0}, né dans les années 2010 et appelé également \og{}Web sémantique\fg{}, qui permet de lier et structurer l'information afin d'en extraire la connaissance (\citeauthor{andrade2013sociologie} \citeyear{andrade2013sociologie}, p.~107). Néanmoins, en se référant à la circulation des savoirs, \citeauthor{landais2014frederic} (\citeyear{landais2014frederic}, p.~331) remarque que ce phénomène connaît une croissance importante grâce aux outils de la numérisation de la production scientifique et de l'édition numérique des ouvrages.
+%les savoirs sont amenés à circuler, à voyager, à se propager, mais aussi à communiquer plus rapidement ce qui ouvre de nombreuses pistes de recherche, aussi bien théoriques qu'appliquées, orientées vers l'exploration de la nature de ces circulations. 
 
+Le terme en question reste toutefois assez complexe en raison de visions différentes sur la façon de le définir. Afin d'éclairer cette problématique, \citeauthor{quet2014frederic} (\citeyear{quet2014frederic}, pp.~221--222) souligne trois aspects suivants :
+\begin{enumerate}
+	\item \textbf{Éléments de la circulation}. Qu'est-ce qui circule ? 
+	\begin{itemize}
+		\item individus (savants, techniciens, traducteurs, etc.) ;
+		\item objets matériels (instruments scientifiques, ouvrages etc.) :
+		\item constructions symboliques (théories, concepts etc.).
+	\end{itemize}  
+	\item \textbf{Conceptions de la circulation et méthodes de son analyse} ;
+	\begin{itemize}
+		\item définition de la circulation comme \og{}traduction\fg{}, \og{}diffusion\fg{}, \og{}accès\fg{} ou \og{}succès\fg{} ;
+		\item critères méthodologiques possibles pour étudier la circulation p. ex. d'une théorie : 
+		\begin{itemize}
+			\item circulations géographiques des principaux concepteurs qu'on lui reconnaît ;
+			\item circulations et lectures des textes produits par leurs concepteurs ;
+			\item usages et applications analogiques qui en sont faits dans d'autres domaines.
+		\end{itemize} 
+		\item enjeux d'articulation de ces différents niveaux d'observation du point de vue méthodologique et de celui de la production du texte de recherche, dans le cas des croisements de ces niveaux.
+	\end{itemize}
+	\item \textbf{Conceptions analytiques et normatives des savoirs}
+	\begin{itemize}
+		\item affaiblissement des catégories des \og{}savoirs profanes\fg{} et \og{}savoirs scientifiques\fg{}, ainsi que de l'opposition entre eux ;
+		\item revalorisation des savoirs implicites et de la dimension pratique des connaissances ;
+		\item glorification de la circulation comme porteuse de valeurs \textit{a priori} positives : confrontation à l'autre, hybridation, production de nouveauté, etc.
+	\end{itemize}
+\end{enumerate}
 
-
-\section{Valorisation des archives patrimoniales et recherches quantitatives des circulations des savoirs : état actuel}
-\label{sect:sota}
-	\begin{table}[h]
-	\centering
-	\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{3.5cm}|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
-		\hline
-		Type & Titre &  \\
-			\hline
-	\end{tabularx}
-\end{table}
-
-\hl{SotA, cadre théorique de la thèse}
-
-\url{https://docs.google.com/document/d/1eoW3mDiHYB9vrPtG-5pdPuaUAAUJpWDa/edit\#heading=h.gjdgxs}
-
-Ce mémoire est structuré en cinq parties principales : après l'introduction, nous esquissons l'évolution des théories scientifiques dans une perspective épistémologique, en prenant comme cas d'étude les contributions majeures de Charcot (chapitre \ref{rupture}).
-Ensuite, nous proposons une revue de la littérature portant sur les modalités des circulations des objets patrimoniaux du point de vue numérique (chapitre \ref{sota}). Le chapitre \ref{corpus} donne un aperçu de la constitution du corpus de recherche. Le chapitre \ref{resultats} présente les premières tentatives de l'analyse computationnelle de l'impact de Charcot sur son réseau scientifique, ainsi que les limites de ces approches, en proposant une nouvelle méthode pour la quantification de la pertinence des expressions polylexicales. Enfin, le chapitre \ref{conclusion} propose une conclusion et des pistes pour des recherches futures.
-
-
+Dans le cadre de l'analyse numérique de l'impact scientifique de Charcot, nous étudions \textit{in fine} la circulation de ses théories et des concepts médicaux dont il était inventeur (p. ex. \textit{SLA}) et transmetteur (p. ex. \textit{hystérie})\footnote{Comme déjà expliqué dans la partie \ref{hysterie}, Charcot n'a pas inventé ce terme, mais en réinterprété le sens.}. Cette démarche nous oblige de :
+\begin{enumerate}
+	\item formaliser en premier lieu la définition du terme \textit{concept scientifique}, identifiable dans un corpus numérique, tout en prenant en compte les difficultés inhérentes à la définition d'un concept \textit{per se}, ainsi qu'à celle de ses termes apparentés : \textit{idée}, \textit{terme}, \textit{mot} ou \textit{mot-clé} (parties \ref{concept} et \ref{termes}) ;
+	\item comprendre, conceptualiser et opérationnaliser \og{}comment des concepts, des théories ou des méthodes circulent, s'échangent, s'empruntent, se transfèrent et se transforment dans le passage d'une discipline à une autre\fg{}, questionnement partagé avec \citeauthor{landais2014frederic} (\citeyear{landais2014frederic}, p.~331) (partie \ref{circulations}).
+\end{enumerate}
 
 
 

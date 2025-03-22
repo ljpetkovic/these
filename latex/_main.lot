@@ -1,18 +1,12 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
 \contentsline {xchapter}{Introduction}{1}{chapter.1}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Exemples des concepts scientifiques avec leurs parties du discours.\relax }}{4}{table.caption.4}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Aperçu des métriques Rankingdom pour quantifier l'importance de l'entité \texttt {Jean-Martin Charcot}.\relax }}{6}{table.caption.5}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{La rupture épistémologique en médecine : la notion d'\textit {hystérie}}{3}{chapter.2}%
+\contentsline {xchapter}{Pister la circulation du discours médical au prisme du numérique}{19}{chapter.2}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Répartition du fonds Charcot selon les auteurs. \relax }}{22}{table.caption.11}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Étiquettes \texttt {TreeTagger} extraites avec \texttt {TermSuite}, accompagnées de leurs significations.\relax }}{24}{table.caption.14}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Répartition des parties du discours constituant les termes médicaux dans les corpus \@FB@og {}Charcot\@FB@fg \xspace {} et \@FB@og {}Autres\@FB@fg \xspace {}.\relax }}{24}{table.caption.15}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Pister la circulation du discours médical au prisme du numérique}{9}{chapter.3}%
-\contentsline {table}{\numberline {3.1}{\ignorespaces Aperçu des métriques Rankingdom pour quantifier l'importance de l'entité \texttt {Jean-Martin Charcot}.\relax }}{13}{table.caption.5}%
-\addvspace {10\p@ }
-\contentsline {xchapter}{Valorisation du fonds Charcot}{17}{chapter.4}%
-\contentsline {table}{\numberline {4.1}{\ignorespaces Répartition du fonds Charcot selon les auteurs. \relax }}{20}{table.caption.8}%
-\addvspace {10\p@ }
-\contentsline {xchapter}{Migration du discours médical de Charcot}{21}{chapter.5}%
-\addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion}{29}{chapter.6}%
-\addvspace {10\p@ }
-\contentsline {xchapter}{Annexe}{33}{chapter.7}%
-\contentsline {table}{\numberline {7.1}{\ignorespaces Calcul de pertinence des concepts selon les métriques \textsc {TF-IDF}, \textsc {BM25} et \textsc {BERT} dans les corpus \@FB@og {}Charcot\@FB@fg \xspace {} et \@FB@og {}Autres\@FB@fg \xspace {}.\relax }}{34}{table.caption.17}%
+\contentsline {xchapter}{Conclusion}{33}{chapter.3}%

@@ -70,12 +70,13 @@
 \usepackage[labelfont=bf]{caption}
 
 % Define the custom page style
-\fancypagestyle{mylandscape}{
-    \fancyhf{} % Clear all header and footer fields
-    \fancyfoot[C]{\rotatebox{90}{\thepage}} % Rotate the page number 90 degrees
-    \renewcommand{\headrulewidth}{0pt} % No header line
-    \renewcommand{\footrulewidth}{0pt} % No footer line
+\fancypagestyle{plain}{%
+	\fancyhf{}%
+	\renewcommand{\headrulewidth}{0pt}%
+	\renewcommand{\footrulewidth}{0pt}%
 }
+
+
 
 \captionsetup{justification=centering,font=small}
 % renommer « Fig. » en « Figure »
@@ -98,10 +99,10 @@
 \usepackage{gensymb} % pour le symbole du degré (\degree)
 
 \usepackage[
-    left = \flqq{},% 
-    right = \frqq{},% 
-    leftsub = \flq{},% 
-    rightsub = \frq{} %
+left = \flqq{},% 
+right = \frqq{},% 
+leftsub = \flq{},% 
+rightsub = \frq{} %
 ]{dirtytalk}
 
 %====================== INFORMATION ET REGLES ======================
@@ -110,7 +111,7 @@
 \dominitoc
 %change TOC header
 \addto{\captionsfrench}{% Making babel aware of special titles
-  \renewcommand{\mtctitle}{Sommaire}
+	\renewcommand{\mtctitle}{Sommaire}
 }
 
 
@@ -126,13 +127,13 @@
 \usepackage[backref=page]{hyperref} 
 
 \renewcommand\backreftwosep{, }
- \renewcommand\backrefsep{, }
- \renewcommand*{\backrefalt}[4]{%
-    \ifcase #1%
-     \or (page~#2)%
-     \else (pages~#2)%
-    \fi%
-    }
+\renewcommand\backrefsep{, }
+\renewcommand*{\backrefalt}[4]{%
+	\ifcase #1%
+	\or (page~#2)%
+	\else (pages~#2)%
+	\fi%
+}
 
 
 \usepackage{etoolbox}
@@ -144,14 +145,14 @@
 % Patch \NAT@citex to suppress initials
 \makeatletter
 \patchcmd{\NAT@citex}
-  {\ifNAT@swa\else\if*#2*\else\NAT@cmt#2\fi
-   \if\relax\NAT@date\relax\else\NAT@@close\fi\fi}
-  {\ifNAT@swa\else\if*#2*\else\NAT@cmt#2\fi\fi}
-  {}{}
+{\ifNAT@swa\else\if*#2*\else\NAT@cmt#2\fi
+	\if\relax\NAT@date\relax\else\NAT@@close\fi\fi}
+{\ifNAT@swa\else\if*#2*\else\NAT@cmt#2\fi\fi}
+{}{}
 \patchcmd{\NAT@citex}
-  {\def\NAT@numclose{\@citeb}\def\@citea{\NAT@separator}}
-  {\def\NAT@numclose{\@citeb}\def\@citea{\NAT@separator}}
-  {}{}
+{\def\NAT@numclose{\@citeb}\def\@citea{\NAT@separator}}
+{\def\NAT@numclose{\@citeb}\def\@citea{\NAT@separator}}
+{}{}
 \makeatother
 
 % pour les backrefs : ça ne marche pas encore, à voir
@@ -166,59 +167,59 @@
 \makeatletter
 
 \pretocmd{\NAT@citex}{%
-  \let\NAT@hyper@\NAT@hyper@citex
-  \def\NAT@postnote{#2}%
-  \setcounter{NAT@total@cites}{0}%
-  \setcounter{NAT@count@cites}{0}%
-  \forcsvlist{\stepcounter{NAT@total@cites}\@gobble}{#3}}{}{}
+	\let\NAT@hyper@\NAT@hyper@citex
+	\def\NAT@postnote{#2}%
+	\setcounter{NAT@total@cites}{0}%
+	\setcounter{NAT@count@cites}{0}%
+	\forcsvlist{\stepcounter{NAT@total@cites}\@gobble}{#3}}{}{}
 \newcounter{NAT@total@cites}
 \newcounter{NAT@count@cites}
 \def\NAT@postnote{}
 
 % include postnote and \citet closing bracket in hyperlink
 \def\NAT@hyper@citex#1{%
-  \stepcounter{NAT@count@cites}%
-  \hyper@natlinkstart{\@citeb\@extra@b@citeb}#1%
-  \ifnumequal{\value{NAT@count@cites}}{\value{NAT@total@cites}}
-    {\ifNAT@swa\else\if*\NAT@postnote*\else%
-     \NAT@cmt\NAT@postnote\global\def\NAT@postnote{}\fi\fi}{}%
-  \ifNAT@swa\else\if\relax\NAT@date\relax
-  \else\NAT@@close\global\let\NAT@nm\@empty\fi\fi% avoid compact citations
-  \hyper@natlinkend}
+	\stepcounter{NAT@count@cites}%
+	\hyper@natlinkstart{\@citeb\@extra@b@citeb}#1%
+	\ifnumequal{\value{NAT@count@cites}}{\value{NAT@total@cites}}
+	{\ifNAT@swa\else\if*\NAT@postnote*\else%
+		\NAT@cmt\NAT@postnote\global\def\NAT@postnote{}\fi\fi}{}%
+	\ifNAT@swa\else\if\relax\NAT@date\relax
+	\else\NAT@@close\global\let\NAT@nm\@empty\fi\fi% avoid compact citations
+	\hyper@natlinkend}
 \renewcommand\hyper@natlinkbreak[2]{#1}
 
 % avoid extraneous postnotes, closing brackets
 \patchcmd{\NAT@citex}
-  {\ifNAT@swa\else\if*#2*\else\NAT@cmt#2\fi
-   \if\relax\NAT@date\relax\else\NAT@@close\fi\fi}{}{}{}
+{\ifNAT@swa\else\if*#2*\else\NAT@cmt#2\fi
+	\if\relax\NAT@date\relax\else\NAT@@close\fi\fi}{}{}{}
 \patchcmd{\NAT@citex}
-  {\if\relax\NAT@date\relax\NAT@def@citea\else\NAT@def@citea@close\fi}
-  {\if\relax\NAT@date\relax\NAT@def@citea\else\NAT@def@citea@space\fi}{}{}
+{\if\relax\NAT@date\relax\NAT@def@citea\else\NAT@def@citea@close\fi}
+{\if\relax\NAT@date\relax\NAT@def@citea\else\NAT@def@citea@space\fi}{}{}
 
 \makeatother
 
 \gappto{\UrlBreaks}{\UrlOrds}
 \hypersetup{							% Information sur le document
-pdfauthor = {Premier Auteur,
-			Deuxième Auteur,
-			Troisième Auteur,
-    		Quatrième Auteur},			% Auteurs
-pdftitle = {Nom du Projet -
-			Sujet du Projet},			% Titre du document
-pdfsubject = {Mémoire de Projet},		% Sujet
-pdfkeywords = {Tag1, Tag2, Tag3, ...},	% Mots-clefs
-pdfstartview={FitH},
-    colorlinks=true,
-    linkcolor=black,
-    filecolor=magenta,      
-    urlcolor=blue,
-    citecolor=black,
-    linkbordercolor={0 0 1},
-    citebordercolor=red,
-    urlbordercolor=red,
-    pdftitle={Overleaf Example},
-    pdfpagemode=FullScreen}					% ajuste la page à la largueur de l'écran
-    
+	pdfauthor = {Premier Auteur,
+		Deuxième Auteur,
+		Troisième Auteur,
+		Quatrième Auteur},			% Auteurs
+	pdftitle = {Nom du Projet -
+		Sujet du Projet},			% Titre du document
+	pdfsubject = {Mémoire de Projet},		% Sujet
+	pdfkeywords = {Tag1, Tag2, Tag3, ...},	% Mots-clefs
+	pdfstartview={FitH},
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=blue,
+	citecolor=black,
+	linkbordercolor={0 0 1},
+	citebordercolor=red,
+	urlbordercolor=red,
+	pdftitle={Overleaf Example},
+	pdfpagemode=FullScreen}					% ajuste la page à la largueur de l'écran
+
 \usepackage{multicol}
 
 \AtBeginDocument{\hypersetup{pdfborder={0 0 1}}}
@@ -234,10 +235,10 @@ pdfstartview={FitH},
 \usepackage{colortbl}
 
 \newenvironment{myepigraph}
-  {\par\hfill\itshape
-   \begin{tabular}{@{}r@{\hspace{2em}}}} % 2em from the right margin
-  {\end{tabular}\par\medskip}
-  
+{\par\hfill\itshape
+\begin{tabular}{@{}r@{\hspace{2em}}}} % 2em from the right margin
+{\end{tabular}\par\medskip}
+
 
 \DeclareTextSymbol{\CYRDJE}{T2A}{130}
 
@@ -298,20 +299,27 @@ pdfstartview={FitH},
 % Remove page numbers for the Table of Contents and List of Figures
 
 \clearpage
-\pagestyle{empty} % Temporarily disable fancyhdr
+\begingroup
+%\let\origplain\ps@plain
+\def\ps@plain{\ps@empty} % Redefine plain as empty temporarily
+\pagestyle{empty}
 \pdfbookmark{\contentsname}{toc}
 \tableofcontents
-%
-%\clearpage
-%\listoffigures
-%
-%\clearpage
-%\listoftables
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+%\let\ps@plain\origplain % Restore original plain page style
+\endgroup
 
-% Re-enable fancyhdr and page numbers after the unnumbered pages
+
+
+
+% Revenir au style habituel
 \clearpage
 \pagestyle{fancy}
-\setcounter{page}{1} % Or the appropriate page number
+\setcounter{page}{1}
+
 
 
 
@@ -335,20 +343,21 @@ pdfstartview={FitH},
 %\minitoc
 %\addcontentsline{toc}{section}{Introduction}
 \input{1_intro}
-
-
-\chapter{Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}
-\label{rupture}
+\input{2_SotA}
 \input{2_rupture}
+%\chapter{Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}
+%\label{rupture}
+%\input{2_rupture}
 
 \chapter{Pister la circulation du discours médical au prisme du numérique}
-\input{2_SotA}
-
-\chapter{Valorisation du fonds Charcot}
 \input{3_methodo}
-%
-\chapter{Migration du discours médical de Charcot}
 \input{4_resultats}
+%\chapter{Valorisation du fonds Charcot}
+%\chapter{Pister la circulation du discours médical de Charcot au prisme du numérique}
+
+%
+%\chapter{Migration du discours médical de Charcot}
+
 %
 %
 %
