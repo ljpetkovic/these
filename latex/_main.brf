@@ -1,13 +1,13 @@
 \backcite {amiri2012}{{3}{(document)}{Doc-Start}}
 \backcite {schopf2022}{{3}{(document)}{Doc-Start}}
+\backcite {petkovic2023circulation}{{1}{1.1}{section.1.1}}
 \backcite {petkovic2019creation}{{1}{1.1}{section.1.1}}
 \backcite {gabay2020quantifying}{{1}{1.1}{section.1.1}}
 \backcite {gabay2021katabase}{{1}{1.1}{section.1.1}}
-\backcite {petkovic2023circulation}{{2}{1.1}{section.1.1}}
 \backcite {adell2011chapitre}{{2}{1.2}{section.1.2}}
-\backcite {bogousslavsky2011following}{{2}{1.2}{section.1.2}}
-\backcite {broussolle2012}{{2}{1.2}{section.1.2}}
-\backcite {camargo2024}{{2}{1.2}{section.1.2}}
+\backcite {bogousslavsky2011following}{{3}{1.2}{section.1.2}}
+\backcite {broussolle2012}{{3}{1.2}{section.1.2}}
+\backcite {camargo2024}{{3}{1.2}{section.1.2}}
 \backcite {milia2023}{{3}{1.2}{section.1.2}}
 \backcite {gabay2021katabase}{{3}{1.2}{section.1.2}}
 \backcite {joyeux2019visual}{{3}{1.2}{section.1.2}}
@@ -77,10 +77,10 @@
 \backcite {mounin1968clefs}{{13}{1.6}{section.1.6}}
 \backcite {mounin1968clefs}{{13}{1.6}{section.1.6}}
 \backcite {bezancon2023}{{13}{1.6}{section.1.6}}
-\backcite {Lecourt1999}{{14}{\caption@xref {??}{ on input line 207}}{table.caption.9}}
 \backcite {Lecourt1999}{{14}{\caption@xref {??}{ on input line 208}}{table.caption.9}}
-\backcite {astolfi2008chapitre}{{14}{\caption@xref {??}{ on input line 209}}{table.caption.9}}
+\backcite {Lecourt1999}{{14}{\caption@xref {??}{ on input line 209}}{table.caption.9}}
 \backcite {astolfi2008chapitre}{{14}{\caption@xref {??}{ on input line 210}}{table.caption.9}}
+\backcite {astolfi2008chapitre}{{14}{\caption@xref {??}{ on input line 211}}{table.caption.9}}
 \backcite {anouilh1956pauvre}{{14}{1.7}{section.1.7}}
 \backcite {bachelard1934formation}{{14}{1.7}{section.1.7}}
 \backcite {bachelard1934formation}{{14}{1.7}{section.1.7}}
