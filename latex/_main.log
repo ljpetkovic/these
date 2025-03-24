@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  24 MAR 2025 18:40
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  24 MAR 2025 18:52
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2492,8 +2492,13 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 2D5A3E8ED6D1B39A71F543CE8756BBCA;5937.
-Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 866DEED45A5A6B926B2002B734BC317D;7707.
+
+Package rerunfilecheck Warning: File `_main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `_main.brf':
+(rerunfilecheck)             Before: 866DEED45A5A6B926B2002B734BC317D;7707
+(rerunfilecheck)             After:  F80B68F1B11935B46A7856EEC2FDC482;7707.
  ) 
 Here is how much of TeX's memory you used:
  35917 strings out of 476683
