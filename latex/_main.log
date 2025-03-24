@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.16)  23 MAR 2025 17:23
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.16)  24 MAR 2025 03:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,7 +1001,7 @@ File: english.mld 2006/01/13
 File: english.mld 2006/01/13
 ))
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM _main.toc on input line 113.
+(minitoc)             PREPARING MINITOCS FROM _main.toc on input line 120.
 Package minitoc Info: I0033
 (minitoc)             Writing _main.mtc1.
 \openout4 = `_main.mtc1'.
@@ -1017,6 +1017,14 @@ Package minitoc Info: I0033
 Package minitoc Info: I0033
 (minitoc)             Writing _main.mtc4.
 \openout4 = `_main.mtc4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing _main.mtc5.
+\openout4 = `_main.mtc5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing _main.mtc6.
+\openout4 = `_main.mtc6'.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/footmisc/footmisc.sty
@@ -1160,7 +1168,7 @@ File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
 )
 \c@NAT@total@cites=\count395
 \c@NAT@count@cites=\count396
-Package hyperref Info: Option `colorlinks' set `true' on input line 221.
+Package hyperref Info: Option `colorlinks' set `true' on input line 228.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
@@ -1251,43 +1259,43 @@ xt;" at 12.0pt
 )
 \openout1 = `_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 256.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 263.
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
-56.
+63.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 263.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
-56.
+63.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Info: Redefining \th on input line 256.
-LaTeX Info: Redefining \up on input line 256.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Info: Redefining \th on input line 263.
+LaTeX Info: Redefining \up on input line 263.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1327,14 +1335,14 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 256.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 256
+LaTeX Info: Redefining \celsius on input line 263.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 263
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 256.
-Package gensymb Info: Using \Omega for \ohm on input line 256.
+LaTeX Info: Redefining \ohm on input line 263.
+Package gensymb Info: Using \Omega for \ohm on input line 263.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1373,57 +1381,48 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-Package backref Info: ** backref set up for natbib ** on input line 256.
-Package hyperref Info: Link coloring ON on input line 256.
+Package backref Info: ** backref set up for natbib ** on input line 263.
+Package hyperref Info: Link coloring ON on input line 263.
 (./_main.out) (./_main.out)
 \@outlinefile=\write5
 \openout5 = `_main.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-07.
+09.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-07.
+09.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-307.
+309.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-307.
+309.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 307.
+(Font)              <20.74> on input line 309.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 307.
+(Font)              <14.4> on input line 309.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 307.
+(Font)              <12> on input line 309.
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 
  []
 
-(./_main.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 3.
-)
-\tf@toc=\write6
-\openout6 = `_main.toc'.
-
-
+(./remerciements.tex)
 
 [1
 
@@ -1433,57 +1432,33 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 [2
 
+]
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
+
+ []
+
+(./0_abstract.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 9.
+)
+
+[3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-
- []
-
-(./_main.lof
-Overfull \hbox (4.3756pt too wide) in paragraph at lines 5--5
- [][] [][][]\TU/GentiumPlus(0)/m/n/12 Analyse temporelle de l’impact de l’entit
-é \TU/lmtt/m/n/12 Jean-Martin Charcot \TU/GentiumPlus(0)/m/n/12 à l’aide 
- []
-
-
-Overfull \hbox (89.97583pt too wide) in paragraph at lines 16--16
- [][] [][][]\TU/GentiumPlus(0)/m/n/12 Les 15 termes les plus fréquents partagés
- par les deux corpus selon \TU/lmtt/m/n/12 keyphrase-vectorizers\TU/GentiumPlus
-(0)/m/n/12 .[][] [][]  
- []
-
-)
-\tf@lof=\write7
-\openout7 = `_main.lof'.
-
-
-
-[3]
 
 [4
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 
  []
 
-(./_main.lot
-Overfull \hbox (4.79445pt too wide) in paragraph at lines 9--9
- [][] [][][]\TU/GentiumPlus(0)/m/n/12 Étiquettes \TU/lmtt/m/n/12 TreeTagger \TU
-/GentiumPlus(0)/m/n/12 extraites avec \TU/lmtt/m/n/12 TermSuite\TU/GentiumPlus(
-0)/m/n/12 , accompagnées de leurs 
- []
-
-
-Overfull \hbox (1.08255pt too wide) in paragraph at lines 10--10
- [][] [][][]\TU/GentiumPlus(0)/m/n/12 Répartition des parties du discours const
-ituant les termes médicaux dans 
- []
-
-)
-\tf@lot=\write8
-\openout8 = `_main.lot'.
+(./_main.toc)
+\tf@toc=\write6
+\openout6 = `_main.toc'.
 
 
 
@@ -1494,34 +1469,38 @@ ituant les termes médicaux dans
 ]
 Chapitre 1.
 
-Overfull \hbox (26.41968pt too wide) in paragraph at lines 342--342
+Overfull \hbox (26.41968pt too wide) in paragraph at lines 369--369
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
 
  []
 
 (./1_intro.tex
-\openout4 = `_main.mtc'.
-
-\openout4 = `_main.mtc'.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 2.
- (./_main.mtc1)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 27.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 27.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 27.
+Package minitoc Info: I0006
+(minitoc)             _main.mtc1 is empty on input line 2.
 
 
 [1
 
 ]
+Overfull \hbox (4.66443pt too wide) in paragraph at lines 24--25
+\TU/GentiumPlus(0)/m/n/12 ries ou des méthodes circulent, s’échangent, s’emprun
+tent, se transfèrent et se trans-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 57.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 57.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 57.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1532,10 +1511,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1544,6 +1519,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
+Overfull \hbox (1.49283pt too wide) in paragraph at lines 93--94
+[]\TU/GentiumPlus(0)/m/n/12 revalorisation des savoirs implicites et de la dime
+nsion pratique des connaissances ; 
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1553,204 +1534,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-Overfull \hbox (1.49283pt too wide) in paragraph at lines 86--87
-[]\TU/GentiumPlus(0)/m/n/12 revalorisation des savoirs implicites et de la dime
-nsion pratique des connaissances ; 
- []
-
-
-Overfull \hbox (3.75104pt too wide) in paragraph at lines 87--88
+Overfull \hbox (3.75104pt too wide) in paragraph at lines 94--95
 []\TU/GentiumPlus(0)/m/n/12 glorification de la circulation comme porteuse de v
 aleurs \TU/GentiumPlus(0)/m/it/12 a priori \TU/GentiumPlus(0)/m/n/12 positives 
 : confron-
  []
 
-
-Overfull \hbox (4.66443pt too wide) in paragraph at lines 94--95
-\TU/GentiumPlus(0)/m/n/12 ries ou des méthodes circulent, s’échangent, s’emprun
-tent, se transfèrent et se trans-
- []
-
-) (./2_SotA.tex
-Overfull \hbox (9.26991pt too wide) in paragraph at lines 4--4
-|[]\TU/GentiumPlus(0)/b/n/17.28 Valorisation des archives patrimoniales et rech
-erches
- []
-
-
-Underfull \hbox (badness 5175) in paragraph at lines 10--10
-[][][]\TU/GentiumPlus(0)/m/n/10 .[][]\TU/GentiumPlus(0)/m/it/10 Cf. \TU/Gentium
-Plus(0)/m/n/10 les projets de la chaire : [][]$[][][][][] [] [] [] [][][] [] []
-[][][][] [] [][] [] [][][][][][][] [] [][][][][][][][][] [][] [][][][][][][][][
-][] []
- []
-
-
-Overfull \hbox (4.22711pt too wide) in paragraph at lines 10--11
-[]\TU/GentiumPlus(0)/m/n/12 certaines chaires universitaires, notamment celle d
-es Humanités numériques à l’uni-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
-][][] [] [][][] [] [][][][][][][][][][] [] [][][][][] [] [][][][][][][][][][][]
- [][] [][][] [][] [][][][][][] [][] [][][][][][][][][][][] [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
-][] [] [][][] [] [][][][][][][][][] [] [][][][] [] [][] [] [][] [] [][][][][][]
-[][] [][] [][] [][] [][] [][] [][][][][][][][][][][][][][] [][]
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.56683pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.56683pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.56683pt}.
-
-[5]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.56683pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.56683pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.56683pt}.
-
-[6]
-Overfull \hbox (6.6529pt too wide) in paragraph at lines 53--54
-\TU/GentiumPlus(0)/m/n/12 échelle et dans plusieurs domaines, tout en étant rec
-onnues comme ayant une grande
- []
-
-File: img/analyse_quadrant.png Graphic file (type bmp)
-<img/analyse_quadrant.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-[][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
-][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][] [] [][][][][][] [] [][]
-[][] [][] [][][][][][] [] [][][][][][][]$[][]. Le do-
- []
-
-File: img/impact_temporel.png Graphic file (type bmp)
-<img/impact_temporel.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (18.11615pt too wide) in paragraph at lines 93--94
-[][][]$[][][][][] [] [] [] [][][][] [] [][][][][][] [] [][][] [] [][][][][][][]
-[] [] [] [] [][][][][][][][][][][][][][][][][] [][] [][][][][][][][][][][][][][
-][] []
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.56683pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.56683pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.56683pt}.
-
-[7]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[9]
-Overfull \hbox (4.5225pt too wide) in paragraph at lines 122--123
-[]\TU/GentiumPlus(0)/m/n/12 Cette approche est complémentaire à l’histoire des 
-concepts (allem. \TU/GentiumPlus(0)/m/it/12 Begriffsgeschichte\TU/GentiumPlus(0
-)/m/n/12 ),
- []
-
-
-Overfull \hbox (6.71089pt too wide) in paragraph at lines 124--125
-\TU/GentiumPlus(0)/m/n/12 ([][][]\TU/GentiumPlus(0)/m/sc/12 Christin\TU/Gentium
-Plus(0)/m/n/12 , 2011[][]). Plusieurs questionnements ont été soulevés par [][]
-[]\TU/GentiumPlus(0)/m/sc/12 Ghermani[][] \TU/GentiumPlus(0)/m/n/12 ([][][]2011
-[][], p. 117)
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10]
-Overfull \hbox (0.7232pt too wide) in paragraph at lines 146--147
-[]\TU/GentiumPlus(0)/m/n/12 Si nous nous limitons aux théories abordées jusqu’à
- maintenant, nous pouvons consi-
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[11]
-Overfull \hbox (13.71782pt too wide) in paragraph at lines 152--153
-[]\TU/GentiumPlus(0)/m/n/12 extraction terminologique \TU/lmtt/m/n/12 TermSuite
-[][][][][] \TU/GentiumPlus(0)/m/n/12 ([][][]\TU/GentiumPlus(0)/m/sc/12 Cram & D
-aille\TU/GentiumPlus(0)/m/n/12 , 2016[][]) : scalable, \TU/lmtt/m/n/12 TreeTagg
-er 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[12]
-Overfull \hbox (78.41174pt too wide) in paragraph at lines 205--216
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 ) (./2_rupture.tex
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13]
 Overfull \hbox (7.84717pt too wide) in paragraph at lines 16--17
 \TU/GentiumPlus(0)/m/n/12 ment reconnues qui, pour un temps, fournissent à une 
 communauté de chercheur$\OMS/lmsy/m/n/12 ^^A$\TU/GentiumPlus(0)/m/n/12 euse$\OM
@@ -1758,6 +1548,13 @@ S/lmsy/m/n/12 ^^A$\TU/GentiumPlus(0)/m/n/12 x$\OMS/lmsy/m/n/12 ^^A$\TU/GentiumP
 lus(0)/m/n/12 s
  []
 
+File: img/changement_paradigme.png Graphic file (type bmp)
+<img/changement_paradigme.png>
+
+Overfull \vbox (80.4298pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (80.4298pt too high) has occurred while \output is active []
 
 
 
@@ -1767,9 +1564,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14]
-File: img/changement_paradigme.png Graphic file (type bmp)
-<img/changement_paradigme.png>
+[5]
 Package babel Info: 'greek' activates 'greek' shorthands.
 (babel)             Reported  on input line 50.
 
@@ -1871,7 +1666,183 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[6]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+Overfull \hbox (11.04333pt too wide) in paragraph at lines 73--74
+[]\TU/GentiumPlus(0)/m/n/12 Pierre Janet (1839-1916), philosophe, neurologue et
+ psychiatre, concepteur des termes
+ []
+
+
+LaTeX Warning: Reference `rupture' on page 8 undefined on input line 82.
+
+
+LaTeX Warning: Reference `sota' on page 8 undefined on input line 83.
+
+) (./2_SotA.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+Underfull \hbox (badness 5175) in paragraph at lines 10--10
+[][][]\TU/GentiumPlus(0)/m/n/10 .[][]\TU/GentiumPlus(0)/m/it/10 Cf. \TU/Gentium
+Plus(0)/m/n/10 les projets de la chaire : [][]$[][][][][] [] [] [] [][][] [] []
+[][][][] [] [][] [] [][][][][][][] [] [][][][][][][][][] [][] [][][][][][][][][
+][] []
+ []
+
+
+Overfull \hbox (4.22711pt too wide) in paragraph at lines 10--11
+[]\TU/GentiumPlus(0)/m/n/12 certaines chaires universitaires, notamment celle d
+es Humanités numériques à l’uni-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
+][][] [] [][][] [] [][][][][][][][][][] [] [][][][][] [] [][][][][][][][][][][]
+ [][] [][][] [][] [][][][][][] [][] [][][][][][][][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
+][] [] [][][] [] [][][][][][][][][] [] [][][][] [] [][] [] [][] [] [][][][][][]
+[][] [][] [][] [][] [][] [][] [][][][][][][][][][][][][][] [][]
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+Overfull \hbox (6.6529pt too wide) in paragraph at lines 53--54
+\TU/GentiumPlus(0)/m/n/12 échelle et dans plusieurs domaines, tout en étant rec
+onnues comme ayant une grande
+ []
+
+File: img/analyse_quadrant.png Graphic file (type bmp)
+<img/analyse_quadrant.png>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 59.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
+][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][] [] [][][][][][] [] [][]
+[][] [][] [][][][][][] [] [][][][][][][]$[][]. Le do-
+ []
+
+File: img/impact_temporel.png Graphic file (type bmp)
+<img/impact_temporel.png>
+
+Overfull \hbox (18.11615pt too wide) in paragraph at lines 93--94
+[][][]$[][][][][] [] [] [] [][][][] [] [][][][][][] [] [][][] [] [][][][][][][]
+[] [] [] [] [][][][][][][][][][][][][][][][][] [][] [][][][][][][][][][][][][][
+][] []
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+Overfull \hbox (4.5225pt too wide) in paragraph at lines 122--123
+[]\TU/GentiumPlus(0)/m/n/12 Cette approche est complémentaire à l’histoire des 
+concepts (allem. \TU/GentiumPlus(0)/m/it/12 Begriffsgeschichte\TU/GentiumPlus(0
+)/m/n/12 ),
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+Overfull \hbox (6.71089pt too wide) in paragraph at lines 124--125
+\TU/GentiumPlus(0)/m/n/12 ([][][]\TU/GentiumPlus(0)/m/sc/12 Christin\TU/Gentium
+Plus(0)/m/n/12 , 2011[][]). Plusieurs questionnements ont été soulevés par [][]
+[]\TU/GentiumPlus(0)/m/sc/12 Ghermani[][] \TU/GentiumPlus(0)/m/n/12 ([][][]2011
+[][], p. 117)
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+Overfull \hbox (0.7232pt too wide) in paragraph at lines 146--147
+[]\TU/GentiumPlus(0)/m/n/12 Si nous nous limitons aux théories abordées jusqu’à
+ maintenant, nous pouvons consi-
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [15]
+Overfull \hbox (13.71782pt too wide) in paragraph at lines 152--153
+[]\TU/GentiumPlus(0)/m/n/12 extraction terminologique \TU/lmtt/m/n/12 TermSuite
+[][][][][] \TU/GentiumPlus(0)/m/n/12 ([][][]\TU/GentiumPlus(0)/m/sc/12 Cram & D
+aille\TU/GentiumPlus(0)/m/n/12 , 2016[][]) : scalable, \TU/lmtt/m/n/12 TreeTagg
+er 
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1881,16 +1852,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
-Overfull \hbox (11.04333pt too wide) in paragraph at lines 73--74
-[]\TU/GentiumPlus(0)/m/n/12 Pierre Janet (1839-1916), philosophe, neurologue et
- psychiatre, concepteur des termes
+Overfull \hbox (78.41174pt too wide) in paragraph at lines 205--216
+ [][] 
  []
-
-
-LaTeX Warning: Reference `rupture' on page 17 undefined on input line 83.
-
-
-LaTeX Warning: Reference `sota' on page 17 undefined on input line 84.
 
 )
 
@@ -1910,24 +1874,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]
+[18
+
+]
+
+[19]
+
+[20]
 Chapitre 2.
 
-Overfull \hbox (26.41968pt too wide) in paragraph at lines 352--352
+Overfull \hbox (26.41968pt too wide) in paragraph at lines 383--383
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--352
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
 
  []
 
 (./3_methodo.tex
-\openout4 = `_main.mtc'.
+Package minitoc Info: I0006
+(minitoc)             _main.mtc2 is empty on input line 3.
 
-\openout4 = `_main.mtc'.
-
- (./_main.mtc2)
 Underfull \hbox (badness 10000) in paragraph at lines 4--4
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
 ][][][][] [][] [][][][][][][][][][] [] [][] [] [][] [] [][][][][][][][][] [][] 
@@ -1957,7 +1925,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
 
 
-[19
+[21
 
 ]
 
@@ -1968,10 +1936,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20]
+[22]
 Missing character: There is no œ ("153) in font ectt1000!
 Missing character: There is no œ ("153) in font ectt1000!
-
+) (./4_resultats.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1980,7 +1948,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21]) (./4_resultats.tex
+[23]
 Underfull \hbox (badness 1769) in paragraph at lines 4--4
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][]\TU/GentiumPlus(0)/m/it/10 Cf. \TU/Gentium
 Plus(0)/m/n/10 le guide d’utilisation d’\TU/GentiumPlus(0)/m/sc/10 OBVIE \TU/Ge
@@ -1992,12 +1960,6 @@ File: img/bulbe_rachidien_mini.png Graphic file (type bmp)
 <img/bulbe_rachidien_mini.png>
 File: img/textpair.png Graphic file (type bmp)
 <img/textpair.png>
-
-Overfull \hbox (2.72719pt too wide) in paragraph at lines 23--23
-|[]\TU/GentiumPlus(0)/b/n/17.28 Extraction de la terminologie : approche lingui
-stique| 
- []
-
 
 Underfull \hbox (badness 5696) in paragraph at lines 25--25
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][]Les résultats sont disponibles dans le dép
@@ -2014,27 +1976,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[23]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [24]
-File: img/repartition_motifs_POS.png Graphic file (type bmp)
-<img/repartition_motifs_POS.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 
 
@@ -2045,6 +1993,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
+File: img/repartition_motifs_POS.png Graphic file (type bmp)
+<img/repartition_motifs_POS.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2055,13 +2010,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [26]
 
-LaTeX Warning: Reference `tab:calculs_stat' on page 27 undefined on input line 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
+
+LaTeX Warning: Reference `tab:calculs_stat' on page 28 undefined on input line 
 127.
 
 File: img/Charcot_Autres_250523.png Graphic file (type bmp)
 <img/Charcot_Autres_250523.png>
 
-LaTeX Warning: Reference `tab:calculs_stat' on page 27 undefined on input line 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `tab:calculs_stat' on page 28 undefined on input line 
 136.
 
 
@@ -2079,7 +2046,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27]
+[28]
+Overfull \hbox (2.05785pt too wide) in paragraph at lines 141--141
+|[]\TU/GentiumPlus(0)/b/n/17.28 Extraction des phrases-clés : méthode à base d’
+appren-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 142--142
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][]\TU/GentiumPlus(0)/m/it/10 Cf. \TU/Gentium
 Plus(0)/m/n/10 le dépôt GitHub [][]$[][][][][] [] [] [] [][][][][][] [] [][][] 
@@ -2087,8 +2060,6 @@ Plus(0)/m/n/10 le dépôt GitHub [][]$[][][][][] [] [] [] [][][][][][] [] [][][]
 [] [][]
  []
 
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 144.
 
 
 
@@ -2098,11 +2069,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
+[29]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 144.
 File: img/keybert.png Graphic file (type bmp)
 <img/keybert.png>
-File: img/keybert_autres.png Graphic file (type bmp)
-<img/keybert_autres.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2116,22 +2087,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29]
-File: img/patternrank_workflow.png Graphic file (type bmp)
-<img/patternrank_workflow.png>
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [30]
-File: img/termes_partages.png Graphic file (type bmp)
-<img/termes_partages.png>
-)
+File: img/keybert_autres.png Graphic file (type bmp)
+<img/keybert_autres.png>
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2141,6 +2100,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
+File: img/patternrank_workflow.png Graphic file (type bmp)
+<img/patternrank_workflow.png>
+File: img/termes_partages.png Graphic file (type bmp)
+<img/termes_partages.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2149,27 +2117,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32
-
-]
-Chapitre 3.
-
-Overfull \hbox (26.41968pt too wide) in paragraph at lines 364--364
-|[][] 
- []
+[32]
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
- []
-
-(./5_conclusion.tex)
-
-[33] (./_main.bbl (./_main.brf)
-\tf@brf=\write9
-\openout9 = `_main.brf'.
-
-
+[33]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2179,6 +2136,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34
+
+]
+Chapitre 3.
+
+Overfull \hbox (26.41968pt too wide) in paragraph at lines 395--395
+|[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+
+ []
+
+(./5_conclusion.tex)
+
+[35] (./_main.bbl (./_main.brf)
+\tf@brf=\write7
+\openout7 = `_main.brf'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -2233,7 +2219,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
 
 
-[35]
+[37]
 Underfull \hbox (badness 2564) in paragraph at lines 74--74
 []\TU/GentiumPlus(0)/m/n/12 Bal, M. (2002).  \TU/GentiumPlus(0)/m/it/12 Travell
 ing Concepts in the Humanities : A Rough Guide\TU/GentiumPlus(0)/m/n/12 .  Univ
@@ -2286,7 +2272,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36]
+[38]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2295,7 +2281,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []\TU/GentiumPlus(0)/m/n/12 Hobsbawm, E. (2010).  \TU/GentiumPlus(0)/m/it/12 Th
 e Age of Revolution : 1789-1848\TU/GentiumPlus(0)/m/n/12 .  Hachette UK.
@@ -2316,7 +2302,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38]
+[40]
 Underfull \hbox (badness 1210) in paragraph at lines 313--313
 \TU/GentiumPlus(0)/m/n/12 Grundbegriffe : (Basic Concepts in History : A Histor
 ical Dictionary of Political
@@ -2404,7 +2390,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39]
+[41]
 Underfull \hbox (badness 3547) in paragraph at lines 376--376
 \TU/GentiumPlus(0)/m/n/12 Comté.  [][]$[][][][][] [] [] [] [][][][][][][] [] []
 [][][] [] [][] [] [][][][][][][][][][][][][][][][][] [] [][][][][][][] [][] [][
@@ -2439,7 +2425,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40]
+[42]
 Underfull \hbox (badness 4266) in paragraph at lines 462--462
 []\TU/GentiumPlus(0)/m/n/12 Rey, A. (1998).  \TU/GentiumPlus(0)/m/it/12 Diction
 naire historique de la langue française. Tome 2\TU/GentiumPlus(0)/m/n/12 .  Le 
@@ -2517,7 +2503,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41]
+[43]
 Underfull \hbox (badness 5490) in paragraph at lines 538--538
 []\TU/GentiumPlus(0)/m/n/12 Soulet, A. (2024).  Vers l’analyse à la demande des
  connaissances de Wiki-
@@ -2532,7 +2518,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42])
+[44])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the _main.maf file.
@@ -2558,7 +2544,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43] (./_main.aux)
+[45] (./_main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2568,17 +2554,17 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 9FECFF3E6CDA13B8BC33429FBD3847D5;5220.
+(rerunfilecheck)             Checksum: 961A80324C2385E4DDC4686634A1BB47;5634.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 0230C9CB3DDD1E7C3DEB8B4673593658;7980.
+(rerunfilecheck)             Checksum: EC672AF15B9073C50FD7634B13367066;7594.
  ) 
 Here is how much of TeX's memory you used:
- 36157 strings out of 473832
- 720300 string characters out of 5729481
- 1249816 words of memory out of 5000000
- 58519 multiletter control sequences out of 15000+600000
- 595606 words of font info for 123 fonts, out of 8000000 for 9000
+ 36162 strings out of 473832
+ 720580 string characters out of 5729481
+ 1249832 words of memory out of 5000000
+ 58524 multiletter control sequences out of 15000+600000
+ 595622 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,138p,2714b,777s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.pdf (49 pages).
+Output written on _main.pdf (51 pages).

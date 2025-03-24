@@ -1,5 +1,6 @@
 \documentclass[a4paper,12pt]{book}
 
+
 % \counterwithout{figure}{chapter} % pour compter la Figure 1 au lieu de Figure 1.1
 %====================== PACKAGES ======================
 
@@ -87,6 +88,12 @@
 \usepackage{lipsum} 
 \usepackage{blindtext, color}
 \usepackage[explicit]{titlesec}
+\makeatletter
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}} % optional
+\renewcommand{\@seccntformat}[1]{\csname the#1\endcsname\quad}
+\makeatother
+
 \definecolor{gray75}{gray}{0.35}
 %\newcommand{\hsp}{\hspace{20pt}}
 %\titleformat{\chapter}[hang]{\Huge\bfseries}{Chapitre \thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
@@ -296,6 +303,26 @@ rightsub = \frq{} %
 %\newpage
 %%%%%%%%%%%%%% décommenter la partie au-dessus, jusqu'à \newpage pour afficher les remerciements et le résumé 
 
+% ================== Remerciements ==================
+\cleardoublepage
+\pagestyle{empty} % Pas de numéro de page
+\chapter*{Remerciements}
+\addcontentsline{toc}{chapter}{Remerciements}
+
+\input{remerciements} % Le fichier ne doit contenir ni \newpage ni \clearpage
+
+
+% ================== Résumé ==================
+\cleardoublepage
+\pagestyle{empty}
+\chapter*{Résumé}
+\addcontentsline{toc}{chapter}{Résumé}
+\vspace{1em}
+\noindent
+\input{0_abstract}
+
+
+
 % Remove page numbers for the Table of Contents and List of Figures
 
 \clearpage
@@ -305,10 +332,10 @@ rightsub = \frq{} %
 \pagestyle{empty}
 \pdfbookmark{\contentsname}{toc}
 \tableofcontents
-\clearpage
-\listoffigures
-\clearpage
-\listoftables
+%\clearpage
+%\listoffigures
+%\clearpage
+%\listoftables
 %\let\ps@plain\origplain % Restore original plain page style
 \endgroup
 
@@ -342,12 +369,16 @@ rightsub = \frq{} %
 \chapter{Introduction}
 %\minitoc
 %\addcontentsline{toc}{section}{Introduction}
+
 \input{1_intro}
-\input{2_SotA}
 \input{2_rupture}
+\input{2_SotA}
+
 %\chapter{Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}
 %\label{rupture}
 %\input{2_rupture}
+
+\part{Cadre théorique et état de l’art}
 
 \chapter{Pister la circulation du discours médical au prisme du numérique}
 \input{3_methodo}
