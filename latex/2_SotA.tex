@@ -38,102 +38,9 @@ Concernant plus précisément le concept scientifique, l'épistémologie en esqu
 	\item le concept scientifique peut être compris comme un n\oe{}ud dans un réseau de relations organisé, au sein duquel il dialogue avec d'autres concepts et théories scientifiques.
 \end{itemize}
 
-\section{Repérage des termes scientifiques dans un corpus numérique}
-\label{termes}
-Si nous nous limitons aux théories abordées jusqu'à maintenant, nous pouvons considérer que les concepts médicaux de Charcot ont eu le rôle des vecteurs de la crise conceptuelle, ce qui représentait une forme de \textit{Sattelzeit} dans le domaine de la médecine. Autrement dit, ces concepts ont été détournés de leurs sens initiaux ayant une apparence formelle neutre (descriptions des pathologies), vers ceux exerçant un certain impact sur la communauté scientifique que nous souhaitons mesurer informatiquement. Néanmoins, l'analyse numérique des concepts n'est pas une tâche triviale non plus, car tous les logiciels ne traitent pas des textes de la même manière. D'après \citeauthor{silberztein2022linguistic} (\citeyear{silberztein2022linguistic}, p.~2), les logiciels comme \textsc{TXM}\footnote{\url{https://txm.gitpages.huma-num.fr/textometrie/}}, Sketch Engine\footnote{\url{https://www.sketchengine.eu/}} ou \textsc{IR}a\textsc{M}u\textsc{T}e\textsc{Q}\footnote{\url{http://www.iramuteq.org/}} traitent les documents comme des \textit{séquences de formes graphiques} (dans notre cas, les séquences \og{}hystérie\fg{} et \og{}arthrite déformante\fg{} seraient composées d'une et de deux formes graphiques, respectivement). Ces formes sont définies comme les séquences contiguës de caractères alphabétiques délimités par des non-lettres ou les délimiteurs, qui peuvent être considérées comme des informations potentiellement  pertinentes pour une étude. D'autres logiciels, comme \textsc{N}oo\textsc{J}\footnote{\url{https://nooj.univ-fcomte.fr/}}, peuvent traiter ces séquences comme les \textit{unités linguistiques atomiques}, quel que soit le nombre de formes graphiques \citep[pp.~2-3]{silberztein2022linguistic}. Ainsi, l'unité linguistique atomique \og{}hystérie\fg{} serait recensée dans un dictionnaire des entrées lexicales simples (\textsc{DELAS}), tandis que \og{}arthrite déformante\fg{} ferait partie du dictionnaire des entrées lexicales composées (\textsc{DELAC})\footnote{Ce principe est repris lors du développement du logiciel Unitex \url{https://unitexgramlab.org/fr}.}.
-
-Afin d'extraire automatiquement les concepts scientifiques, nous les opérationnalisons comme des \textit{termes} scientifiques. On en trouve une analogie proche dans la distinction terminologique relevée par \citeauthor{saussure1915} (\citeyear{saussure1915}, pp.~74-75) entre un \textit{signifié} (p. ex. le concept d'un arbre dans notre système cognitif) et un \textit{signifiant} (mot, parole, pictograme désignant un arbre) qui consitue un \textit{signe} (référent, un arbre réel). Les termes sont des expressions textuelles et unités sémantiques qui désignent des concepts dans un domaine d'expertise spécifique. Par conséquent, la tâche d'extraction des concepts peut donc être formalisée comme un problème d'extraction de la terminologie (angl. \textit{automatic text extraction -- \textsc{ATE}}), dont les enjeux appartiennent au domaine de l'extraction d'information (angl. \textit{information retrieval}), et plus largement, à celui du \textsc{TAL}. L'\textsc{ATE} a pour objectif de faciliter l'identification manuelle des termes à partir de corpus spécifiques à un domaine en fournissant une liste de termes candidats \citep[p.~1]{tran2023recent}. Jusqu'à maintenant, trois grandes méthodes d'extraction de la terminologie ont été recensées dans la littérature : linguistique, statistique et la méthode basée sur les apprentissages machine et profond (angl. \textit{machine learning} et \textit{deep learning}, respectivement).
-\hl{À FAIRE}
-\begin{itemize}
-	\item TermoStat\footnote{https://termostat.ling.umontreal.ca/doc\_termostat/doc\_termostat.html} \citep{drouin2003} : termes simples vs. complexes nominaux ; à base de règles ; limite de corpus : 30 Mo + connexion échouée ou phénomène de bottleneck ; extraction des POS
-	\item extraction terminologique \texttt{TermSuite}\footnote{\url{https://termsuite.github.io/}} \citep{cram2016terminology} : scalable, \texttt{TreeTagger}
-	\item approche linguistique : besoin d'expert du domaine, analyse syntaxique, POS tagging qui a ses limitations, ne peut pas mesurer la pertinence du terme
-	\item approche statistique, pas besoin d'expert du domaine, mesure de pertinence : \textit{termhood} et \textit{unithood} \citep[pp.~6-7]{kageura1996} vs. fréquence
-	\item approche apprentissage machine / profond : \citep{tran2023recent}
-	\item Pour nous, concept scientifique est opérationnalisé comme un terme scientifique.
-\end{itemize}
-
-
-
-
-%Motasem :
-%revenir sur les concepts de l'index
-%comment identifier les concepts médicaux dans les textes ? 
-%regarder les fréquences des concepts médicaux
-%quelles formes ?
-%comment les identifier dans un texte ?
-%lire la proposition de Motasem sur les anecdotes et celle de Glenn sur les embeddings dynamiques
-%\textsc{ATISHS} : outil pour les HN 
-%faire les stats à partir de la liste des concepts -- index (cooccurrences, pattern matching etc.) : qu'est-ce qui marche et marche pas ?
-
-\textbf{Comment définir les concepts scientifiques du point de vue du TAL / analyse du corpus ? concepts, termes et mots-clés}
-
-
-
-%Le mot \og{}concept\fg{} est un terme générique qui renvoie à un grand nombre de théories provenant de divers domaines de pensée, sans qu'il en existe une qui soit exhaustive et universellement acceptée.
-
-
-
-%En revanche, selon les linguistes, un concept a une structure double, constituée du sens linguistique et culturel.
-%%dont linguistique (générale, cognitive, psycholinguistique, ethnolinguistique), philosophie, métaphysique ou mathématiques
-%Sa couche intérieure est constituée du noyau étymologique sur lequel repose ensuite la couche périphérique qui hérite les éléments formés par la culture, les traditions et les expériences humaines
-%%\foreignlanguage{russian}{(Степанов, \citeyear{stepanov2007}}). 
-%\footnote{En linguoculturologie, on retrouve le terme \og{}concept linguo-culturel\fg{} qui reflète cette nature double du concept.}. Il peut être exprimé par de différentes éléments du langage, soit : lexèmes, idiomes, collocations, phrases ou textes entiers \citep[p.~5]{nemickiene2011concept}. 
-
-Dans le domaine du traitement automatique des langues (\textsc{TAL}), le terme \og concept \fg{} peut s'apparenter à celui des \og entités nommées \fg{}, comme en témoignent les recherches sur l'extraction automatique de la terminologie biomédicale (\citealp{jolly2024exploring,navarro2023clinical}). Un concept d'un domaine de connaissance peut faire partie d'un thésaurus, liste organisée de termes contrôlés et normalisés, auquel cas le concept est appelé \og descripteur \fg{}. \citep[p.~16]{RENNESSON202015}.
-
-Un exemple de ce phénomène est le terme \textsc{mot}, qui véhicule une réalité particulière appartenant à chaque langue (\citeauthor{mounin1968clefs} \citeyear{mounin1968clefs}, p. 65). 
-
-Nous n'entendons pas le terme \textsc{concept} dans le sens de Saussure,.... signe = concept (signifié) + image acoustique (signifiant)
-
-Même si l'on reprend la description de Saussure qui considère le mot comme \og une image acoustique associé à un concept \fg{}, nous nous heurtons ensuite au problème de la définition du terme \textit{concept}. Le structuralisme linguistique de Bloomfield souligne ce point, en ajoutant que les linguistes ne sont pas outillés pour démêler complètement ce réseau complexe. Ce structuraliste poursuit en disant que le langage peut en effet être perçu comme une abstraction construite à partir de nos connaissances sur celui-ci, mais qu'il faut \og décrire d'abord le fonctionnement de cet instrument de communication \fg{} et expliquer comment nous (dé)construisons les énoncés en tant que locuteurs ou auditeurs (\citeauthor{mounin1968clefs} \citeyear{mounin1968clefs}, pp. 94-95).
-
-\begin{itemize}
-	\item ok, et c'est quoi le concept en linguistique (de Saussure) et en analyse du discours
-	\item nous différencions des concepts des \og{}figements linguistiques\fg{} \citep{bezancon2023}
-\end{itemize}
-
-
-
-Dans le souci de différencier ces notions à travers les disciplines citées, nous présentons ci-dessous quelques-uns de leurs traits discriminatoires qui ne prétendent être ni exhaustifs ni limitatifs :
-
-\begin{table}[h]
-	\centering
-	\begin{tabular}{|l|l|l|l|}
-		\hline
-		& \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Philosophie\\ Épistémologie\end{tabular}} & \multicolumn{1}{c|}{Linguistique} & \multicolumn{1}{c|}{TAL} \\ \hline
-		\textsc{Idée}    & objet de connaissance                                                                                          \citep[p.~261]{Lecourt1999} &                                   &                          \\ \hline
-		\textsc{Concept} & représentation de l'objet de connaissance \citep[p.~261]{Lecourt1999}                                                                                      \\ \hline 
-		\textsc{Signifié} &  \citep[p.~27]{astolfi2008chapitre}                                                                                      \\ \hline
-		\textsc{Signifiant} &    mode de représentation des signifiés \citep[p.~27]{astolfi2008chapitre}                              &                          \\ \hline
-		\textsc{Terme}   &                                                                                          &                                   &                          \\ \hline
-		\textsc{Mot} &                                                                                          &                                   &                          \\ \hline
-		\textsc{Mot-clé} &                                                                                          &                                   &                          \\ \hline
-	\end{tabular}
-\end{table}
-
-\begin{itemize}
-	\item \textbf{Proposer de formaliser la définition du concept (identifiables dans un corpus), mots clés ? Embeddings ? —>} 
-	\item nous nous appuyons sur une approximation d'un tel concept, car la tâche d'automatisation et d'implémentation dans l'optique computationnelle enlève forcément quelques traits de concepts abordés dans ce chapitre
-\end{itemize}
-
-Comment suis-je arrivée à ma méthodologie ?
-
-
-
-%\section{Études numériques des circulations culturelles}
-\label{circulations}
-
-
-%Les humanités numériques au service de l'analyse des circulations culturelles
-%
-%Comment définir une circulation du point de vue de l'analyse du texte ? de la linguistique computationnelle (TAL) ?
-
-%\minitoc
-
 \section{Circulations des savoirs et valorisation des archives : état de l'art}
 \label{sect:sota_valorisation}
-Incontestablement, l'époque actuelle est profondément marquée par le \og{}déluge des données\fg{}, phénomène représentatif de la quatrième paradigme de la science, selon Jim Gray \citep[p.~30]{hey2009jim}. Par conséquent, les projets numériques sont aujourd'hui \og{}pilotés par les données\fg{}\footnote{Traduction du terme \textit{data-driven} introduit par \citet{Johns1991ShouldYB}, issu de l'expression \textit{data-driven learning}.} et ceux qui sont centrés sur les explorations des circulations culturelles au prisme du numérique se concrétisent à grande échelle.
+ \hl{AF} Incontestablement, l'époque actuelle est profondément marquée par le \og{}déluge des données\fg{}, phénomène représentatif de la quatrième paradigme de la science, selon Jim Gray \citep[p.~30]{hey2009jim}. Par conséquent, les projets numériques sont aujourd'hui \og{}pilotés par les données\fg{}\footnote{Traduction du terme \textit{data-driven} introduit par \citet{Johns1991ShouldYB}, issu de l'expression \textit{data-driven learning}.} et ceux qui sont centrés sur les explorations des circulations culturelles au prisme du numérique se concrétisent à grande échelle.
 %Les humanités numériques au service de l'analyse des circulations culturelles se manifestent sous forme de divers projets de recherche au niveau académique. 
 Sont fortement axés sur cette thématique :
 \begin{enumerate}
@@ -230,4 +137,99 @@ Enfin, il est également possible de lister les entités impactées, comprenant 
 
 
 %La section \ref{concept} élabore les différentes approches pour définir plus globalement la notion des concepts historiques qui nous orienteront vers une définition des concepts médicaux en particulier. \smalltodo{pont}
+
+
+
+\section{Repérage des termes scientifiques dans un corpus numérique}
+\label{termes}
+Si nous nous limitons aux théories abordées jusqu'à maintenant, nous pouvons considérer que les concepts médicaux de Charcot ont eu le rôle des vecteurs de la crise conceptuelle, ce qui représentait une forme de \textit{Sattelzeit} dans le domaine de la médecine. Autrement dit, ces concepts ont été détournés de leurs sens initiaux ayant une apparence formelle neutre (descriptions des pathologies), vers ceux exerçant un certain impact sur la communauté scientifique que nous souhaitons mesurer informatiquement. Néanmoins, l'analyse numérique des concepts n'est pas une tâche triviale non plus, car tous les logiciels ne traitent pas des textes de la même manière. D'après \citeauthor{silberztein2022linguistic} (\citeyear{silberztein2022linguistic}, p.~2), les logiciels comme \textsc{TXM}\footnote{\url{https://txm.gitpages.huma-num.fr/textometrie/}}, Sketch Engine\footnote{\url{https://www.sketchengine.eu/}} ou \textsc{IR}a\textsc{M}u\textsc{T}e\textsc{Q}\footnote{\url{http://www.iramuteq.org/}} traitent les documents comme des \textit{séquences de formes graphiques} (dans notre cas, les séquences \og{}hystérie\fg{} et \og{}arthrite déformante\fg{} seraient composées d'une et de deux formes graphiques, respectivement). Ces formes sont définies comme les séquences contiguës de caractères alphabétiques délimités par des non-lettres ou les délimiteurs, qui peuvent être considérées comme des informations potentiellement  pertinentes pour une étude. D'autres logiciels, comme \textsc{N}oo\textsc{J}\footnote{\url{https://nooj.univ-fcomte.fr/}}, peuvent traiter ces séquences comme les \textit{unités linguistiques atomiques}, quel que soit le nombre de formes graphiques \citep[pp.~2-3]{silberztein2022linguistic}. Ainsi, l'unité linguistique atomique \og{}hystérie\fg{} serait recensée dans un dictionnaire des entrées lexicales simples (\textsc{DELAS}), tandis que \og{}arthrite déformante\fg{} ferait partie du dictionnaire des entrées lexicales composées (\textsc{DELAC})\footnote{Ce principe est repris lors du développement du logiciel Unitex \url{https://unitexgramlab.org/fr}.}.
+
+Afin d'extraire automatiquement les concepts scientifiques, nous les opérationnalisons comme des \textit{termes} scientifiques. On en trouve une analogie proche dans la distinction terminologique relevée par \citeauthor{saussure1915} (\citeyear{saussure1915}, pp.~74-75) entre un \textit{signifié} (p. ex. le concept d'un arbre dans notre système cognitif) et un \textit{signifiant} (mot, parole, pictograme désignant un arbre) qui consitue un \textit{signe} (référent, un arbre réel). Les termes sont des expressions textuelles et unités sémantiques qui désignent des concepts dans un domaine d'expertise spécifique. Par conséquent, la tâche d'extraction des concepts peut donc être formalisée comme un problème d'extraction de la terminologie (angl. \textit{automatic text extraction -- \textsc{ATE}}), dont les enjeux appartiennent au domaine de l'extraction d'information (angl. \textit{information retrieval}), et plus largement, à celui du \textsc{TAL}. L'\textsc{ATE} a pour objectif de faciliter l'identification manuelle des termes à partir de corpus spécifiques à un domaine en fournissant une liste de termes candidats \citep[p.~1]{tran2023recent}. Jusqu'à maintenant, trois grandes méthodes d'extraction de la terminologie ont été recensées dans la littérature : linguistique, statistique et la méthode basée sur les apprentissages machine et profond (angl. \textit{machine learning} et \textit{deep learning}, respectivement).
+\hl{À FAIRE}
+\begin{itemize}
+	\item TermoStat\footnote{https://termostat.ling.umontreal.ca/doc\_termostat/doc\_termostat.html} \citep{drouin2003} : termes simples vs. complexes nominaux ; à base de règles ; limite de corpus : 30 Mo + connexion échouée ou phénomène de bottleneck ; extraction des POS
+	\item extraction terminologique \texttt{TermSuite}\footnote{\url{https://termsuite.github.io/}} \citep{cram2016terminology} : scalable, \texttt{TreeTagger}
+	\item approche linguistique : besoin d'expert du domaine, analyse syntaxique, POS tagging qui a ses limitations, ne peut pas mesurer la pertinence du terme
+	\item approche statistique, pas besoin d'expert du domaine, mesure de pertinence : \textit{termhood} et \textit{unithood} \citep[pp.~6-7]{kageura1996} vs. fréquence
+	\item approche apprentissage machine / profond : \citep{tran2023recent}
+	\item Pour nous, concept scientifique est opérationnalisé comme un terme scientifique.
+\end{itemize}
+
+
+
+
+%Motasem :
+%revenir sur les concepts de l'index
+%comment identifier les concepts médicaux dans les textes ? 
+%regarder les fréquences des concepts médicaux
+%quelles formes ?
+%comment les identifier dans un texte ?
+%lire la proposition de Motasem sur les anecdotes et celle de Glenn sur les embeddings dynamiques
+%\textsc{ATISHS} : outil pour les HN 
+%faire les stats à partir de la liste des concepts -- index (cooccurrences, pattern matching etc.) : qu'est-ce qui marche et marche pas ?
+
+\textbf{Comment définir les concepts scientifiques du point de vue du TAL / analyse du corpus ? concepts, termes et mots-clés}
+
+
+
+%Le mot \og{}concept\fg{} est un terme générique qui renvoie à un grand nombre de théories provenant de divers domaines de pensée, sans qu'il en existe une qui soit exhaustive et universellement acceptée.
+
+
+
+%En revanche, selon les linguistes, un concept a une structure double, constituée du sens linguistique et culturel.
+%%dont linguistique (générale, cognitive, psycholinguistique, ethnolinguistique), philosophie, métaphysique ou mathématiques
+%Sa couche intérieure est constituée du noyau étymologique sur lequel repose ensuite la couche périphérique qui hérite les éléments formés par la culture, les traditions et les expériences humaines
+%%\foreignlanguage{russian}{(Степанов, \citeyear{stepanov2007}}). 
+%\footnote{En linguoculturologie, on retrouve le terme \og{}concept linguo-culturel\fg{} qui reflète cette nature double du concept.}. Il peut être exprimé par de différentes éléments du langage, soit : lexèmes, idiomes, collocations, phrases ou textes entiers \citep[p.~5]{nemickiene2011concept}. 
+
+Dans le domaine du traitement automatique des langues (\textsc{TAL}), le terme \og concept \fg{} peut s'apparenter à celui des \og entités nommées \fg{}, comme en témoignent les recherches sur l'extraction automatique de la terminologie biomédicale (\citealp{jolly2024exploring,navarro2023clinical}). Un concept d'un domaine de connaissance peut faire partie d'un thésaurus, liste organisée de termes contrôlés et normalisés, auquel cas le concept est appelé \og descripteur \fg{}. \citep[p.~16]{RENNESSON202015}.
+
+Un exemple de ce phénomène est le terme \textsc{mot}, qui véhicule une réalité particulière appartenant à chaque langue (\citeauthor{mounin1968clefs} \citeyear{mounin1968clefs}, p. 65). 
+
+Nous n'entendons pas le terme \textsc{concept} dans le sens de Saussure,.... signe = concept (signifié) + image acoustique (signifiant)
+
+Même si l'on reprend la description de Saussure qui considère le mot comme \og une image acoustique associé à un concept \fg{}, nous nous heurtons ensuite au problème de la définition du terme \textit{concept}. Le structuralisme linguistique de Bloomfield souligne ce point, en ajoutant que les linguistes ne sont pas outillés pour démêler complètement ce réseau complexe. Ce structuraliste poursuit en disant que le langage peut en effet être perçu comme une abstraction construite à partir de nos connaissances sur celui-ci, mais qu'il faut \og décrire d'abord le fonctionnement de cet instrument de communication \fg{} et expliquer comment nous (dé)construisons les énoncés en tant que locuteurs ou auditeurs (\citeauthor{mounin1968clefs} \citeyear{mounin1968clefs}, pp. 94-95).
+
+\begin{itemize}
+	\item ok, et c'est quoi le concept en linguistique (de Saussure) et en analyse du discours
+	\item nous différencions des concepts des \og{}figements linguistiques\fg{} \citep{bezancon2023}
+\end{itemize}
+
+
+
+Dans le souci de différencier ces notions à travers les disciplines citées, nous présentons ci-dessous quelques-uns de leurs traits discriminatoires qui ne prétendent être ni exhaustifs ni limitatifs :
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		& \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Philosophie\\ Épistémologie\end{tabular}} & \multicolumn{1}{c|}{Linguistique} & \multicolumn{1}{c|}{TAL} \\ \hline
+		\textsc{Idée}    & objet de connaissance                                                                                          \citep[p.~261]{Lecourt1999} &                                   &                          \\ \hline
+		\textsc{Concept} & représentation de l'objet de connaissance \citep[p.~261]{Lecourt1999}                                                                                      \\ \hline 
+		\textsc{Signifié} &  \citep[p.~27]{astolfi2008chapitre}                                                                                      \\ \hline
+		\textsc{Signifiant} &    mode de représentation des signifiés \citep[p.~27]{astolfi2008chapitre}                              &                          \\ \hline
+		\textsc{Terme}   &                                                                                          &                                   &                          \\ \hline
+		\textsc{Mot} &                                                                                          &                                   &                          \\ \hline
+		\textsc{Mot-clé} &                                                                                          &                                   &                          \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{itemize}
+	\item \textbf{Proposer de formaliser la définition du concept (identifiables dans un corpus), mots clés ? Embeddings ? —>} 
+	\item nous nous appuyons sur une approximation d'un tel concept, car la tâche d'automatisation et d'implémentation dans l'optique computationnelle enlève forcément quelques traits de concepts abordés dans ce chapitre
+\end{itemize}
+
+Comment suis-je arrivée à ma méthodologie ?
+
+
+
+%\section{Études numériques des circulations culturelles}
+\label{circulations}
+
+
+%Les humanités numériques au service de l'analyse des circulations culturelles
+%
+%Comment définir une circulation du point de vue de l'analyse du texte ? de la linguistique computationnelle (TAL) ?
+
+%\minitoc
 
