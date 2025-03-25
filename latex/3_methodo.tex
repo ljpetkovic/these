@@ -1,6 +1,6 @@
 \label{corpus}
 \minitoc
-\section{Constitution du corpus Charcot}
+\section{Description du corpus Charcot}
 Le fonds patrimonial de Jean-Martin Charcot est conservé à la Bibliothèque de Neurosciences Jean-Martin Charcot par la Bibliothèque numérique patrimoniale de Sorbonne Université (BSU)\footnote{\url{https://www.sorbonne-universite.fr/bu/decouvrir-nos-bibliotheques/la-bibliotheque-charcot}.}. Ce fonds regroupe des ouvrages suivants : 
 \begin{itemize}
 \item fonds historique Charcot (bibliothèque personnelle de Charcot) : ouvrages, périodiques, collection de thèses et de tirés à part, manuscrits, observations, collection neurologique couvrant la seconde partie du XIX\ieme{} siècle, fonds bibliophilique ancien ;
@@ -42,7 +42,7 @@ Le fonds numérisé a été décrit et divisé par la BSU en quatre grandes typo
 
 \hl{Répartition des \oe{}uvres sur les années : chronologiquement, cf. le graphique généré au SCAI}
 
-%\section{Constitution du corpus Charcot}
+\section{Constitution du corpus Charcot}
 Le corpus de travail est constitué de 201 documents OCRisés (sans post-correction), gracieusement fournis au format \textsc{XML} par la \textsc{BSU}. Nous avons procédé, dans un premier temps, à une restructuration des textes en \textsc{XML-TEI}\footnote{Originalement, ces fichiers ne contenaient que les balises \texttt{<doc>}, \texttt{<id\_doc>} et \texttt{<pages>}.} à l'aide de l'outil \textsc{Teinte}\footnote{\url{https://github.com/OBVIL/teinte\_obtic}}, afin de permettre la fouille avancée du corpus Charcot à travers des outils développés au sein de l'équipe-projet \textsc{ObTIC}. D'une part, le moteur de recherche \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/}. Pour d'amples informations sur le fonctionnement de cet outil, \textit{cf}. \citet{alrahabi2022obvie}.} permet de repérer des textes similaires par ordre de pertinence à partir des termes en commun. D'autre part, l'algorithme \textsc{TextPair} génère une liste de passages similaires, c'est-à-dire les séquences de mots qui se chevauchent (n-grammes de mots) pour chaque texte, en comparant ensuite ces résultats avec ceux de séquences dans d'autres textes\footnote{\url{https://artfl-project.uchicago.edu/text-pair.}}.
 
 Afin de mesurer l'impact de Charcot sur son entourage et d'analyser la circulation de concepts véhiculés dans le corpus, nous avons commencé par séparer les documents rédigés par Charcot de ceux rédigés par ses co-auteurs (p. ex. Bourneville) ou les auteurs thématiquement proches de lui (p. ex. de la Tourette). Nous avons obtenu respectivement 68 (corpus \og{}Charcot\fg{}) et 133 (corpus \og{}Autres\fg{}) documents, comme présenté dans le tableau \ref{tab:corpus}. 
@@ -71,3 +71,5 @@ Afin de mesurer l'impact de Charcot sur son entourage et d'analyser la circulati
 Les deux corpus issus du fonds Charcot sont librement disponibles et interrogeables sur les deux plateformes \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/charcot/?view=corpus}} et \textsc{TextPair}\footnote{\url{https://anomander.uchicago.edu/}}.
 
 \hl{métadonnées sur les deux corpus...}
+
+\section{Historique de l'\textsc{ATR}}

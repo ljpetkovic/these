@@ -88,43 +88,6 @@
 \usepackage{lipsum} 
 \usepackage{blindtext, color}
 \usepackage[explicit]{titlesec}
-
-
-
-
-
-\usepackage{titlesec}
-
-\usepackage{fmtcount} % pour écrire les nombres en lettres
-
-% Fonction pour écrire "Première", "Deuxième", etc.
-\newcommand{\partnamefr}{%
-	\ifcase\value{part}%
-	\or Première%
-	\or Deuxième%
-	\or Troisième%
-	\or Quatrième%
-	\or Cinquième%
-	\or Sixième%
-	\or Septième%
-	\or Huitième%
-	\or Neuvième%
-	\or Dixième%
-	\else Partie~\number\value{part}%
-	\fi~partie%
-}
-
-\titleformat{\part}
-[display]
-{\normalfont\Huge\bfseries\centering}
-{\MakeUppercase{\partnamefr}}
-{1ex}
-{%
-	\rule{\textwidth}{0.4pt}\\[1ex]%
-	\Huge\textsc{#1}%
-}
-
-
 \makeatletter
 \renewcommand{\thesection}{\arabic{section}}
 \renewcommand{\thesubsection}{\thesection.\arabic{subsection}} % optional
@@ -410,23 +373,15 @@ rightsub = \frq{} %
 \input{1_intro}
 \input{2_rupture}
 \input{2_SotA}
-\input{structure}
 
-\chapter{Du fonds Charcot à un corpus interrogeable : enjeux et méthodes}
-\input{3_methodo}
 %\chapter{Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}
 %\label{rupture}
 %\input{2_rupture}
 
-\part{La circulation des savoirs comme vecteur de valorisation des archives : état de l'art}
-\chapter{L’évolution des approches numériques pour détecter la circulation des savoirs}
-\input{revue_lit}
+\part{Cadre théorique et état de l’art}
 
-
-
-
-
-\part{Pister la circulation du discours médical au prisme du numérique}
+\chapter{Pister la circulation du discours médical au prisme du numérique}
+\input{3_methodo}
 \input{4_resultats}
 %\chapter{Valorisation du fonds Charcot}
 %\chapter{Pister la circulation du discours médical de Charcot au prisme du numérique}
