@@ -10,7 +10,7 @@
 \contentsline {chapter}{\numberline {2}Du fonds Charcot à un corpus interrogeable : enjeux et méthodes}{13}{chapter.2}%
 \contentsline {section}{\numberline {1}Description du corpus Charcot}{13}{section.2.1}%
 \contentsline {section}{\numberline {2}Constitution du corpus Charcot}{15}{section.2.2}%
-\contentsline {section}{\numberline {3}Historique de l'\textsc {ATR}}{15}{section.2.3}%
+\contentsline {section}{\numberline {3}Historique de l'\textsc {ATR}}{16}{section.2.3}%
 \contentsline {part}{I\hspace {1em}La circulation des savoirs comme vecteur de valorisation des archives : état de l'art}{17}{part.1}%
 \contentsline {chapter}{\numberline {3}L’évolution des approches numériques pour détecter la circulation des savoirs}{19}{chapter.3}%
 \contentsline {section}{\numberline {1}...}{19}{section.3.1}%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 MAR 2025 11:28
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  26 MAR 2025 16:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1290,6 +1290,9 @@ xt;" at 12.0pt
 (babel)             these families, consider redefining them with \babelfont.
 (babel)             Reported on input line 3.
 
+
+LaTeX Warning: Label `fig:analyse_quadrant' multiply defined.
+
 )
 \openout1 = `_main.aux'.
 
@@ -1809,9 +1812,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-Missing character: There is no œ ("153) in font ectt1000!
-Missing character: There is no œ ("153) in font ectt1000!
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1821,6 +1821,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
+Missing character: There is no œ ("153) in font ectt1000!
+Missing character: There is no œ ("153) in font ectt1000!
+File: img/distribution_ouvrages.png Graphic file (type bmp)
+<img/distribution_ouvrages.png>
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2541,21 +2546,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: There were undefined references.
 
 
-Package rerunfilecheck Warning: File `_main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `_main.out':
-(rerunfilecheck)             Before: 844ED7F91610CF8AE9B660CD3F2F38C2;7046
-(rerunfilecheck)             After:  8C2036BE1120A846EADD2D70CFF38F6E;7202.
-Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 05A1F32F743D22B29A3EA5964B341C75;7649.
+Package rerunfilecheck Info: File `_main.out' has not changed.
+(rerunfilecheck)             Checksum: 8C2036BE1120A846EADD2D70CFF38F6E;7202.
+
+Package rerunfilecheck Warning: File `_main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `_main.brf':
+(rerunfilecheck)             Before: FACBDC88999075802C29509A60E717DC;7649
+(rerunfilecheck)             After:  759D3252AA5550BBA4A471F49B370AFD;7649.
  ) 
 Here is how much of TeX's memory you used:
- 36431 strings out of 476683
- 724236 string characters out of 5804046
+ 36439 strings out of 476683
+ 724499 string characters out of 5804046
  1872018 words of memory out of 5000000
- 55741 multiletter control sequences out of 15000+600000
+ 55748 multiletter control sequences out of 15000+600000
  549080 words of font info for 122 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,143p,2714b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
