@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  26 MAR 2025 16:48
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  28 MAR 2025 11:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1525,14 +1525,16 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 27.
- [1
 
-]
-Overfull \hbox (4.66443pt too wide) in paragraph at lines 43--44
-\TU/GentiumPlus(0)/m/n/12 ries ou des méthodes circulent, s’échangent, s’emprun
-tent, se transfèrent et se trans-
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
+][][][][] [][] [][][][][][][][][][] [] [][] [] [][] [] [][][][][][][][][] [][] 
+[][][] [][] [][][][][][][][][][][][][] [] [][] [][]
  []
 
+[1
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1542,7 +1544,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-Overfull \hbox (2.66597pt too wide) in paragraph at lines 67--69
+Overfull \hbox (4.66443pt too wide) in paragraph at lines 45--46
+\TU/GentiumPlus(0)/m/n/12 ries ou des méthodes circulent, s’échangent, s’emprun
+tent, se transfèrent et se trans-
+ []
+
+
+Overfull \hbox (2.66597pt too wide) in paragraph at lines 69--71
 \TU/GentiumPlus(0)/m/n/12 construite autour d’un savoir partagé ([][][]\TU/Gent
 iumPlus(0)/m/sc/12 Adell\TU/GentiumPlus(0)/m/n/12 , 2011[][], p. 251). Dans une
  perspective contem-
@@ -1557,13 +1565,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-Overfull \hbox (1.49283pt too wide) in paragraph at lines 92--93
+Overfull \hbox (1.49283pt too wide) in paragraph at lines 94--95
 []\TU/GentiumPlus(0)/m/n/12 revalorisation des savoirs implicites et de la dime
 nsion pratique des connaissances ; 
  []
 
 
-Overfull \hbox (3.75104pt too wide) in paragraph at lines 93--94
+Overfull \hbox (3.75104pt too wide) in paragraph at lines 95--96
 []\TU/GentiumPlus(0)/m/n/12 glorification de la circulation comme porteuse de v
 aleurs \TU/GentiumPlus(0)/m/it/12 a priori \TU/GentiumPlus(0)/m/n/12 positives 
 : confron-
@@ -1684,7 +1692,6 @@ Overfull \hbox (11.04333pt too wide) in paragraph at lines 73--74
  psychiatre, concepteur des termes
  []
 
-) (./2_SotA.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1693,7 +1700,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7]
+[7]) (./2_SotA.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1735,6 +1742,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [10]) (./structure.tex
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 LaTeX Warning: Reference `rupture' on page 11 undefined on input line 16.
 
 
@@ -1773,28 +1783,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 415--415
 Package minitoc Info: I0006
 (minitoc)             _main.mtc2 is empty on input line 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-[][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
-][][][][] [][] [][][][][][][][][][] [] [][] [] [][] [] [][][][][][][][][] [][] 
-[][][] [][] [][][][][][][][][][][][][] [] [][] [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][]anc. Jubilothèque, [][]$[][][][][] [] [] [
 ] [][][][][][][][][][] [] [][][][][][][][] [][] [][][][][][][][][][] [] [][] []
  [][][][][][][][][][] [] [][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][][][][][] []
  [][][] [] [][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][] [] [][][] [
 ] [][][][][][][][][] [] [][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
 [][][][][][][] [] [] [] [] [] [][][][][] [] [][][][][][][][][][] [] [][][][][] 
 [] [][] [] [][][][][][][][][] [] [][] [] [][][][][][] [][] [][][][][][] [] [][]
  [] [][] [] [][][][] [] [][] []
@@ -2550,20 +2553,15 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 8C2036BE1120A846EADD2D70CFF38F6E;7202.
-
-Package rerunfilecheck Warning: File `_main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `_main.brf':
-(rerunfilecheck)             Before: FACBDC88999075802C29509A60E717DC;7649
-(rerunfilecheck)             After:  759D3252AA5550BBA4A471F49B370AFD;7649.
+Package rerunfilecheck Info: File `_main.brf' has not changed.
+(rerunfilecheck)             Checksum: 4770E354FAF038031C9B867B945D571E;7649.
  ) 
 Here is how much of TeX's memory you used:
- 36439 strings out of 476683
- 724499 string characters out of 5804046
+ 36441 strings out of 476683
+ 724581 string characters out of 5804046
  1872018 words of memory out of 5000000
- 55748 multiletter control sequences out of 15000+600000
- 549080 words of font info for 122 fonts, out of 8000000 for 9000
+ 55749 multiletter control sequences out of 15000+600000
+ 549088 words of font info for 123 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,143p,2714b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
