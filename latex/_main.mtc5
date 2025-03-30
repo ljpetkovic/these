@@ -1,8 +1,8 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}...}{\reset@font\mtcSfont 21}{section.3.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Repérage des termes scientifiques dans un corpus numérique}{\reset@font\mtcSfont 24}{section.3.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{\reset@font\mtcSfont 29}{section.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4}Extraction de la terminologie : approche linguistique}{\reset@font\mtcSfont 30}{section.3.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5}Extraction des phrases-clés : méthodes statistiques}{\reset@font\mtcSfont 33}{section.3.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6}Extraction des phrases-clés : méthode à base d'apprentissage profond}{\reset@font\mtcSfont 35}{section.3.6}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1}Librairie \texttt {keybert}}{\reset@font\mtcSSfont 35}{subsection.3.6.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2}Approche \textit {PatternRank}}{\reset@font\mtcSSfont 37}{subsection.3.6.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}...}{\reset@font\mtcSfont 23}{section.3.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Repérage des termes scientifiques dans un corpus numérique}{\reset@font\mtcSfont 26}{section.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{\reset@font\mtcSfont 31}{section.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4}Extraction de la terminologie : approche linguistique}{\reset@font\mtcSfont 32}{section.3.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5}Extraction des phrases-clés : méthodes statistiques}{\reset@font\mtcSfont 35}{section.3.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6}Extraction des phrases-clés : méthode à base d'apprentissage profond}{\reset@font\mtcSfont 37}{section.3.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1}Librairie \texttt {keybert}}{\reset@font\mtcSSfont 37}{subsection.3.6.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2}Approche \textit {PatternRank}}{\reset@font\mtcSSfont 39}{subsection.3.6.2}}

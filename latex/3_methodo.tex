@@ -47,98 +47,889 @@ Le fonds numérisé a été décrit et divisé par la BSU en quatre grandes typo
 \section{Constitution du corpus Charcot}
 Le corpus de travail est constitué de 201 documents OCRisés, sans post-correction, gracieusement fournis au format \textsc{XML} par la \textsc{BSU}\footnote{À cette occasion, je remercie chaleureusement M\textsuperscript{me} Adeline Batailler, chargée de la valorisation et de l'évaluation des collections du département des Collections de la \textsc{BSU}, pour ses conseils précieux concernant le fonds Charcot.}. Originalement, ces fichiers contenaient seulement les balises \texttt{<doc>} (document comme objet), \texttt{<id\_doc>} (identifiant du document) et \texttt{<pages>} (pages du document). C'est pourquoi nous avons commencé par restructurer les textes au format \textsc{XML-TEI}, à l'aide de l’outil dédié intégré à \textsc{Pandore}\footnote{\url{https://obtic-gpu1.mesu.sorbonne-universite.fr:8550/conversion_xml}}, une boîte à outils développée par l'équipe ObTIC et hébergée par Sorbonne Université. 
 %Afin de mesurer l'impact de Charcot sur son entourage et d'analyser la circulation de concepts véhiculés dans le corpus, 
-\hl{Ensuite, nous avons séparé les documents rédigés par Charcot de ceux rédigés par ses co-auteurs (p. ex. Bourneville) ou les auteurs thématiquement proches de lui (p. ex. de la Tourette)}. Nous avons obtenu respectivement 68 (corpus \og{}Charcot\fg{}) et 133 (corpus \og{}Autres\fg{}) documents, comme présenté dans le tableau \ref{tab:corpus}. Le corpus est relativement volumineux, tant par son nombre de tokens (environ 32 millions) que par l'espace mémoire qu'il occupe (206,3 Mo). Les documents-sources sont disponibles dans le dépôt GitHub dédié\footnote{\url{https://github.com/ljpetkovic/Charcot_circulations/tree/main/input}}.
+\hl{Ensuite, nous avons séparé les documents rédigés par Charcot de ceux rédigés par ses co-auteurs (p. ex. Bourneville) ou les auteurs thématiquement proches de lui (p. ex. de la Tourette)}. Nous avons obtenu respectivement 68 (corpus \og{}Charcot\fg{}) et 133 (corpus \og{}Autres\fg{}) documents, comme présenté dans le tableau \ref{tab:corpus} dans l'ordre chronologique des dates de publication. Le corpus est relativement volumineux, tant par son nombre de tokens (environ 32 millions) que par l'espace mémoire qu'il occupe (206,3 Mo). Les documents-sources sont disponibles dans le dépôt GitHub dédié\footnote{\url{https://github.com/ljpetkovic/Charcot_circulations/tree/main/input}}.
 
-\begin{table}[!ht]
-    \centering
-    \begin{tabular}{|c|r|r|c|}
-    \hline\hline
-    \rowcolor{gray!10}
-    \small
-       Corpus & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}\small Documents\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}\small Tokens\end{tabular}} & {\begin{tabular}[c]{@{}c@{}}\small Mémoire\end{tabular}} \\ \hline
-   
-      \begin{tabular}[c]{@{}c@{}}\textrm{\small Charcot}\\ \scriptsize{textes rédigés par Charcot}\end{tabular}  & \small 68 & \small 12 190 649 (38,12 \%) & {\begin{tabular}[r]{@{}c@{}}\small 79,1 Mo\end{tabular}} \\ \hline
-      
-       \begin{tabular}[c]{@{}c@{}}\textrm{\small Autres}\\\vspace{-0.15cm} \scriptsize{textes rédigés par les membres} \vspace{-0.15cm} \\ \scriptsize{de son réseau scientifique}\end{tabular}    & \small 133 & \small 19 788 830 (61,88 \%) & {\begin{tabular}[r]{@{}c@{}}\small 127,2 Mo\end{tabular}} \\
-       \hline\hline
-       \textbf{TOTAL} & \textbf{201} & \textbf{31 979 479} (100 \%) & \textbf{206,3 Mo}\\
-       \hline\hline
-    \end{tabular}
-    \caption{Répartition du fonds Charcot selon les auteurs.
-%    \footnote{\tiny{\url{https://patrimoine.sorbonne-universite.fr/collection/Fonds-Charcot}}}
-}
- \label{tab:corpus}
-\end{table}
 
-\begin{table}[h]
-	\centering
-	\small
-	\resizebox{\textwidth}{!}{%
-\begin{tabularx}{\textwidth}{
-		>{\raggedright\arraybackslash}p{3.5cm}
-		>{\centering\arraybackslash}X
-		>{\centering\arraybackslash}p{1.8cm}
-		>{\centering\arraybackslash}p{1.8cm}}
+
+%\begin{table}[h] 
+%\centering
+
+
+
+\begingroup
+\renewcommand{\arraystretch}{1.5}  % Add space between rows
+\setstretch{0.9}                   % Shrink line spacing within cells
+
+\footnotesize
+\begin{longtable}
+	{>{\raggedright\arraybackslash}p{0.20\textwidth}%
+		>{\centering\arraybackslash}p{0.50\textwidth}%
+		>{\raggedleft\arraybackslash}p{0.11\textwidth}%
+		>{\raggedleft\arraybackslash}p{0.11\textwidth}}
 	
 	\toprule
-	Auteur(s) & Titre & Année & Tokens \\
+	\multicolumn{1}{c}{\textbf{Auteur(s)}} & \multicolumn{1}{c}{\textbf{Titre}} & \multicolumn{1}{c}{\textbf{Date}} & \multicolumn{1}{c}{\textbf{Tokens}} \\
 	\midrule
+	\endfirsthead
 	
-	\begin{minipage}[t]{\linewidth}
-		\setstretch{0.9}
+	\toprule
+	\textbf{Authors} & \textbf{Title} & \textbf{Date} & \textbf{Tokens} \\
+	\midrule
+	\endhead
+	
+	\midrule \multicolumn{4}{r}{\textit{Suite à la page suivante}} \\
+	\endfoot
+	
+	\bottomrule
+	\endlastfoot
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
 		Richer, P.\\
 		Charcot, J.-M.
-	\end{minipage} & 
-	\textit{Études cliniques sur l’hystéro-épilepsie, ou Grande hystérie} & 
-	1881 & xx \\
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Études cliniques sur l'hystéro-épilepsie ou\\
+			Grande hystérie}
+	\end{minipage} &
+	1881 & 359 652 \\
 	
-	\begin{minipage}[t]{\linewidth}
-		\setstretch{0.9}
-		Charcot, J.-M.\\
-		Bourneville, D. M.
-	\end{minipage} & 
-	\textit{Archives de neurologie [Tome 01] : revue trimestrielle des maladies nerveuses et mentales} & 
-	1881 & xx \\
+	\addlinespace  % ← Adds space before the next row
 	
-	\begin{minipage}[t]{\linewidth}
-		\setstretch{0.9}
+	\begin{minipage}[t]{\linewidth}\raggedright
 		Charcot, J.-M.\\
 		Bourneville, D. M.
-	\end{minipage} & 
-	\textit{Archives de neurologie [Tome 02, n° 05–06] : revue trimestrielle des maladies nerveuses et mentales} & 
-	1881 & xx \\
-		\begin{minipage}[t]{\linewidth}
-		\setstretch{0.9}
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 01] : revue\\
+			trimestrielle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1881 & 302 295 \\
+	
+	\addlinespace  % ← Adds space before the next row
+	
+		
+	\begin{minipage}[t]{\linewidth}\raggedright
 		Charcot, J.-M.\\
 		Bourneville, D. M.
-	\end{minipage} & 
-	\textit{Archives de neurologie [Tome 03, n° 07-09] : revue mensuelle des maladies nerveuses et mentales} & 
-	1882 & xx \\
-	\begin{minipage}[t]{\linewidth}
-		\setstretch{0.9}
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 02, n° 05-06] :\\
+			 revue trimestrielle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1881 & 139 034 \\
+	
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
 		Charcot, J.-M.\\
 		Bourneville, D. M.
-	\end{minipage} & 
-	\textit{Archives de neurologie [Tome 04, n° 10-12] : revue mensuelle des maladies nerveuses et mentales} & 
-	1882 & xx \\
-	\begin{minipage}[t]{\linewidth}
-		\setstretch{0.9}
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 03, n° 07-09] :\\
+			 revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1882 & 157 476 \\
+	
+		\addlinespace  % ← Adds space before the next row
+	\begin{minipage}[t]{\linewidth}\raggedright
 		Charcot, J.-M.\\
 		Bourneville, D. M.
-	\end{minipage} & 
-	\textit{Archives de neurologie [Tome 05, n° 13-15] : revue mensuelle des maladies nerveuses et mentales} & 
-	1883 & xx \\
-	\begin{minipage}[t]{\linewidth}
-		\setstretch{0.9}
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 04, n° 10-12] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1882 & 169 894 \\
+	
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
 		Charcot, J.-M.\\
 		Bourneville, D. M.
-	\end{minipage} & 
-	\textit{Archives de neurologie [Tome 06, n° 16-18] : revue mensuelle des maladies nerveuses et mentales} & 
-	1883 & xx \\
-	\bottomrule
-\end{tabularx}
-}
-\end{table}
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 05, n° 13-15] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1883 & 206 003 \\
+	
+			\addlinespace  % ← Adds space before the next row
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 06, n° 16-18] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1883 & 233 640 \\
+	
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 07, n° 19-21] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1884 & 183 645 \\
+		\addlinespace  % ← Adds space before the next row
+		
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+	Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 08, n° 22-24] :\\
+			revue des maladies nerveuses et mentales}
+	\end{minipage} &
+	1884 & 187 544 \\
+	
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 09, n° 25-27] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1885 & 191 466 \\
+	
+		\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 10, n° 28-30] :\\
+			revue des maladies nerveuses et mentales}
+	\end{minipage} &
+	1885 & 208 340 \\
+	
+			\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 11, n° 31-33] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1886 & 197 029 \\
+	
+				\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 12, n° 34-36] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1886 & 183 053 \\
+	
+					\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Bourneville, D. M.\\
+		Charcot, J.-M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{\OE{}uvres complètes de J. M. Charcot. Tome 2.\\
+			Leçons sur les maladies du système nerveux.}
+	\end{minipage} &
+	1886 & 192 947 \\
+	
+						\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 13, n° 37-39] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1887 & 214 235 \\
+	
+	
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 14, n° 40-42] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1887 & 197 160 \\
+	
+		
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 15, n° 43-45] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1888 & 210 025 \\
+	
+		\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 16, n° 46-48] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1888 & 218 916 \\
+	
+			\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Brissaud, É.\\
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{\OE{}uvres complètes de J. M. Charcot. Tome 5.\\
+			Maladies des poumons et du système vasculaire.}
+	\end{minipage} &
+	1888 & 235 180 \\
+	
+				\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 17, n° 49-51] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1889 & 212 629 \\
+	
+					\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 18, n° 52-54] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1889 & 198 024 \\
+						\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Bourneville, D. M.\\
+		Charcot, J.-M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{\OE{}uvres complètes de J. M. Charcot. Tome 8.\\
+			Maladies infectieuses, affections de la peau\\
+			kystes hydatiques, estomac et rate, thérapeutique}
+	\end{minipage} &
+	1889 & 167 498 \\
+	
+							\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Colin, H.\\
+		Charcot, J.-M.\\
+		Charcot, J.-B.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Leçons du Mardi à la Salpêtrière\\
+			Policlinique 1888-1889}
+	\end{minipage} &
+	1889 & 269 068 \\
+	
+					\addlinespace  % ← Adds space before the next row
+
+\begin{minipage}[t]{\linewidth}\raggedright
+	Charcot, J.-M.\\
+	Bourneville, D. M.
+\end{minipage} &
+\begin{minipage}[t]{\linewidth}\centering
+	\textit{Archives de neurologie [Tome 19, n° 55-57] :\\
+		revue des maladies nerveuses et mentales}
+\end{minipage} &
+1890 & 178 499 \\
+
+					\addlinespace  % ← Adds space before the next row
+
+\begin{minipage}[t]{\linewidth}\raggedright
+	Charcot, J.-M.\\
+	Bourneville, D. M.
+\end{minipage} &
+\begin{minipage}[t]{\linewidth}\centering
+	\textit{Archives de neurologie [Tome 20, n° 58-60] :\\
+		revue mensuelle des maladies nerveuses et mentales}
+\end{minipage} &
+1890 & 201 754 \\
+
+					\addlinespace  % ← Adds space before the next row
+
+\begin{minipage}[t]{\linewidth}\raggedright
+	Brissaud, É.\\
+	Charcot, J.-M.\\
+	Tourette, G. G. de la\\
+	Babinski, J.\\
+	Féré, C.\\
+	Bourneville, D. M.\\
+	Bernard, D.
+\end{minipage} &
+
+\begin{minipage}[t]{\linewidth}
+	\vspace*{0.9\baselineskip} % Ajuste ce facteur selon le nombre d'auteurs
+	\centering
+	\textit{\OE{}uvres complètes de J. M. Charcot. Tome 3.\\
+		Leçons sur les maladies du système nerveux}
+\end{minipage} &
+
+1890 & 182\,542 \\
+
+	
+						\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Ball, B.\\
+		Charcot, J.-M.\\
+		Joffroy, A.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{\OE{}uvres complètes de J. M. Charcot. Tome 7.\\
+			Maladies des vieillards : goutte et rhumatisme}
+	\end{minipage} &
+	1890 & 224 619 \\
+	
+							\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Bourneville, D. M.\\
+		Charcot, J.-M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{\OE{}uvres complètes de J. M. Charcot. Tome 9.\\
+			Hémorragie et ramollissement du cerveau, métallothérapie et hypnotisme, électrothérapie}
+	\end{minipage} &
+	1890 & 180 982 \\
+	
+								\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 21, n° 61-63] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1891 & 216 741 \\
+	
+									\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 22, n° 64-66] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1891 & 205 548 \\
+	
+		\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Londe, A.\\
+		Blocq, P.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Anatomie pathologique de la moëlle épinière :\\
+			45 planches en héliogravure avec le texte explicatif}
+	\end{minipage} &
+	1891 & 15 066 \\
+	
+			\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Brissaud, É.\\
+		Charcot, J.-M.\\
+		Sevestre, L. A.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{\OE{}uvres complètes de J. M. Charcot.\\
+			Leçons sur les maladies du foie et des reins. Tome 6}
+	\end{minipage} &
+	1891 & 159 395 \\
+		
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 23, n° 67-69] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1892 & 202 726 \\
+	
+		\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 24, n° 70-72] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1892 & 253 978 \\
+	
+			\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Bourneville, D. M.\\
+		Charcot, J.-M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{\OE{}uvres complètes de J. M. Charcot. Tome 1.\\
+			 Leçons sur les maladies du système nerveux}
+	\end{minipage} &
+	1892 & 193 105 \\
+	
+		
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Guinon, G.\\
+		Charcot, J.-M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Clinique des maladies du système nerveux :\\
+			leçons du professeur, mémoires, notes et observations :\\
+			parus pendant les années 1889-90 et 1890-91. Tome 1}
+	\end{minipage} &
+	1892 & 162 512 \\
+	
+			\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 25, n° 73-76] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1893 & 215 055 \\
+	
+				\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 26, n° 77-82] :\\
+			revue des maladies nerveuses et mentales}
+	\end{minipage} &
+	1893 & 256 423 \\
+	
+					\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Brissaud, É.\\
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{\OE{}uvres complètes de J. M. Charcot. Tome 4.\\
+			Leçons sur les maladies du système nerveux}
+	\end{minipage} &
+	1893 & 139 088 \\
+	
+						\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Guinon, G.\\
+		Charcot, J.-M.\\
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Clinique des maladies du système nerveux :\\
+			leçons du professeur, mémoires, notes et observations :\\
+			parus pendant les années 1889-90 et 1890-91. Tome 2}
+	\end{minipage} &
+	1893 & 191 190 \\
+	
+							\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 27, n° 83-88] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1894 & 282 601 \\
+	
+								\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 28, n° 89-94] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1894 & 264 965 \\
+	
+									\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 29, n° 95-100] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1895 & 242 152 \\
+	
+										\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [Tome 30, n° 101-106] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1895 & 241 618 \\
+	
+											\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 01, n° 01-06] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1896 & 240 449 \\
+	
+												\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 02, n° 07-12] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1896 & 238 233 \\
+	
+												\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 03, n° 13-18] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1897 & 242 603 \\
+	
+													\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 04, n° 19-24] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1897 & 260 016 \\
+	
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 05, n° 25-30] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1898 & 254 523 \\
+	
+		\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 06, n° 31-36] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1898 & 249 002 \\
+	
+			\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 07, n° 37-42] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1899 & 245 271 \\
+	
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 08, n° 43-48] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1899 & 261 298 \\
+	
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 09, n° 49-54] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1900 & 268 418 \\
+
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 10, n° 55-60] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1900 & 251 199 \\
+	
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 11, n° 61-66] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1901 & 265 314 \\
+		
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 12, n° 67-72] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1901 & 250 842 \\
+	
+		\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 13, n° 73-78] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1902 & 253 568 \\
+	
+		\addlinespace  % ← Adds space before the next row
+
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 14, n° 79-84] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1902 & 247 303 \\
+	
+		
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 15, n° 85-90] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1903 & 282 033 \\
+	
+		\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 16, n° 91-96] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1903 & 254 397 \\
+	
+	\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 17, n° 97-102] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1904 & 258 376 \\
+	
+		\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 18, n° 103-108] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1904 & 245 612 \\
+	
+			\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 19, n° 109-114] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1905 & 231 985 \\
+	
+			\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 20, n° 115-120] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1905 & 237 686 \\
+	
+				\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 21, n° 121-126] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1906 & 228 892 \\
+	
+					\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [2\ieme{} série, tome 22, n° 127-132] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1906 & 217 906 \\
+	
+						\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [3\ieme{} série, tome 01, n° 01-06] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1906 & 252 367 \\
+	
+							\addlinespace  % ← Adds space before the next row
+	
+	\begin{minipage}[t]{\linewidth}\raggedright
+		Charcot, J.-M.\\
+		Bourneville, D. M.
+	\end{minipage} &
+	\begin{minipage}[t]{\linewidth}\centering
+		\textit{Archives de neurologie [3\ieme{} série, tome 02, n° 07-12] :\\
+			revue mensuelle des maladies nerveuses et mentales}
+	\end{minipage} &
+	1907 & 243 008 \\
+	
+	\caption{Description du corpus Charcot.} \label{tab:metadata-overview}
+\end{longtable}
+\normalsize
+\endgroup
+
+
+
+
+
+
+
 
 
 
