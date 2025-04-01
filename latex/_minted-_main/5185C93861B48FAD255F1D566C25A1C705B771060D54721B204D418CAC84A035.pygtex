@@ -1,0 +1,29 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZlt{}?xml version=\PYGZdq{}1.0\PYGZdq{} encoding=\PYGZdq{}UTF\PYGZhy{}8\PYGZdq{}?\PYGZgt{}}
+\PYG{c+cp}{\PYGZlt{}?xml\PYGZhy{}stylesheet type=\PYGZdq{}text/xsl\PYGZdq{} href=\PYGZdq{}../../Teinte/tei2html.xsl\PYGZdq{}?\PYGZgt{}}
+\PYG{n+nt}{\PYGZlt{}TEI} \PYG{n+na}{xmlns=}\PYG{l+s}{\PYGZdq{}http://www.tei\PYGZhy{}c.org/ns/1.0\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}teiHeader\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}fileDesc\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}titleStmt\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}title\PYGZgt{}}mon titre\PYG{n+nt}{\PYGZlt{}/title\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}author\PYGZgt{}}mon auteur\PYG{n+nt}{\PYGZlt{}/author\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}/titleStmt\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/fileDesc\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}profileDesc\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}creation\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}date} \PYG{n+na}{when=}\PYG{l+s}{\PYGZdq{}1890\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}\PYGZlt{}/date\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}/creation\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/profileDesc\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}/teiHeader\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}text\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}body\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}div\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}p\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}s\PYGZgt{}}Une phrase.\PYG{n+nt}{\PYGZlt{}/s\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}s\PYGZgt{}}Une autre phrase.\PYG{n+nt}{\PYGZlt{}/s\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/p\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}/div\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/body\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}/text\PYGZgt{}}
+\PYG{n+nt}{\PYGZlt{}/TEI\PYGZgt{}}
+\end{Verbatim}

@@ -19,7 +19,7 @@
 %\usepackage{gentium}
 \setmainfont{Gentium Plus}
 
-\usepackage[x11names,table,xcdraw]{xcolor}
+\usepackage[x11names,table,xcdraw,dvipsnames]{xcolor}
 \definecolor{maroon}{cmyk}{0,0.87,0.68,0.32}
 \usepackage{soul}
 \frenchsetup{StandardItemLabels=true}
@@ -32,6 +32,43 @@
 \usepackage[colorinlistoftodos]{todonotes}
 \setlength{\marginparwidth}{2cm} % Adjust marginpar width if needed
 \usepackage{multirow}
+
+\usepackage{listings}
+% Set Monaco as the monospaced font
+\setmonofont{Monaco}
+\usepackage{minted}
+\definecolor{codebg}{rgb}{0.98,0.98,0.98}
+
+\usemintedstyle{colorful} % styles dispo : vs, tango, friendly, colorful, etc.
+\lstdefinelanguage{XML}
+{
+	morestring=[b]",
+	morecomment=[s]{<!--}{-->},
+	stringstyle=\color{Bittersweet},
+	identifierstyle=\color{Blue},
+	keywordstyle=\color{brown},
+	morekeywords={version,encoding,type,href,xmlns,when}
+}
+
+\lstset{
+	language=XML,
+	basicstyle=\footnotesize\ttfamily,
+	breaklines=true,
+	columns=fullflexible,
+	keepspaces=true,
+	showstringspaces=false,
+	frame=single,
+	backgroundcolor=\color{white},
+	numbers=left,
+	numberstyle=\tiny\color{gray},
+	stepnumber=1,
+	numbersep=10pt,
+	xleftmargin=15pt,
+	tabsize=2
+}
+
+	
+
 
 \newcommand{\smalltodo}[2][]{\todo[size=\scriptsize, color=white, linecolor=blue, textcolor=black #1]{#2}}
 
@@ -58,7 +95,7 @@
 %\setmainfont{DejaVu Serif}
 \usepackage[top=2cm, bottom=2cm, left=3cm, right=3cm]{geometry}
 %Pour les galerie d'images
-\usepackage{subfig}
+%\usepackage{subfig}
 \usepackage{fancyhdr}
 \usepackage{pdflscape}
 \pagestyle{fancy}
@@ -70,6 +107,8 @@
 \renewcommand{\footrulewidth}{0.4pt}% Default \footrulewidth is 0pt
 \usepackage[labelfont=bf]{caption}
 
+\captionsetup{justification=justified} % Justifie toutes les légendes
+\captionsetup[sub]{justification=justified}
 % Define the custom page style
 \fancypagestyle{plain}{%
 	\fancyhf{}%
@@ -77,6 +116,7 @@
 	\renewcommand{\footrulewidth}{0pt}%
 }
 
+\usepackage{subcaption}
 
 
 \captionsetup{justification=centering,font=small}
@@ -184,6 +224,8 @@ rightsub = \frq{} %
 \makeatletter
 \patchcmd{\cleardoublepage}{\thispagestyle{empty}}{}{}{}
 \makeatother
+
+
 
 
 % Patch \NAT@citex to suppress initials
@@ -302,7 +344,6 @@ rightsub = \frq{} %
 
 %======================== DEBUT DU DOCUMENT ========================
 
-%======================== DEBUT DU DOCUMENT ========================
 
 \begin{document}
 

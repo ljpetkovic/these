@@ -45,9 +45,77 @@ Le fonds numérisé a été décrit et divisé par la BSU en quatre grandes typo
 
 
 \section{Constitution du corpus Charcot}
-Le corpus de travail est constitué de 201 documents OCRisés, sans post-correction, gracieusement fournis au format \textsc{XML} par la \textsc{BSU}\footnote{À cette occasion, je remercie chaleureusement M\textsuperscript{me} Adeline Batailler, chargée de la valorisation et de l'évaluation des collections du département des Collections de la \textsc{BSU}, pour ses conseils précieux concernant le fonds Charcot.}. Originalement, ces fichiers contenaient seulement les balises \texttt{<doc>} (document comme objet), \texttt{<id\_doc>} (identifiant du document) et \texttt{<pages>} (pages du document). C'est pourquoi nous avons commencé par restructurer les textes au format \textsc{XML-TEI}, à l'aide de l’outil dédié intégré à \textsc{Pandore}\footnote{\url{https://obtic-gpu1.mesu.sorbonne-universite.fr:8550/conversion_xml}}, une boîte à outils développée par l'équipe ObTIC et hébergée par Sorbonne Université. 
+Le corpus de travail est constitué de 201 documents OCRisés, sans post-correction, gracieusement fournis au format \textsc{XML} par la \textsc{BSU}\footnote{À cette occasion, je remercie chaleureusement M\textsuperscript{me} Adeline Batailler, chargée de la valorisation et de l'évaluation des collections du département des Collections de la \textsc{BSU}, pour ses conseils précieux concernant le fonds Charcot.}. Originalement, ces fichiers contenaient seulement les balises \texttt{<doc>} (document comme objet), \texttt{<id\_doc>} (identifiant du document) et \texttt{<pages>} (pages du document). C'est pourquoi nous avons restructuré les textes au format \textsc{XML-TEI}, à l'aide de l’outil dédié intégré à \textsc{Pandore}\footnote{\url{https://obtic-gpu1.mesu.sorbonne-universite.fr:8550/conversion_xml}}, une boîte à outils développée par l'équipe ObTIC et hébergée par Sorbonne Université. L'encodage du corpus selon le format \textsc{XML-TEI} a été effectué en s'appuyant sur le modèle illustré dans le code \ref{lst:model_obvie}, ce qui a rendu possible l'indexation et la publication du corpus Charcot en ligne \textit{via} le logiciel \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/charcot/?view=corpus}} \citep{alrahabi2022obvie}. \hl{En plus de la plateforme \textsc{OBVIE}, le corpus est librement disponible et interrogeable sur la plateforme \textsc{TextPair}\footnote{\url{https://anomander.uchicago.edu/}}}.
+\begin{listing}[h]
+	\caption{Modèle du document \textsc{XML-TEI} requis pour sa publication sur la plateforme \textsc{OBVIE}.}
+	\label{lst:model_obvie}
+\begin{minted}[%
+	bgcolor=codebg,
+	linenos,
+	breaklines,
+	fontsize=\small,
+	tabsize=2,
+	obeytabs,
+	xleftmargin=1em
+	]{xml}
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>mon titre</title>
+        <author>mon auteur</author>
+      </titleStmt>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1890"></date>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>
+          <s>Une phrase.</s>
+          <s>Une autre phrase.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
+\end{minted}
+\end{listing}
+
+
 %Afin de mesurer l'impact de Charcot sur son entourage et d'analyser la circulation de concepts véhiculés dans le corpus, 
+
 Ensuite, nous avons séparé les documents rédigés par Charcot de ceux rédigés par ses co-auteurs (p. ex. Bourneville) ou ses élèves (p. ex. de la Tourette). Nous avons obtenu respectivement 68 (corpus \og{}Charcot\fg{}) et 133 (corpus \og{}Autres\fg{}) documents, comme présenté dans le tableau \ref{tab:corpus}. Le sous-corpus consacré aux textes médicaux de Charcot constitue 38,27 \% de l’ensemble du corpus, correspondant à 15 025 612 tokens. En comparaison, le sous-corpus médical regroupant les écrits d'autres scientifiques représente 61,73 \% du corpus total, soit 24 232 207 tokens (le tokeniseur provient du modèle français large \texttt{fr\_core\_news\_lg} de l'outil \texttt{spaCy}\footnote{\url{https://spacy.io/models/fr\#fr_core_news_lg}}). Le corpus est assez volumineux, tant par son nombre de tokens (39 257 819 millions au total) que par l'espace mémoire qu'il occupe (206,3 Mo). La diversité lexicale a été déterminée en calculant le rapport entre les types et les tokens, les types correspondant aux mots distincts. Nous constatons un vocabulaire relativement limité en termes de mesures telle que celle-ci (diversité lexicale de 7,64 \% et de 7,32 \% pour le corpus Charcot et le corpus Autres, respectivement), ce qui suggère une répétition fréquente des termes scientifiques. Cette faible diversité lexicale est effectivement caractéristique des textes scientifiques, où l'utilisation répétée de termes spécifiques est essentielle pour assurer la précision et la clarté.
+
+\begin{figure}[htp]
+	\centering
+	
+	\begin{subfigure}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/archives_neurologie.jpg}
+		\caption{Charcot, J.-M., \& Bourneville, D. M. (1881). \textit{Archives de neurologie [Tome 01] : revue trimestrielle des maladies nerveuses et mentales}. Bureaux du progrès médical (Paris).}
+	\end{subfigure}\hfill
+	\begin{subfigure}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/lecons.jpg}
+		\caption{Blin, E., Colin, H., Charcot, J.-M., \& Charcot, J.-B. (1889). \textit{Leçons du Mardi à la Salpêtrière. Policlinique 1888-1889}. A. Delahaye \& E. Lecrosnier (Paris). Bureaux du progrès médical (Paris).}
+	\end{subfigure}
+	\hfill
+		\begin{subfigure}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/oeuvres_completes.jpg}
+		\caption{Bourneville, D. M., \& Charcot, J.-M. (1892). \textit{\OE{}uvres complètes de J. M. Charcot. Tome 1. Leçons sur les maladies du système nerveux}. Bureaux du progrès médical (Paris).}
+	\end{subfigure}
+	\caption{Trois exemples de pages issues du corpus Charcot.}
+	\label{fig:charcot_pages}
+\end{figure}
+
 
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
@@ -69,7 +137,7 @@ Ensuite, nous avons séparé les documents rédigés par Charcot de ceux rédig�
 	\label{tab:corpus}
 \end{table}
 
-Les documents sources peuvent être consultés dans le dépôt GitHub prévu à cet effet\footnote{\url{https://github.com/ljpetkovic/Charcot_circulations/tree/main/corpus}}. Le tableau \ref{tab:corpus_charcot} présente les documents constituant le corpus Charcot, classés selon l'ordre chronologique de leur publication.
+Les figures \ref{fig:charcot_pages} et \ref{fig:autres_pages} donnent un aperçu visuel de notre corpus d'étude, avec quelques ouvrages représentatifs. Les documents sources peuvent être consultés dans le dépôt GitHub prévu à cet effet\footnote{\url{https://github.com/ljpetkovic/Charcot_circulations/tree/main/corpus}}. Le tableau \ref{tab:corpus_charcot} présente les documents constituant le corpus Charcot, classés selon l'ordre chronologique de leur publication.
 	
 \begingroup
 \renewcommand{\arraystretch}{1.5}  % Add space between rows
@@ -83,12 +151,12 @@ Les documents sources peuvent être consultés dans le dépôt GitHub prévu à 
 		>{\raggedleft\arraybackslash}p{0.11\textwidth}}
 	
 	\toprule
-	\textbf{Authors} & \textbf{Title} & \textbf{Date} & \textbf{Tokens} \\
+	\textbf{Auteurs} & \textbf{Titre} & \textbf{Date} & \textbf{Tokens} \\
 	\midrule
 	\endfirsthead
 	
 	\toprule
-	\textbf{Authors} & \textbf{Title} & \textbf{Date} & \textbf{Tokens} \\
+	\textbf{Auteurs} & \textbf{Titre} & \textbf{Date} & \textbf{Tokens} \\
 	\midrule
 	\endhead
 	
@@ -364,12 +432,13 @@ Bourneville, D. M.
 							\addlinespace  % ← Adds space before the next row
 	
 	\begin{minipage}[t]{\linewidth}\raggedright
+		Blin, E.\\
 		Colin, H.\\
 		Charcot, J.-M.\\
 		Charcot, J.-B.
 	\end{minipage} &
 	\begin{minipage}[t]{\linewidth}\raggedright
-		\textit{Leçons du Mardi à la Salpêtrière\\
+		\textit{Leçons du Mardi à la Salpêtrière.\\
 			Policlinique 1888-1889}
 	\end{minipage} &
 	1889 & 269 068 \\
@@ -940,6 +1009,29 @@ Bourneville, D. M.
 \endgroup
 
 
+\begin{figure}[htp]
+	\centering
+	
+	\begin{subfigure}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/magnetisme.jpg}
+		\caption{Société de magnétiseurs et de médecins. (1845). \textit{Journal du magnétisme [Tome I]}. A. René (Paris).}
+	\end{subfigure}\hfill
+	\begin{subfigure}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/recherches_cliniques.jpg}
+		\caption{Bourneville, D. M. (1876). \textit{Recherches cliniques et thérapeutiques sur l'épilepsie et l'hystérie : Compte-rendu des observations recueillies à la Salpêtrière de 1872 à 1875}. Bureaux du progrès médical (Paris). A. Delahaye (Paris)}
+	\end{subfigure}\hfill
+	\begin{subfigure}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/nouvelle_iconographie.jpg}
+		\caption{de la Tourette, G. G. (1888). \textit{Nouvelle iconographie de la Salpêtrière [Tome 01] : clinique des maladies du système nerveux}. Lecrosnier et Babé (Paris).}
+	\end{subfigure}
+	
+	\caption{Trois exemples de pages issues du corpus Autres.}
+	\label{fig:autres_pages}
+\end{figure}
+
 Les documents constituant le corpus Autres sont exposés dans le tableau \ref{tab:corpus_autres} ci-dessous :
 
 
@@ -955,12 +1047,12 @@ Les documents constituant le corpus Autres sont exposés dans le tableau \ref{ta
 		>{\raggedleft\arraybackslash}p{0.11\textwidth}}
 	
 	\toprule
-	\textbf{Authors} & \textbf{Title} & \textbf{Date} & \textbf{Tokens} \\
+	\textbf{Auteurs} & \textbf{Titre} & \textbf{Date} & \textbf{Tokens} \\
 	\midrule
 	\endfirsthead
 	
 	\toprule
-	\textbf{Authors} & \textbf{Title} & \textbf{Date} & \textbf{Tokens} \\
+	\textbf{Auteurs} & \textbf{Titre} & \textbf{Date} & \textbf{Tokens} \\
 	\midrule
 	\endhead
 	
@@ -2401,7 +2493,7 @@ Les documents constituant le corpus Autres sont exposés dans le tableau \ref{ta
 
 La figure \ref{fig:repartition_corpus} illustre la répartition des \oe{}uvres de notre corpus, publiées entre 1825 et 1934. On constate que le corpus Charcot se concentre uniquement à la fin du XIX\ieme{} siècle, notamment entre 1881 et 1907, alors que le corpus Autres s'étend sur une période plus vaste, de 1825 à 1934.
 
-Les deux corpus issus du fonds Charcot sont librement disponibles et interrogeables sur les deux plateformes \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/charcot/?view=corpus}} et \textsc{TextPair}\footnote{\url{https://anomander.uchicago.edu/}}.
+
 
 
 

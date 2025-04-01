@@ -10,19 +10,19 @@
 \contentsline {chapter}{\numberline {2}Du fonds Charcot à un corpus interrogeable : enjeux et méthodes}{13}{chapter.2}%
 \contentsline {section}{\numberline {1}Description du corpus Charcot}{13}{section.2.1}%
 \contentsline {section}{\numberline {2}Constitution du corpus Charcot}{15}{section.2.2}%
-\contentsline {section}{\numberline {3}Historique de l'\textsc {ATR}}{28}{section.2.3}%
-\contentsline {part}{I\hspace {1em}La circulation des savoirs comme vecteur de valorisation des archives : état de l'art}{29}{part.1}%
-\contentsline {chapter}{\numberline {3}L’évolution des approches numériques pour détecter la circulation des savoirs}{31}{chapter.3}%
-\contentsline {section}{\numberline {1}...}{31}{section.3.1}%
-\contentsline {section}{\numberline {2}Repérage des termes scientifiques dans un corpus numérique}{34}{section.3.2}%
-\contentsline {part}{II\hspace {1em}Pister la circulation du discours médical au prisme du numérique}{37}{part.2}%
-\contentsline {section}{\numberline {3}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{39}{section.3.3}%
-\contentsline {section}{\numberline {4}Extraction de la terminologie : approche linguistique}{40}{section.3.4}%
-\contentsline {section}{\numberline {5}Extraction des phrases-clés : méthodes statistiques}{43}{section.3.5}%
-\contentsline {section}{\numberline {6}Extraction des phrases-clés : méthode à base d'apprentissage profond}{45}{section.3.6}%
-\contentsline {subsection}{\numberline {6.1}Librairie \texttt {keybert}}{45}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {6.2}Approche \textit {PatternRank}}{47}{subsection.3.6.2}%
-\contentsline {chapter}{\numberline {4}Conclusion}{49}{chapter.4}%
-\contentsline {section}{\numberline {1}Synthèse et contributions}{49}{section.4.1}%
-\contentsline {section}{\numberline {2}Perspectives}{49}{section.4.2}%
-\contentsline {chapter}{Bibliographie}{50}{section.4.2}%
+\contentsline {section}{\numberline {3}Historique de l'\textsc {ATR}}{29}{section.2.3}%
+\contentsline {part}{I\hspace {1em}La circulation des savoirs comme vecteur de valorisation des archives : état de l'art}{31}{part.1}%
+\contentsline {chapter}{\numberline {3}L’évolution des approches numériques pour détecter la circulation des savoirs}{33}{chapter.3}%
+\contentsline {section}{\numberline {1}...}{33}{section.3.1}%
+\contentsline {section}{\numberline {2}Repérage des termes scientifiques dans un corpus numérique}{36}{section.3.2}%
+\contentsline {part}{II\hspace {1em}Pister la circulation du discours médical au prisme du numérique}{39}{part.2}%
+\contentsline {section}{\numberline {3}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{41}{section.3.3}%
+\contentsline {section}{\numberline {4}Extraction de la terminologie : approche linguistique}{42}{section.3.4}%
+\contentsline {section}{\numberline {5}Extraction des phrases-clés : méthodes statistiques}{45}{section.3.5}%
+\contentsline {section}{\numberline {6}Extraction des phrases-clés : méthode à base d'apprentissage profond}{47}{section.3.6}%
+\contentsline {subsection}{\numberline {6.1}Librairie \texttt {keybert}}{47}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {6.2}Approche \textit {PatternRank}}{49}{subsection.3.6.2}%
+\contentsline {chapter}{\numberline {4}Conclusion}{51}{chapter.4}%
+\contentsline {section}{\numberline {1}Synthèse et contributions}{51}{section.4.1}%
+\contentsline {section}{\numberline {2}Perspectives}{51}{section.4.2}%
+\contentsline {chapter}{Bibliographie}{52}{section.4.2}%
