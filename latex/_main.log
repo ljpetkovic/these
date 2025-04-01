@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  31 MAR 2025 01:09
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  1 APR 2025 14:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1347,12 +1347,6 @@ xt;" at 12.0pt
 (babel)             these families, consider redefining them with \babelfont.
 (babel)             Reported on input line 3.
 
-
-LaTeX Warning: Label `tab:metadata-overview' multiply defined.
-
-
-LaTeX Warning: Label `fig:analyse_quadrant' multiply defined.
-
 )
 \openout1 = `_main.aux'.
 
@@ -1880,8 +1874,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-
-LaTeX Warning: Reference `tab:corpus' on page 15 undefined on input line 50.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 67.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1910,30 +1904,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-Overfull \hbox (13.85588pt too wide) in alignment at lines 940--945
- [] [] [] [] 
- []
-
-
-Overfull \hbox (13.85588pt too wide) in alignment at lines 945--950
- [] [] [] [] 
- []
-
-
-Overfull \hbox (13.85588pt too wide) in alignment at lines 950--953
- [] [] [] [] 
- []
-
-
-Overfull \hbox (13.85588pt too wide) in alignment at lines 953--956
- [] [] [] [] 
- []
-
-
-Overfull \hbox (13.85588pt too wide) in alignment at lines 956--2382
- [] [] [] [] 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1943,6 +1913,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18]
+Overfull \hbox (11.26207pt too wide) in paragraph at lines 943--944
+[]\TU/GentiumPlus(0)/m/n/12 Les documents constituant le corpus Autres sont exp
+osés dans le tableau [][]2.3[][] ci-dessous : 
+ []
+
+
+Overfull \hbox (13.85588pt too wide) in alignment at lines 955--960
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (13.85588pt too wide) in alignment at lines 960--965
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (13.85588pt too wide) in alignment at lines 965--968
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (13.85588pt too wide) in alignment at lines 968--971
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (13.85588pt too wide) in alignment at lines 971--2397
+ [] [] [] [] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2006,14 +2006,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
-Missing character: There is no œ ("153) in font ectt1000!
-Missing character: There is no œ ("153) in font ectt1000!
-File: img/distribution_ouvrages.png Graphic file (type bmp)
-<img/distribution_ouvrages.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2023,6 +2015,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26]
+File: img/distribution_ouvrages.png Graphic file (type bmp)
+<img/distribution_ouvrages.png>
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2040,9 +2035,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28
+[28] [29
 
-] [29] [30]
+] [30]
 Chapitre 3.
 
 Overfull \hbox (26.41968pt too wide) in paragraph at lines 429--429
@@ -2092,8 +2087,6 @@ onnues comme ayant une grande
 
 File: img/analyse_quadrant.png Graphic file (type bmp)
 <img/analyse_quadrant.png>
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 56.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2288,9 +2281,6 @@ Plus(0)/m/n/10 le dépôt GitHub [][]$[][][][][] [] [] [] [][][][][][] [] [][][]
 [] [][][][][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][][]
 [] [][]
  []
-
-
-LaTeX Warning: Reference `tab:corpus' on page 45 undefined on input line 146.
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 148.
@@ -2748,19 +2738,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 8C2036BE1120A846EADD2D70CFF38F6E;7202.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: E11CDE9564E4A4148701C6BE8F7797C9;7650.
+(rerunfilecheck)             Checksum: 4049AD82CB3945EC73A7F8EBF0814C64;7650.
  ) 
 Here is how much of TeX's memory you used:
- 36751 strings out of 476683
- 730652 string characters out of 5804046
- 2058018 words of memory out of 5000000
- 56044 multiletter control sequences out of 15000+600000
+ 36753 strings out of 476683
+ 730692 string characters out of 5804046
+ 2049018 words of memory out of 5000000
+ 56046 multiletter control sequences out of 15000+600000
  549104 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,143p,2714b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s

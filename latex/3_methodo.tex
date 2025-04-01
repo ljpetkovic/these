@@ -47,15 +47,30 @@ Le fonds numérisé a été décrit et divisé par la BSU en quatre grandes typo
 \section{Constitution du corpus Charcot}
 Le corpus de travail est constitué de 201 documents OCRisés, sans post-correction, gracieusement fournis au format \textsc{XML} par la \textsc{BSU}\footnote{À cette occasion, je remercie chaleureusement M\textsuperscript{me} Adeline Batailler, chargée de la valorisation et de l'évaluation des collections du département des Collections de la \textsc{BSU}, pour ses conseils précieux concernant le fonds Charcot.}. Originalement, ces fichiers contenaient seulement les balises \texttt{<doc>} (document comme objet), \texttt{<id\_doc>} (identifiant du document) et \texttt{<pages>} (pages du document). C'est pourquoi nous avons commencé par restructurer les textes au format \textsc{XML-TEI}, à l'aide de l’outil dédié intégré à \textsc{Pandore}\footnote{\url{https://obtic-gpu1.mesu.sorbonne-universite.fr:8550/conversion_xml}}, une boîte à outils développée par l'équipe ObTIC et hébergée par Sorbonne Université. 
 %Afin de mesurer l'impact de Charcot sur son entourage et d'analyser la circulation de concepts véhiculés dans le corpus, 
-\hl{Ensuite, nous avons séparé les documents rédigés par Charcot de ceux rédigés par ses co-auteurs (p. ex. Bourneville) ou les auteurs thématiquement proches de lui (p. ex. de la Tourette)}. Nous avons obtenu respectivement 68 (corpus \og{}Charcot\fg{}) et 133 (corpus \og{}Autres\fg{}) documents, comme présenté dans le tableau \ref{tab:corpus} dans l'ordre chronologique des dates de publication. Le corpus est relativement volumineux, tant par son nombre de tokens (environ 32 millions) que par l'espace mémoire qu'il occupe (206,3 Mo). Les documents-sources sont disponibles dans le dépôt GitHub dédié\footnote{\url{https://github.com/ljpetkovic/Charcot_circulations/tree/main/input}}.
+Ensuite, nous avons séparé les documents rédigés par Charcot de ceux rédigés par ses co-auteurs (p. ex. Bourneville) ou ses élèves (p. ex. de la Tourette). Nous avons obtenu respectivement 68 (corpus \og{}Charcot\fg{}) et 133 (corpus \og{}Autres\fg{}) documents, comme présenté dans le tableau \ref{tab:corpus}. Le sous-corpus consacré aux textes médicaux de Charcot constitue 38,27 \% de l’ensemble du corpus, correspondant à 15 025 612 tokens. En comparaison, le sous-corpus médical regroupant les écrits d'autres scientifiques représente 61,73 \% du corpus total, soit 24 232 207 tokens (le tokeniseur provient du modèle français large \texttt{fr\_core\_news\_lg} de l'outil \texttt{spaCy}\footnote{\url{https://spacy.io/models/fr\#fr_core_news_lg}}). Le corpus est assez volumineux, tant par son nombre de tokens (39 257 819 millions au total) que par l'espace mémoire qu'il occupe (206,3 Mo). La diversité lexicale a été déterminée en calculant le rapport entre les types et les tokens, les types correspondant aux mots distincts. Nous constatons un vocabulaire relativement limité en termes de mesures telle que celle-ci (diversité lexicale de 7,64 \% et de 7,32 \% pour le corpus Charcot et le corpus Autres, respectivement), ce qui suggère une répétition fréquente des termes scientifiques. Cette faible diversité lexicale est effectivement caractéristique des textes scientifiques, où l'utilisation répétée de termes spécifiques est essentielle pour assurer la précision et la clarté.
 
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+	\small
+	\centering
+	\resizebox{\textwidth}{!}{  
+	\begin{tabular}{@{}crrrrrrr@{}}
+		\toprule
+		\textbf{Corpus}  & \multicolumn{1}{c}{\textbf{Ouvrages}} & \multicolumn{1}{c}{\textbf{Tokens}} & \multicolumn{1}{c}{\textbf{\%}} & 
+		\multicolumn{1}{c}{\textbf{Types}} &
+		\multicolumn{1}{c}{\textbf{Lemmes}} & \multicolumn{1}{c}{\textbf{Diversité (\%)}} & \multicolumn{1}{c}{\textbf{Mémoire (en Mo)}}\\ \midrule
+		Charcot & 68                            & 15 025 612 & 38,27 & 1 147 371 & 809 611 & 7,64  & 130,9      \\ \midrule
+		Autres  & 133                           & 24 232 207 & 61,73  & 1 773 538 & 1 218 074 & 7,32 & 179,6   \\ \midrule
+		\textbf{Total}  & \textbf{201}                           & \textbf{39 257 819} & 100 & 2 920 909 & 2 027 685 & 14,96 & 310,5   \\ \bottomrule
+	\end{tabular}
+}
+	\caption{Description de notre corpus d'étude.}
+	\label{tab:corpus}
+\end{table}
 
-
-%\begin{table}[h] 
-%\centering
-
-
-
+Les documents sources peuvent être consultés dans le dépôt GitHub prévu à cet effet\footnote{\url{https://github.com/ljpetkovic/Charcot_circulations/tree/main/corpus}}. Le tableau \ref{tab:corpus_charcot} présente les documents constituant le corpus Charcot, classés selon l'ordre chronologique de leur publication.
+	
 \begingroup
 \renewcommand{\arraystretch}{1.5}  % Add space between rows
 \setstretch{0.9}                   % Shrink line spacing within cells
@@ -919,13 +934,13 @@ Bourneville, D. M.
 	\end{minipage} &
 	1907 & 243 008 \\
 	
-	\caption{Description du corpus Charcot.} \label{tab:metadata-overview}
+	\caption{Description du corpus Charcot.} \label{tab:corpus_charcot}
 \end{longtable}
 \normalsize
 \endgroup
 
 
-%%%%%%%%%%%%%%
+Les documents constituant le corpus Autres sont exposés dans le tableau \ref{tab:corpus_autres} ci-dessous :
 
 
 \begingroup
@@ -2378,27 +2393,27 @@ Bourneville, D. M.
 \addlinespace  % ← Adds space before the next row
 
 
-	\caption{Description du corpus Autres.} \label{tab:metadata-overview}
+	\caption{Description du corpus Autres.} \label{tab:corpus_autres}
 \end{longtable}
 \normalsize
 \endgroup
 
 
-
+La figure \ref{fig:repartition_corpus} illustre la répartition des \oe{}uvres de notre corpus, publiées entre 1825 et 1934. On constate que le corpus Charcot se concentre uniquement à la fin du XIX\ieme{} siècle, notamment entre 1881 et 1907, alors que le corpus Autres s'étend sur une période plus vaste, de 1825 à 1934.
 
 Les deux corpus issus du fonds Charcot sont librement disponibles et interrogeables sur les deux plateformes \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/charcot/?view=corpus}} et \textsc{TextPair}\footnote{\url{https://anomander.uchicago.edu/}}.
 
 
-\hl{métadonnées sur les deux corpus...}
 
-\hl{Répartition des \oe{}uvres sur les années : chronologiquement, cf. le graphique généré au SCAI}
+
+
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{img/distribution_ouvrages.png}
 	\caption[Positionnement de l'entité \texttt{Jean-Martin Charcot} au sein de son domaine et comparaison avec les entités les plus similaires à lui \textit{via} une analyse de quadrant de l'outil Rankingdom.]{Répartition des ouvrages de Charcot et des Autres par année.}
 	% Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
-	\label{fig:analyse_quadrant}
+	\label{fig:repartition_corpus}
 \end{figure}
 
 
