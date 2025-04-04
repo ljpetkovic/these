@@ -25,6 +25,9 @@
 \frenchsetup{StandardItemLabels=true}
 %pour gérer les positionnement d'images
 \usepackage{float}
+
+
+
 \usepackage{amsmath}
 \usepackage{graphicx}
 \graphicspath{ {figures/} }
@@ -34,9 +37,13 @@
 \usepackage{multirow}
 
 \usepackage{listings}
+
 % Set Monaco as the monospaced font
-\setmonofont{Monaco}
+\setmonofont{Monaco}[Scale=0.85]
 \usepackage{minted}
+\floatname{listing}{Code}
+
+
 \definecolor{codebg}{rgb}{0.98,0.98,0.98}
 
 \usemintedstyle{colorful} % styles dispo : vs, tango, friendly, colorful, etc.
@@ -417,10 +424,14 @@ rightsub = \frq{} %
 \pagestyle{empty}
 \pdfbookmark{\contentsname}{toc}
 \tableofcontents
+
+% Décommenter cette partie pour révéler les listes de figures, de tableaux et des codes
 %\clearpage
 %\listoffigures
 %\clearpage
 %\listoftables
+%\clearpage
+%\listof{listing}{Liste des codes}
 %\let\ps@plain\origplain % Restore original plain page style
 \endgroup
 

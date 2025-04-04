@@ -45,7 +45,7 @@ Le fonds numérisé a été décrit et divisé par la BSU en quatre grandes typo
 
 
 \section{Constitution du corpus Charcot}
-Le corpus de travail est constitué de 201 documents OCRisés, sans post-correction, gracieusement fournis au format \textsc{XML} par la \textsc{BSU}\footnote{À cette occasion, je remercie chaleureusement M\textsuperscript{me} Adeline Batailler, chargée de la valorisation et de l'évaluation des collections du département des Collections de la \textsc{BSU}, pour ses conseils précieux concernant le fonds Charcot.}. Originalement, ces fichiers contenaient seulement les balises \texttt{<doc>} (document comme objet), \texttt{<id\_doc>} (identifiant du document) et \texttt{<pages>} (pages du document). C'est pourquoi nous avons restructuré les textes au format \textsc{XML-TEI}, à l'aide de l’outil dédié intégré à \textsc{Pandore}\footnote{\url{https://obtic-gpu1.mesu.sorbonne-universite.fr:8550/conversion_xml}}, une boîte à outils développée par l'équipe ObTIC et hébergée par Sorbonne Université. L'encodage du corpus selon le format \textsc{XML-TEI} a été effectué en s'appuyant sur le modèle illustré dans le code \ref{lst:model_obvie}, ce qui a rendu possible l'indexation et la publication du corpus Charcot en ligne \textit{via} le logiciel \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/charcot/?view=corpus}} \citep{alrahabi2022obvie}. \hl{En plus de la plateforme \textsc{OBVIE}, le corpus est librement disponible et interrogeable sur la plateforme \textsc{TextPair}\footnote{\url{https://anomander.uchicago.edu/}}}.
+Le corpus de travail est constitué de 201 documents OCRisés, sans post-correction, gracieusement fournis au format \textsc{XML} par la \textsc{BSU}\footnote{À cette occasion, je remercie chaleureusement M\textsuperscript{me} Adeline Batailler, chargée de la valorisation et de l'évaluation des collections du département des Collections de la \textsc{BSU}, pour ses conseils précieux concernant le fonds Charcot.}. Originalement, ces fichiers contenaient seulement les balises \texttt{<doc>} (document comme objet), \texttt{<id\_doc>} (identifiant du document) et \texttt{<pages>} (pages du document). C'est pourquoi nous avons restructuré les textes au format \textsc{XML-TEI}, à l'aide de l’outil dédié intégré à \textsc{Pandore}\footnote{\url{https://obtic-gpu1.mesu.sorbonne-universite.fr:8550/conversion_xml}}, une boîte à outils développée par l'équipe ObTIC et hébergée par Sorbonne Université. L'encodage du corpus selon le format \textsc{XML-TEI} a été effectué en s'appuyant sur le modèle illustré dans le code \ref{lst:model_obvie}, ce qui a rendu possible l'indexation et la publication du corpus Charcot en ligne \textit{via} le logiciel \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/charcot/?view=corpus}} \citep{alrahabi2022obvie}. En plus de la plateforme \textsc{OBVIE}, le corpus est librement disponible et interrogeable sur la plateforme \textsc{TextPair}\footnote{\url{https://anomander.uchicago.edu/}} (voir la partie \ref{sect:obvie_textpair}).
 \begin{listing}[h]
 	\caption{Modèle du document \textsc{XML-TEI} requis pour sa publication sur la plateforme \textsc{OBVIE}.}
 	\label{lst:model_obvie}
@@ -91,7 +91,32 @@ Le corpus de travail est constitué de 201 documents OCRisés, sans post-correct
 
 %Afin de mesurer l'impact de Charcot sur son entourage et d'analyser la circulation de concepts véhiculés dans le corpus, 
 
-Ensuite, nous avons séparé les documents rédigés par Charcot de ceux rédigés par ses co-auteurs (p. ex. Bourneville) ou ses élèves (p. ex. de la Tourette). Nous avons obtenu respectivement 68 (corpus \og{}Charcot\fg{}) et 133 (corpus \og{}Autres\fg{}) documents, comme présenté dans le tableau \ref{tab:corpus}. Le sous-corpus consacré aux textes médicaux de Charcot constitue 38,27 \% de l’ensemble du corpus, correspondant à 15 025 612 tokens. En comparaison, le sous-corpus médical regroupant les écrits d'autres scientifiques représente 61,73 \% du corpus total, soit 24 232 207 tokens (le tokeniseur provient du modèle français large \texttt{fr\_core\_news\_lg} de l'outil \texttt{spaCy}\footnote{\url{https://spacy.io/models/fr\#fr_core_news_lg}}). Le corpus est assez volumineux, tant par son nombre de tokens (39 257 819 millions au total) que par l'espace mémoire qu'il occupe (206,3 Mo). La diversité lexicale a été déterminée en calculant le rapport entre les types et les tokens, les types correspondant aux mots distincts. Nous constatons un vocabulaire relativement limité en termes de mesures telle que celle-ci (diversité lexicale de 7,64 \% et de 7,32 \% pour le corpus Charcot et le corpus Autres, respectivement), ce qui suggère une répétition fréquente des termes scientifiques. Cette faible diversité lexicale est effectivement caractéristique des textes scientifiques, où l'utilisation répétée de termes spécifiques est essentielle pour assurer la précision et la clarté.
+Afin de mieux distinguer les auteurs des ouvrages composant notre corpus, nous avons séparé les textes rédigés par Charcot de ceux écrits par ses co-auteurs (p. ex. Bourneville) ou ses élèves (comme Gilles de la Tourette). Nous avons obtenu respectivement 68 (corpus \og{}Charcot\fg{}) et 133 (corpus \og{}Autres\fg{}) documents, comme présenté dans le tableau \ref{tab:corpus}.
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+	\small
+	\centering
+	\resizebox{\textwidth}{!}{  
+		\begin{tabular}{@{}crrrrrrr@{}}
+			\toprule
+			\textbf{Corpus}  & \multicolumn{1}{c}{\textbf{Ouvrages}} & \multicolumn{1}{c}{\textbf{Tokens}} & \multicolumn{1}{c}{\textbf{\%}} & 
+			\multicolumn{1}{c}{\textbf{Types}} &
+			\multicolumn{1}{c}{\textbf{Lemmes}} & \multicolumn{1}{c}{\textbf{Diversité (\%)}} & \multicolumn{1}{c}{\textbf{Mémoire (en Mo)}}\\ \midrule
+			Charcot & 68                            & 15 025 612 & 38,27 & 1 147 371 & 809 611 & 7,64  & 130,9      \\ \midrule
+			Autres  & 133                           & 24 232 207 & 61,73  & 1 773 538 & 1 218 074 & 7,32 & 179,6   \\ \midrule
+			\textbf{Total}  & \textbf{201}                           & \textbf{39 257 819} & 100 & 2 920 909 & 2 027 685 & 14,96 & 310,5   \\ \bottomrule
+		\end{tabular}
+	}
+	\caption{Description de notre corpus d'étude.}
+	\label{tab:corpus}
+\end{table}
+
+Il convient néanmoins de préciser que le corpus Charcot inclut les ouvrages auxquels Charcot a contribué en tant que co-auteur, en raison de leur nature collaborative, tandis que le corpus Autres regroupe des ouvrages rédigés sans sa participation. Le sous-corpus consacré aux textes médicaux de Charcot constitue 38,27 \% de l’ensemble du corpus, correspondant à 15 025 612 tokens. En comparaison, le sous-corpus médical regroupant les écrits d'autres scientifiques représente 61,73 \% du corpus total, soit 24 232 207 tokens (le tokeniseur provient du modèle français large \texttt{fr\_core\_news\_lg} de l'outil \texttt{spaCy}\footnote{\url{https://spacy.io/models/fr\#fr_core_news_lg}}). Le corpus est assez volumineux, tant par son nombre de tokens (39 257 819 millions au total) que par l'espace mémoire qu'il occupe (206,3 Mo). La diversité lexicale a été déterminée en calculant le ratio entre les types et les tokens, les types correspondant aux mots distincts. Nous constatons un vocabulaire relativement limité en termes de mesures telle que celle-ci (diversité lexicale de 7,64 \% et de 7,32 \% pour le corpus Charcot et le corpus Autres, respectivement), ce qui suggère une répétition fréquente des termes scientifiques. Cette faible diversité lexicale est effectivement caractéristique des textes scientifiques, où l'utilisation répétée de termes spécifiques est essentielle pour assurer la précision et la clarté.
+
+
 
 \begin{figure}[htp]
 	\centering
@@ -117,28 +142,31 @@ Ensuite, nous avons séparé les documents rédigés par Charcot de ceux rédig�
 \end{figure}
 
 
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
-\begin{table}[h]
-	\small
+\begin{figure}[htp]
 	\centering
-	\resizebox{\textwidth}{!}{  
-	\begin{tabular}{@{}crrrrrrr@{}}
-		\toprule
-		\textbf{Corpus}  & \multicolumn{1}{c}{\textbf{Ouvrages}} & \multicolumn{1}{c}{\textbf{Tokens}} & \multicolumn{1}{c}{\textbf{\%}} & 
-		\multicolumn{1}{c}{\textbf{Types}} &
-		\multicolumn{1}{c}{\textbf{Lemmes}} & \multicolumn{1}{c}{\textbf{Diversité (\%)}} & \multicolumn{1}{c}{\textbf{Mémoire (en Mo)}}\\ \midrule
-		Charcot & 68                            & 15 025 612 & 38,27 & 1 147 371 & 809 611 & 7,64  & 130,9      \\ \midrule
-		Autres  & 133                           & 24 232 207 & 61,73  & 1 773 538 & 1 218 074 & 7,32 & 179,6   \\ \midrule
-		\textbf{Total}  & \textbf{201}                           & \textbf{39 257 819} & 100 & 2 920 909 & 2 027 685 & 14,96 & 310,5   \\ \bottomrule
-	\end{tabular}
-}
-	\caption{Description de notre corpus d'étude.}
-	\label{tab:corpus}
-\end{table}
+	
+	\begin{subfigure}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/magnetisme.jpg}
+		\caption{Société de magnétiseurs et de médecins. (1845). \textit{Journal du magnétisme [Tome I]}. A. René (Paris).}
+	\end{subfigure}\hfill
+	\begin{subfigure}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/recherches_cliniques.jpg}
+		\caption{Bourneville, D. M. (1876). \textit{Recherches cliniques et thérapeutiques sur l'épilepsie et l'hystérie : Compte-rendu des observations recueillies à la Salpêtrière de 1872 à 1875}. Bureaux du progrès médical (Paris). A. Delahaye (Paris)}
+	\end{subfigure}\hfill
+	\begin{subfigure}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/nouvelle_iconographie.jpg}
+		\caption{de la Tourette, G. G. (1888). \textit{Nouvelle iconographie de la Salpêtrière [Tome 01] : clinique des maladies du système nerveux}. Lecrosnier et Babé (Paris).}
+	\end{subfigure}
+	
+	\caption{Trois exemples de pages issues du corpus Autres.}
+	\label{fig:autres_pages}
+\end{figure}
 
 Les figures \ref{fig:charcot_pages} et \ref{fig:autres_pages} donnent un aperçu visuel de notre corpus d'étude, avec quelques ouvrages représentatifs. Les documents sources peuvent être consultés dans le dépôt GitHub prévu à cet effet\footnote{\url{https://github.com/ljpetkovic/Charcot_circulations/tree/main/corpus}}. Le tableau \ref{tab:corpus_charcot} présente les documents constituant le corpus Charcot, classés selon l'ordre chronologique de leur publication.
-	
+
 \begingroup
 \renewcommand{\arraystretch}{1.5}  % Add space between rows
 \setstretch{0.9}                   % Shrink line spacing within cells
@@ -1009,28 +1037,7 @@ Bourneville, D. M.
 \endgroup
 
 
-\begin{figure}[htp]
-	\centering
-	
-	\begin{subfigure}[t]{0.3\textwidth}
-		\centering
-		\includegraphics[height=6cm]{img/magnetisme.jpg}
-		\caption{Société de magnétiseurs et de médecins. (1845). \textit{Journal du magnétisme [Tome I]}. A. René (Paris).}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.3\textwidth}
-		\centering
-		\includegraphics[height=6cm]{img/recherches_cliniques.jpg}
-		\caption{Bourneville, D. M. (1876). \textit{Recherches cliniques et thérapeutiques sur l'épilepsie et l'hystérie : Compte-rendu des observations recueillies à la Salpêtrière de 1872 à 1875}. Bureaux du progrès médical (Paris). A. Delahaye (Paris)}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.3\textwidth}
-		\centering
-		\includegraphics[height=6cm]{img/nouvelle_iconographie.jpg}
-		\caption{de la Tourette, G. G. (1888). \textit{Nouvelle iconographie de la Salpêtrière [Tome 01] : clinique des maladies du système nerveux}. Lecrosnier et Babé (Paris).}
-	\end{subfigure}
-	
-	\caption{Trois exemples de pages issues du corpus Autres.}
-	\label{fig:autres_pages}
-\end{figure}
+
 
 Les documents constituant le corpus Autres sont exposés dans le tableau \ref{tab:corpus_autres} ci-dessous :
 

@@ -1,18 +1,23 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
 \contentsline {xchapter}{Introduction}{1}{chapter.1}%
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Positionnement de l'entité \texttt {Jean-Martin Charcot} au sein de son domaine et comparaison avec les entités les plus similaires à lui \textit {via} une analyse de quadrant de l'outil Rankingdom.}}{7}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Analyse temporelle de l'impact de l'entité \texttt {Jean-Martin Charcot} à l'aide de l'outil Rankingdom.}}{8}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Conception kuhnienne du progrès scientifique, adaptée de \citet {amiri2012}.}}{15}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Conception kuhnienne du progrès scientifique, adaptée de \citet {amiri2012}.\relax }}{5}{figure.caption.7}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Pister la circulation du discours médical au prisme du numérique}{19}{chapter.2}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Distribution des fréquences des tokens avec la frise chronologique pour ceux constituant l'expression \@FB@og {}bulbe rachidien\@FB@fg \xspace {} (issus du corpus \@FB@og {}Charcot\@FB@fg \xspace {} et du corpus \@FB@og {}Autres\@FB@fg \xspace {}) dans le logiciel OBVIE. }}{23}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Alignement et comparaison d'un texte de Charcot à celui de Georges Gilles de la Tourette (le seul résultat) en lançant la requête \textit {sclérose latérale amyotrophique}.}}{23}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Analyse comparative des séquences syntaxiques constituant les termes scientifiques dans le corpus \@FB@og {}Charcot\@FB@fg \xspace {} et \@FB@og {}Autres\@FB@fg \xspace {}.}}{25}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Visualisation de pertinence des concepts dans les deux corpus suivant la métrique \textsc {BM25}. Les valeurs des concepts associées au corpus \@FB@og {}Autres\@FB@fg \xspace {} sont représentées en bleu, alors que celles du corpus \@FB@og {}Charcot\@FB@fg \xspace {} en jaune.}}{27}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces \textit {Pipeline} de la librairie \texttt {keybert}.}}{29}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Répartition des 15 termes les plus pertinents dans le corpus \@FB@og {}Autres\@FB@fg \xspace {} selon \texttt {keybert}.}}{30}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces \textit {Workflow} de la méthode \textit {PatternRank} \citep [p.~2]{schopf2022}.}}{30}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Les 15 termes les plus fréquents partagés par les deux corpus selon \texttt {keyphrase-vectorizers}.}}{31}{figure.caption.21}%
+\contentsline {xchapter}{Du fonds Charcot à un corpus interrogeable : enjeux et méthodes}{13}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Trois exemples de pages issues du corpus Charcot.\relax }}{17}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Trois exemples de pages issues du corpus Autres.\relax }}{29}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Positionnement de l'entité \texttt {Jean-Martin Charcot} au sein de son domaine et comparaison avec les entités les plus similaires à lui \textit {via} une analyse de quadrant de l'outil Rankingdom.}}{29}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion}{33}{chapter.3}%
+\contentsline {xchapter}{L’évolution des approches numériques pour détecter la circulation des savoirs}{33}{chapter.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Positionnement de l'entité \texttt {Jean-Martin Charcot} au sein de son domaine et comparaison avec les entités les plus similaires à lui \textit {via} une analyse de quadrant de l'outil Rankingdom.}}{35}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Analyse temporelle de l'impact de l'entité \texttt {Jean-Martin Charcot} à l'aide de l'outil Rankingdom.}}{35}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Distribution des fréquences des tokens avec la frise chronologique pour ceux constituant l'expression \@FB@og {}bulbe rachidien\@FB@fg \xspace {} (issus du corpus \@FB@og {}Charcot\@FB@fg \xspace {} et du corpus \@FB@og {}Autres\@FB@fg \xspace {}) dans le logiciel OBVIE. \relax }}{41}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Alignement et comparaison d'un texte de Charcot à celui de Georges Gilles de la Tourette (le seul résultat) en lançant la requête \textit {sclérose latérale amyotrophique}.\relax }}{42}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Analyse comparative des séquences syntaxiques constituant les termes scientifiques dans le corpus \@FB@og {}Charcot\@FB@fg \xspace {} et \@FB@og {}Autres\@FB@fg \xspace {}.\relax }}{44}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Visualisation de pertinence des concepts dans les deux corpus suivant la métrique \textsc {BM25}. Les valeurs des concepts associées au corpus \@FB@og {}Autres\@FB@fg \xspace {} sont représentées en bleu, alors que celles du corpus \@FB@og {}Charcot\@FB@fg \xspace {} en jaune.\relax }}{46}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Pipeline} de la librairie \texttt {keybert}.}}{48}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Répartition des 15 termes les plus pertinents dans le corpus \@FB@og {}Autres\@FB@fg \xspace {} selon \texttt {keybert}.\relax }}{48}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Workflow} de la méthode \textit {PatternRank} \citep [p.~2]{schopf2022}.\relax }}{49}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Les 15 termes les plus fréquents partagés par les deux corpus selon \texttt {keyphrase-vectorizers}.\relax }}{50}{figure.caption.27}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Conclusion}{51}{chapter.4}%
