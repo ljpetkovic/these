@@ -598,6 +598,12 @@ Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
 \newblock Attention {I}s {A}ll {Y}ou {N}eed.
 \newblock \url{https://arxiv.org/abs/1706.03762}.
 
+\bibitem[Walusinski, 2025]{walusinski}
+Walusinski, O. (2025).
+\newblock Jean-martin charcot’s birth bicentennia.
+\newblock \url{http://ishn.org/}.
+\newblock Consulté le \today.
+
 \bibitem[White, 1997]{white1997jean}
 White, M.~B. (1997).
 \newblock Jean-{M}artin {C}harcot's {C}ontributions to the {I}nterface
