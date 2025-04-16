@@ -1,5 +1,6 @@
 \label{resultats}
 %\minitoc
+\chapter{Méthodes classiques}
 \section{Exploration du corpus Charcot : \textsc{OBVIE} et \textsc{TextPair}}
 \label{sect:obvie_textpair}
 Cette partie aborde les modalités de fouille avancée du corpus Charcot à travers des outils développés au sein de l'équipe-projet \textsc{ObTIC}. D'une part, le moteur de recherche \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/}. Pour d'amples informations sur le fonctionnement de cet outil, \textit{cf}. \citet{alrahabi2022obvie}.} permet de repérer des textes similaires par ordre de pertinence à partir des termes en commun. D'autre part, l'algorithme \textsc{TextPair} génère une liste de passages similaires, c'est-à-dire les séquences de mots qui se chevauchent (n-grammes de mots) pour chaque texte, en comparant ensuite ces résultats avec ceux de séquences dans d'autres textes\footnote{\url{https://artfl-project.uchicago.edu/text-pair.}}.
@@ -141,7 +142,7 @@ D'autre part, nous avons utilisé \textsc{BERT} pour mesurer le poids des termes
 \og{}Autres\fg{} (termes non renseignés dans le tableau en question). La présence de ce dernier type de notion n'est pas étonnant, étant donné que Charcot aborde la question des guérisons miraculeuses dans ses recherches\footnote{Voir notamment son \oe{}uvre \textit{La foi qui guérit} \citep{charcot1897foi}.}. 
 
 
-
+\chapter{Méthodes de l'état de l'art}
 \section{Extraction des phrases-clés : méthode à base d'apprentissage profond}
 En complément de la méthode du calcul de pertinence des termes médicaux fournis de manière supervisée (partie \ref{methodo_stat}), nous exposons ici des résultats de l'approche non-supervisée pour extraire des mots/phrases-clés  pertinents à partir de nos deux corpus\footnote{\textit{Cf.} le dépôt GitHub \url{https://github.com/ljpetkovic/Charcot\_KeyBERT\_Keyphrase-Vectorizers/}.}. L'objectif de cette approche est de détecter les termes communs entre les deux corpus et de montrer la répartition des termes les plus pertinents dans le réseau de Charcot. Deux algorithmes librement disponibles sont présentés ici pour illustrer cette dernière approche : \texttt{keybert} \citep{grootendorst2023}\footnote{\url{https://maartengr.github.io/KeyBERT/}} et \texttt{keyphrase-vectorizers}\footnote{\url{https://pypi.org/project/keyphrase-vectorizers/}}. Lors du passage à l'échelle avec la quantité de données considérable (voir le tableau \ref{tab:corpus}), nous avons fait face un manque de puissance de calcul des ordinateurs locaux. Pour faciliter l'extraction des phrases-clés, nous avons obtenu l'accès à la plateforme technologique \textsc{MeSU} et un accompagnement technique grâce à l'unité de service \textsc{SACADO} (Service d'Aide au Calcul et à l'Analyse de Données)\footnote{\url{https://sacado.sorbonne-universite.fr/fr/}.} de Sorbonne Université.
 
