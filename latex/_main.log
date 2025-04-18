@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  16 APR 2025 17:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  18 APR 2025 17:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3099,16 +3099,16 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: E1767627ACD83D9930DEFA9639F6E30B;7632.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 186F17A4BB323F0EC8589DE390B24945;7917.
+(rerunfilecheck)             Checksum: F5E7E49E8AE5D0FF85C8129131B054F9;7917.
 runsystem(rm _main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 40943 strings out of 476683
- 816231 string characters out of 5804046
+ 40945 strings out of 476683
+ 816326 string characters out of 5804046
  2050018 words of memory out of 5000000
- 60128 multiletter control sequences out of 15000+600000
- 552186 words of font info for 138 fonts, out of 8000000 for 9000
+ 60129 multiletter control sequences out of 15000+600000
+ 552194 words of font info for 139 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,143p,2714b,840s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
