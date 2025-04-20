@@ -1,6 +1,16 @@
 \label{resultats}
 %\minitoc
+
 \chapter{Méthodes classiques}
+\hl{à intégrer dans la rédaction}
+Liste de X concepts associés à Charcot dans le domaine de neurosciences (neurologie, neuropathologie et psychiatrie, donc en excluant les autres domaines comme endocrinologie, néphrologie etc.) + méthodes d'extraction des phrases-clés :
+\begin{itemize}
+	\item règles (linguistique)
+	\item TF-IDF et BM25
+	\item Keyphrase-Vectorizers
+\end{itemize}
+
++ visualisation des méthodes appliquées aux termes sous forme des diagrammes de barres
 \section{Exploration du corpus Charcot : \textsc{OBVIE} et \textsc{TextPair}}
 \label{sect:obvie_textpair}
 Cette partie aborde les modalités de fouille avancée du corpus Charcot à travers des outils développés au sein de l'équipe-projet \textsc{ObTIC}. D'une part, le moteur de recherche \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/}. Pour d'amples informations sur le fonctionnement de cet outil, \textit{cf}. \citet{alrahabi2022obvie}.} permet de repérer des textes similaires par ordre de pertinence à partir des termes en commun. D'autre part, l'algorithme \textsc{TextPair} génère une liste de passages similaires, c'est-à-dire les séquences de mots qui se chevauchent (n-grammes de mots) pour chaque texte, en comparant ensuite ces résultats avec ceux de séquences dans d'autres textes\footnote{\url{https://artfl-project.uchicago.edu/text-pair.}}.

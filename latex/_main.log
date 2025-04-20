@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  20 APR 2025 00:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 APR 2025 00:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2353,13 +2353,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ] [32] (./4_resultats.tex
 Chapitre 4.
 
-Overfull \hbox (26.41968pt too wide) in paragraph at lines 3--3
+Overfull \hbox (26.41968pt too wide) in paragraph at lines 4--4
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
 
+ []
+
+
+Overfull \hbox (2.46675pt too wide) in paragraph at lines 5--7
+\TU/GentiumPlus(0)/m/n/12 domaines comme endocrinologie, néphrologie etc.) + mé
+thodes d’extraction des phrases-
  []
 
 File: img/bulbe_rachidien_mini.png Graphic file (type bmp)
@@ -2380,6 +2386,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [34]
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2390,6 +2399,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [35]
 File: img/repartition_motifs_POS.png Graphic file (type bmp)
 <img/repartition_motifs_POS.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2412,7 +2424,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: img/Charcot_Autres_250523.png Graphic file (type bmp)
 <img/Charcot_Autres_250523.png>
 
-Overfull \hbox (0.29982pt too wide) in paragraph at lines 141--143
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (0.29982pt too wide) in paragraph at lines 151--153
 \TU/GentiumPlus(0)/m/n/12 Pour ce travail en cours, nous avons utilisé le modèl
 e \TU/Monaco(0)/m/n/12 bert-base-multilingual-cased\TU/GentiumPlus(0)/m/n/12 .
  []
@@ -2448,23 +2464,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Chapitre 5.
 
-Overfull \hbox (26.41968pt too wide) in paragraph at lines 145--145
+Overfull \hbox (26.41968pt too wide) in paragraph at lines 155--155
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 
  []
 
 
-Overfull \hbox (2.05785pt too wide) in paragraph at lines 146--146
+Overfull \hbox (2.05785pt too wide) in paragraph at lines 156--156
 |[]\TU/GentiumPlus(0)/b/n/17.28 Extraction des phrases-clés : méthode à base d’
 appren-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][]\TU/GentiumPlus(0)/m/it/10 Cf. \TU/Gentium
 Plus(0)/m/n/10 le dépôt GitHub [][]$[][][][][] [] [] [] [][][][][][] [] [][][] 
 [] [][][][][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][][]
@@ -2473,15 +2489,15 @@ Plus(0)/m/n/10 le dépôt GitHub [][]$[][][][][] [] [] [] [][][][][][] [] [][][]
 
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/b/n' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 149.
+(Font)              using `TU/Monaco(0)/m/n' instead on input line 159.
 
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
-(Font)              scaled to size 12.24008pt on input line 149.
+(Font)              scaled to size 12.24008pt on input line 159.
 [41]
 File: img/keybert.png Graphic file (type bmp)
 <img/keybert.png>
 
-Underfull \hbox (badness 2080) in paragraph at lines 167--167
+Underfull \hbox (badness 2080) in paragraph at lines 177--177
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][]Illustration reprise de [][]$[][][][][] []
  [] [] [][][][][][][][][] [] [][][][][][] [] [][] [] [][][][][][][] [] [][][][]
 [][] [] [][][][][][][][][][] [] [][][][] []
@@ -3102,13 +3118,8 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: E1767627ACD83D9930DEFA9639F6E30B;7632.
-
-Package rerunfilecheck Warning: File `_main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `_main.brf':
-(rerunfilecheck)             Before: F5E7E49E8AE5D0FF85C8129131B054F9;7917
-(rerunfilecheck)             After:  25FFB36D014D79D34790E4869CE9A183;7917.
+Package rerunfilecheck Info: File `_main.brf' has not changed.
+(rerunfilecheck)             Checksum: 09094FDE4B47739AC3D4D141CAB73227;7917.
 runsystem(rm _main.pyg)...executed.
 
  ) 
