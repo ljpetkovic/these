@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  23 APR 2025 14:02
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  24 APR 2025 16:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1834,7 +1834,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-Overfull \hbox (7.84717pt too wide) in paragraph at lines 17--18
+Overfull \hbox (7.84717pt too wide) in paragraph at lines 16--17
 \TU/GentiumPlus(0)/m/n/12 ment reconnues qui, pour un temps, fournissent à une 
 communauté de chercheur$\OMS/lmsy/m/n/12 ^^A$\TU/GentiumPlus(0)/m/n/12 euse$\OM
 S/lmsy/m/n/12 ^^A$\TU/GentiumPlus(0)/m/n/12 x$\OMS/lmsy/m/n/12 ^^A$\TU/GentiumP
@@ -1852,7 +1852,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-Overfull \hbox (3.43805pt too wide) in paragraph at lines 49--50
+Overfull \hbox (3.43805pt too wide) in paragraph at lines 48--49
 \TU/GentiumPlus(0)/m/n/12 gique, la découverte des microbes par Louis Pasteur d
 ans les années 1870 s’impose comme
  []
@@ -1923,15 +1923,15 @@ xt;"
 ext;"
 
 LaTeX Font Info:    Font shape `TU/GentiumPlus(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 51.
+(Font)              scaled to size 10.0pt on input line 50.
 
-Overfull \hbox (1.7399pt too wide) in paragraph at lines 51--52
+Overfull \hbox (1.7399pt too wide) in paragraph at lines 50--51
 []\TU/GentiumPlus(0)/m/n/12 Un autre exemple du changement de paradigme en méde
 cine est l’évolution du terme
  []
 
 
-Overfull \hbox (4.27399pt too wide) in paragraph at lines 53--56
+Overfull \hbox (4.27399pt too wide) in paragraph at lines 52--55
 []\TU/GentiumPlus(0)/m/n/12 Pour mieux comprendre l’importance de ce changement
  de pensée radical, il convient
  []
@@ -3062,13 +3062,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--99
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-[][][][][][][][][][] [] [][] [] [][][][][][] [] [][][][] [] [][][][][][][] [] [
-] [] [][][][] [] [] [] [][][][][][] [] [][][][][][][] [] [] [] [][] [] [] [] []
-[]$[][]\TU/GentiumPlus(0)/m/n/12 .
- []
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3104,6 +3097,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--246
  []
 
 
+Underfull \hbox (badness 1210) in paragraph at lines 313--313
+\TU/GentiumPlus(0)/m/n/12 Grundbegriffe : (Basic Concepts in History : A Histor
+ical Dictionary of Political
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3112,23 +3111,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [68]
-Underfull \hbox (badness 1210) in paragraph at lines 313--313
-\TU/GentiumPlus(0)/m/n/12 Grundbegriffe : (Basic Concepts in History : A Histor
-ical Dictionary of Political
- []
-
-
 Underfull \hbox (badness 1117) in paragraph at lines 320--320
 \TU/GentiumPlus(0)/m/n/12 Hopkins Press.  [][]$[][][][][] [] [] [] [][][][][][]
 [] [] [][][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][
 ][] []
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 327--327
-[]\TU/GentiumPlus(0)/m/n/12 Kuhn, T. S. (1962).  \TU/GentiumPlus(0)/m/it/12 The
- Structure of Scientific Revolutions\TU/GentiumPlus(0)/m/n/12 .  University of 
-Chicago
  []
 
 
@@ -3165,13 +3151,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 358--358
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
-[][][][][][][][] [][] [][] [][] [][][][][][][][][][][] [][] [][][] [][] [][][][
-][][][][] [][] [][] [][] [][][][][][][] [][] [][][][][][][][][] [][] [][][][][]
-[][][]$[][]\TU/GentiumPlus(0)/m/n/12 .
- []
-
-
 Underfull \hbox (badness 1163) in paragraph at lines 377--377
 \TU/GentiumPlus(0)/m/n/12 In \TU/GentiumPlus(0)/m/it/12 Routledge Handbook of A
 cademic Knowledge Circulation \TU/GentiumPlus(0)/m/n/12 (pp. 556–574). Routledg
@@ -3193,6 +3172,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 377--377
  []
 
 
+Underfull \hbox (badness 6078) in paragraph at lines 384--384
+\TU/GentiumPlus(0)/m/n/12 Comté.  [][]$[][][][][] [] [] [] [][][][][][][] [] []
+[][][] [] [][] [] [][][][][][][][][][][][][][][][][] [] [][][][][][][] [][] [][
+][][][][][] []
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3201,13 +3187,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [69]
-Underfull \hbox (badness 6078) in paragraph at lines 384--384
-\TU/GentiumPlus(0)/m/n/12 Comté.  [][]$[][][][][] [] [] [] [][][][][][][] [] []
-[][][] [] [][] [] [][][][][][][][][][][][][][][][][] [] [][][][][][][] [][] [][
-][][][][][] []
- []
-
-
 Underfull \hbox (badness 6493) in paragraph at lines 425--425
 []\TU/GentiumPlus(0)/m/n/12 Nerima, L., Seretan, V., & Wehrli, E. (2006).  Le p
 roblème des collocations
@@ -3365,18 +3344,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 934405D551250524AC1ECC89C6E5724B;7871.
-Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 1A235726EE3708D0924ADDA77723A63A;8073.
+(rerunfilecheck)             Checksum: D9464A90FB90DD4E82F6EA7615FAE7AB;8267.
+
+Package rerunfilecheck Warning: File `_main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `_main.brf':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  0F4569D6949508440D1888A6996B3476;7933.
 runsystem(rm _main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 41279 strings out of 476683
- 822226 string characters out of 5804046
+ 41198 strings out of 476683
+ 820758 string characters out of 5804046
  2050018 words of memory out of 5000000
- 60459 multiletter control sequences out of 15000+600000
- 552194 words of font info for 139 fonts, out of 8000000 for 9000
+ 60377 multiletter control sequences out of 15000+600000
+ 552202 words of font info for 140 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,143p,2714b,840s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
