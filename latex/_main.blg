@@ -4,51 +4,51 @@ The top-level auxiliary file: _main.aux
 The style file: apalike-etal-in-italics.bst
 Database file #1: bibliographie.bib
 Warning--entry type for "grootendorst2023" isn't style-file defined
---line 745 of file bibliographie.bib
+--line 754 of file bibliographie.bib
 Warning--I'm ignoring RENNESSON202015's extra "note" field
---line 874 of file bibliographie.bib
+--line 883 of file bibliographie.bib
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
 Warning--there's a number but no volume in riffaterre1980trace
-You've used 89 entries,
+You've used 90 entries,
             2229 wiz_defined-function locations,
-            1097 strings with 26278 characters,
-and the built_in function-call counts, 33488 in all, are:
-= -- 3340
-> -- 1241
+            1102 strings with 26598 characters,
+and the built_in function-call counts, 33927 in all, are:
+= -- 3379
+> -- 1269
 < -- 78
-+ -- 418
-- -- 405
-* -- 2565
-:= -- 5929
-add.period$ -- 356
-call.type$ -- 89
-change.case$ -- 616
-chr.to.int$ -- 88
-cite$ -- 92
-duplicate$ -- 1372
-empty$ -- 2383
-format.name$ -- 514
-if$ -- 6619
++ -- 428
+- -- 415
+* -- 2601
+:= -- 6008
+add.period$ -- 360
+call.type$ -- 90
+change.case$ -- 626
+chr.to.int$ -- 89
+cite$ -- 93
+duplicate$ -- 1390
+empty$ -- 2412
+format.name$ -- 525
+if$ -- 6704
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 105
-newline$ -- 531
-num.names$ -- 276
-pop$ -- 555
+missing$ -- 106
+newline$ -- 537
+num.names$ -- 279
+pop$ -- 569
 preamble$ -- 1
-purify$ -- 642
+purify$ -- 652
 quote$ -- 0
-skip$ -- 1012
+skip$ -- 1020
 stack$ -- 0
-substring$ -- 2011
-swap$ -- 179
+substring$ -- 2023
+swap$ -- 180
 text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 484
+type$ -- 490
 warning$ -- 3
-while$ -- 266
+while$ -- 268
 width$ -- 0
-write$ -- 1299
+write$ -- 1313
 (There were 5 warnings)

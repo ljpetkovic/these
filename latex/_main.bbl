@@ -1,5 +1,12 @@
 \begin{thebibliography}{}
 
+\bibitem[Abdallah \textit{et~al.}, 2025]{abdallah2025rankingdom}
+Abdallah, H., Markhoff, B., Ovide, M., Parkin, L., \& Soulet, A. (2025).
+\newblock Rankingdom: une architecture coop{\'e}rative pour l'analyse {\`a} la
+  demande de wikidata.
+\newblock In {\em Extraction et Gestion des Connaissances 2025}.
+\newblock \url{https://hal-hceres.archives-ouvertes.fr/LIBDTLN/hal-04977222v1}.
+
 \bibitem[Adell, 2011]{adell2011chapitre}
 Adell, N. (2011).
 \newblock Chapitre 6 -- {L}a circulation des savoirs.
