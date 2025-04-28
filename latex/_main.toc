@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {4}Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}{7}{section.1.4}%
 \contentsline {section}{\numberline {5}Comment les mots deviennent-ils des concepts ?}{8}{section.1.5}%
 \contentsline {section}{\numberline {6}Méthodo globale + SotA globale}{12}{section.1.6}%
-\contentsline {section}{\numberline {7}Problématique et plan de la thèse}{12}{section.1.7}%
+\contentsline {section}{\numberline {7}Plan de la thèse}{13}{section.1.7}%
 \contentsline {chapter}{\numberline {2}Du fonds Charcot à un corpus interrogeable : enjeux et méthodes}{15}{chapter.2}%
 \contentsline {section}{\numberline {1}Description du corpus Charcot}{15}{section.2.1}%
 \contentsline {section}{\numberline {2}Constitution du corpus Charcot}{17}{section.2.2}%
@@ -19,15 +19,16 @@
 \contentsline {section}{\numberline {2}Repérage des termes scientifiques dans un corpus numérique}{30}{section.3.2}%
 \contentsline {part}{II\hspace {1em}Pister la circulation des savoirs médicaux au prisme du numérique}{33}{part.2}%
 \contentsline {chapter}{\numberline {4}Méthodes classiques}{35}{chapter.4}%
-\contentsline {section}{\numberline {1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{37}{section.4.1}%
-\contentsline {section}{\numberline {2}Extraction de la terminologie : approche linguistique}{38}{section.4.2}%
-\contentsline {section}{\numberline {3}Extraction des phrases-clés : méthodes statistiques}{41}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Méthodes de l'état de l'art}{45}{chapter.5}%
-\contentsline {section}{\numberline {1}Extraction des phrases-clés : méthode à base d'apprentissage profond}{45}{section.5.1}%
-\contentsline {subsection}{\numberline {1.1}Librairie \texttt {keybert}}{45}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {1.2}Approche \textit {PatternRank}}{46}{subsection.5.1.2}%
+\contentsline {section}{\numberline {1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{35}{section.4.1}%
+\contentsline {section}{\numberline {2}Extraction de la terminologie : approche linguistique}{36}{section.4.2}%
+\contentsline {section}{\numberline {3}Extraction des phrases-clés : méthodes statistiques}{39}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Méthodes de l'état de l'art}{43}{chapter.5}%
+\contentsline {section}{\numberline {1}Extraction des phrases-clés : méthode à base d'apprentissage profond}{43}{section.5.1}%
+\contentsline {subsection}{\numberline {1.1}Librairie \texttt {keybert}}{43}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {1.2}Approche \textit {PatternRank}}{44}{subsection.5.1.2}%
+\contentsline {section}{\numberline {2}L'estimation de l'impact de l'entité \texttt {Jean-Martin Charcot} à l'aide de l'outil Rankingdom}{46}{section.5.2}%
 \contentsline {chapter}{\numberline {6}Conclusion}{49}{chapter.6}%
 \contentsline {section}{\numberline {1}Synthèse et contributions}{49}{section.6.1}%
 \contentsline {section}{\numberline {2}Perspectives}{49}{section.6.2}%
-\contentsline {part}{Annexe}{51}{part*.29}%
+\contentsline {part}{Annexe}{51}{part*.30}%
 \contentsline {chapter}{Bibliographie}{65}{table.6.3}%
