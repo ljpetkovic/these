@@ -93,6 +93,7 @@
 \onehalfspacing
 %modifier la mise en page de l'abstract
 %\usepackage{abstract}
+%\renewcommand{\abstractnamefont}{\normalfont\Large\bfseries}
 %police et mise en page (marges) du document
 %\usepackage{polyglossia}
 %\setmainlanguage{french}
@@ -407,11 +408,9 @@ rightsub = \frq{} %
 % ================== Résumé ==================
 \cleardoublepage
 \pagestyle{empty}
-\chapter*{Résumé}
-\addcontentsline{toc}{chapter}{Résumé}
-\vspace{1em}
-\noindent
-\input{0_abstract}
+% Commande pour un chapitre centré sans numéro
+% Commande propre pour chapitre centré sans numéro
+
 
 
 
@@ -485,8 +484,8 @@ rightsub = \frq{} %
 
 
 
-
-\part{Pister la circulation des savoirs médicaux au prisme du numérique}
+\part{Mesurer l'impact de Charcot \textit{via} l'extraction des termes médicaux : quelle approche adopter ?}
+%\part{Pister la circulation des savoirs médicaux au prisme du numérique}
 \input{4_resultats}
 %\chapter{Valorisation du fonds Charcot}
 %\chapter{Pister la circulation du discours médical de Charcot au prisme du numérique}
@@ -516,6 +515,26 @@ rightsub = \frq{} %
 \bibliographystyle{apalike-etal-in-italics}
 %inclusion de la biblio
 \bibliography{bibliographie.bib}
+
+\newcommand{\centredchapter}[1]{%
+	\cleardoublepage
+	\thispagestyle{empty}
+	\vspace*{2cm} % Ajuste l'espace pour descendre le titre
+	\begin{center}
+		\normalfont\Large\bfseries #1
+	\end{center}
+	\vspace{1cm} % Ajuste l'espace entre le titre et le texte
+	\addcontentsline{toc}{chapter}{#1}%
+}
+
+
+
+\cleardoublepage
+\pagestyle{empty}
+
+\centredchapter{Résumé}
+
+\input{0_abstract}
 
 
 

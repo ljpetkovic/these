@@ -1,3 +1,4 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{\reset@font\mtcSfont 35}{section.4.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Extraction de la terminologie : approche linguistique}{\reset@font\mtcSfont 36}{section.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}Extraction des phrases-clés : méthodes statistiques}{\reset@font\mtcSfont 39}{section.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Extraction des phrases-clés : méthode à base d'apprentissage profond}{\reset@font\mtcSfont 43}{section.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.1}Librairie \texttt {keybert}}{\reset@font\mtcSSfont 43}{subsection.5.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2}Approche \textit {PatternRank}}{\reset@font\mtcSSfont 44}{subsection.5.1.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}L'estimation de l'impact de l'entité \texttt {Jean-Martin Charcot} à l'aide de l'outil Rankingdom}{\reset@font\mtcSfont 46}{section.5.2}}
