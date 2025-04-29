@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  29 APR 2025 17:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  29 APR 2025 18:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2010,20 +2010,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12]) (./methodo_sota_globale.tex) (./structure.tex
 
-LaTeX Warning: Reference `rupture' on page 13 undefined on input line 2.
-
-
-LaTeX Warning: Reference `sota' on page 13 undefined on input line 3.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 27.37543pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.37543pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-15.37543pt}.
 
-[13])
+[13]
+
+LaTeX Warning: Reference `rupture' on page 14 undefined on input line 2.
+
+
+LaTeX Warning: Reference `sota' on page 14 undefined on input line 3.
+
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2080,12 +2081,6 @@ lpêtrière, accompagnées
  []
 
 
-Overfull \hbox (7.78185pt too wide) in paragraph at lines 35--36
-\TU/GentiumPlus(0)/m/n/12 directeur du service photographique. Elle réunit la c
-ollection de clichés consti-
- []
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2094,19 +2089,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
+Overfull \hbox (7.78185pt too wide) in paragraph at lines 35--36
+\TU/GentiumPlus(0)/m/n/12 directeur du service photographique. Elle réunit la c
+ollection de clichés consti-
+ []
+
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
 t line 50.
 \openout4 = `_main.pyg'.
 
- (./_minted-_main/colorful.pygstyle)
+(./_minted-_main/colorful.pygstyle)
 (./_minted-_main/5185C93861B48FAD255F1D566C25A1C705B771060D54721B204D418CAC84A0
 35.pygtex
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
 (Font)              scaled to size 9.30756pt on input line 1.
 )
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3384,12 +3381,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 8C4B16C3299FCF81BB1858D00F7B2CCD;9178.
+(rerunfilecheck)             Checksum: 8A27E0C1D2DDBA56A80704CD5DC5848A;9890.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 2BBBDA487B7D5DEFDBC908D77A04C26C;8229.
+(rerunfilecheck)             Checksum: 90E0FC11093F5C44BD16019B3701F4A5;8229.
 runsystem(rm _main.pyg)...executed.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 420 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
  41314 strings out of 476683
  823192 string characters out of 5804046
@@ -3397,6 +3398,6 @@ Here is how much of TeX's memory you used:
  60484 multiletter control sequences out of 15000+600000
  552226 words of font info for 143 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,19n,143p,2714b,840s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,143p,2714b,1066s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on _main.pdf (84 pages).
