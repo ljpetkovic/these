@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  29 APR 2025 18:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  29 APR 2025 19:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2231,7 +2231,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 482--482
 
  []
 
-(./revue_lit.tex [25
+(./revue_lit.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
+][][][][][][][][][] [] [][][][][][][][] [][] [][][][][][][][][][] [] [][] [] []
+[][][][][][][][][] [][] [][][][][][][][][][] []
+ []
+
+[25
 
 ]
 
@@ -2243,212 +2250,222 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []\TU/GentiumPlus(0)/m/it/12 La Littérature laboratoire (1850-1914) :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]\TU/GentiumPlus(0)/m/n/12 Initiative Circulations médiévales
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]\TU/GentiumPlus(0)/m/n/12 Initiative Circulations médiévales
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []\TU/GentiumPlus(0)/m/n/12 « DERRIDA HEXADÉCIMAL » (2018-
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 110--110
+Underfull \hbox (badness 3428) in paragraph at lines 120--120
 []\TU/GentiumPlus(0)/m/it/12 On the Feasibility of Automated Detec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
 ][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][] [] [][][][][][][][][][] [] [][][][][][] [] [][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][][][] [][] [][] [][] [] [][] [][][][][] [][] [][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][][][][][][][][][][][][][][][][] [][] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][] [][] [] [][] [][][][][][][][][][][][][][][] [][] [][] [][] [][] [][]
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 162--162
+Underfull \hbox (badness 4832) in paragraph at lines 172--172
 []\TU/GentiumPlus(0)/m/n/12 « Le texte de l’autre. Dia-
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 162--162
+Underfull \hbox (badness 3769) in paragraph at lines 172--172
 \TU/GentiumPlus(0)/m/n/12 logue interdisciplinaire au-
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 162--162
+Underfull \hbox (badness 3942) in paragraph at lines 172--172
 []\TU/GentiumPlus(0)/m/n/12 études littéraires et histo-
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 162--162
+Underfull \hbox (badness 1888) in paragraph at lines 172--172
 \TU/GentiumPlus(0)/m/n/12 térieurs, sources premières
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 162--162
+Underfull \hbox (badness 1521) in paragraph at lines 172--172
 \TU/GentiumPlus(0)/m/n/12 réseaux de citation(s) peut
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 5519) in paragraph at lines 162--162
+Underfull \hbox (badness 5519) in paragraph at lines 172--172
 []\TU/GentiumPlus(0)/m/n/12 migrations, mondialisation,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
 ][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][] [] [][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][] [] [][] [] [][][][][][][][] [][] [][] [][] [][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][][][][][][][][][][][][] [][] [][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][][][][][][] [][] [][][][][][][][] [][] [][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][] [][] [][][][][][][][][] [][] [][][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 162--162
+Underfull \hbox (badness 2846) in paragraph at lines 172--172
 []\TU/GentiumPlus(0)/m/n/12 « De la transformation des
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 162--162
+Underfull \hbox (badness 5847) in paragraph at lines 172--172
 \TU/GentiumPlus(0)/m/n/12 sciences humaines par les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 \TU/GentiumPlus(0)/m/n/12 humanités numériques »
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 162--162
+Underfull \hbox (badness 2617) in paragraph at lines 172--172
 []\TU/GentiumPlus(0)/m/n/12 formes de production, cir-
  []
 
 
-Underfull \hbox (badness 7631) in paragraph at lines 162--162
+Underfull \hbox (badness 7631) in paragraph at lines 172--172
 \TU/GentiumPlus(0)/m/n/12 culation et validation des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
 ][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][] [] [][][][][][][][][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][][][][][][][][][] [][] [][][] [][] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][][][][][][][][][] [][] [][] [][] [][] [][] [][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 [][][][][][][][][] [][] [][] [][] [][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 162--162
+Underfull \hbox (badness 2698) in paragraph at lines 172--172
 []\TU/GentiumPlus(0)/m/n/12 « Circulation des écrits lit-
  []
 
 
-Underfull \hbox (badness 5388) in paragraph at lines 162--162
+Underfull \hbox (badness 5388) in paragraph at lines 172--172
 []\TU/GentiumPlus(0)/m/n/12 circulation des réseaux (entre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 \TU/GentiumPlus(0)/m/n/12 auteurs, traducteurs, compi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 \TU/GentiumPlus(0)/m/n/12 lateurs, imprimeurs-libraires)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][]\TU/GentiumPlus(0)/m/it/10 Cf. \TU/Gentium
 Plus(0)/m/n/10 les projets de la chaire : [][]$[][][][][] [] [] [] [][][][][][]
 [][] []
  []
 
 
-Underfull \hbox (badness 4441) in paragraph at lines 187--187
+Underfull \hbox (badness 4441) in paragraph at lines 197--197
 \TU/GentiumPlus(0)/m/n/12 Dir. : Valérie Bonnet, Arnaud Mercier et Gilles
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 187--187
+Underfull \hbox (badness 5652) in paragraph at lines 197--197
 []\TU/GentiumPlus(0)/m/n/12 complotiste des « Illumi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 []\TU/GentiumPlus(0)/m/n/12 « conspirationniste » sur
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 187--187
+Underfull \hbox (badness 1577) in paragraph at lines 197--197
 \TU/GentiumPlus(0)/m/n/12 Twitter ([][][]\TU/GentiumPlus(0)/m/sc/12 Giry & Nouv
 el\TU/GentiumPlus(0)/m/n/12 ,
  []
@@ -2457,16 +2474,10 @@ el\TU/GentiumPlus(0)/m/n/12 ,
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (14.0599pt too wide) in paragraph at lines 223--224
+Overfull \hbox (14.0599pt too wide) in paragraph at lines 233--234
 [][][]$[][][][][] [] [] [] [][][][] [] [][][][][][] [] [][][] [] [][][][][][][]
 [] [] [] [] [][][][][][][][][][][][][][][][][] [][] [][][][][][][][][][][][][][
 ][] []
- []
-
-
-Overfull \hbox (0.7232pt too wide) in paragraph at lines 238--239
-[]\TU/GentiumPlus(0)/m/n/12 Si nous nous limitons aux théories abordées jusqu’à
- maintenant, nous pouvons consi-
  []
 
 
@@ -2496,6 +2507,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29]
+Overfull \hbox (0.7232pt too wide) in paragraph at lines 248--249
+[]\TU/GentiumPlus(0)/m/n/12 Si nous nous limitons aux théories abordées jusqu’à
+ maintenant, nous pouvons consi-
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2505,7 +2521,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30]
-Overfull \hbox (20.27672pt too wide) in paragraph at lines 244--245
+Overfull \hbox (20.27672pt too wide) in paragraph at lines 254--255
 []\TU/GentiumPlus(0)/m/n/12 extraction terminologique \TU/Monaco(0)/m/n/12 Term
 Suite[][][][][] \TU/GentiumPlus(0)/m/n/12 ([][][]\TU/GentiumPlus(0)/m/sc/12 Cra
 m & Daille\TU/GentiumPlus(0)/m/n/12 , 2016[][]) : scalable, \TU/Monaco(0)/m/n/1
@@ -2513,7 +2529,7 @@ m & Daille\TU/GentiumPlus(0)/m/n/12 , 2016[][]) : scalable, \TU/Monaco(0)/m/n/1
  []
 
 
-Overfull \hbox (0.6825pt too wide) in paragraph at lines 246--247
+Overfull \hbox (0.6825pt too wide) in paragraph at lines 256--257
 []\TU/GentiumPlus(0)/m/n/12 approche statistique, pas besoin d’expert du domain
 e, mesure de pertinence : \TU/GentiumPlus(0)/m/it/12 term-
  []
@@ -2527,7 +2543,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
-Overfull \hbox (78.41174pt too wide) in paragraph at lines 297--308
+Overfull \hbox (78.41174pt too wide) in paragraph at lines 307--318
  [][] 
  []
 
@@ -3031,19 +3047,37 @@ er-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]\TU/GentiumPlus(0)/m/n/12 Bertrand, L., Demoule, J.-P., Langouet, L., & Reger
+t, M. (2025).  Archéolo-
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 97--97
+\TU/GentiumPlus(0)/m/n/12 gie (Traitement et interprétation) – L’archéométrie. 
+ En ligne.  [][]$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[] [] [][][] [] [][][][][][][][][][][] [][] [][][] [] [][][] [] [][][][][][][][
+][][][][] [] [][][][][][][][][][][] [][] [][][][][][][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 []\TU/GentiumPlus(0)/m/n/12 Bogousslavsky, J. (2011).  \TU/GentiumPlus(0)/m/it/
 12 Following Charcot : A Forgotten History of Neuro-
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 106--106
+Underfull \hbox (badness 6641) in paragraph at lines 115--115
 \TU/GentiumPlus(0)/m/it/12 logy and Psychiatry\TU/GentiumPlus(0)/m/n/12 , volum
 e 29.  Karger Medical and Scientific Publishers.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][] [] [][][][][][] [] []
 [][][][][][] [][] [][][][][][] [] [][][] [][] [][][][][][][][] [] [][][][][][] 
 [][]
@@ -3058,14 +3092,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [68]
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 [][][][][][][][][][] [] [][] [] [][][][][][] [] [][][][] [] [][][][][][][] [] [
 ] [] [][][][] [] [] [] [][][][][][] [] [][][][][][][] [] [] [] [][] [] [] [] []
 []$[][]\TU/GentiumPlus(0)/m/n/12 .
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 166--166
+Underfull \hbox (badness 1852) in paragraph at lines 175--175
 []\TU/GentiumPlus(0)/m/n/12 Christin, O. (2011).  \TU/GentiumPlus(0)/m/it/12 Di
 ctionnaire des concepts nomades en sciences humaines\TU/GentiumPlus(0)/m/n/12 .
   Mé-
@@ -3080,13 +3114,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [69]
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []\TU/GentiumPlus(0)/m/n/12 Hobsbawm, E. (2010).  \TU/GentiumPlus(0)/m/it/12 Th
 e Age of Revolution : 1789-1848\TU/GentiumPlus(0)/m/n/12 .  Hachette UK.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 [][]$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][][] [] [][][][][] [] 
 [][][][] [] [][][][][][][][][][] [] [][] [][] [][][][][][] [] [][][][] []
  []
@@ -3100,60 +3134,60 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [70]
-Underfull \hbox (badness 1210) in paragraph at lines 320--320
+Underfull \hbox (badness 1210) in paragraph at lines 329--329
 \TU/GentiumPlus(0)/m/n/12 Grundbegriffe : (Basic Concepts in History : A Histor
 ical Dictionary of Political
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 327--327
+Underfull \hbox (badness 1117) in paragraph at lines 336--336
 \TU/GentiumPlus(0)/m/n/12 Hopkins Press.  [][]$[][][][][] [] [] [] [][][][][][]
 [] [] [][][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][
 ][] []
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 334--334
+Underfull \hbox (badness 1424) in paragraph at lines 343--343
 []\TU/GentiumPlus(0)/m/n/12 Kuhn, T. S. (1962).  \TU/GentiumPlus(0)/m/it/12 The
  Structure of Scientific Revolutions\TU/GentiumPlus(0)/m/n/12 .  University of 
 Chicago
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 342--342
+Underfull \hbox (badness 3260) in paragraph at lines 351--351
 []\TU/GentiumPlus(0)/m/n/12 Landais, É. (2014).  ‪« Frédéric Darbellay, éd., \T
 U/GentiumPlus(0)/m/it/12 La circulation des savoirs. Interdis-
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 342--342
+Underfull \hbox (badness 3354) in paragraph at lines 351--351
 \TU/GentiumPlus(0)/m/it/12 ciplinarité, concepts nomades, analogies, métaphores
  \TU/GentiumPlus(0)/m/n/12 ‪» : Berne, P. Lang, 2012, 245
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 342--342
+Underfull \hbox (badness 1325) in paragraph at lines 351--351
 \TU/GentiumPlus(0)/m/n/12 pages.  \TU/GentiumPlus(0)/m/it/12 Questions de commu
 nication\TU/GentiumPlus(0)/m/n/12 , 26, 331–333.  [][]$[][][][][] [] [] [] [][]
 [] [] [][][] [] [][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 365--365
+Underfull \hbox (badness 3954) in paragraph at lines 374--374
 []\TU/GentiumPlus(0)/m/n/12 Lecourt, D., Ed. (1999).  \TU/GentiumPlus(0)/m/it/1
 2 Dictionnaire d’histoire et philosophie des sciences\TU/GentiumPlus(0)/m/n/12 
 .  Puf.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--365
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][] [] []
 [][][][] [] [][][][][][][][][][][][][] [][] [][][][][][][][][][][][] [][] [] []
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--365
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 [][][][][][][][] [][] [][] [][] [][][][][][][][][][][] [][] [][][] [][] [][][][
 ][][][][] [][] [][] [][] [][][][][][][] [][] [][][][][][][][][] [][] [][][][][]
 [][][]$[][]\TU/GentiumPlus(0)/m/n/12 .
@@ -3168,48 +3202,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [71]
-Underfull \hbox (badness 1163) in paragraph at lines 384--384
+Underfull \hbox (badness 1163) in paragraph at lines 393--393
 \TU/GentiumPlus(0)/m/n/12 In \TU/GentiumPlus(0)/m/it/12 Routledge Handbook of A
 cademic Knowledge Circulation \TU/GentiumPlus(0)/m/n/12 (pp. 556–574). Routledg
 e.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][] [] [][][] [] [][]
 [][][][][][] [] [][][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][] [][]
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 [][] [] [][][][][] [][] [][][][][][][] [][] [][][][] [][] [][][][][] [][] [][][
 ][][][][][][][] [][] [][][][][] [][] [][][][][][][][][] [][] [][][][][][][][][]
 [][] [][]
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 391--391
+Underfull \hbox (badness 6078) in paragraph at lines 400--400
 \TU/GentiumPlus(0)/m/n/12 Comté.  [][]$[][][][][] [] [] [] [][][][][][][] [] []
 [][][] [] [][] [] [][][][][][][][][][][][][][][][][] [] [][][][][][][] [][] [][
 ][][][][][] []
  []
 
 
-Underfull \hbox (badness 6493) in paragraph at lines 432--432
+Underfull \hbox (badness 6493) in paragraph at lines 441--441
 []\TU/GentiumPlus(0)/m/n/12 Nerima, L., Seretan, V., & Wehrli, E. (2006).  Le p
 roblème des collocations
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--432
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
 \TU/GentiumPlus(0)/m/n/12 en TAL.  \TU/GentiumPlus(0)/m/it/12 Nouveaux cahiers 
 de linguistique française\TU/GentiumPlus(0)/m/n/12 , 27, 95–115.  [][]$[][][][]
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--432
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
 [] [] [][][][][][] [] [][][][][][][] [][] [][][][][][][] [] [][][][][] [] [][] 
 [] [][][][][][] [] [][][][][][][][] [] [][][][][][][][] [][] [][][][] [][]
  []
@@ -3223,45 +3257,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [72]
-Underfull \hbox (badness 4266) in paragraph at lines 477--477
+Underfull \hbox (badness 4266) in paragraph at lines 486--486
 []\TU/GentiumPlus(0)/m/n/12 Rey, A. (1998).  \TU/GentiumPlus(0)/m/it/12 Diction
 naire historique de la langue française. Tome 2\TU/GentiumPlus(0)/m/n/12 .  Le 
 Ro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--477
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
 \TU/GentiumPlus(0)/m/n/12 bert.  [][]$[][][][][] [] [] [] [][][] [] [][][][][][
 ][] [] [][] [] [][][][][] [] [][][][][][][][][][][][][] [] [][] [] [][][][][][]
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
 []\TU/GentiumPlus(0)/m/n/12 Robertson, S. E. & Jones, K. S. (1976).  Relevance 
 Weighting of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
 \TU/GentiumPlus(0)/m/n/12 Search Terms.  \TU/GentiumPlus(0)/m/it/12 Journal of 
 the American Society for Information science\TU/GentiumPlus(0)/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
 \TU/GentiumPlus(0)/m/n/12 27(3), 129–146.  [][]$[][][][][] [] [] [] [][][][][][
 ][] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][] [] [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
 [][][] [] [][] [] [][][][] [] [][][] [] [][][][][][][][][][] [] [][][][] [] [][
 ][][][] [] [][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][] [][]
  []
@@ -3275,38 +3309,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [73]
-Underfull \hbox (badness 3668) in paragraph at lines 526--526
+Underfull \hbox (badness 3668) in paragraph at lines 535--535
 \TU/GentiumPlus(0)/m/n/12 Peter Lang.  [][]$[][][][][] [] [] [] [][][] [] [][][
 ][][] [] [][][][] [] [][][][] [][] [][][][] [][] [][] [][] [][] [][] [][][][][]
 [][][][][] [][] [][][] [][]
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 535--535
+Underfull \hbox (badness 3199) in paragraph at lines 544--544
 []\TU/GentiumPlus(0)/m/n/12 Saussure, F. d., Bally, C., Sechehaye, A., & Riedli
 nger, A. (1915).  \TU/GentiumPlus(0)/m/it/12 Cours de lin-
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 535--535
+Underfull \hbox (badness 1688) in paragraph at lines 544--544
 \TU/GentiumPlus(0)/m/it/12 guistique générale / Ferdinand de Saussure ; publié 
 par Charles Bailly et Albert Séche-
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 535--535
+Underfull \hbox (badness 2680) in paragraph at lines 544--544
 \TU/GentiumPlus(0)/m/it/12 haye avec la collaboration de Albert Riedlinger\TU/G
 entiumPlus(0)/m/n/12 .  Grande bibliothèque Payot. Ge-
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 559--559
+Underfull \hbox (badness 5490) in paragraph at lines 568--568
 []\TU/GentiumPlus(0)/m/n/12 Soulet, A. (2024).  Vers l’analyse à la demande des
  connaissances de Wiki-
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 559--559
+Underfull \hbox (badness 1117) in paragraph at lines 568--568
 \TU/GentiumPlus(0)/m/n/12 data.  [][]$[][][][][] [] [] [] [][][][] [] [][][][] 
 [] [][] [] [][] [][] [][][][][][][] [] [][][][][][][] [] [][][][] [] [][] [] []
 [][][][][] [] [][] [][] [][] [][]
@@ -3382,8 +3416,13 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 8A27E0C1D2DDBA56A80704CD5DC5848A;9890.
-Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 90E0FC11093F5C44BD16019B3701F4A5;8229.
+
+Package rerunfilecheck Warning: File `_main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `_main.brf':
+(rerunfilecheck)             Before: 5844D46349FF155F110235A1FBFAEA31;8289
+(rerunfilecheck)             After:  0F14A94D5BBB463616FB76DAAFC594C2;8289.
 runsystem(rm _main.pyg)...executed.
 
  )
@@ -3392,10 +3431,10 @@ runsystem(rm _main.pyg)...executed.
 ### semi simple group (level 1) entered at line 420 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41314 strings out of 476683
- 823192 string characters out of 5804046
+ 41322 strings out of 476683
+ 823429 string characters out of 5804046
  2050018 words of memory out of 5000000
- 60484 multiletter control sequences out of 15000+600000
+ 60492 multiletter control sequences out of 15000+600000
  552226 words of font info for 143 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,143p,2714b,1066s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -3,52 +3,54 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: _main.aux
 The style file: apalike-etal-in-italics.bst
 Database file #1: bibliographie.bib
+Warning--entry type for "bertrand2025archeometrie" isn't style-file defined
+--line 1 of file bibliographie.bib
 Warning--entry type for "grootendorst2023" isn't style-file defined
---line 754 of file bibliographie.bib
+--line 764 of file bibliographie.bib
 Warning--I'm ignoring RENNESSON202015's extra "note" field
---line 883 of file bibliographie.bib
+--line 893 of file bibliographie.bib
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
 Warning--there's a number but no volume in riffaterre1980trace
-You've used 90 entries,
+You've used 91 entries,
             2229 wiz_defined-function locations,
-            1102 strings with 26598 characters,
-and the built_in function-call counts, 33927 in all, are:
-= -- 3379
-> -- 1269
+            1108 strings with 26935 characters,
+and the built_in function-call counts, 34278 in all, are:
+= -- 3414
+> -- 1292
 < -- 78
-+ -- 428
-- -- 415
-* -- 2601
-:= -- 6008
-add.period$ -- 360
-call.type$ -- 90
-change.case$ -- 626
-chr.to.int$ -- 89
-cite$ -- 93
-duplicate$ -- 1390
-empty$ -- 2412
-format.name$ -- 525
-if$ -- 6704
++ -- 436
+- -- 423
+* -- 2630
+:= -- 6077
+add.period$ -- 364
+call.type$ -- 91
+change.case$ -- 635
+chr.to.int$ -- 90
+cite$ -- 94
+duplicate$ -- 1400
+empty$ -- 2427
+format.name$ -- 534
+if$ -- 6767
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 106
-newline$ -- 537
-num.names$ -- 279
-pop$ -- 569
+newline$ -- 543
+num.names$ -- 282
+pop$ -- 575
 preamble$ -- 1
-purify$ -- 652
+purify$ -- 661
 quote$ -- 0
-skip$ -- 1020
+skip$ -- 1028
 stack$ -- 0
-substring$ -- 2023
+substring$ -- 2035
 swap$ -- 180
 text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 490
+type$ -- 496
 warning$ -- 3
-while$ -- 268
+while$ -- 270
 width$ -- 0
-write$ -- 1313
-(There were 5 warnings)
+write$ -- 1327
+(There were 6 warnings)
