@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  28 APR 2025 16:17
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  29 APR 2025 16:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2060,13 +2060,6 @@ alpêtrière : ouvrages, périodiques,
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[][][]\TU/GentiumPlus(0)/m/n/10 .[][]anc. Jubilothèque, [][]$[][][][][] [] [] [
-] [][][][][][][][][][] [] [][][][][][][][] [][] [][][][][][][][][][] [] [][] []
- [][][][][][][][][][] [] [][][][][] [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][][][][][] []
  [][][] [] [][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][] [] [][][] [
 ] [][][][][][][][][] [] [][][][][][][][][][][][][][] []
@@ -2088,6 +2081,12 @@ lpêtrière, accompagnées
  []
 
 
+Overfull \hbox (7.78185pt too wide) in paragraph at lines 35--36
+\TU/GentiumPlus(0)/m/n/12 directeur du service photographique. Elle réunit la c
+ollection de clichés consti-
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2096,21 +2095,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
-Overfull \hbox (7.78185pt too wide) in paragraph at lines 35--36
-\TU/GentiumPlus(0)/m/n/12 directeur du service photographique. Elle réunit la c
-ollection de clichés consti-
- []
-
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
 t line 50.
 \openout4 = `_main.pyg'.
 
-(./_minted-_main/colorful.pygstyle)
+ (./_minted-_main/colorful.pygstyle)
 (./_minted-_main/5185C93861B48FAD255F1D566C25A1C705B771060D54721B204D418CAC84A0
 35.pygtex
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
 (Font)              scaled to size 9.30756pt on input line 1.
 )
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2120,9 +2117,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2232,12 +2226,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ] [24]
 Chapitre 3.
 
-Overfull \hbox (26.41968pt too wide) in paragraph at lines 481--481
+Overfull \hbox (26.41968pt too wide) in paragraph at lines 482--482
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--481
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 
  []
 
@@ -2792,12 +2786,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [48]
 Chapitre 6.
 
-Overfull \hbox (26.41968pt too wide) in paragraph at lines 499--499
+Overfull \hbox (26.41968pt too wide) in paragraph at lines 500--500
 |[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
 
  []
 
@@ -3391,9 +3385,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 4CD9BB4B12F39314F086C27A71A89F87;9008.
+(rerunfilecheck)             Checksum: 5818BFBCB769495DB82A838A18DF0BDF;9178.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 248A15E47B616D065C7605E2CE39018E;8229.
+(rerunfilecheck)             Checksum: F1A3F7BECC6D33A649B25A00DC226CB6;8229.
 runsystem(rm _main.pyg)...executed.
 
  ) 
