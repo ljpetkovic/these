@@ -101,9 +101,9 @@
 \backcite {astolfi2008chapitre}{{12}{5}{section.1.5}}
 \backcite {milia2023}{{13}{6}{section.1.6}}
 \backcite {nerima2006}{{13}{6}{section.1.6}}
-\backcite {gabay2021katabase}{{14}{6}{table.caption.6}}
-\backcite {joyeux2019visual}{{14}{6}{table.caption.6}}
-\backcite {manjavacas}{{14}{6}{table.caption.6}}
+\backcite {gabay2021katabase}{{13}{6}{table.caption.5}}
+\backcite {joyeux2019visual}{{13}{6}{table.caption.5}}
+\backcite {manjavacas}{{13}{6}{table.caption.5}}
 \backcite {alrahabi2022obvie}{{17}{2}{section.2.2}}
 \backcite {hey2009jim}{{25}{1}{section.3.1}}
 \backcite {joyeux2022circulations}{{25}{1}{section.3.1}}
@@ -113,11 +113,11 @@
 \backcite {roe2023enlightenment}{{26}{1}{section.3.1}}
 \backcite {abdallah2025rankingdom}{{26}{1}{section.3.1}}
 \backcite {manjavacas}{{27}{1}{section.3.1}}
-\backcite {riguet2018litterature}{{28}{\caption@xref {??}{ on input line 110}}{table.caption.11}}
-\backcite {manjavacas}{{28}{\caption@xref {??}{ on input line 110}}{table.caption.11}}
-\backcite {chaudet2022illuminati}{{30}{\caption@xref {??}{ on input line 187}}{table.caption.13}}
-\backcite {giry2022etudier}{{30}{\caption@xref {??}{ on input line 187}}{table.caption.13}}
-\backcite {morin2022discours}{{30}{\caption@xref {??}{ on input line 187}}{table.caption.13}}
+\backcite {riguet2018litterature}{{28}{\caption@xref {??}{ on input line 110}}{table.caption.10}}
+\backcite {manjavacas}{{28}{\caption@xref {??}{ on input line 110}}{table.caption.10}}
+\backcite {chaudet2022illuminati}{{30}{\caption@xref {??}{ on input line 187}}{table.caption.12}}
+\backcite {giry2022etudier}{{30}{\caption@xref {??}{ on input line 187}}{table.caption.12}}
+\backcite {morin2022discours}{{30}{\caption@xref {??}{ on input line 187}}{table.caption.12}}
 \backcite {silberztein2022linguistic}{{30}{2}{section.3.2}}
 \backcite {silberztein2022linguistic}{{30}{2}{section.3.2}}
 \backcite {silberztein2022linguistic}{{30}{2}{section.3.2}}
@@ -136,19 +136,19 @@
 \backcite {mounin1968clefs}{{32}{2}{section.3.2}}
 \backcite {mounin1968clefs}{{32}{2}{section.3.2}}
 \backcite {bezancon2023}{{32}{2}{section.3.2}}
-\backcite {Lecourt1999}{{32}{\caption@xref {??}{ on input line 300}}{table.caption.15}}
-\backcite {Lecourt1999}{{32}{\caption@xref {??}{ on input line 301}}{table.caption.15}}
-\backcite {astolfi2008chapitre}{{32}{\caption@xref {??}{ on input line 302}}{table.caption.15}}
-\backcite {astolfi2008chapitre}{{32}{\caption@xref {??}{ on input line 303}}{table.caption.15}}
+\backcite {Lecourt1999}{{32}{\caption@xref {??}{ on input line 300}}{table.caption.14}}
+\backcite {Lecourt1999}{{32}{\caption@xref {??}{ on input line 301}}{table.caption.14}}
+\backcite {astolfi2008chapitre}{{32}{\caption@xref {??}{ on input line 302}}{table.caption.14}}
+\backcite {astolfi2008chapitre}{{32}{\caption@xref {??}{ on input line 303}}{table.caption.14}}
 \backcite {alrahabi2022obvie}{{35}{1}{Hfootnote.54}}
-\backcite {khurshid2000weirdness}{{39}{2}{figure.caption.20}}
+\backcite {khurshid2000weirdness}{{39}{2}{figure.caption.19}}
 \backcite {robertson1976relevance}{{39}{3}{section.4.3}}
 \backcite {robertson2009probabilistic}{{40}{3}{section.4.3}}
 \backcite {devlin2019}{{40}{3}{section.4.3}}
 \backcite {camargo2024}{{40}{3}{section.4.3}}
 \backcite {charcot1892oeuvres}{{40}{3}{section.4.3}}
-\backcite {vaswani2023}{{40}{3}{figure.caption.21}}
+\backcite {vaswani2023}{{40}{3}{figure.caption.20}}
 \backcite {charcot1897foi}{{41}{7}{Hfootnote.60}}
 \backcite {grootendorst2023}{{43}{1}{section.5.1}}
-\backcite {schopf2022}{{45}{5.3}{figure.caption.24}}
+\backcite {schopf2022}{{45}{5.3}{figure.caption.23}}
 \backcite {gartner}{{46}{8}{Hfootnote.68}}
