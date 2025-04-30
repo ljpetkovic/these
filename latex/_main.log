@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  30 APR 2025 17:53
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  30 APR 2025 18:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1961,10 +1961,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./2_SotA.tex
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -1972,7 +1968,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9]
+[9]) (./2_SotA.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2029,7 +2025,6 @@ LaTeX Warning: Reference `rupture' on page 14 undefined on input line 2.
 
 LaTeX Warning: Reference `sota' on page 14 undefined on input line 3.
 
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2038,7 +2033,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14]
+[14])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3440,7 +3435,7 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 8A27E0C1D2DDBA56A80704CD5DC5848A;9890.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: C84A6C1C4808F88767ED94EEB3E626BF;8289.
+(rerunfilecheck)             Checksum: AE52BE305F9594D7ED3577D50F1DA6CC;8389.
 runsystem(rm _main.pyg)...executed.
 
  )
