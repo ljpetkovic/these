@@ -199,8 +199,14 @@ rightsub = \frq{} %
 
 %====================== INFORMATION ET REGLES ======================
 \usepackage{minitoc}
-% Enable minitocs for all chapters or sections
-\dominitoc
+\setcounter{minitocdepth}{2}
+
+
+
+
+
+
+
 %change TOC header
 \addto{\captionsfrench}{% Making babel aware of special titles
 	\renewcommand{\mtctitle}{Sommaire}
@@ -354,7 +360,7 @@ rightsub = \frq{} %
 
 
 \begin{document}
-
+\dominitoc
 \reversemarginpar % For \marginpar on the left
 
 %régler l'espacement entre les lignes
@@ -459,19 +465,13 @@ rightsub = \frq{} %
 \setcounter{page}{0}
 \newpage
 
-
-
-\chapter{Projet Charot -- au carrefour de l'histoire des sciences et des humanités numériques}
-%\minitoc
-%\addcontentsline{toc}{section}{Introduction}
-
 \input{1_intro}
 \input{2_rupture}
 \input{2_SotA}
 \input{methodo_sota_globale}
 \input{structure}
 
-\chapter{Du fonds Charcot à un corpus interrogeable : enjeux et méthodes}
+
 \input{3_methodo}
 %\chapter{Jean-Martin Charcot : un médecin à l'aube de la neurologie moderne}
 %\label{rupture}
@@ -479,7 +479,7 @@ rightsub = \frq{} %
 
 %\part{La circulation des savoirs, moteur de la valorisation des archives : état de l'art}
 \part{Mobiliser les technologies numériques pour étudier la circulation des savoirs : un champ de recherche en plein essor}
-\chapter{L’évolution des approches numériques pour détecter la circulation des savoirs}
+
 \input{revue_lit}
 
 
@@ -497,25 +497,36 @@ rightsub = \frq{} %
 %
 %
 %
-\chapter{Conclusion}
+
 %%\addcontentsline{toc}{chapter}{Conclusion}
 \input{5_conclusion}
 %%
 
 
-\newpage
 
-%récupérer les citation avec "/footnotemark"
-\nocite{*}
+\appendix
+\let\cleardoublepage\clearpage % avoid blank page before
 
-%\addcontentsline{toc}{chapter}{Annexe}
+\clearpage
+\thispagestyle{empty}
+\begin{center}
+	\vspace*{\fill} % push down to vertical center
+	{\LARGE\bfseries Annexe}
+	\vspace*{\fill} % push up from bottom
+\end{center}
+
+\addcontentsline{toc}{chapter}{Annexe}
+
+\clearpage % optional: start annex content on next page
 \input{6_annexe}
 
-%choix du style de la biblio
+\cleardoublepage
 \addcontentsline{toc}{chapter}{Bibliographie}
 \bibliographystyle{apalike-etal-in-italics}
-%inclusion de la biblio
 \bibliography{bibliographie.bib}
+
+
+
 
 \newcommand{\centredchapter}[1]{%
 	\cleardoublepage
