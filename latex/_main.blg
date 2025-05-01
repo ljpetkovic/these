@@ -11,46 +11,45 @@ Warning--I'm ignoring RENNESSON202015's extra "note" field
 --line 893 of file bibliographie.bib
 Warning--empty chapter and pages in bachelard1970idealisme
 Warning--empty booktitle in Johns1991ShouldYB
-Warning--there's a number but no volume in riffaterre1980trace
-You've used 91 entries,
+You've used 84 entries,
             2229 wiz_defined-function locations,
-            1108 strings with 26935 characters,
-and the built_in function-call counts, 34278 in all, are:
-= -- 3414
-> -- 1292
-< -- 78
-+ -- 436
-- -- 423
-* -- 2630
-:= -- 6077
-add.period$ -- 364
-call.type$ -- 91
-change.case$ -- 635
-chr.to.int$ -- 90
-cite$ -- 94
-duplicate$ -- 1400
-empty$ -- 2427
-format.name$ -- 534
-if$ -- 6767
-int.to.chr$ -- 2
+            1066 strings with 25441 characters,
+and the built_in function-call counts, 31964 in all, are:
+= -- 3172
+> -- 1232
+< -- 72
++ -- 417
+- -- 405
+* -- 2457
+:= -- 5658
+add.period$ -- 336
+call.type$ -- 84
+change.case$ -- 591
+chr.to.int$ -- 84
+cite$ -- 86
+duplicate$ -- 1303
+empty$ -- 2253
+format.name$ -- 509
+if$ -- 6319
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 106
-newline$ -- 543
-num.names$ -- 282
-pop$ -- 575
+missing$ -- 100
+newline$ -- 501
+num.names$ -- 261
+pop$ -- 548
 preamble$ -- 1
-purify$ -- 661
+purify$ -- 617
 quote$ -- 0
-skip$ -- 1028
+skip$ -- 959
 stack$ -- 0
-substring$ -- 2035
-swap$ -- 180
+substring$ -- 1878
+swap$ -- 174
 text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 496
-warning$ -- 3
-while$ -- 270
+type$ -- 454
+warning$ -- 2
+while$ -- 248
 width$ -- 0
-write$ -- 1327
-(There were 6 warnings)
+write$ -- 1225
+(There were 5 warnings)

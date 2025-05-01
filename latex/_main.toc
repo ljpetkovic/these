@@ -10,29 +10,29 @@
 \contentsline {section}{\numberline {6}Regards croisés sur la formation des concepts}{11}{section.1.6}%
 \contentsline {subsection}{\numberline {6.1}Histoire et épistémologie}{11}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {6.2}Linguistique computationnelle}{14}{subsection.1.6.2}%
-\contentsline {section}{\numberline {7}Extraction de la terminologie : un levier pour l'analyse de la diffusion scientifique ?}{16}{section.1.7}%
-\contentsline {section}{\numberline {8}Plan de la thèse}{17}{section.1.8}%
+\contentsline {section}{\numberline {7}Extraction de la terminologie : un levier pour l'analyse de la diffusion scientifique ?}{17}{section.1.7}%
+\contentsline {section}{\numberline {8}Plan de la thèse}{18}{section.1.8}%
 \contentsline {chapter}{\numberline {2}Du fonds Charcot à un corpus interrogeable : enjeux et méthodes}{19}{chapter.2}%
 \contentsline {section}{\numberline {1}Description du corpus Charcot}{19}{section.2.1}%
-\contentsline {section}{\numberline {2}Constitution du corpus Charcot}{21}{section.2.2}%
+\contentsline {section}{\numberline {2}Constitution du corpus textuel à partir du fonds Charcot}{21}{section.2.2}%
 \contentsline {section}{\numberline {3}Historique de l'\textsc {ATR} et de la correction de l'\textsc {ATR}}{26}{section.2.3}%
 \contentsline {part}{I\hspace {1em}Mobiliser les technologies numériques pour étudier la circulation des savoirs : un champ de recherche en plein essor}{27}{part.1}%
 \contentsline {chapter}{\numberline {3}L’évolution des approches numériques pour détecter la circulation des savoirs}{29}{chapter.3}%
 \contentsline {section}{\numberline {1}Principaux acteurs}{29}{section.3.1}%
-\contentsline {part}{II\hspace {1em}Mesurer l'impact de Charcot \textit {via} l'extraction des termes médicaux : quelle approche adopter ?}{35}{part.2}%
-\contentsline {chapter}{\numberline {4}Méthodes classiques}{37}{chapter.4}%
-\contentsline {section}{\numberline {1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{37}{section.4.1}%
-\contentsline {section}{\numberline {2}Extraction de la terminologie : approche linguistique}{38}{section.4.2}%
-\contentsline {section}{\numberline {3}Extraction des phrases-clés : méthodes statistiques}{41}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Méthodes de l'état de l'art}{45}{chapter.5}%
-\contentsline {section}{\numberline {1}Extraction des phrases-clés : méthode à base d'apprentissage profond}{45}{section.5.1}%
-\contentsline {subsection}{\numberline {1.1}Librairie \texttt {keybert}}{45}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {1.2}Approche \textit {PatternRank}}{46}{subsection.5.1.2}%
-\contentsline {section}{\numberline {2}L'estimation de l'impact de l'entité \texttt {Jean-Martin Charcot} à l'aide de l'outil Rankingdom}{48}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{51}{chapter.6}%
-\contentsline {section}{\numberline {1}Synthèse et contributions}{51}{section.6.1}%
-\contentsline {section}{\numberline {2}Perspectives}{51}{section.6.2}%
-\contentsline {chapter}{Annexe}{52}{section.6.2}%
+\contentsline {part}{II\hspace {1em}Pister la circulation des savoirs médicaux au prisme du numérique -- le cas du corpus Charcot}{35}{part.2}%
+\contentsline {chapter}{\numberline {4}Mesurer l'impact de Charcot \textit {via} l'extraction des termes médicaux : quelle approche adopter ?}{37}{chapter.4}%
+\contentsline {section}{\numberline {1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{38}{section.4.1}%
+\contentsline {section}{\numberline {2}Extraction de la terminologie : approche linguistique}{39}{section.4.2}%
+\contentsline {section}{\numberline {3}Extraction des phrases-clés : méthodes statistiques}{42}{section.4.3}%
+\contentsline {section}{\numberline {4}Extraction des phrases-clés : méthode à base d'apprentissage profond}{44}{section.4.4}%
+\contentsline {subsection}{\numberline {4.1}Librairie \texttt {keybert}}{44}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.2}Approche \textit {PatternRank}}{45}{subsection.4.4.2}%
+\contentsline {section}{\numberline {5}L'estimation de l'impact de l'entité \texttt {Jean-Martin Charcot} à l'aide de l'outil Rankingdom}{47}{section.4.5}%
+\contentsline {section}{\numberline {6}Évaluation qualitative}{49}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Conclusion}{51}{chapter.5}%
+\contentsline {section}{\numberline {1}Synthèse et contributions}{51}{section.5.1}%
+\contentsline {section}{\numberline {2}Perspectives}{51}{section.5.2}%
+\contentsline {chapter}{Annexe}{52}{section.5.2}%
 \contentsline {chapter}{Bibliographie}{66}{table.Alph0.3}%
 \contentsline {chapter}{Résumé}{75}{appendix*.29}%
 \contentsline {chapter}{Abstract}{76}{appendix*.29}%

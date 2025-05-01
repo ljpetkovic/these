@@ -14,14 +14,6 @@ Adell, N. (2011).
 \newblock
   \url{https://shs.cairn.info/anthropologie-des-savoirs--9782200270360-page-251?lang=fr&utm_source=chatgpt.com}.
 
-\bibitem[Alrahabi, 2021]{alrahabi2021ariane}
-Alrahabi, M. (2021).
-\newblock Ariane: dispositif de fouille et de lecture synth{\'e}tique de
-  textes.
-\newblock In {\em DigitAl Humanities and cuLtural herItAge: data and knowledge
-  management and analysis (Atelier Dahlia)}.
-\newblock \url{https://hal.science/hal-03167271}.
-
 \bibitem[Alrahabi, 2022]{alrahabi2022obvie}
 Alrahabi, M. (2022).
 \newblock Obvie: interface web pour la fouille et la comparaison de textes.
@@ -126,9 +118,9 @@ Broussolle, E., Poirier, J., Clarac, F., \& Barbara, J.-G. (2012).
 \newblock {\em Revue Neurologique}, 168(4), 301--320.
 \newblock \url{https://doi.org/10.1016/j.neurol.2011.10.006}.
 
-\bibitem[Camargo \textit{et~al.}, 2024]{camargo2024}
+\bibitem[Camargo \textit{et~al.}, 2023]{camargo2023}
 Camargo, C. H.~F., Coutinho, L., Correa~Neto, Y., Engelhardt, E.,
-  Maranh{\~a}o~Filho, P., Walusinski, O., \& Teive, H. A.~G. (2024).
+  Maranh{\~a}o~Filho, P., Walusinski, O., \& Teive, H. A.~G. (2023).
 \newblock Jean-{M}artin {C}harcot: the polymath.
 \newblock {\em Arquivos de Neuro-psiquiatria}, 81, 1098--1111.
 \newblock
@@ -425,13 +417,6 @@ Navarro, D.~F., Ijaz, K., Rezazadegan, D., Rahimi-Ardabili, H., Dras, M.,
 \newblock {\em International Journal of Medical Informatics}, 177, 105122.
 \newblock \url{https://doi.org/10.1016/j.ijmedinf.2023.105122}.
 
-\bibitem[Nemickien{\.e}, 2011]{nemickiene2011concept}
-Nemickien{\.e}, {\v{Z}}. (2011).
-\newblock ``{C}oncept'' in {M}odern {L}inguistics: the {C}omponent of the
-  {C}oncept ``{G}ood''.
-\newblock {\em Filologija}, 16, 26--36.
-\newblock \url{https://core.ac.uk/outputs/62656539?source=oai}.
-
 \bibitem[Nerima \textit{et~al.}, 2006]{nerima2006}
 Nerima, L., Seretan, V., \& Wehrli, E. (2006).
 \newblock Le problème des collocations en {TAL}.
@@ -446,13 +431,6 @@ Petkovic, L. (2019).
 \newblock {\em INFOtheca: Journal of Information and Library Science}, 19(1),
   5--29.
 \newblock \url{https://doi.org/10.18485/infotheca.2019.19.1.1}.
-
-\bibitem[Petkovic \textit{et~al.}, 2022]{petkovic2022impact}
-Petkovic, L., Alrahabi, M., \& Glenn, R. (2022).
-\newblock Impact de la correction automatique de l’ocr/htr sur la
-  reconnaissance d’entit{\'e}s nomm{\'e}es dans un corpus bruit{\'e}.
-\newblock {\em Journal of Information Sciences}, 21(2), 42--57.
-\newblock \url{https://doi.org/10.34874/IMIST.PRSM/jis-v21i2.36599}.
 
 \bibitem[Petkovic \textit{et~al.}, 2023]{petkovic2023circulation}
 Petkovic, L., Alrahabi, M., \& Roe, G. (2023).
@@ -484,25 +462,11 @@ Rey, A. (1998).
 \newblock
   \url{https://www.plouffe.fr/simon/Dictionnaires/Le\%20Robert\%20Dictionnaire\%20Historique\%202a.pdf}.
 
-\bibitem[Riffaterre, 1980]{riffaterre1980trace}
-Riffaterre, M. (1980).
-\newblock La trace de l'intertexte.
-\newblock {\em Pens{\'e}e (La) Paris}, (215), 4--18.
-\newblock \url{https://api.semanticscholar.org/CorpusID:170902390}.
-
-\bibitem[Riguet, 2018a]{riguet2018litterature}
-Riguet, M. (2018a).
+\bibitem[Riguet, 2018]{riguet2018litterature}
+Riguet, M. (2018).
 \newblock {\em La Litt{\'e}rature laboratoire (1850-1914)}.
 \newblock PhD thesis, Sorbonne universit{\'e}.
 \newblock \url{https://theses.fr/2018SORUL020}.
-
-\bibitem[Riguet, 2018b]{riguet2018impact}
-Riguet, M. (2018b).
-\newblock L'impact de la physiologie dans la critique litt{\'e}raire de la fin
-  du {XIX}\textsuperscript{{\`e}me} si{\`e}cle: l'exemple de {C}laude
-  {B}ernard.
-\newblock {\em Epist{\'e}mocritique: Litt{\'e}rature et savoirs}.
-\newblock \url{https://hal.science/hal-01903871}.
 
 \bibitem[Robertson \textit{et~al.}, 2009]{robertson2009probabilistic}
 Robertson, S., Zaragoza, H., \textit{et~al.} (2009).
@@ -559,13 +523,6 @@ Silberztein, M. (2022).
   Textual Data}.
 \newblock \url{https://hal.science/hal-03854939/}.
 
-\bibitem[Soulet, 2024]{soulet2024}
-Soulet, A. (2024).
-\newblock Vers l'analyse à la demande des connaissances de {W}ikidata.
-\newblock
-  \url{https://afia.asso.fr/wp-content/uploads/2024/05/SOULET\_IA-et-HN-2024-05-03.pdf}.
-\newblock Consulté le \today.
-
 \bibitem[Stengers, 1987]{stengers1987d}
 Stengers, I. (1987).
 \newblock {\em D'une science {\`a} l'autre.: Des concepts nomades}.
@@ -607,13 +564,6 @@ Tubbs, R.~S., Loukas, M., Shoja, M.~M., Apaydin, N., Ardalan, M.~R., Shokouhi,
   {P}ons {V}arolli.
 \newblock {\em Neurosurgery}, 62(3), 734--737.
 \newblock \url{https://doi.org/10.1227/01.neu.0000317323.63859.2a}.
-
-\bibitem[Varet, 2023]{varet2023nouvelles}
-Varet, V. (2023).
-\newblock Les nouvelles modalit{\'e}s num{\'e}riques: \textit{blockchain},
-  {W}eb 3.0, {NFT}, m{\'e}tavers...
-\newblock {\em Legipresse}, 68(HS1), 59--70.
-\newblock \url{https://doi.org/10.3917/legip.hs68.0059}.
 
 \bibitem[Varolio, 1573]{varolio1969nervis}
 Varolio, C. (1573).

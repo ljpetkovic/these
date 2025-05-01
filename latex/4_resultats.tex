@@ -1,22 +1,21 @@
-\chapter{Méthodes classiques}
+\chapter{Mesurer l'impact de Charcot \textit{via} l'extraction des termes médicaux : quelle approche adopter ?}
 \minitoc
-\label{resultats}
+\label{chap:resultats}
+
+Ce chapitre présente les expérimentations réalisées dans le cadre des évaluations quantitatives et qualitatives de l'extraction des termes médicaux, considérés comme des vecteurs potentiels de l'influence des pratiques de Charcot. Nous abordons dans un premier temps les modalités de fouille avancée appliquée à nos deux corpus à travers des outils \textsc{OBVIE} et \textsc{TextPair} (section \ref{sect:obvie_textpair}), développés par l'équipe-projet \textsc{ObTIC}, en exposant à la fois leurs limites, ainsi que les stratégies mobilisées pour améliorer la qualité des extractions. Dans cette perspective, trois types de méthodes d'extraction terminologique ont été testés pour l'identification de phrases-clés :
+\begin{enumerate}
+	\item des approches basées sur des règles linguistique : outil \texttt{TermSuite} (section \ref{sect:termsuite})
+	\item des approches statistiques, incluant les métriques \textsc{TF-IDF} et \textsc{BM25} (section \ref{sect:methodo_stat})
+	\item des techniques d'apprentissage profond, à l'aide des librairies \texttt{keybert} et \texttt{keyphrase\allowbreak-vectorizers} (section \ref{sect:deep_learning})
+\end{enumerate}
 
 
- + méthodes d'extraction des phrases-clés :
-\begin{itemize}
-	\item règles (linguistique)
-	\item TF-IDF et BM25
-	\item Keyphrase-Vectorizers
-\end{itemize}
-
-+ visualisation des méthodes appliquées aux termes sous forme des diagrammes de barres
+Lors de l'évaluation des performances de ces techniques, nous avons tenté, autant que faire se peut, de prendre en compte les synonymes de ces termes présentés dans le tableau \ref{tab:contributions_charcot}, afin d'introduire une plus grande souplesse dans l'interprétation des résultats. À titre d'exemple, les scores attribués aux termes synonymes tels que \textit{paralysie agitante} et \textit{maladie de Parkinson} sont examinés, et le score le plus élevé est retenu pour représenter la pathologie concernée. La comparaison des résultats obtenus par ces différentes approches permet d'évaluer les performances, depuis les méthodes classiques jusqu'aux techniques les plus avancées de l'état de l'art. À ces expérimentations s'ajoute une analyse de l'impact de l'entité \texttt{Jean-Martin Charcot}, calculé à l'aide de l'outil Rankingdom (section \ref{sect:rankingdom}).
+Dans un second temps, les résultats obtenus feront l'objet d'une analyse qualitative (section \ref{sect:eval_quali}), afin d'apporter une lecture plus approfondie et nuancée de notre étude.
+%+ visualisation des méthodes appliquées aux termes sous forme des diagrammes de barres
 \section{Exploration du corpus Charcot : \textsc{OBVIE} et \textsc{TextPair}}
 \label{sect:obvie_textpair}
-Cette partie aborde les modalités de fouille avancée du corpus Charcot à travers des outils développés au sein de l'équipe-projet \textsc{ObTIC}. D'une part, le moteur de recherche \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/}. Pour d'amples informations sur le fonctionnement de cet outil, \textit{cf}. \citet{alrahabi2022obvie}.} permet de repérer des textes similaires par ordre de pertinence à partir des termes en commun. D'autre part, l'algorithme \textsc{TextPair} génère une liste de passages similaires, c'est-à-dire les séquences de mots qui se chevauchent (n-grammes de mots) pour chaque texte, en comparant ensuite ces résultats avec ceux de séquences dans d'autres textes\footnote{\url{https://artfl-project.uchicago.edu/text-pair.}}.
-
-
-Une première exploration du corpus Charcot à travers l'application OBVIE nous a permis d'identifier les substantifs les plus importants de chaque corpus en utilisant les fréquences brutes ou des méthodes plus fines comme \textsc{TF-IDF}, \textsc{BM25} (détaillées dans la partie \ref{methodo_stat}), \textsc{$\chi$2} ou le \textsc{Test Gamma}. Cependant, l'application ne permet pas de quantifier la pertinence des expressions polylexicales, soit les n-grammes de mots, très fréquentes dans les deux corpus et dont la décomposition entraînerait une perte d'information (p. ex. le terme polysémique \og{}bulbe\fg{} qui a une valeur spécifique dans l'expression figée \textit{bulbe rachidien}). En observant la figure \ref{fig:bulbe}, nous constatons que l'abscisse donne l'information sur les dates de publication des ouvrages compris dans les corpus, alors que l'ordonnée indique le nombre d'occurrences par million de mots, soit \textit{parties par million} (\textit{ppm})\footnote{\textit{Cf.} le guide d'utilisation d'\textsc{OBVIE} détaillé : \url{https://obtic.huma-num.fr/obvie//static/aide.html}.}. 
+Le moteur de recherche \textsc{OBVIE} permet de repérer des textes similaires par ordre de pertinence à partir des termes en commun. Une première exploration de notre corpus d'étude à travers l'application \textsc{OBVIE} nous a permis d'identifier les substantifs les plus importants de chaque corpus en utilisant les fréquences brutes ou des méthodes plus fines comme \textsc{TF-IDF}, \textsc{BM25} (détaillées dans la partie \ref{methodo_stat}), \textsc{$\chi$2} ou le \textsc{Test Gamma}. Cependant, l'application ne permet pas de quantifier la pertinence des expressions polylexicales, soit les n-grammes de mots, très fréquentes dans les deux corpus et dont la décomposition entraînerait une perte d'information (p. ex. le terme polysémique \og{}bulbe\fg{} qui a une valeur spécifique dans l'expression figée \textit{bulbe rachidien}). En observant la figure \ref{fig:bulbe}, nous constatons que l'abscisse donne l'information sur les dates de publication des ouvrages compris dans les corpus, alors que l'ordonnée indique le nombre d'occurrences par million de mots, soit \textit{parties par million} (\textit{ppm})\footnote{\textit{Cf.} le guide d'utilisation d'\textsc{OBVIE} détaillé : \url{https://obtic.huma-num.fr/obvie//static/aide.html}.}. 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=1\textwidth]{img/bulbe_rachidien_mini.png}
@@ -26,7 +25,7 @@ Une première exploration du corpus Charcot à travers l'application OBVIE nous 
     \label{fig:bulbe}
 \end{figure}
 
-Concernant l'alignement des séquences similaires aux deux corpus, \textsc{TextPair} nous a permis, par une lecture attentive, de faire des comparaisons entre les textes et de rechercher des termes au sein des passages similaires, malgré le nombre de résultats assez conséquent (\textit{cf}. la figure \ref{fig:textpair}). En raison de sa capacité de détecter les passages similaires, notamment les citations directes, les plagiats ou les réemplois, ce logiciel, ainsi qu'un autre logiciel de détection de plagiat, peuvent nous servir de \textit{baseline} pour comparer leurs résultats avec ceux proposés dans la partie \ref{methodo_stat}.
+D'autre part, l'algorithme \textsc{TextPair} génère une liste de passages similaires, c'est-à-dire les séquences de mots qui se chevauchent (n-grammes de mots) pour chaque texte, en comparant ensuite ces résultats avec ceux de séquences dans d'autres textes. Concernant l'alignement des séquences similaires aux deux corpus, \textsc{TextPair} nous a permis, par une lecture attentive, de faire des comparaisons entre les textes et de rechercher des termes au sein des passages similaires, malgré le nombre de résultats assez conséquent (\textit{cf}. la figure \ref{fig:textpair}). En raison de sa capacité de détecter les passages similaires, notamment les citations directes, les plagiats ou les réemplois, ce logiciel, ainsi qu'un autre logiciel de détection de plagiat, peuvent nous servir de \textit{baseline} pour comparer leurs résultats avec ceux proposés dans la partie \ref{methodo_stat}.
 
 \begin{figure}[!ht]
     \centering
@@ -36,7 +35,7 @@ Concernant l'alignement des séquences similaires aux deux corpus, \textsc{TextP
 \end{figure}
 
 \section{Extraction de la terminologie : approche linguistique}
-
+\label{sect:termsuite}
 Dans le cadre de l'approche linguistique de l'extraction terminologique, nous avons tenté d'utiliser l'outil \texttt{TermoStat}. Bien que le traitement d'un échantillon minuscule des corpus (1-2 documents) ait pu se terminer avec succès, le passage à l'échelle de l'intégralité des corpus n'a pas été possible en raison des limitations citées dans la section \ref{termes}. Même en respectant la limite du corpus de 30 Mo, le traitement a été extrêmement chronophage, sans pour autant générer aucun résultat après plusieurs jours de calcul. En revanche, l'utilisation de l'outil \texttt{TermSuite} s'est avéré comme un moyen alternatif bien plus efficace pour générer les résultats souhaités, étant donné que le traitement de chaque corpus a duré environ une vingtaine de minutes\footnote{Les résultats sont disponibles dans le dépôt GitHub \url{https://github.com/ljpetkovic/Charcot\_TermSuite}}. Nous disposons de deux tableaux issus de l'extraction des termes uniques correspondant aux deux corpus, ainsi que de leurs diverses caractéristiques et mesures statistiques (motifs syntaxiques des parties du discours, fréquences brute et documentaire, \textsc{TF-IDF}, spécificité$\dots$). Concernant les motifs syntaxiques, nous en avons extrait 6 types, marqués par leurs étiquettes \texttt{TreeTagger} comme illustré dans le tableau \ref{tab:POS_tags}. 
 \begin{table}[h]
 	\centering
@@ -129,15 +128,15 @@ Nous remarquons que les bigrammes comme, p. ex. \textit{paralysie générale} ($
 
 
 \section{Extraction des phrases-clés : méthodes statistiques}
-\label{methodo_stat}
+\label{sect:methodo_stat}
 Afin de surmonter les limites rencontrées avec ces deux outils, nous avons proposé une nouvelle méthode pour identifier des concepts dans les deux corpus en nous basant sur le poids de leur apparition, calculé selon trois différentes mesures de pondération\footnote{Le code est disponible en ligne : \url{https://github.com/ljpetkovic/Charcot\_circulations}.} :
 \begin{itemize}
-\item \textsc{TF-IDF} \citep{robertson1976relevance} est une méthode qui permet d'évaluer l'importance d'un terme contenu dans un document relativement à un corpus plus large en récompensant la fréquence des termes, sans tenir compte des variations de longueur du document ;
+\item \textsc{TF-IDF} est une méthode qui permet d'évaluer l'importance d'un terme contenu dans un document relativement à un corpus plus large en récompensant la fréquence des termes, sans tenir compte des variations de longueur du document ;
 \item \textsc{BM25} est une fonction de classement qui classe un ensemble de documents en fonction des termes de requête apparaissant dans chaque document, quelle que soit l'interrelation entre les termes de requête au sein d'un document (par exemple, leur proximité relative). Il s'agit d'une tentative d'amélioration de \textsc{TF-IDF}, notamment pour prendre en compte divers facteurs tels que la longueur du document et les problèmes engendrés par la possible saturation des termes \citep[p.~355]{robertson2009probabilistic} ;
 \item \textsc{BERT} \citep{devlin2019} est un modèle pré-entraîné qui utilise l'apprentissage non-supervisé sur de grandes quantités de données textuelles pour apprendre des représentations de mots et de phrases, et comprendre le contexte et la sémantique. Il est basé sur l'architecture des \textit{transformeurs}, qui est un type de grand modèle de langue utilisé pour le \textsc{TAL}.
 \end{itemize}
 
-La liste des concepts retenus pour l'étude est composée de termes ou expressions popularisés par Charcot, comme \textit{hystérie}, \textit{sclérose latérale} etc. \citep[p.~1102]{camargo2024} \footnote{\textit{Cf.} la liste exhaustive des termes et des expressions popularisés par Charcot en annexe.}. Pour chaque entrée, nous avons pris en compte les formes du singulier et du pluriel obtenues grâce à des expressions régulières. La liste est  produite de façon supervisée et provient du croisement entre la liste des termes obtenus avec OBVIE et l'index d'une édition des \oe{}uvres complètes de \cite[pp.~493--507]{charcot1892oeuvres}, dont nous avons retiré les termes génériques (\textit{os}, \textit{cerveau}, etc.).
+La liste des concepts retenus pour l'étude est composée de termes ou expressions popularisés par Charcot, comme \textit{hystérie}, \textit{sclérose latérale} etc. \citep[p.~1102]{camargo2023} \footnote{\textit{Cf.} la liste exhaustive des termes et des expressions popularisés par Charcot en annexe.}. Pour chaque entrée, nous avons pris en compte les formes du singulier et du pluriel obtenues grâce à des expressions régulières. La liste est  produite de façon supervisée et provient du croisement entre la liste des termes obtenus avec OBVIE et l'index d'une édition des \oe{}uvres complètes de \cite[pp.~493--507]{charcot1892oeuvres}, dont nous avons retiré les termes génériques (\textit{os}, \textit{cerveau}, etc.).
 
 Comme nous pouvons l'observer sur la figure \ref{fig:bm25}, la mesure \textsc{BM25} révèle une intensification du lexique de Charcot dans le corpus \og{}Autres\fg{}. Plus précisément, tous les termes évalués sont identifiés comme plus signifiants dans le discours des \og{}Autres\fg{} que dans celui de Charcot, les scores étant plus élevés pour 14 termes (sur 14 évalués) utilisés par le réseau de Charcot. D'ailleurs, d'après le tableau \ref{tab:calculs_stat} (en annexe), c'est la seule mesure dont les valeurs témoignent clairement d'un lexique partagé entre Charcot et ses successeurs et collaborateurs, \textit{a contrario} des deux autres mesures, où le rapport en question est inversé (la grande majorité des termes étant plus pertinente dans le discours de Charcot, et son impact étant donc moins accentué). Concrètement, les termes les plus pertinents semblent être \textit{sclérose en plaque disséminées} (score 0,83), \textit{paralysie rhumatismale} (0,68), \textit{atrophie progressive} (0,53) et \textit{arthrite déformante} (0,50).
 
@@ -152,9 +151,10 @@ D'autre part, nous avons utilisé \textsc{BERT} pour mesurer le poids des termes
 \og{}Autres\fg{} (termes non renseignés dans le tableau en question). La présence de ce dernier type de notion n'est pas étonnant, étant donné que Charcot aborde la question des guérisons miraculeuses dans ses recherches\footnote{Voir notamment son \oe{}uvre \textit{La foi qui guérit} \citep{charcot1897foi}.}. 
 
 
-\chapter{Méthodes de l'état de l'art}
+%\chapter{Méthodes de l'état de l'art}
 \section{Extraction des phrases-clés : méthode à base d'apprentissage profond}
-En complément de la méthode du calcul de pertinence des termes médicaux fournis de manière supervisée (partie \ref{methodo_stat}), nous exposons ici des résultats de l'approche non-supervisée pour extraire des mots/phrases-clés  pertinents à partir de nos deux corpus\footnote{\textit{Cf.} le dépôt GitHub \url{https://github.com/ljpetkovic/Charcot\_KeyBERT\_Keyphrase-Vectorizers/}.}. L'objectif de cette approche est de détecter les termes communs entre les deux corpus et de montrer la répartition des termes les plus pertinents dans le réseau de Charcot. Deux algorithmes librement disponibles sont présentés ici pour illustrer cette dernière approche : \texttt{keybert} \citep{grootendorst2023}\footnote{\url{https://maartengr.github.io/KeyBERT/}} et \texttt{keyphrase-vectorizers}\footnote{\url{https://pypi.org/project/keyphrase-vectorizers/}}. Lors du passage à l'échelle avec la quantité de données considérable (voir le tableau \ref{tab:corpus}), nous avons fait face un manque de puissance de calcul des ordinateurs locaux. Pour faciliter l'extraction des phrases-clés, nous avons obtenu l'accès à la plateforme technologique \textsc{MeSU} et un accompagnement technique grâce à l'unité de service \textsc{SACADO} (Service d'Aide au Calcul et à l'Analyse de Données)\footnote{\url{https://sacado.sorbonne-universite.fr/fr/}.} de Sorbonne Université.
+\label{sect:deep_learning}
+En complément de la méthode du calcul de pertinence des termes médicaux fournis de manière supervisée (partie \ref{methodo_stat}), nous exposons ici des résultats de l'approche non-supervisée pour extraire des mots/phrases-clés  pertinents à partir de nos deux corpus\footnote{\textit{Cf.} le dépôt GitHub \url{https://github.com/ljpetkovic/Charcot\_KeyBERT\_Keyphrase-Vectorizers/}.}. L'objectif de cette approche est de détecter les termes communs entre les deux corpus et de montrer la répartition des termes les plus pertinents dans le réseau de Charcot. Deux algorithmes librement disponibles sont présentés ici pour illustrer cette dernière approche : \texttt{keybert} et \texttt{keyphrase-vectorizers}. Lors du passage à l'échelle avec la quantité de données considérable (voir le tableau \ref{tab:corpus}), nous avons fait face un manque de puissance de calcul des ordinateurs locaux. Pour faciliter l'extraction des phrases-clés, nous avons obtenu l'accès à la plateforme technologique \textsc{MeSU} et un accompagnement technique grâce à l'unité de service \textsc{SACADO} (Service d'Aide au Calcul et à l'Analyse de Données)\footnote{\url{https://sacado.sorbonne-universite.fr/fr/}.} de Sorbonne Université.
 
 \subsection{Librairie \texttt{keybert}}
 
@@ -215,6 +215,7 @@ La figure \ref{fig:patternrank_partage} nous informe sur les 15 termes les plus 
 \end{figure}
 
 \section{L'estimation de l'impact de l'entité \texttt{Jean-Martin Charcot} à l'aide de l'outil Rankingdom}
+\label{sect:rankingdom}
 \hl{à intégrer dans la rédaction}
 
 \hl{À retravailler}
@@ -280,3 +281,6 @@ L'impact de Charcot peut également être visualisé à l'aide de Rankingdom à 
 \footnotetext{\url{https://www.rankingdom.org/entity/Q20710?search=jean-martin+charcot}.}
 
 Enfin, il est également possible de lister les entités impactées, comprenant les personnes (p. ex. Sigmund Freud), les notions médicales (SEP) ou bien les entités géographiques afférentes (Île Charcot).
+
+\section{Évaluation qualitative}
+\label{sect:eval_quali}
