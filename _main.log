@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  2 MAY 2025 11:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  2 MAY 2025 11:26
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1342,7 +1342,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 \c@NAT@total@cites=\count428
 \c@NAT@count@cites=\count429
-Package hyperref Info: Option `colorlinks' set `true' on input line 322.
+Package hyperref Info: Option `colorlinks' set `true' on input line 323.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
@@ -1497,47 +1497,47 @@ xt;" at 12.0pt
 )
 \openout1 = `_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 363.
-LaTeX Font Info:    ... okay on input line 363.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 363.
-LaTeX Font Info:    ... okay on input line 363.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 363.
-LaTeX Font Info:    ... okay on input line 363.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 363.
-LaTeX Font Info:    ... okay on input line 363.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 363.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 364.
+LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 364.
+LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 364.
+LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 364.
+LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 364.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-63.
+64.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 363.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 363.
-LaTeX Font Info:    ... okay on input line 363.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 363.
-LaTeX Font Info:    ... okay on input line 363.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 363.
-LaTeX Font Info:    ... okay on input line 363.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 363.
+LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 364.
+LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 364.
+LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 364.
+LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 364.
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 3
-63.
+64.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 363.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 363.
+LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 364.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 3
-63.
+64.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 363.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 363.
-LaTeX Font Info:    ... okay on input line 363.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 363.
-LaTeX Font Info:    ... okay on input line 363.
+LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 364.
+LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 364.
+LaTeX Font Info:    ... okay on input line 364.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/greek-fontenc/puenc-greek.def
 File: puenc-greek.def 2023/03/08 2.2.1 Greek LICRs for PDF strings
@@ -1546,14 +1546,14 @@ File: puenc-greek.def 2023/03/08 2.2.1 Greek LICRs for PDF strings
 File: greek-fontenc.def 2023/03/08 2.2.1 Common Greek font encoding definitions
 
 ))
-LaTeX Info: Redefining \th on input line 363.
+LaTeX Info: Redefining \th on input line 364.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 363.
+(french.ldf)             reported on input line 364.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 363.
-LaTeX Info: Redefining \up on input line 363.
+(french.ldf)             reported on input line 364.
+LaTeX Info: Redefining \up on input line 364.
 \c@lstlisting=\count449
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1599,15 +1599,15 @@ Package caption Info: End \AtBeginDocument code.
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/GentiumPlus(0)/m/n --> TS1/GentiumPlus(0)/b/n on in
-put line 363.
-Package gensymb Info: Math companion symbols declared on input line 363.
-LaTeX Info: Redefining \degree on input line 363.
-LaTeX Info: Redefining \celsius on input line 363.
+put line 364.
+Package gensymb Info: Math companion symbols declared on input line 364.
+LaTeX Info: Redefining \degree on input line 364.
+LaTeX Info: Redefining \celsius on input line 364.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 363.
-LaTeX Info: Redefining \ohm on input line 363.
-Package gensymb Info: Using \textohm for \ohm on input line 363.
-Package gensymb Info: Using \textmu for \micro on input line 363.
+erthousand on input line 364.
+LaTeX Info: Redefining \ohm on input line 364.
+Package gensymb Info: Using \textohm for \ohm on input line 364.
+Package gensymb Info: Using \textmu for \micro on input line 364.
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -1638,14 +1638,14 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-Package backref Info: ** backref set up for natbib ** on input line 363.
-Package hyperref Info: Link coloring ON on input line 363.
+Package backref Info: ** backref set up for natbib ** on input line 364.
+Package hyperref Info: Link coloring ON on input line 364.
 (./_main.out) (./_main.out)
 \@outlinefile=\write7
 \openout7 = `_main.out'.
 
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM _main.toc on input line 365.
+(minitoc)             PREPARING MINITOCS FROM _main.toc on input line 366.
 Package minitoc Info: I0033
 (minitoc)             Writing _main.mtc1.
 \openout6 = `_main.mtc1'.
@@ -1687,45 +1687,45 @@ Package minitoc Info: I0033
 \openout6 = `_main.mtc10'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-25.
+26.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-25.
+26.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-425.
+426.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-425.
+426.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 425.
+(Font)              <20.74> on input line 426.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 425.
+(Font)              <14.4> on input line 426.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 425.
+(Font)              <12> on input line 426.
 LaTeX Font Info:    Trying to load font information for TS1+GentiumPlus(0) on i
-nput line 425.
-LaTeX Font Info:    No file TS1GentiumPlus(0).fd. on input line 425.
+nput line 426.
+LaTeX Font Info:    No file TS1GentiumPlus(0).fd. on input line 426.
 
 
 LaTeX Font Warning: Font shape `TS1/GentiumPlus(0)/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 425.
+(Font)              using `TS1/cmr/m/n' instead on input line 426.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
 
  []
 
@@ -3428,7 +3428,7 @@ runsystem(rm _main.pyg)...executed.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 420 (\begingroup)
+### semi simple group (level 1) entered at line 421 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
  41284 strings out of 476683
