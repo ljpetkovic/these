@@ -1,0 +1,49 @@
+\begin{titlepage}
+\begin{center}
+
+% Upper part of the page. The '~' is needed because only works if a paragraph has started.
+\includegraphics[width=0.35\textwidth]{img/unige_lettres_logo.png}~\\[1cm]
+
+% \textsc{\LARGE Université de Genève\\Faculté des Lettres\\
+% Département de linguistique}\\[1.5cm]
+\Large \textsc{Université de Genève}\\Faculté des Lettres\\
+Département de linguistique
+
+\textsc{\Large }\\[0.5cm]
+
+% Title
+\HRule \\[0.4cm]
+
+{\huge \bfseries Analyse des champs lexicaux dans le fonds patrimonial de Jean-Martin Charcot \\[0.4cm] }
+
+\HRule \\[1.5cm]
+\large{Mémoire présenté en vue de l’obtention du\medskip
+
+\Large \textit{Certificat de spécialisation en Linguistique (CS)}\vspace{2cm}}
+
+% Author and supervisor
+\begin{minipage}{1\textwidth}
+\begin{flushleft} \large
+\emph{Étudiante:}\\
+\textbf{Ljudmila} \textsc{\textbf{PETKOVIC}}\\
+\small{N° de matricule : 19-337-757\\\href{mailto:ljudmila.petkovic@etu.unige.ch}{ljudmila.petkovic@etu.unige.ch}}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{1\textwidth}
+\begin{flushright} \large
+\emph{Directeur :} \\
+\textbf{Prof. D\textsuperscript{r} Christopher} \textsc{\textbf{LAENZLINGER}}
+
+\medskip
+\emph{Co-encadrant :} \\
+\textbf{Dr Luka} \textsc{\textbf{NERIMA}}
+\end{flushright}
+\end{minipage}
+
+\vfill
+
+% Bottom of the page
+{\large \today}
+
+\end{center}
+\end{titlepage}

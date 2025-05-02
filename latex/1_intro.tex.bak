@@ -1,0 +1,13 @@
+Ce projet de thèse, à la jonction des Lettres (notamment, l'histoire des sciences) et de l'informatique, propose une étude interdisciplinaire dont l'objectif est la valorisation du fonds patrimonial de Jean-Martin Charcot, précurseur de la psychopathologie et fondateur de la neurologie moderne au XIX\ieme{} siècle en France, au prisme du numérique. Nous visons à mesurer informatiquement l'impact scientifique des travaux de Charcot sur son réseau scientifique. Cette mesure se fonde sur l'analyse des concepts-clés en matière de son discours scientifique, et plus particulièrement sur l'opérationnalisation du terme \og{}influence\fg{}, définie ici comme une intertextualité uni-directionnelle, allant des écrits de Charcot (ci-après corpus \og{}Charcot\fg{}) vers ceux de ses collaborateurs et successeurs (ci-après corpus \og{}Autres\fg{}). Il s'agit donc \textit{in fine} d'aborder computationnellement la question des circulations, non pas des artefacts matériels comme les manuscrits \citep{gabay2021katabase} et les images \citep{joyeux2019visual}, mais des phénomènes textuels complexes \citep{manjavacas} ayant une dimension théorique forte.
+
+Ce mémoire est structuré en cinq parties principales : après l'introduction, nous proposons une revue de la littérature portant sur les modalités de la circulation des objets patrimoniaux du point de vue numérique (chapitre \ref{sota}). Le chapitre \ref{methodo} présente les premières tentatives d'analyse computationnelle de l'impact de Charcot sur ses élèves et collègues, ainsi que les limites de ces approches, en proposant une nouvelle méthode pour la quantification de la pertinence des expressions polylexicales. Le chapitre \ref{resultats} rapporte les résultats obtenus, alors que le chapitre \ref{conclusion} propose une conclusion et des pistes pour des recherches futures.
+
+
+
+
+
+
+
+
+
+

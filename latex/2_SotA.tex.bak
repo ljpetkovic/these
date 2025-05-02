@@ -1,0 +1,64 @@
+\label{sota}
+\section{Modalités des circulations des savoirs}
+De nombreux$\cdot$ses chercheur$\cdot$se$\cdot$s$\cdot$x partagent le point de vue selon lequel la notion de \og{}circulation des savoirs\fg{} constitue un champ de recherche vaste, ainsi qu'un nouveau paradigme de la connaissance depuis le début du XXI\ieme{} siècle et l'avènement du Web 2.0\footnote{Cette phase de l'évolution du Web se caractérise notamment par la transformation majeure de l'Internet en vue du développement des réseaux sociaux, des blogs et des sites participatifs, tout en permettant aux utilisateur$\cdot$trice$\cdot$s$\cdot$x de créer, partager et interagir avec du contenu Web. Nous traversons actuellement l'ère du Web 3.0 qui repose sur des technologies telles que la chaîne de blocs (angl. \textit{blockchain}), le \textit{NFT} (angl. \textit{non-fungible token}), l'intelligence artificielle, métavers et le Web sémantique \citep{varet2023nouvelles}.}
+(\citealp{landais2014frederic,quet2014frederic}). Le terme en question reste toutefois assez complexe en raison de visions différentes sur la façon de le définir. Afin d'éclairer cette problématique, \citet{quet2014frederic} souligne trois aspects suivants\smalltodo{3 aspects} :
+\begin{enumerate}
+    \item \textbf{Éléments de la circulation}. Qu'est-ce qui circule ? 
+    \begin{itemize}
+        \item individus (savants, techniciens, traducteurs, etc.)
+        \item objets matériels (instruments scientifiques, ouvrages etc.)
+        \item constructions symboliques (théories, concepts etc.)
+    \end{itemize}  
+    \item \textbf{Conceptions de la circulation et méthodes de son analyse}
+    \begin{itemize}
+        \item définition de la circulation comme \og{}traduction\fg{}, \og{}diffusion\fg{}, \og{}accès\fg{} ou \og{}succès\fg{}
+        \item critères méthodologiques possibles pour étudier la circulation p. ex. d'une théorie : 
+        \begin{itemize}
+            \item circulations géographiques des principaux concepteurs qu'on lui reconnaît
+            \item circulations et lectures des textes produits par leurs concepteurs  
+            \item usages et applications analogiques qui en sont faits dans d'autres domaines
+        \end{itemize} 
+        \item enjeux d'articulation de ces différents niveaux d'observation du point de vue méthodologique et de celui de la production du texte de recherche, dans le cas des croisements de ces niveaux
+    \end{itemize}
+    \item \textbf{Conceptions analytiques et normatives des savoirs}
+    \begin{itemize}
+        \item affaiblissement des catégories des \og{}savoirs profanes\fg{} et \og{}savoirs scientifiques\fg{}, ainsi que de l'opposition entre eux
+        \item revalorisation des savoirs implicites et de la dimension pratique des connaissances
+        \item glorification de la circulation comme porteuse de valeurs \textit{a priori} positives : confrontation à l'autre, hybridation, production de nouveauté, etc.
+    \end{itemize}
+\end{enumerate}
+
+Dans le cadre de l'analyse de l'impact scientifique de Charcot, nous étudions \textit{in fine} la circulation de ses théories et des concepts médicaux dont il était inventeur (p. ex. \textit{SLA}) et transmetteur (p. ex. \textit{hystérie})\footnote{Comme déjà expliqué dans la sous-section \ref{hysterie}, Charcot n'a pas inventé ce terme, mais en réinterprété le sens.}. La section \ref{concept} élabore les différentes approches pour définir plus globalement la notion des concepts historiques qui nous orienteront vers une définition des concepts médicaux en particulier. \smalltodo{pont}
+
+\section{Constitution d'un concept historique}
+\label{concept}
+
+Le mot \og{}concept\fg{} est un terme générique qui renvoie à un grand nombre de définitions provenant de divers domaines de pensée, sans qu'il en existe une qui soit exhaustive et universellement acceptée. En mathématiques et en sciences cognitives (philosophie, psychologie, intelligence artificielle etc.), un concept représente une catégorie basique axiomatique qui est indétectable et comprise de manière intuitive.\smalltodo{concept mathématique} On peut le comprendre également comme une unité de connaissance, une idée, un cadre, un script, un \textit{gestalt}\footnote{Allem. \og{}forme, figure\fg{}. Le terme provient du domaine de la psychologie de la forme (théorie de la gestalt ou gestaltisme) dans les années 1920. Selon ce courant, un individu observe les phénomènes dans leur ensemble de manière holistique, et non pas comme les parties individuelles juxtaposées ou additionnées (p. ex. cinq cercles qui se chevauchent, lesquels l'{\oe}il humain perçoit comme le logo se référant au concept des Jeux olympiques).} ou un hypéronyme d'une notion \foreignlanguage{russian}{(Лихачёв, \citeyear{lihachev1997}}). 
+
+En revanche, selon les linguistes, un concept a une structure double, constituée du sens linguistique et culturel
+%dont linguistique (générale, cognitive, psycholinguistique, ethnolinguistique), philosophie, métaphysique ou mathématiques
+ \citep{nemickiene2011concept}. Sa couche intérieure est constituée du noyau étymologique sur lequel repose ensuite la couche périphérique qui hérite les éléments formés par la culture, les traditions et les expériences humaines \foreignlanguage{russian}{(Степанов, \citeyear{stepanov2007}}). En linguoculturologie, on retrouve le terme \og{}concept linguo-culturel\fg{} qui reflète cette nature double du concept. Il peut être exprimé par de différentes éléments du langage, soit : lexèmes, idiomes, collocations, phrases ou textes entiers. \smalltodo{concept linguistique}
+ 
+ \hl{Concept / circulation en analyse du discours / TAL / HN} ?  
+\begin{itemize}
+\item TAL : concept = groupe de mots, créé manuellement ou extrait à partir des ontologies ou des thésaurus
+\end{itemize}
+
+
+
+Afin de pouvoir analyser les concepts médicaux liés à Charcot, il est essentiel de déterminer à partir de quel moment un mot ou un groupe de mots devient un concept en sciences humaines et sociales (ci-après SHS). Du point de vue de l'histoire des concepts (allem. \textit{Begriffsgeschichte}), cette transformation survient lorsqu'un seul mot\smalltodo{Begriffsgeschi\-chte} comprend toute la gamme des significations dérivées d'un contexte sociopolitique \citep[p. 258]{koselleck2011introduction}. À titre d'exemple, le concept d'un \textit{état} ne peut être interprété qu'à travers ses différents constituants, dont \textit{souveraineté territoriale, législation, fiscalité}, parmi maints d'autres. Les concepts sont donc les concentrations par défaut ambiguës d'une multitude de contenus sémantiques, uniquement interprétables et indéfinissables, par contraste avec des significations des mots qui peuvent être définies de manière exacte \citep[p. 20]{koselleck2011introduction}. 
+
+De plus, les concepts comme \textit{histoire} ou \textit{progrès} sont caractérisés comme \og{}collectifs singuliers\fg{} qui marquent un passage du domain concret d'un individu (plusieurs \textit{histoires} et \textit{progrès} individuels) au domain abstrait et général du collectif social (une \textit{histoire} ou un \textit{progrès} général ou collectif). \smalltodo{collectifs singuliers} Ce phénomène linguistique, ainsi que la création des concepts comme \textit{industrie, usine, classe moyenne} etc., reflète un changement de paradigme dans l'organisation sociale survenu lors des révolutions politiques et industrielles \citep[p. 1]{hobsbawm2010age}. Cela traduit donc le lien fort entre l'histoire du langage et l'histoire des idées. \hl{La conceptosphere est un ensemble des concepts considerés comme caractéristique d'une nation particulière.} Koselleck nomme cette période charnière \textit{Sattelzeit}\footnote{Trad. allem. \og{}époque de selle\fg{}.} (\citeyear[p. 8]{koselleck2011introduction}),\smalltodo{Sattelzeit} entre 1750 et 1830, durant laquelle les concepts historiques deviennent abstraits, singularisés, respatialisés et retemporalisés.
+ 
+Ces considérations peuvent s'appliquer à d'autres constructs en SHS, comme \textit{travail}, \textit{intelligencija}, \textit{Ancien Régime}, \textit{avant-garde}, \textit{Occident} etc. Elles ont acquis le statut des concepts \og{}nomades\fg{}\smalltodo{concepts nomades} en raison de leur circulation spatio-temporelle et linguistique \citep[p. 117]{ghermani2011}. Plusieurs questionnements ont été soulevés par la même autrice à l'égard de leur émergence, notamment pour déterminer à quel moment un concept devient une entrée dans un dictionnaire des \textsc{SHS} : \og{}\textit{Pourquoi un concept fait-il son entrée dans un dictionnaire ? Au terme de quel processus ? À l'inverse, comment cette percée lexicale est-elle parfois impossible ou refusée ?}\fg{}. Les processus permettant à un concept d'obtenir le statut de scientificité sont la propagation, la bifurcation, la capture\footnote{Termes employés par \citet{stengers1987d}, représentatrice de la conception constructiviste du savoir scientifique.}, mais aussi les pratiques scientifiques conduisant aux masquages de sens (p. ex. dans le cas du terme \og{}confession [religieuse]\fg{}, dont le sens varie en fonction du pays dans lequel il est utilisé).
+
+
+
+\subsection{Étude numérique des circulations culturelles}
+Incontestablement, l'époque actuelle est profondément marquée par le \og{}déluge des données\fg{}, phénomène représentatif de la quatrième paradigme de la science, selon Jim Gray \citep{hey2009jim}. Par conséquent, les recherches numériques sont aujourd'hui \og{}pilotées par les données\fg{}\footnote{Traduction du terme \og{}data-driven\fg{} introduit par \citep{Johns1991ShouldYB} issu du terme \textit{data-driven learning}.} et celles qui sont centrées sur les circulations culturelles se concrétisent à grande échelle.
+
+Les humanités numériques au service de l'analyse des circulations culturelles se manifestent sous forme de divers projets de recherche au niveau académique. Certains établissements universitaires, comme la chaire des Humanités numériques à l'université de Genève \citep{joyeux2022circulations}, ainsi que différents évènements scientifiques  (Humanistica 2023\footnote{\url{https://humanistica2023.sciencesconf.org/}}, \textsc{ACFAS} 2023\footnote{\url{https://www.crihn.org/nouvelles/2022/12/11/colloque-de-la-transformation-des-sciences-humaines-par-les-humanites-numeriques-acfas-2023/}} etc.) sont fortement axés sur cette thématique.  
+
+%Les humanités numériques au service de l'analyse des circulations culturelles
+%
+%Comment définir une circulation du point de vue de l'analyse du texte ? de la linguistique computationnelle (TAL) ?
