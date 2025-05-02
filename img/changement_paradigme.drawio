@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2024-03-22T10:54:11.672Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="6QRSRtuiMJjhntgOFPww" version="24.0.7" type="device">
+  <diagram name="Page-1" id="Z7U4cp5vTGjU-aKZT79p">
+    <mxGraphModel dx="608" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GpDpok520oOCTpWCqN1Y-36" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;dashPattern=1 4;fontFamily=Open Sans;strokeColor=#6c8ebf;shadow=1;gradientColor=#7ea6e0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="70" width="230" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-35" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;dashPattern=1 4;fontSize=11;fontFamily=Open Sans;strokeColor=#b85450;shadow=1;gradientColor=#ea6b66;" parent="1" vertex="1">
+          <mxGeometry x="100" y="190" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;fontStyle=0;labelBorderColor=none;fontFamily=Open Sans;" parent="1" source="GpDpok520oOCTpWCqN1Y-2" target="GpDpok520oOCTpWCqN1Y-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontStyle=0;labelBorderColor=none;fillColor=#50698F;strokeColor=#006EAF;strokeWidth=2;fontFamily=Open Sans;fontColor=#ffffff;align=center;gradientColor=default;gradientDirection=west;" parent="1" vertex="1">
+          <mxGeometry x="110" y="80" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;fontStyle=0;labelBorderColor=none;fontFamily=Open Sans;" parent="1" source="GpDpok520oOCTpWCqN1Y-3" target="GpDpok520oOCTpWCqN1Y-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-3" value="Adoption unanime d&#39;un paradigme" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontStyle=0;labelBorderColor=none;fontFamily=Open Sans;strokeColor=none;gradientColor=#50698F;gradientDirection=west;" parent="1" vertex="1">
+          <mxGeometry x="230" y="80" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Open Sans;shadow=1;" parent="1" source="GpDpok520oOCTpWCqN1Y-12" target="GpDpok520oOCTpWCqN1Y-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="180" />
+              <mxPoint x="395" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-12" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;shadow=1;fontStyle=1;labelBorderColor=none;fillColor=#FC0000;strokeColor=none;gradientColor=#FFFFFF;fontFamily=Open Sans;fillStyle=zigzag-line;gradientDirection=radial;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="80" width="92.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=none;fontFamily=Open Sans;shadow=1;" parent="1" source="GpDpok520oOCTpWCqN1Y-13" target="GpDpok520oOCTpWCqN1Y-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Open Sans;shadow=1;" parent="1" source="GpDpok520oOCTpWCqN1Y-13" target="GpDpok520oOCTpWCqN1Y-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-13" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;Crise scientifique&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontStyle=0;labelBorderColor=none;fontFamily=Open Sans;fillColor=#FC0000;strokeColor=none;gradientColor=#990000;gradientDirection=north;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="200" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Open Sans;shadow=1;" parent="1" source="GpDpok520oOCTpWCqN1Y-15" target="GpDpok520oOCTpWCqN1Y-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-15" value="&lt;font color=&quot;#ffffff&quot;&gt;Nouveau paradigme&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontStyle=0;labelBorderColor=none;fontFamily=Open Sans;fillColor=#FF2B24;strokeColor=none;gradientColor=#50698F;gradientDirection=north;perimeterSpacing=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="200" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-29" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=#fff2cc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=none;shadow=1;fontStyle=0;labelBorderColor=none;fontFamily=Open Sans;" parent="1" vertex="1">
+          <mxGeometry x="190" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;fontFamily=Open Sans;shadow=1;" parent="1" source="GpDpok520oOCTpWCqN1Y-32" target="GpDpok520oOCTpWCqN1Y-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpDpok520oOCTpWCqN1Y-32" value="&lt;font color=&quot;#ffffff&quot;&gt;Science extraordinaire et rare&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontStyle=0;labelBorderColor=none;fontFamily=Open Sans;fillColor=#FC4242;strokeColor=none;gradientColor=#FC0000;gradientDirection=east;" parent="1" vertex="1">
+          <mxGeometry x="230" y="200" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3Cpa6Yir1koVSelkgLhw-1" value="&lt;font color=&quot;#000066&quot; face=&quot;Open Sans&quot;&gt;Science normale&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;glass=1;shadow=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="125" y="105" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3Cpa6Yir1koVSelkgLhw-2" value="&lt;font color=&quot;#c90000&quot;&gt;&lt;b&gt;&lt;font face=&quot;Open Sans&quot;&gt;Anomalie&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;glass=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="362.5" y="112.25" width="65" height="25.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

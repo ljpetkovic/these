@@ -1,0 +1,446 @@
+@inbook{bachelard1970idealisme,
+  title={Id{\'e}alisme discursif},
+  author={Bachelard, Gaston},
+  booktitle={{\'E}tudes},
+  year={1970},
+  address={Paris},
+  publisher={Vrin, pr{\'e}sentation de Georges Canguilhem},
+  note={\url{https://www.academia.edu/27217437/BACHELARD_Gaston_\%C3\%89tudes_Vrin_1970_}}
+}
+
+@book{bachelard1934formation,
+  title={La formation de l'esprit scientifique: contribution {\`a} une psychanalyse de la connaissance},
+  author={Bachelard, Gaston},
+  year={1934},
+  publisher={Vrin},
+  note={\url{https://gastonbachelard.org/wp-content/uploads/2015/07/formation_esprit.pdf}}
+}
+
+
+@article{tasca2012women,
+  title={Women {A}nd {H}ysteria {I}n {T}he {H}istory {O}f {M}ental {H}ealth},
+  author={Tasca, Cecilia and Rapetti, Mariangela and Carta, Mauro Giovanni and Fadda, Bianca},
+  journal={Clinical {P}ractice \& {E}pidemiology in {M}ental {H}ealth: CP \& EMH},
+  volume={8},
+  pages={110--119},
+  year={2012},
+  publisher={Bentham Science Publishers},
+  note={\url{https://doi.org/10.2174/1745017901208010110}}
+}
+
+@book{bogousslavsky2011following,
+  title={Following Charcot: {A} {F}orgotten {H}istory of {N}eurology and {P}sychiatry},
+  author={Bogousslavsky, Julien},
+  volume={29},
+  year={2011},
+  publisher={Karger Medical and Scientific Publishers}, note={\url{https://nah.sen.es/en/issues/lastest-issues/135-journals/volume-2/issue-2/270-the-mysteries-of-hysteria}}
+}
+
+
+@article{bogousslavsky2014mysteries,
+  title={The {M}ysteries of {H}ysteria},
+  author={Bogousslavsky, Julien},
+  journal={Neurosciences and History},
+  volume={2},
+  number={2},
+  pages={\ 54--73},
+  year={2014},
+  publisher={Sociedad Española de Neurología},
+  note={\url{https://nah.sen.es/vmfiles/abstract/NAHV2N2201454_73EN.pdf}}
+}
+
+@book{bernheim1891suggestion,
+  title={De la suggestion et de ses applications {\`a} la th{\'e}rapeutique},
+  author={Bernheim, Hippolyte},
+  year={1891},
+  publisher={Paris : Octave Doin}, 
+  note={\url{https://gallica.bnf.fr/ark:/12148/bpt6k97805169}}
+}
+
+@article{camargo2018jean,
+  title={Jean-{M}artin {C}harcot's {I}nfluence on {C}areer of {S}igmund {F}reud, and the {I}nfluence of this {M}eeting for the {B}razilian {M}edicine},
+  author={Camargo, Carlos Henrique Ferreira and Marques, Paula T and de Oliveira, Livia P and Germinian, Francisco MB and de Paola, Luciano and Teive, H{\'e}lio Afonso Ghizoni},
+  journal={Revista Brasileira de Neurologia},
+  volume={54},
+  number={2},
+  year={2018},
+  note={\url{https://docs.bvsalud.org/biblioref/2018/07/907032/revista542v4-artigo6.pdf}}
+}
+
+@phdthesis{kneib2011etude,
+  title={{\'E}tude fonctionnelle d'un circuit inhibiteur du cortex c{\'e}r{\'e}belleux de la souris: Importance pour la physiopathologie des retards mentaux},
+  author={Kneib, Marie},
+  year={2011},
+  school={Strasbourg},
+  note={\url{https://publication-theses.unistra.fr/public/theses_doctorat/2011/KNEIB_Marie_2011.pdf}}
+}
+
+@article{teive2022thomas,
+  title={Thomas {W}illis' legacy on the 400\textsuperscript{th} anniversary of his birth},
+  author={Teive, H{\'e}lio Afonso Ghizoni and Coutinho, L{\'e}o and Camargo, Carlos Henrique Ferreira and Munhoz, Renato Puppi and Walusinski, Olivier},
+  journal={Arquivos de Neuro-Psiquiatria},
+  volume={80},
+  pages={759--762},
+  year={2022},
+  publisher={SciELO Brasil},
+  note={\url{https://doi.org/10.1055/s-0042-1755278}}
+}
+
+@article{broussolle2012,
+title = {Figures and institutions of the neurological sciences in {P}aris from 1800 to 1950. {P}art {III}: {N}eurology},
+journal = {Revue Neurologique},
+volume = {168},
+number = {4},
+pages = {301-320},
+year = {2012},
+author = {E. Broussolle and J. Poirier and F. Clarac and J.-G. Barbara},
+note = {\url{https://doi.org/10.1016/j.neurol.2011.10.006}}
+}
+
+@inproceedings{gabay2021katabase,
+  title={Katabase: {\`A} la recherche des manuscrits vendus},
+  author={Gabay, Simon and Petkovic, Ljudmila and Bartz, Alexandre and Levenson, Matthias Gille and Du Noyer, Lucie Rondeau},
+  booktitle={Humanistica 2021},
+  year={2021},
+  pages={1--7},
+  note={\url{https://hal.science/hal-03066108}}
+}
+
+@article{joyeux2019visual,
+  title={Visual {C}ontagions, the {A}rt {H}istorian, and the {D}igital {S}trategies to {W}ork on {T}hem},
+  author={Joyeux-Prunel, B{\'e}atrice},
+  journal={Artl@s Bulletin},
+  volume={8},
+  number={3},
+  pages={128--144},
+  year={2019},
+  note={\url{https://docs.lib.purdue.edu/artlas/vol8/iss3/8/}}
+}
+
+@inproceedings{manjavacas,
+    title = "On the {F}easibility of {A}utomated {D}etection of {A}llusive {T}ext {R}euse",
+    author = "Manjavacas, Enrique  and
+      Long, Brian  and
+      Kestemont, Mike",
+    booktitle = "Proceedings of the 3\textsuperscript{rd} Joint {SIGHUM} Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, USA",
+    publisher = "Association for Computational Linguistics",
+    pages = "104--114",
+    note = {\url{https://doi.org/10.18653/v1/W19-2514}}
+}
+
+@book{roudinesco,
+    author = {Roudinesco, {\'E}lisabeth and Plon, Michel},
+    title = {Dictionnaire de la psychanalyse},
+    publisher = {Fayard},
+    year = {2023},
+    note = {\url{https://www.fayard.fr/sciences-humaines/dictionnaire-de-la-psychanalyse-nouvelle-edition-9782213725277}}
+}
+
+@article{landais2014frederic,
+  title={‪\say{~{F}r{\'e}d{\'e}ric {D}arbellay, {\'e}d., \textit{{L}a circulation des savoirs. {I}nterdisciplinarit{\'e}, concepts nomades, analogies, m{\'e}taphores~}‪}: {B}erne, {P}. {L}ang, 2012, 245 pages},
+  author={Landais, {\'E}milie},
+  journal={Questions de communication},
+  volume={26},
+  pages={331--333},
+  year={2014},
+  publisher={Cairn},
+  note={\url{https://doi.org/10.4000/questionsdecommunication.9367}}
+}
+
+@article{quet2014frederic,
+  title={\say{~{F}r{\'e}d{\'e}ric {D}arbellay, \textit{{L}a circulation des savoirs. {I}nterdisciplinarit{\'e}, concepts nomades, analogies, m{\'e}taphores~}}},
+  author={Quet, Mathieu},
+  journal={Revue d'anthropologie des connaissances},
+  volume={8},
+  number={8-1},
+  year={2014},
+  publisher={Soci{\'e}t{\'e} d'Anthropologie des Connaissances},
+  note={\url{https://doi.org/10.3917/rac.022.0221}}
+}
+
+@article{varet2023nouvelles,
+  title={Les nouvelles modalit{\'e}s num{\'e}riques: \textit{blockchain}, {W}eb 3.0, {NFT}, m{\'e}tavers...},
+  author={Varet, Vincent},
+  journal={Legipresse},
+  volume={68},
+  number={HS1},
+  pages={59--70},
+  year={2023},
+  publisher={Dalloz},
+  note={\url{https://doi.org/10.3917/legip.hs68.0059}}
+}
+
+@article{joyeux2022circulations,
+  title={Circulations des savoirs, de la recherche {\`a} l'enseignement},
+  author={Joyeux-Prunel, B{\'e}atrice and Gabay, Simon},
+  journal={Arabesques},
+  year={2022},
+  note={\url{https://doi.org/10.35562/arabesques.2847}}
+}
+
+@incollection{hey2009jim,
+  author = {Hey, Tony and Tansley, Stewart and Tolle, Kristin M.},
+  booktitle = {The Fourth Paradigm},
+  editor = {Hey, Tony and Tansley, Stewart and Tolle, Kristin M.},
+  publisher = {Microsoft Research},
+  title = {Jim {G}ray on e{S}cience: A {T}ransformed {S}cientific {M}ethod.},
+  year = {2009},
+  note={\url{http://languagelog.ldc.upenn.edu/myl/JimGrayOnE-Science.pdf}}
+}
+
+
+@inproceedings{Johns1991ShouldYB,
+  title={Should you be persuaded. Two samples of data-driven learning materials},
+  author={Tim F. Johns},
+  year={1991},
+  note={\url{https://api.semanticscholar.org/CorpusID:53988458}}
+}
+
+@book{kuhn1962structure,
+  title={The {S}tructure of {S}cientific {R}evolutions},
+  author={Kuhn, Thomas S.},
+  year={1962},
+  publisher={University of {C}hicago {P}ress},
+  note={\url{https://www.lri.fr/~mbl/Stanford/CS477/papers/Kuhn-SSR-2ndEd.pdf}}
+}
+
+@book{anouilh1956pauvre,
+  title={Pauvre Bitos ou le dîner de têtes},
+  author={Anouilh, Jean},
+  year={1956},
+  publisher={Gallimard, coll. \og{}Folio\fg{}, n\degree{} 301},
+  note={\url{https://archive.org/details/anouilh-pauvre-bitos-ou-le-diner-de-tetes-1979}}
+}
+
+@book{koyre1957closed,
+  title={From the Closed World to the Infinite Universe},
+  author={Koyr{\'e}, Alexandre},
+  volume={1},
+  year={1957},
+  publisher={Baltimore, Johns Hopkins Press},
+  note={\url{https://archive.org/details/fromclosedworldt0000koyr/page/n13/mode/2up?q=revolution}}
+}
+
+
+@misc{amiri2012,
+      title={T. {S.} {K}uhn}, 
+      author={Amiri, Valeh Valiollahpour},
+      year={24 novembre 2012},
+      note={\textit{Histo Philo Sciences}. \url{https://histoirephilosciences.wordpress.com/depuis-le-20eme-siecles/une-nouvelle-epistemologie/t-s-kuhn/}}
+}
+
+@article{wright1980,
+ author = {John P. Wright},
+ journal = {Journal of the {H}istory of {I}deas},
+ number = {2},
+ pages = {233--247},
+ publisher = {University of Pennsylvania Press},
+ title = {Hysteria and {M}echanical {M}an},
+ volume = {41},
+ year = {1980},
+ note={\url{https://doi.org/10.2307/2709458}}
+}
+
+@book{rey2011dictionnaire,
+  title={Dictionnaire historique de la langue fran{\c{c}}aise},
+  author={Rey, Alain},
+  year={2011},
+  publisher={Le {R}obert},
+  note={\url{https://ia601001.us.archive.org/2/items/alainreyetal.dictionnairehistoriquedelalanguefrancaise4eed.lerobert2010/Alain\%20Rey\%20et\%20al.\%20-\%20Dictionnaire\%20historique\%20de\%20la\%20langue\%20francaise\%204e\%20\%C3\%A9d.\%20-\%20Le\%20Robert\%20\%282010\%29.pdf}}
+}
+
+@book{kant1863,
+  title={Anthropologie d'un point de vue pragmatique \normalfont{(trad. J. Tissot)}},
+  author={Kant, {\'E}mmanuel},
+  year={1863},
+  publisher={Librairie Ladrange (originalement publié en 1798)},
+  note={\url{https://fr.wikisource.org/wiki/Anthropologie_d\%E2\%80\%99un_point_de_vue_pragmatique}}
+}
+
+@book{lepois1618,
+  title={Selectiorum observationum et consiliorum de praetervisis hactenus morbis affectibusque praeter naturum, ab aqua seu serosa colluvie et diluvie ortis, liber singularis.},
+  author={Le Pois, Carolus},
+  year={1618},
+  publisher={Authore Carolo Pisone, Ponte ad Monticulum, apud Carolum Mercatorem},
+  note={\url{https://archive.org/details/BIUSante_05814/page/n3/mode/2up}}
+}
+
+@article{tubbs2008costanzo,
+  title={Costanzo {V}arolio ({C}onstantius {V}arolius 1543--1575) and the {P}ons {V}arolli},
+  author={Tubbs, R. Shane and Loukas, Marios and Shoja, Mohammadali M. and Apaydin, Nihal and Ardalan, Mohammad R. and Shokouhi, Ghaffar and Oakes, W. Jerry},
+  journal={Neurosurgery},
+  volume={62},
+  number={3},
+  pages={734--737},
+  year={2008},
+  note={\url{https://doi.org/10.1227/01.neu.0000317323.63859.2a}}
+}
+
+@book{varolio1969nervis,
+  title={De nervis opticis nonnullisq: aliis praeter communem opinionem in humano capite obseruatis},
+  author={Varolio, Constanzo},
+  year={1573},
+  publisher={Patavii : apud P. et A. Meiettos fratres},
+  note={\url{https://gallica.bnf.fr/ark:/12148/bpt6k325486q}}
+}
+
+@book{willis1681essay,
+  title={An {E}ssay of the {P}athology of the {B}rain and {N}ervous {S}tock in which {C}onvulsive {D}iseases are {T}reated of},
+  author={Willis, Thomas},
+  year={1681},
+  publisher={London: Printed by J. B. for T. Dring},
+  note={\url{https://quod.lib.umich.edu/e/eebo/A66496.0001.001?rgn=main;view=fulltext}}
+}
+
+@book{willis1664cerebri,
+  title={Cerebri anatome: cui accessit nervorum descriptio et usus},
+  author={Willis, Thomas},
+  year={1664},
+  publisher={Londini : Typis Ja. Flesher, impensis Jo. Martyn \& Ja. Allestry, apud insigne Campanæ in C{\oe}meterio, D. Pauli},
+  note={\url{https://books.google.fr/books/?id=L2xEAAAAcAAJ&pg=PP9\#v=onepage&q&f=false}}
+}
+
+@inproceedings{marmion2015,
+  title={Freud hypnotiseur},  
+  author={Marmion, Jean-Fran{\c{c}}ois}, 
+  booktitle={Freud et la psychanalyse},
+  year={2015},
+  pages={22--29},
+  publisher={Sciences Humaines},
+  note={\url{https://www.cairn.info/freud-et-la-psychanalyse--9782361063542-page-22.htm}}
+}
+
+@article{camargo2024,
+  title={Jean-{M}artin {C}harcot: the polymath},
+  author={Camargo, Carlos Henrique Ferreira and Coutinho, L{\'e}o and Correa Neto, Ylmar and Engelhardt, Eliasz and Maranh{\~a}o Filho, Pericles and Walusinski, Olivier and Teive, H{\'e}lio Afonso Ghizoni},
+  journal={Arquivos de Neuro-psiquiatria},
+  volume={81},
+  pages={1098--1111},
+  year={2024},
+  publisher={SciELO Brasil},
+  note={\url{https://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0043-1775984.pdf}}
+}
+
+@incollection{ghermani2011,
+  title={Confessions},
+  author={Ghermani, Naima},
+  editor={Olivier Christin},
+  booktitle={Dictionnaire des concepts nomades en sciences humaines},
+  year={2011},
+  publisher={M{\'e}taili{\'e}},
+  pages={117--133},
+  note={\url{https://www.academia.edu/5335160/_Confession_}}
+  }
+
+@book{christin2011dictionnaire,
+  title={Dictionnaire des concepts nomades en sciences humaines},
+  author={Christin, Olivier},
+  year={2011},
+  publisher={M{\'e}taili{\'e}},
+  note={\url{https://www.academia.edu/31022748/Dictionnaire_des_concepts_nomades_en_sciences_humaines_vol_1}}
+}
+
+@article{teive2014126,
+  title={126 hysterical years - the contribution of {C}harcot},
+  author={Teive, H{\'e}lio Afonso Ghizoni and Germiniani, Francisco and Munhoz, Renato Puppi and Paola, {L}uciano de},
+  journal={Arquivos de Neuro-Psiquiatria},
+  volume={72},
+  pages={636--639},
+  year={2014},
+  publisher={SciELO Brasil},
+  note={\url{https://doi.org/10.1590/0004-282x20140068. PMID: 25098481}}
+}
+
+@article{GOETZ2017628,
+title = {Charcot: {P}ast and present},
+journal = {Revue Neurologique},
+volume = {173},
+number = {10},
+pages = {628-636},
+year = {2017},
+author = {C.G. Goetz},
+note={\url{https://doi.org/10.1016/j.neurol.2017.04.004}}
+}
+  
+@incollection{bogousslavsky2014jean,
+  title={Jean-{M}artin {C}harcot and {H}is {L}egacy},
+  author={Bogousslavsky, Julien},
+  booktitle={Hysteria: {T}he rise of an {E}nigma},
+  volume={35},
+  pages={44--55},
+  year={2014},
+  publisher={Karger Publishers},
+  note={\url{https://doi.org/10.1159/000359991}}
+}
+
+@article{gomes2013jean,
+  title={Jean-{M}artin {C}harcot, father of modern neurology: an homage 120 years after his death},
+  author={Gomes, Marleide da Mota and Engelhardt, Eliasz},
+  journal={Arquivos de {N}euro-{P}siquiatria},
+  volume={71},
+  pages={815--817},
+  year={2013},
+  publisher={SciELO Brasil},
+  note={\url{https://doi.org/10.1590/0004-282X20130128}}
+}
+
+@article{stengers1987d,
+  title={D'une science {\`a} l'autre.: Des concepts nomades},
+  author={Stengers, Isabelle},
+  year={1987},
+  publisher={Seuil},
+  note={\url{https://archive.org/details/dunesciencealaut0000unse}}
+}
+
+@article{koselleck2011introduction,
+  title={Introduction and {P}refaces to the {G}eschichtliche {G}rundbegriffe: ({B}asic {C}oncepts in {H}istory: {A} {H}istorical {D}ictionary of {P}olitical and {S}ocial {L}anguage in {G}ermany)},
+  author={Koselleck, Reinhart and Richter, Michaela},
+  journal={Contributions to the History of Concepts},
+  volume={6},
+  number={1},
+  pages={1--37},
+  year={2011},
+  publisher={Berghahn Journals},
+  note={\url{https://www.berghahnjournals.com/view/journals/contributions/6/1/choc060102.xml}}
+}
+
+@book{hobsbawm2010age,
+  title={Age of revolution: 1789-1848},
+  author={Hobsbawm, Eric},
+  year={2010},
+  publisher={Hachette UK},
+  note={\url{https://files.libcom.org/files/Eric\%20Hobsbawm\%20-\%20Age\%20Of\%20Revolution\%201789\%20-1848.pdf}}
+}
+
+@article{nemickiene2011concept,
+  title={``{C}oncept'' in {M}odern {L}inguistics: the {C}omponent of the {C}oncept ``{G}ood''},
+  author={Nemickien{\.e}, {\v{Z}}ivil{\.e}},
+  year={2011},
+  journal={Filologija},
+  volume={16},
+  pages={26--36},
+  note={\url{https://core.ac.uk/outputs/62656539?source=oai}}
+}
+
+@article{lihachev1997,
+  title={\foreignlanguage{russian}{Концептосфера русского языка}},
+  author={\foreignlanguage{russian}{Лихачёв, Д. C.}},
+  year={1997},
+  journal={\foreignlanguage{russian}{Русская словесность: Антология}},
+  note={\url{https://www.lihachev.ru/pic/site/files/fulltext/ocherk_po_philos/13.pdf}},
+  sortname = {Lihachev1997}
+}
+
+@book{stepanov2007,
+  title={\foreignlanguage{russian}{Концепты. Тонкая пленка цивилизации}},
+  author={\foreignlanguage{russian}{Степанов, Ю. С.}},
+  year={2007},
+  publisher={\foreignlanguage{russian}{Москва: Языки славянских культур}},
+  language={russian},
+  hyphenation={russian},
+  sortname = {Stepanov2007} % Add this field for sorting
+}
+
