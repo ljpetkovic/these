@@ -1,6 +1,8 @@
-\chapter{Du fonds Charcot à un corpus interrogeable : enjeux et méthodes}
-\minitoc
-\section{Description du corpus Charcot}
+%\chapter{Du fonds Charcot à un corpus interrogeable : enjeux et méthodes}
+%\mtcaddchapter % <-- This makes sure minitoc gets correctly placed
+%\minitoc
+\section{Du fonds Charcot à un corpus interrogeable : enjeux et méthodes}
+\subsection{Description du corpus Charcot}
 \label{corpus}
 Le fonds patrimonial de Jean-Martin Charcot est conservé à la Bibliothèque de Neurosciences Jean-Martin Charcot par la BSU.
 %\footnote{\url{https://www.sorbonne-universite.fr/bu/decouvrir-nos-bibliotheques/la-bibliotheque-charcot}.}
@@ -45,7 +47,7 @@ Le fonds numérisé a été décrit et divisé par la BSU en quatre grandes typo
 
 
 
-\section{Constitution du corpus textuel à partir du fonds Charcot}
+\subsection{Constitution du corpus textuel à partir du fonds Charcot}
 Le corpus de travail est constitué de 201 documents OCRisés, sans post-correction, gracieusement fournis au format \textsc{XML} par la \textsc{BSU}\footnote{À cette occasion, je remercie chaleureusement M\textsuperscript{me} Adeline Batailler, chargée de la valorisation et de l'évaluation des collections du département des Collections de la \textsc{BSU}, pour ses conseils précieux concernant le fonds Charcot.}. Seuls les ouvrages rédigés en français ont été sélectionnés pour l'analyse. Originalement, ces fichiers contenaient seulement les balises \texttt{<doc>} (document comme objet), \texttt{<id\_doc>} (identifiant du document) et \texttt{<pages>} (pages du document). C'est  nous avons restructuré les textes au format \textsc{XML-TEI}, à l'aide de l’outil dédié intégré à \textsc{Pandore}\footnote{\url{https://obtic-gpu1.mesu.sorbonne-universite.fr:8550/conversion_xml}}, une boîte à outils développée par l'équipe ObTIC et hébergée par Sorbonne Université. L'encodage du corpus selon le format \textsc{XML-TEI} a été effectué en s'appuyant sur le modèle illustré dans le code \ref{lst:model_obvie}, ce qui a rendu possible l'indexation et la publication du corpus en ligne \textit{via} le logiciel \textsc{OBVIE}\footnote{\url{https://obtic.huma-num.fr/obvie/charcot/?view=corpus}} \citep{alrahabi2022obvie}. En plus de la plateforme \textsc{OBVIE}, le corpus est librement disponible et interrogeable sur la plateforme \textsc{TextPair}\footnote{\url{https://artfl-project.uchicago.edu/text-pair}} (voir la section \ref{sect:obvie_textpair}).
 \begin{listing}[h]
 	\caption{Modèle du document \textsc{XML-TEI} requis pour sa publication sur la plateforme \textsc{OBVIE}.}
@@ -2568,5 +2570,5 @@ La figure \ref{fig:repartition_corpus} illustre la répartition des \oe{}uvres d
 \end{figure}
 
 
-\section{Historique de l'\textsc{ATR} et de la correction de l'\textsc{ATR}}
+%\section{Historique de l'\textsc{ATR} et de la correction de l'\textsc{ATR}}
 \hl{pertinent ? où l'intégrer ?}
