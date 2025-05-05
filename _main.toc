@@ -19,18 +19,18 @@
 \contentsline {part}{II\hspace {1em}Pister la circulation des savoirs médicaux au prisme du numérique -- le cas du corpus Charcot}{35}{part.2}%
 \contentsline {chapter}{\numberline {3}Mesurer l'impact de Charcot \textit {via} l'extraction des termes médicaux : quelle approche adopter ?}{37}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Exploration du corpus Charcot : \textsc {OBVIE} et \textsc {TextPair}}{38}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Extraction de la terminologie : approche linguistique}{39}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Extraction de la terminologie : approche linguistique}{40}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Extraction des phrases-clés : méthodes statistiques}{42}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Extraction des phrases-clés : méthode à base d'apprentissage profond}{44}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Librairie \texttt {keybert}}{44}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Approche \textit {PatternRank}}{45}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}L'estimation de l'impact de l'entité \texttt {Jean-Martin Charcot} à l'aide de l'outil Rankingdom}{47}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Évaluation qualitative}{49}{section.3.6}%
+\contentsline {subsection}{\numberline {3.4.1}Librairie \texttt {keybert}}{45}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Approche \textit {PatternRank}}{46}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}L'estimation de l'impact de l'entité \texttt {Jean-Martin Charcot} à l'aide de l'outil Rankingdom}{48}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Évaluation qualitative}{50}{section.3.6}%
 \contentsline {chapter}{\numberline {4}Conclusion}{51}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Synthèse et contributions}{51}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Perspectives}{51}{section.4.2}%
 \contentsline {chapter}{Annexe}{52}{section.4.2}%
 \contentsline {chapter}{Bibliographie}{67}{table.Alph0.3}%
-\contentsline {chapter}{Résumé}{77}{appendix*.28}%
-\contentsline {chapter}{Abstract}{79}{appendix*.28}%
-\contentsline {chapter}{Remerciements}{81}{appendix*.29}%
+\contentsline {chapter}{Résumé}{77}{appendix*.30}%
+\contentsline {chapter}{Abstract}{79}{appendix*.30}%
+\contentsline {chapter}{Remerciements}{81}{appendix*.31}%

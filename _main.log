@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  2 MAY 2025 13:44
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  2 MAY 2025 18:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1452,6 +1452,22 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count448
 \@thisrulewidth=\dimen373
 )
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen374
+\pgfarrowlength=\dimen375
+\pgfarrowwidth=\dimen376
+\pgfarrowlinewidth=\dimen377
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/02/25 v3.4 ragged2e Package
 \CenteringLeftskip=\skip88
@@ -1497,47 +1513,47 @@ xt;" at 12.0pt
 )
 \openout1 = `_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 364.
-LaTeX Font Info:    ... okay on input line 364.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 364.
-LaTeX Font Info:    ... okay on input line 364.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 364.
-LaTeX Font Info:    ... okay on input line 364.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 364.
-LaTeX Font Info:    ... okay on input line 364.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 364.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 370.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-64.
+70.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 364.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 364.
-LaTeX Font Info:    ... okay on input line 364.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 364.
-LaTeX Font Info:    ... okay on input line 364.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 364.
-LaTeX Font Info:    ... okay on input line 364.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 364.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 370.
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 3
-64.
+70.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 364.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 364.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 370.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 3
-64.
+70.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 364.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 364.
-LaTeX Font Info:    ... okay on input line 364.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 364.
-LaTeX Font Info:    ... okay on input line 364.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 370.
+LaTeX Font Info:    ... okay on input line 370.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/greek-fontenc/puenc-greek.def
 File: puenc-greek.def 2023/03/08 2.2.1 Greek LICRs for PDF strings
@@ -1546,14 +1562,14 @@ File: puenc-greek.def 2023/03/08 2.2.1 Greek LICRs for PDF strings
 File: greek-fontenc.def 2023/03/08 2.2.1 Common Greek font encoding definitions
 
 ))
-LaTeX Info: Redefining \th on input line 364.
+LaTeX Info: Redefining \th on input line 370.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 364.
+(french.ldf)             reported on input line 370.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 364.
-LaTeX Info: Redefining \up on input line 364.
+(french.ldf)             reported on input line 370.
+LaTeX Info: Redefining \up on input line 370.
 \c@lstlisting=\count449
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1599,15 +1615,15 @@ Package caption Info: End \AtBeginDocument code.
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/GentiumPlus(0)/m/n --> TS1/GentiumPlus(0)/b/n on in
-put line 364.
-Package gensymb Info: Math companion symbols declared on input line 364.
-LaTeX Info: Redefining \degree on input line 364.
-LaTeX Info: Redefining \celsius on input line 364.
+put line 370.
+Package gensymb Info: Math companion symbols declared on input line 370.
+LaTeX Info: Redefining \degree on input line 370.
+LaTeX Info: Redefining \celsius on input line 370.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 364.
-LaTeX Info: Redefining \ohm on input line 364.
-Package gensymb Info: Using \textohm for \ohm on input line 364.
-Package gensymb Info: Using \textmu for \micro on input line 364.
+erthousand on input line 370.
+LaTeX Info: Redefining \ohm on input line 370.
+Package gensymb Info: Using \textohm for \ohm on input line 370.
+Package gensymb Info: Using \textmu for \micro on input line 370.
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -1638,14 +1654,14 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-Package backref Info: ** backref set up for natbib ** on input line 364.
-Package hyperref Info: Link coloring ON on input line 364.
+Package backref Info: ** backref set up for natbib ** on input line 370.
+Package hyperref Info: Link coloring ON on input line 370.
 (./_main.out) (./_main.out)
 \@outlinefile=\write7
 \openout7 = `_main.out'.
 
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM _main.toc on input line 366.
+(minitoc)             PREPARING MINITOCS FROM _main.toc on input line 372.
 Package minitoc Info: I0033
 (minitoc)             Writing _main.mtc1.
 \openout6 = `_main.mtc1'.
@@ -1683,45 +1699,45 @@ Package minitoc Info: I0033
 \openout6 = `_main.mtc9'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-26.
+32.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-26.
+32.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-426.
+432.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-426.
+432.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 426.
+(Font)              <20.74> on input line 432.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 426.
+(Font)              <14.4> on input line 432.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 426.
+(Font)              <12> on input line 432.
 LaTeX Font Info:    Trying to load font information for TS1+GentiumPlus(0) on i
-nput line 426.
-LaTeX Font Info:    No file TS1GentiumPlus(0).fd. on input line 426.
+nput line 432.
+LaTeX Font Info:    No file TS1GentiumPlus(0).fd. on input line 432.
 
 
 LaTeX Font Warning: Font shape `TS1/GentiumPlus(0)/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 426.
+(Font)              using `TS1/cmr/m/n' instead on input line 432.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--426
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
 
  []
 
@@ -1758,20 +1774,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 \openout6 = `_main.mtc'.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 4.
+(Font)              <10.95> on input line 3.
 (./_main.mtc1)
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 5.
+(Font)              scaled to size 8.50006pt on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 5.
+(Font)              <10> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 5.
+(Font)              <7> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 5.
+(Font)              <5> on input line 4.
  [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
 ][][][][] [][] [][][][][][][][][][] [] [][] [] [][] [] [][][][][][][][][] [][] 
 [][][] [][] [][][][][][][][][][][][][] [] [][] [][]
@@ -1787,10 +1803,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 
-LaTeX Warning: Reference `termes' on page 3 undefined on input line 22.
+LaTeX Warning: Reference `termes' on page 3 undefined on input line 21.
 
 
-Overfull \hbox (4.09636pt too wide) in paragraph at lines 23--24
+Overfull \hbox (4.09636pt too wide) in paragraph at lines 22--23
 []\TU/GentiumPlus(0)/m/n/12 comprendre, conceptualiser et opérationnaliser « co
 mment des concepts, des théo-
  []
@@ -1804,7 +1820,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-Overfull \hbox (2.66597pt too wide) in paragraph at lines 47--49
+Overfull \hbox (2.66597pt too wide) in paragraph at lines 46--48
 \TU/GentiumPlus(0)/m/n/12 construite autour d’un savoir partagé ([][][]\TU/Gent
 iumPlus(0)/m/sc/12 Adell\TU/GentiumPlus(0)/m/n/12 , 2011[][], p. 251). Dans une
  perspective contem-
@@ -2226,7 +2242,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./structure.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.37543pt, for example:
@@ -2236,6 +2251,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.37543pt}.
 
 [24]
+File: img/formalisation_approche.png Graphic file (type bmp)
+<img/formalisation_approche.png>
+) (./structure.tex
 
 LaTeX Warning: Reference `rupture' on page 25 undefined on input line 3.
 
@@ -2251,7 +2269,6 @@ Overfull \hbox (4.10602pt too wide) in paragraph at lines 2--5
  théories scientifiques dans une pers-
  []
 
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2260,7 +2277,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[25])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2269,9 +2286,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26
+[26] [27
 
-] [27] [28] (./revue_lit.tex
+] [28] (./revue_lit.tex
 Chapitre 2.
 
 Overfull \hbox (26.41968pt too wide) in paragraph at lines 1--1
@@ -2610,19 +2627,13 @@ co(0)/m/n/12 keyphrase
 File: img/bulbe_rachidien_mini.png Graphic file (type bmp)
 <img/bulbe_rachidien_mini.png>
 
-
-LaTeX Warning: Reference `methodo_stat' on page 38 undefined on input line 30.
-
-File: img/textpair.png Graphic file (type bmp)
-<img/textpair.png>
-
-Overfull \hbox (2.72719pt too wide) in paragraph at lines 39--39
-|[]\TU/GentiumPlus(0)/b/n/17.28 Extraction de la terminologie : approche lingui
-stique| 
+Overfull \hbox (6.62387pt too wide) in paragraph at lines 25--34
+\TU/GentiumPlus(0)/m/n/12 décomposition entraînerait une perte d’information (p
+. ex. le terme polysémique « bulbe »
  []
 
 
-LaTeX Warning: Reference `termes' on page 38 undefined on input line 41.
+LaTeX Warning: Reference `methodo_stat' on page 38 undefined on input line 37.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2633,6 +2644,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38]
+File: img/textpair.png Graphic file (type bmp)
+<img/textpair.png>
+
+Overfull \hbox (2.72719pt too wide) in paragraph at lines 46--46
+|[]\TU/GentiumPlus(0)/b/n/17.28 Extraction de la terminologie : approche lingui
+stique| 
+ []
+
+
+LaTeX Warning: Reference `termes' on page 39 undefined on input line 48.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2642,6 +2664,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2655,6 +2680,9 @@ File: img/repartition_motifs_POS.png Graphic file (type bmp)
 <img/repartition_motifs_POS.png>
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2663,7 +2691,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [41]
-Overfull \hbox (3.75552pt too wide) in paragraph at lines 137--138
+Overfull \hbox (3.75552pt too wide) in paragraph at lines 144--145
 \TU/GentiumPlus(0)/m/n/12 soit l’interrelation entre les termes de requête au s
 ein d’un document (par exemple,
  []
@@ -2677,10 +2705,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [42]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: img/Charcot_Autres_250523.png Graphic file (type bmp)
 <img/Charcot_Autres_250523.png>
 
-Overfull \hbox (0.29982pt too wide) in paragraph at lines 152--154
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (0.29982pt too wide) in paragraph at lines 191--193
 \TU/GentiumPlus(0)/m/n/12 Pour ce travail en cours, nous avons utilisé le modèl
 e \TU/Monaco(0)/m/n/12 bert-base-multilingual-cased\TU/GentiumPlus(0)/m/n/12 .
  []
@@ -2695,19 +2729,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [43]
 
-LaTeX Warning: Reference `methodo_stat' on page 44 undefined on input line 159.
+LaTeX Warning: Reference `methodo_stat' on page 44 undefined on input line 198.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][]\TU/GentiumPlus(0)/m/it/10 Cf. \TU/Gentium
 Plus(0)/m/n/10 le dépôt GitHub [][]$[][][][][] [] [] [] [][][][][][] [] [][][] 
 [] [][][][][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][][]
 [] [][]
  []
 
-LaTeX Font Info:    Font shape `TU/Monaco(0)/b/n' will be
-(Font)              scaled to size 12.24008pt on input line 161.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2717,10 +2749,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [44]
+LaTeX Font Info:    Font shape `TU/Monaco(0)/b/n' will be
+(Font)              scaled to size 12.24008pt on input line 200.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45]
 File: img/keybert.png Graphic file (type bmp)
 <img/keybert.png>
 
-Underfull \hbox (badness 2080) in paragraph at lines 179--179
+Underfull \hbox (badness 2080) in paragraph at lines 218--218
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][]Illustration reprise de [][]$[][][][][] []
  [] [] [][][][][][][][][] [] [][][][][][] [] [][] [] [][][][][][][] [] [][][][]
 [][] [] [][][][][][][][][][] [] [][][][] []
@@ -2739,9 +2783,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45]
+[46]
 File: img/patternrank_workflow.png Graphic file (type bmp)
 <img/patternrank_workflow.png>
+File: img/termes_partages.png Graphic file (type bmp)
+<img/termes_partages.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Font shape `TU/Monaco(0)/b/n' will be
+(Font)              scaled to size 14.6881pt on input line 258.
+
+Overfull \hbox (37.96986pt too wide) in paragraph at lines 258--258
+|[]\TU/GentiumPlus(0)/b/n/17.28 L’estimation de l’impact de l’entité \TU/Monaco
+(0)/b/n/17.28 Jean-Martin Charcot
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2751,20 +2808,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46]
-File: img/termes_partages.png Graphic file (type bmp)
-<img/termes_partages.png>
-LaTeX Font Info:    Font shape `TU/Monaco(0)/b/n' will be
-(Font)              scaled to size 14.6881pt on input line 219.
-
-Overfull \hbox (37.96986pt too wide) in paragraph at lines 219--219
-|[]\TU/GentiumPlus(0)/b/n/17.28 L’estimation de l’impact de l’entité \TU/Monaco
-(0)/b/n/17.28 Jean-Martin Charcot
- []
-
-
-Overfull \hbox (35.79927pt too wide) in paragraph at lines 225--226
-[]\TU/GentiumPlus(0)/m/n/12 comme présenté dans le tableau [][]3.3[][] : ces mé
+[47]
+Overfull \hbox (35.79927pt too wide) in paragraph at lines 264--265
+[]\TU/GentiumPlus(0)/m/n/12 comme présenté dans le tableau [][]3.4[][] : ces mé
 triques sont calculées pour l’entité \TU/Monaco(0)/m/n/12 Jean-Martin
  []
 
@@ -2776,15 +2822,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-16.9809pt}.
 
-[47]
+[48]
 File: img/analyse_quadrant.png Graphic file (type bmp)
 <img/analyse_quadrant.png>
 
-Underfull \hbox (badness 3861) in paragraph at lines 270--270
+Underfull \hbox (badness 3861) in paragraph at lines 309--309
 [][][]\TU/GentiumPlus(0)/m/n/10 .[][][][]$[][][][][] [] [] [] [][][] [] [][][][
 ][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][] [] [][][][][][] [] [][]
 [][] [][] [][][][][][] [] [][][][][][][]$[][]. Le domaine
  []
+
+File: img/impact_temporel.png Graphic file (type bmp)
+<img/impact_temporel.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2794,10 +2845,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-16.9809pt}.
 
-[48]
-File: img/impact_temporel.png Graphic file (type bmp)
-<img/impact_temporel.png>
-) (./5_conclusion.tex
+[49]) (./5_conclusion.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2806,18 +2854,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[50
-
-]
+[50]
 Chapitre 4.
 
 Overfull \hbox (26.41968pt too wide) in paragraph at lines 1--1
@@ -2833,7 +2870,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 \openout6 = `_main.mtc'.
 
-(./_main.mtc4)) [51] [52
+(./_main.mtc4)) [51
+
+] [52
 
 ] (./6_annexe.tex
 
@@ -3418,21 +3457,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 28F56DB86D83C41B0731D6DD0B180043;10576.
+(rerunfilecheck)             Checksum: 502985FB724FB09D0210EAA162242736;10576.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 4FB860B24CF5BF9FA9A9B244F131DAC7;8923.
+(rerunfilecheck)             Checksum: 719E720BEF40F944FE1C7473E68E0BD9;8923.
 runsystem(rm _main.pyg)...executed.
 
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 421 (\begingroup)
+### semi simple group (level 1) entered at line 427 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41269 strings out of 476683
- 822329 string characters out of 5804046
+ 42124 strings out of 476683
+ 844352 string characters out of 5804046
  2050018 words of memory out of 5000000
- 60437 multiletter control sequences out of 15000+600000
+ 61280 multiletter control sequences out of 15000+600000
  552234 words of font info for 144 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,143p,2714b,1064s stack positions out of 10000i,1000n,20000p,200000b,200000s
