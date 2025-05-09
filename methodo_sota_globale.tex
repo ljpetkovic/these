@@ -12,13 +12,11 @@ Dans la lignée de pensée de \citet{milia2023}, nous considérons un texte comm
 	\caption{Exemples des concepts scientifiques avec leurs parties du discours.}
 \end{table}
 
-À ce titre, nous nous tâchons à mesurer informatiquement l'impact des travaux de Charcot sur son réseau scientifique. Cette mesure se fonde sur l'analyse des concepts-clés en matière de son discours scientifique, et plus particulièrement sur l'opérationnalisation du terme \og{}influence\fg{}, définie ici comme une intertextualité uni-directionnelle, allant des écrits de Charcot (ci-après corpus \og{}Charcot\fg{}) vers ceux de son réseau scientifique (ci-après corpus \og{}Autres\fg{}). Il s'agit donc \textit{in fine} d'aborder computationnellement la question des circulations, non pas des artefacts matériels comme les manuscrits \citep{gabay2021katabase} et les images \citep{joyeux2019visual}, mais des phénomènes textuels complexes \citep{manjavacas} ayant une dimension théorique forte. 
-
-\hl{ici va le diagramme de formalisation + description de l'approche}
+À ce titre, nous nous tâchons à mesurer informatiquement l'impact des travaux de Charcot sur son réseau scientifique. Cette mesure se fonde sur l'analyse des concepts-clés en matière de son discours scientifique, et plus particulièrement sur l'opérationnalisation du terme \og{}influence\fg{}, définie ici comme une intertextualité uni-directionnelle, allant des écrits de Charcot (ci-après corpus \og{}Charcot\fg{}) vers ceux de son réseau scientifique (ci-après corpus \og{}Autres\fg{}). Il s'agit donc \textit{in fine} d'aborder computationnellement la question des circulations, non pas des artefacts matériels comme les manuscrits \citep{gabay2021katabase} et les images \citep{joyeux2019visual}, mais des phénomènes textuels complexes \citep{manjavacas} ayant une dimension théorique forte. Notre approche a été formalisée sur la figure \ref{fig:formalisation} : à partir des documents au format \textsc{PDF}, une océrisation puis une structuration au format \textsc{XML} ont été réalisées, ces étapes ayant été prises en charge par la \textsc{BSU}. Nous avons exploité ces fichiers en appliquant plusieurs méthodes d’extraction de termes médicaux sur les corpus Charcot et Autres. Les termes extraits ont ensuite été comparés à ceux de notre liste de référence (voir section \ref{sect:methodo_stat}), avec une évaluation qualitative fondée sur l'analyse de leur contexte d'utilisation.
 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=1\textwidth]{img/formalisation_approche.png}
-	\caption{.}
+	\caption{Formalisation de l'approche pour pister la circulation des termes médicaux.}
 	\label{fig:formalisation}
 \end{figure}

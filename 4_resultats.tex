@@ -1,10 +1,10 @@
-\chapter{Mesurer l'impact de Charcot \textit{via} l'extraction des termes médicaux : quelle approche adopter ?}
+\chapter{L'extraction de la terminologie médicale comme indicateur de l'impact des pratiques de Charcot}
 \minitoc
 \label{chap:resultats}
 
-Ce chapitre présente les expérimentations réalisées dans le cadre des évaluations quantitatives et qualitatives de l'extraction des termes médicaux, considérés comme des vecteurs potentiels de l'influence des pratiques de Charcot. Nous abordons dans un premier temps les modalités de fouille avancée appliquée à nos deux corpus à travers des outils \textsc{OBVIE} et \textsc{TextPair} (section \ref{sect:obvie_textpair}), développés par l'équipe-projet \textsc{ObTIC}, en exposant à la fois leurs limites, ainsi que les stratégies mobilisées pour améliorer la qualité des extractions. Dans cette perspective, trois types de méthodes d'extraction terminologique ont été testés pour l'identification de phrases-clés :
+Ce chapitre présente les expérimentations réalisées dans le cadre des évaluations quantitatives et qualitatives de l'extraction des phrases-clés, en particulier des termes médicaux, considérés comme des vecteurs potentiels de l'influence des pratiques de Charcot. L'extraction de phrases-clés est le processus de sélection automatique d'un petit ensemble de phrases les plus pertinentes à partir d'un texte donné. Contrairement aux mots-clés simples, les phrases-clés ne se limitent pas à des mots isolés, mais regroupent plusieurs mots formant une expression. Elles offrent ainsi une information plus riche et précise sur le contenu d'un texte \citep{schopf2022}. Nous abordons dans un premier temps les modalités de fouille avancée appliquée à nos deux corpus à travers des outils \textsc{OBVIE} et \textsc{TextPair} (section \ref{sect:obvie_textpair}), développés par l'équipe-projet \textsc{ObTIC}, en exposant à la fois leurs limites, ainsi que les stratégies mobilisées pour améliorer la qualité des extractions. Dans cette perspective, trois types de méthodes d'extraction terminologique ont été testés pour l'identification de phrases-clés :
 \begin{enumerate}
-	\item des approches basées sur des règles linguistique : outil \texttt{TermSuite} (section \ref{sect:termsuite})
+	\item des approches basées sur des règles linguistiques : outil \texttt{TermSuite} (section \ref{sect:termsuite})
 	\item des approches statistiques, incluant les métriques \textsc{TF-IDF} et \textsc{BM25} (section \ref{sect:methodo_stat})
 	\item des techniques d'apprentissage profond, à l'aide des librairies \texttt{keybert} et \texttt{keyphrase\allowbreak-vectorizers} (section \ref{sect:deep_learning})
 \end{enumerate}
@@ -23,13 +23,31 @@ exemples....
 Bien que la typologie des mots 
 
 Cependant, l'application ne permet pas de quantifier la pertinence des expressions polylexicales, soit les n-grammes de mots, très fréquentes dans les deux corpus et dont la décomposition entraînerait une perte d'information (p. ex. le terme polysémique \og{}bulbe\fg{} qui a une valeur spécifique dans l'expression figée \textit{bulbe rachidien}). En observant la figure \ref{fig:bulbe}, nous constatons que l'abscisse donne l'information sur les dates de publication des ouvrages compris dans les corpus, alors que l'ordonnée indique le nombre d'occurrences par million de mots, soit \textit{parties par million} (\textit{ppm})\footnote{\textit{Cf.} le guide d'utilisation d'\textsc{OBVIE} détaillé : \url{https://obtic.huma-num.fr/obvie//static/aide.html}.}. 
-\begin{figure}[!ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{img/bulbe_rachidien_mini.png}
     \caption{Distribution des fréquences des tokens avec la frise chronologique pour ceux constituant l'expression \og{}bulbe rachidien\fg{} (issus du corpus \og{}Charcot\fg{} et du corpus \og{}Autres\fg{}) dans le logiciel OBVIE.
     % Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
     }
     \label{fig:bulbe}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{img/arthropathies_tabetiques.png}
+	\caption{.
+		% Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
+	}
+	\label{fig:arthropathies}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{img/tics_convulsifs.png}
+	\caption{.
+		% Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
+	}
+	\label{fig:tics}
 \end{figure}
 
 Le moteur de recherche \textsc{OBVIE} permet également de repérer des textes similaires par ordre de pertinence à partir des termes en commun. 
@@ -138,6 +156,8 @@ Nous remarquons que les bigrammes comme, p. ex. \textit{paralysie générale} ($
 
 \section{Extraction des phrases-clés : méthodes statistiques}
 \label{sect:methodo_stat}
+
+\hl{liste des concepts médicaux -- vérité terrain}
 Afin de surmonter les limites rencontrées avec ces deux outils, nous avons proposé une nouvelle méthode pour identifier des concepts dans les deux corpus en nous basant sur le poids de leur apparition, calculé selon trois différentes mesures de pondération\footnote{Le code est disponible en ligne : \url{https://github.com/ljpetkovic/Charcot\_circulations}.} :
 \begin{itemize}
 \item \textsc{TF-IDF} est une méthode qui permet d'évaluer l'importance d'un terme contenu dans un document relativement à un corpus plus large en récompensant la fréquence des termes, sans tenir compte des variations de longueur du document ;
