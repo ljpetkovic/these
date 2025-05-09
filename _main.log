@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  9 MAY 2025 14:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  9 MAY 2025 19:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1976,7 +1976,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9]) (./3_methodo.tex
+[9]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1985,7 +1985,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10]
+[10]) (./3_methodo.tex
 Overfull \hbox (2.15817pt too wide) in paragraph at lines 12--13
 []\TU/GentiumPlus(0)/m/n/12 collections de la bibliothèque des Internes de la S
 alpêtrière : ouvrages, périodiques,
@@ -2044,6 +2044,9 @@ t line 53.
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
 (Font)              scaled to size 9.30756pt on input line 1.
 )
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2134,12 +2137,6 @@ Overfull \hbox (15.10211pt too wide) in paragraph at lines 207--208
 s médicales et physiologiques \TU/GentiumPlus(0)/m/n/12 (Londe,
  []
 
-File: img/distribution_ouvrages.png Graphic file (type bmp)
-<img/distribution_ouvrages.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./2_SotA.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2149,6 +2146,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
+File: img/distribution_ouvrages.png Graphic file (type bmp)
+<img/distribution_ouvrages.png>
+) (./2_SotA.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2174,6 +2174,14 @@ concepts (allem. \TU/GentiumPlus(0)/m/it/12 Begriffsgeschichte\TU/GentiumPlus(0
  []
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
 Overfull \hbox (6.71089pt too wide) in paragraph at lines 23--24
 \TU/GentiumPlus(0)/m/n/12 ([][][]\TU/GentiumPlus(0)/m/sc/12 Christin\TU/Gentium
 Plus(0)/m/n/12 , 2011[][]). Plusieurs questionnements ont été soulevés par [][]
@@ -2189,23 +2197,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [21]
-Overfull \hbox (20.27672pt too wide) in paragraph at lines 54--55
-[]\TU/GentiumPlus(0)/m/n/12 extraction terminologique \TU/Monaco(0)/m/n/12 Term
-Suite[][][][][] \TU/GentiumPlus(0)/m/n/12 ([][][]\TU/GentiumPlus(0)/m/sc/12 Cra
-m & Daille\TU/GentiumPlus(0)/m/n/12 , 2016[][]) : scalable, \TU/Monaco(0)/m/n/1
-2 TreeTagger 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2215,20 +2207,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
+Overfull \hbox (20.27672pt too wide) in paragraph at lines 54--55
+[]\TU/GentiumPlus(0)/m/n/12 extraction terminologique \TU/Monaco(0)/m/n/12 Term
+Suite[][][][][] \TU/GentiumPlus(0)/m/n/12 ([][][]\TU/GentiumPlus(0)/m/sc/12 Cra
+m & Daille\TU/GentiumPlus(0)/m/n/12 , 2016[][]) : scalable, \TU/Monaco(0)/m/n/1
+2 TreeTagger 
+ []
+
+
 Overfull \hbox (14.3756pt too wide) in paragraph at lines 57--58
 []\TU/GentiumPlus(0)/m/n/12 approche apprentissage machine / profond, \TU/Monac
 o(0)/m/n/12 keybert \TU/GentiumPlus(0)/m/n/12 ([][][]\TU/GentiumPlus(0)/m/sc/12
  Grootendorst \TU/GentiumPlus(0)/m/scit/12 et al.\TU/GentiumPlus(0)/m/n/12 , 20
 23[][])[][][][][],
  []
-
-
-Overfull \hbox (78.41174pt too wide) in paragraph at lines 107--118
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2238,10 +2230,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]) (./methodo_sota_globale.tex
+[23]
+Overfull \hbox (78.41174pt too wide) in paragraph at lines 107--118
+ [][] 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+) (./methodo_sota_globale.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.37543pt, for example:
@@ -2269,15 +2263,16 @@ Overfull \hbox (4.10602pt too wide) in paragraph at lines 2--5
  théories scientifiques dans une pers-
  []
 
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 27.37543pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.37543pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-15.37543pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25])
+[25]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2693,9 +2688,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [40]
 File: img/repartition_motifs_POS.png Graphic file (type bmp)
 <img/repartition_motifs_POS.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3463,7 +3455,7 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 0A54884C6AF7423B906294C4795EE26C;10527.
 Package rerunfilecheck Info: File `_main.brf' has not changed.
-(rerunfilecheck)             Checksum: 91552DEFF0F84F8E7524F84A70EA5876;8966.
+(rerunfilecheck)             Checksum: D21DB2E7095086B4BD44096635BD0DCA;9059.
 runsystem(rm _main.pyg)...executed.
 
  )

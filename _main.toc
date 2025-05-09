@@ -10,9 +10,9 @@
 \contentsline {subsection}{\numberline {1.6.2}Constitution du corpus textuel à partir du fonds Charcot}{13}{subsection.1.6.2}%
 \contentsline {section}{\numberline {1.7}Regards croisés sur la formation des concepts}{18}{section.1.7}%
 \contentsline {subsection}{\numberline {1.7.1}Histoire et épistémologie}{18}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Linguistique computationnelle}{21}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.2}Linguistique computationnelle}{22}{subsection.1.7.2}%
 \contentsline {section}{\numberline {1.8}Extraction de la terminologie : un levier pour l'analyse de la diffusion scientifique ?}{24}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Plan de la thèse}{26}{section.1.9}%
+\contentsline {section}{\numberline {1.9}Plan de la thèse}{25}{section.1.9}%
 \contentsline {part}{I\hspace {1em}Mobiliser les technologies numériques pour étudier la circulation des savoirs : un champ de recherche en plein essor}{27}{part.1}%
 \contentsline {chapter}{\numberline {2}L’évolution des approches numériques pour détecter la circulation des savoirs}{29}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Principaux acteurs}{29}{section.2.1}%
