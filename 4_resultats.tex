@@ -15,14 +15,55 @@ Dans un second temps, les résultats obtenus feront l'objet d'une analyse qualit
 %+ visualisation des méthodes appliquées aux termes sous forme des diagrammes de barres
 \section{Exploration du corpus Charcot : \textsc{OBVIE} et \textsc{TextPair}}
 \label{sect:obvie_textpair}
-Une première exploration de notre corpus d'étude, réalisée à l'aide de l'application \textsc{OBVIE}, a permis d'identifier plusieurs catégories de mots dits \og{}pleins\fg{} (sémantiquement chargés) : substantifs, noms propres, verbes, adjectifs et adverbes. Pour chacun de ces mots, l'application a calculé les statistiques globales sous forme des fréquences absolues et relatives, ainsi que des scores issus de méthodes d'analyse plus avancées telles que le test du \textsc{$\chi$2}, le Test \textsc{G} (angl. \textit{G-test}), \textsc{TF-IDF} et \textsc{BM25}. Les scores des deux dernières métriques ne sont pas normalisés dans \textsc{OBVIE}, un aspect que nous avons pris en compte dans nos propres calculs, évoqués dans la section \ref{sect:methodo_stat}. Pour chaque combinaison de métrique et de type de mot appliquée, \textsc{OBVIE} produit une liste de 499 mots, incluant de nombreux termes étroitement liés au domaine des neurosciences, présentés sous forme d'unigrammes (p. ex. \textit{sclérose}, \textit{cérébral}, \textit{Babinski} etc.). L'analyse de ces combinaisons révèle que le \hl{niveau de technicité} des termes augmente avec l'utilisation des métriques plus sophistiquées, qui permettent d'extraire des termes comme \textit{syringomyélie} ou \textit{myxoedème} ou \textit{tabétique}. À l'inverse, les métriques basées sur les fréquences absolues et relatives tendent à faire ressortir des termes médicaux plus généraux, tels que \textit{malade}, \textit{nerveux} ou \textit{corps}. Or, cette approche se révèle insuffisante pour extraire des termes à la fois plus complexes du point de vue de contenu et de forme et spécifiques. Par exemple, le mot \textit{sclérose}, extrait par \textsc{OBVIE}, constitue un terme équivoque : il ne permet pas de savoir s'il fait référence à la \textit{sclérose latérale amyotrophique}, à la \textit{sclérose en plaques}, ou une autre forme de sclérose. 
+Une première exploration de notre corpus d'étude, réalisée à l'aide de l'application \textsc{OBVIE}, a permis d'identifier plusieurs catégories de mots sémantiquement chargées : les mots dits \og{}pleins\fg{}, incluant les substantifs, noms propres, verbes, adjectifs et adverbes. Pour chacun de ces mots, l'application a calculé les statistiques globales sous forme des fréquences absolues et relatives, ainsi que des scores issus de méthodes d'analyse plus avancées telles que le test du \textsc{$\chi$2}, le Test \textit{G} (angl. \textit{G-test}), \textsc{TF-IDF} et \textsc{BM25}. Les scores des deux dernières métriques ne sont pas normalisés dans \textsc{OBVIE}, un aspect que nous avons pris en compte dans nos propres calculs, évoqués dans la section \ref{sect:methodo_stat}. 
 
-Nous remarquons le changement sémantique  des domaines généraux vers les domaines techniques
+Pour chaque combinaison de métrique et de type de mot appliquée, \textsc{OBVIE} produit une liste de 499 mots, incluant de nombreux termes étroitement liés au domaine des neurosciences, présentés sous forme d'unigrammes (p. ex. \textit{sclérose}, \textit{cérébral}, \textit{Babinski} etc.). L'analyse de ces combinaisons révèle que le niveau de technicité des termes augmente avec l'utilisation des métriques plus sophistiquées, qui permettent d'extraire des termes comme \textit{syringomyélie} ou \textit{myxoedème} ou \textit{tabétique}. À l'inverse, les métriques basées sur les fréquences absolues et relatives tendent à faire ressortir des termes médicaux plus généraux, tels que \textit{malade}, \textit{nerveux} ou \textit{corps}. Cette méthode d'extraction des termes ne permet pour autant pas d'extraire des termes composés de plusieurs mots qui renvoient aux concepts médicaux plus spécifiques. Par exemple, le mot \textit{sclérose}, extrait par \textsc{OBVIE}, constitue un terme équivoque : il ne permet pas de savoir s'il fait référence à la \textit{sclérose latérale amyotrophique}, à la \textit{sclérose en plaques}, ou une autre forme de sclérose. Les graphiques issus de l'outil \textit{Google Books Ngram Viewer}\footnote{\url{https://books.google.com/ngrams/}} et présentés dans les figures \ref{fig:freq_ngram}-\ref{fig:bm25_google_ngram}, fournissent des indicateurs basés sur la rareté lexicale dans le discours général -- en l'occurrence le corpus des livres en français publiés entre 1800 et 2022. Ces visualisations visent à estimer le degré de technicité des 12 premiers mots pleins (correspondant à la limite maximale de l'interface de l'outil en question) extraits pour chaque combinaison de métrique et de type. Nous postulons ainsi que la rarete d'un terme reflète son niveau de technicité, et nous constatons une évolution sémantique des termes, passant de \hl{champs lexicaux} généraux à des domaines plus spécialisés.
 
-%quasi exclusivement constituée d'unigrammes. Nous retrouvons exceptionnellement les mots composés, tels que \textit{maladie mentale}, \textit{Société de biologie} ou \textit{rendre compte}, mais ce qui empêche l'extraction des termes plus pertinents pour l'analyse
+\hl{AGENDA}
 
-exemples....
-Bien que la typologie des mots 
+\begin{itemize}
+	\item que signifient les axes et les abscisses ?
+	\item plus les lignes sont proches de 0.000 \%, plus les termes sont rares, et donc plus techniques
+	\item plus les termes s'éloignent de 0, plus il s'agit des termes généraux et moins techniques
+	\item le manque de termes complexes extraits par OBVIE $\rightarrow$ développement de notre liste des concepts
+\end{itemize}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{img/frequences_gngram.png}
+	\caption{Évolution des 12 mots pleins avec les fréquences absolues et relatives les plus élevées, observée dans \textit{Google Books Ngram Viewer}.}
+	\label{fig:freq_ngram}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{img/g-test_google_ngram.png}
+	\caption{Évolution des 12 mots pleins avec les scores les plus élevés au test \textit{G}, observée dans \textit{Google Books Ngram Viewer}.}
+	\label{fig:g-test_google_ngram}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{img/bm25_google_ngram.png}
+	\caption{Évolution des 12 mots pleins avec les scores \textsc{BM25} les plus élevés, observée dans \textit{Google Books Ngram Viewer}.}
+	\label{fig:bm25_google_ngram}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{img/tf-idf_google_ngram.png}
+	\caption{Évolution des 12 substantifs avec les scores $\chi^2$ les plus élevés, observée dans \textit{Google Books Ngram Viewer}. Dans ce cas précis, les substantifs ont été visualisés, car ils contiennent de véritables termes médicaux, contrairement aux mots pleins qui incluaient de nombreux noms propres.}
+	\label{fig:tf-idf_google_ngram}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{img/chi2_google_ngram.png}
+	\caption{$\chi^2$.}
+	\label{fig:chi2_google_ngram}
+\end{figure}
+
+
+
 
 Cependant, l'application ne permet pas de quantifier la pertinence des expressions polylexicales, soit les n-grammes de mots, très fréquentes dans les deux corpus et dont la décomposition entraînerait une perte d'information (p. ex. le terme polysémique \og{}bulbe\fg{} qui a une valeur spécifique dans l'expression figée \textit{bulbe rachidien}). En observant la figure \ref{fig:bulbe}, nous constatons que l'abscisse donne l'information sur les dates de publication des ouvrages compris dans les corpus, alors que l'ordonnée indique le nombre d'occurrences par million de mots, soit \textit{parties par million} (\textit{ppm})\footnote{\textit{Cf.} le guide d'utilisation d'\textsc{OBVIE} détaillé : \url{https://obtic.huma-num.fr/obvie//static/aide.html}.}. 
 \begin{figure}[h]
