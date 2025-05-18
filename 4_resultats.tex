@@ -14,30 +14,25 @@ Lors de l'évaluation des performances de ces techniques, nous avons tenté, aut
 Dans un second temps, les résultats obtenus feront l'objet d'une analyse qualitative (section \ref{sect:eval_quali}), afin d'apporter une lecture plus approfondie et nuancée de notre étude.
 %+ visualisation des méthodes appliquées aux termes sous forme des diagrammes de barres
 \section{Exploration du corpus Charcot : \textsc{OBVIE} et \textsc{TextPair}}
+\subsection{\textsc{OBVIE}}
 \label{sect:obvie_textpair}
 Une première exploration de notre corpus d'étude, réalisée à l'aide de l'application \textsc{OBVIE}, a permis d'identifier plusieurs catégories de mots sémantiquement chargées : les mots dits \og{}pleins\fg{}, incluant les substantifs, noms propres, verbes, adjectifs et adverbes. Pour chacun de ces mots, l'application a calculé les statistiques globales sous forme des fréquences absolues et relatives, ainsi que des scores issus de méthodes d'analyse plus avancées telles que le test du \textsc{$\chi$2}, le Test \textit{G} (angl. \textit{G-test}), \textsc{TF-IDF} et \textsc{BM25}. Les scores des deux dernières métriques ne sont pas normalisés dans \textsc{OBVIE}, un aspect que nous avons pris en compte dans nos propres calculs, évoqués dans la section \ref{sect:methodo_stat}. 
 
-Pour chaque combinaison de métrique et de type de mot appliquée, \textsc{OBVIE} produit une liste de 499 mots, incluant de nombreux termes étroitement liés au domaine des neurosciences, présentés sous forme d'unigrammes (p. ex. \textit{sclérose}, \textit{cérébral}, \textit{Babinski} etc.). L'analyse de ces combinaisons révèle que le niveau de technicité des termes augmente avec l'utilisation des métriques plus sophistiquées, qui permettent d'extraire des termes comme \textit{syringomyélie} ou \textit{myxoedème} ou \textit{tabétique}. À l'inverse, les métriques basées sur les fréquences absolues et relatives tendent à faire ressortir des termes médicaux plus généraux, tels que \textit{malade}, \textit{nerveux} ou \textit{corps}. Cette méthode d'extraction des termes ne permet pour autant pas d'extraire des termes composés de plusieurs mots qui renvoient aux concepts médicaux plus spécifiques. Par exemple, le mot \textit{sclérose}, extrait par \textsc{OBVIE}, constitue un terme équivoque : il ne permet pas de savoir s'il fait référence à la \textit{sclérose latérale amyotrophique}, à la \textit{sclérose en plaques}, ou une autre forme de sclérose. Les graphiques issus de l'outil \textit{Google Books Ngram Viewer}\footnote{\url{https://books.google.com/ngrams/}} et présentés dans les figures \ref{fig:freq_ngram}-\ref{fig:bm25_google_ngram}, fournissent des indicateurs basés sur la rareté lexicale dans le discours général -- en l'occurrence le corpus des livres en français publiés entre 1800 et 2022. Ces visualisations visent à estimer le degré de technicité des 12 premiers mots pleins (correspondant à la limite maximale de l'interface de l'outil en question) extraits pour chaque combinaison de métrique et de type. Nous postulons ainsi que la rarete d'un terme reflète son niveau de technicité, et nous constatons une évolution sémantique des termes, passant de \hl{champs lexicaux} généraux à des domaines plus spécialisés.
+Pour chaque combinaison de métrique et de type de mot appliquée, \textsc{OBVIE} produit une liste de 499 mots, incluant de nombreux termes étroitement liés au domaine des neurosciences, présentés sous forme d'unigrammes (p. ex. \textit{sclérose}, \textit{cérébral}, \textit{Babinski} etc.). L'analyse de ces combinaisons révèle que le niveau de technicité des termes augmente avec l'utilisation des métriques plus sophistiquées, qui permettent d'extraire des termes comme \textit{syringomyélie} ou \textit{myxoedème} ou \textit{tabétique}. À l'inverse, les métriques basées sur les fréquences absolues et relatives tendent à faire ressortir des termes médicaux plus généraux, tels que \textit{malade}, \textit{nerveux} ou \textit{corps}. Cette méthode d'extraction des termes ne permet pour autant pas d'extraire des termes composés de plusieurs mots qui renvoient aux concepts médicaux plus spécifiques. Par exemple, le mot \textit{sclérose}, extrait par \textsc{OBVIE}, constitue un terme équivoque : il ne permet pas de savoir s'il fait référence à la \textit{sclérose latérale amyotrophique}, à la \textit{sclérose en plaques}, ou une autre forme de sclérose. 
 
-\hl{AGENDA}
+Dans notre cadre d'étude, nous postulons que la rarete lexicale reflète le niveau de technicité d'un terme. Les graphiques issus de l'outil \textit{Google Books Ngram Viewer}\footnote{\url{https://books.google.com/ngrams/}} et présentés dans les figures \ref{fig:freq_ngram}-\ref{fig:chi2_google_ngram} indiquent les fréquences d'apparition relative des mots (axe des ordonnées) dans un corpus des livres en français publiés entre 1800 et 2022 (axe des abscisses). Ces visualisations visent donc à fournir des indicateurs de la technicité des 12 premiers mots pleins (correspondant à la limite maximale de l'interface de l'outil en question), extraits pour chaque combinaison de métrique et de type. Nous constatons une évolution sémantique des termes en fonction de la métrique utilisée, passant d'un domaine plus général (figure \ref{fig:freq_ngram}) à un domaine médical plus spécialisé (figures \ref{fig:g-test_google_ngram}-\ref{fig:chi2_google_ngram}). Autrement dit, les termes extraits sur la base de leur fréquence, bien qu'ils appartiennent toujours au champ médical (comme \textit{malade}, \textit{état}, \textit{nerveux} etc.), restent plus généraux que ceux identifiés à l'aide des autres métriques (tels que \textit{circonvolution}, \textit{myxoedème}, \textit{hystérogènes} etc.). Plus la fréquence d'un terme s'éloigne de la valeur 0, plus il tend vers un registre général et moins technique -- à l'inverse, une fréquence plus faible traduit une plus grande rareté ou technicité du terme. Nous observons également que l'introduction de métriques plus avancées favorisent un regroupement plus marqué des termes techniques autour de la valeur 0.
 
-\begin{itemize}
-	\item que signifient les axes et les abscisses ?
-	\item plus les lignes sont proches de 0.000 \%, plus les termes sont rares, et donc plus techniques
-	\item plus les termes s'éloignent de 0, plus il s'agit des termes généraux et moins techniques
-	\item le manque de termes complexes extraits par OBVIE $\rightarrow$ développement de notre liste des concepts
-\end{itemize}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{img/frequences_gngram.png}
-	\caption{Évolution des 12 mots pleins avec les fréquences absolues et relatives les plus élevées, observée dans \textit{Google Books Ngram Viewer}.}
+	\caption{Évolution des 12 mots pleins avec les fréquences absolues et relatives les plus élevées, selon \textit{Google Books Ngram Viewer}.}
 	\label{fig:freq_ngram}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{img/g-test_google_ngram.png}
-	\caption{Évolution des 12 mots pleins avec les scores les plus élevés au test \textit{G}, observée dans \textit{Google Books Ngram Viewer}.}
+	\caption{Évolution des 12 mots pleins avec les scores les plus élevés au test \textit{G}, selon Books Ngram Viewer.}
 	\label{fig:g-test_google_ngram}
 \end{figure}
 
@@ -51,51 +46,101 @@ Pour chaque combinaison de métrique et de type de mot appliquée, \textsc{OBVIE
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{img/tf-idf_google_ngram.png}
-	\caption{Évolution des 12 substantifs avec les scores $\chi^2$ les plus élevés, observée dans \textit{Google Books Ngram Viewer}. Dans ce cas précis, les substantifs ont été visualisés, car ils contiennent de véritables termes médicaux, contrairement aux mots pleins qui incluaient de nombreux noms propres.}
+	\caption{Évolution des 12 substantifs avec les scores \textsc{TF-IDF} les plus élevés, selon \textit{Google Ngram Viewer}. Dans ce cas précis, les substantifs ont été visualisés, car ils contiennent de véritables termes médicaux, contrairement aux mots pleins qui incluaient de nombreux noms propres.}
 	\label{fig:tf-idf_google_ngram}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chi2_google_ngram.png}
-	\caption{$\chi^2$.}
+	\caption{Évolution des 12 substantifs avec les scores $\chi^2$ les plus élevés, selon \textit{Google Ngram Viewer}.}
 	\label{fig:chi2_google_ngram}
 \end{figure}
 
 
 
+En revenant sur les fonctionnalités d'\textsc{OBVIE}, nous avons visualisé, sous forme chronologique, les distributions des fréquences des lemmes composant les termes cherchés dans les documents extraits de notre corpus. Dans les figures \ref{fig:bulbe}-\ref{fig:SLA}, l'axe des abscisses représente les dates de publication des ouvrages, tandis que l'axe des ordonnées indique le nombre d'occurrences des termes par million de mots, soit en \textit{parties par million} (\textit{ppm})\footnote{\textit{Cf.} le guide d'utilisation d'\textsc{OBVIE} détaillé : \url{https://obtic.huma-num.fr/obvie//static/aide.html}.}. La lecture de ces graphiques est facilitée par les courbes de distribution des fréquences, qui révèlent les périodes précises d'utilisation des termes dans le corpus. En outre, l'échelle verticale est logarithmique, ce qui permet de comparer les pentes des courbes, même lorsque les mots ne se situent pas dans les mêmes ordres de grandeur de fréquence. Si la vue chronologique est particulièrement utile pour comparer les fréquences d'unigrammes sur une longue période, elle ne permet pour autant pas de mesurer la pertinence des expressions polylexicales, soit les n-grammes de mots (p. ex. \textit{bulbe rachidien}), dont la décomposition risquerait d'entraîner une perte d'information (dans le même exemple, le terme \og{}bulbe\fg{} est polysémique, puisqu'il se réfère à une partie de l'encéphale  dans l'expression figée \textit{bulbe rachidien}, et non pas à un organe végétale ou une autre signification). Ainsi, seules les frises chronologiques des unigrammes indépendants formant ces expressions composées peuvent être établies, sous forme de courbes de distribution de leurs fréquences à travers l'ensemble du corpus. 
+%Ces courbes nous informent sur les moments précis dans la chronologie de l'utilisation des constituants de certains termes composés pertinents pour notre étude, tels que \textit{arthropathies tabétiques}, \textit{sclérose latérale amyotrophique} et \textit{tics convulsifs} (indiqués dans le tableau \ref{tab:contributions_charcot}).
 
-Cependant, l'application ne permet pas de quantifier la pertinence des expressions polylexicales, soit les n-grammes de mots, très fréquentes dans les deux corpus et dont la décomposition entraînerait une perte d'information (p. ex. le terme polysémique \og{}bulbe\fg{} qui a une valeur spécifique dans l'expression figée \textit{bulbe rachidien}). En observant la figure \ref{fig:bulbe}, nous constatons que l'abscisse donne l'information sur les dates de publication des ouvrages compris dans les corpus, alors que l'ordonnée indique le nombre d'occurrences par million de mots, soit \textit{parties par million} (\textit{ppm})\footnote{\textit{Cf.} le guide d'utilisation d'\textsc{OBVIE} détaillé : \url{https://obtic.huma-num.fr/obvie//static/aide.html}.}. 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=1\textwidth]{img/bulbe_rachidien_mini.png}
-    \caption{Distribution des fréquences des tokens avec la frise chronologique pour ceux constituant l'expression \og{}bulbe rachidien\fg{} (issus du corpus \og{}Charcot\fg{} et du corpus \og{}Autres\fg{}) dans le logiciel OBVIE.
-    % Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
-    }
-    \label{fig:bulbe}
-\end{figure}
+Bien que cette méthode ne soit pas spécifiquement conçue pour suivre l'évolution des termes composés, il est néanmoins possible d'aborder cette problématique à travers l'évolution conjointe des fréquences de leurs constituants. Nous pouvons ainsi supposer qu'un terme composé se manifeste de manière plus significative dans un corpus lorsque les fréquences de ses éléments indépendants sont simultanément élevées. Par exemple, dans le cas du terme \textit{bulbe rachidien}, bien que le constituant \textit{bulbe} atteigne sa fréquence maximale en 1839 ($51,98$), la baisse parallèle de la fréquence de \textit{rachidien} augmente leur distance. En revanche, en 1829, la fréquence de \textit{bulbe} est plus faible ($39,95$), mais celle de \textit{rachidien} ($34,9$) réduit l'écart entre eux, ce qui rend cette période plus pertinente pour évaluer la présence du terme composé dans le corpus. Les exemples retenus ici illustrent ainsi divers cas de figure : 
+\begin{itemize}
+	\item \textit{bulbe rachidien} (figure \ref{fig:bulbe}) : les courbes de fréquences de ses constituants ne se croisent à aucun moment, mais présentent des pentes similaires, puisque l'écart entre eux demeure relativement constant à travers le corpus. En d'autres termes, les hausses et baisses des courbes se produisent de façon quasi parallèle. Selon cette approche, l'usage de ce terme semble culminer en 1829, donc très tôt dans notre corpus, avec des fréquences atteignant $39,95$ pour \textit{bulbe} et $34,9$ pour \textit{rachidien} ;
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\textwidth]{img/bulbe.png}
+		\caption{Évolution des fréquences des constituants du terme composé \textit{bulbe rachidien} dans le logiciel \textsc{OBVIE}.
+			% Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
+		}
+		\label{fig:bulbe}
+	\end{figure}
+	
+	
+	\item \textit{arthropathies tabétiques} (figure \ref{fig:arthropathies}) : dans ce cas, l'évolution des deux constituants est nettement moins régulière que dans l'exemple précédent, ce qui se traduit par plusieurs croisements des courbes. Le point où ces deux termes se croisent et atteignent simultanément leurs fréquences les plus élevées ($13,15$ pour \textit{arthropathies} et $14,51$ pour \textit{tabétiques}) correspond à l'année 1900, soit à la toute fin de notre corpus ;
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\textwidth]{img/arthropathies.png}
+		\caption{Évolution des fréquences des constituants du terme composé \textit{arthropathies tabétiques} dans le logiciel \textsc{OBVIE}.
+			% Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
+		}
+		\label{fig:arthropathies}
+	\end{figure}
+	
+	\item \textit{tics convulsifs} (figure \ref{fig:tics}) : l'évolution des deux constituants devient particulièrement intéressante dans la dernière section du graphique, où leurs courbes se rapprochent de façon notable. Ce rapprochement est particulièrement marqué en 1897 -- là encore, vers la fin du corpus -- avec une fréquence de $16,18$ pour \textit{tic}, et de $20,4$ pour \textit{convulsif} ;
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\textwidth]{img/tics_convulsifs.png}
+		\caption{Évolution des fréquences des constituants du terme composé \textit{tics convulsifs} dans le logiciel \textsc{OBVIE}.
+			% Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
+		}
+		\label{fig:tics}
+	\end{figure}
+	
+	
+	\item \textit{sclérose latérale amyotrophique} (figure \ref{fig:SLA}) : concernant ce trigramme, nous remarquons un rapprochement quasi constant entre les courbes des constituants \textit{sclérose} et \textit{latérale}, au point qu'elles s'entrelacent ou se croisent régulièrement. En revanche, la courbe correspondant à \textit{amyotrophique} reste légèrement à l'écart. Les fréquences les plus élevées pour ces trois termes apparaissent vers le milieu du corpus, en 1886, avec $46,52$ pour \textit{sclérose}, $51,99$ pour \textit{latéral} et $14,46$ pour \textit{amyotrophique}.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\textwidth]{img/SLA.png}
+		\caption{Évolution des fréquences des constituants du terme composé \textit{sclérose latérale amyotrophique} dans le logiciel \textsc{OBVIE}.}
+		\label{fig:SLA}
+	\end{figure}
+	
+\end{itemize}    
+\bigskip
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1\textwidth]{img/arthropathies_tabetiques.png}
-	\caption{.
-		% Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
-	}
-	\label{fig:arthropathies}
-\end{figure}
+Ces résultats suggèrent que les phénomènes de chevauchement, de croisement et de rapprochement des courbes décrits ci-dessus peuvent constituer des indices de co-occurrence des constituants formant les termes composés, en particulier lorsque la fréquence de chaque élément est relativement élevée. En nous appuyant sur les exemples illustrés par les figures \ref{fig:bulbe}-\ref{fig:SLA}, il est intéressant de noter l'évolution croissante de la fréquence d'utilisation du constituant \textit{tic} au fil du temps. À l'inverse, certains constituants présentent plusieurs \og{}pics\fg{} d'apparition à différentes périodes (p. ex. \textit{sclérose}, utilisé en 1886 avec une fréquence de $46,52$, puis en 1894 avec $48,92$), ce qui peut indiquer une récurrence d'intérêt pour le terme à travers différentes époques. Plus généralement, nous pouvons avancer, avec un certain degré de certitude, que la convergence des courbes des constituants d'un terme composé pourrait refléter une montée en importance de ce terme sur le moyen ou le long terme. 
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1\textwidth]{img/tics_convulsifs.png}
-	\caption{.
-		% Pour raison de visibilité, l'image originale a été agrandie, ce qui a entraîné le rapprochement des années sur l'axe de l'abscisse.
-	}
-	\label{fig:tics}
-\end{figure}
 
-Le moteur de recherche \textsc{OBVIE} permet également de repérer des textes similaires par ordre de pertinence à partir des termes en commun. 
+
+
+
+\begin{tcolorbox}[colback=yellow!10!white,colframe=red!75!black,title=agenda]
+	\begin{itemize}
+		\item Le moteur de recherche \textsc{OBVIE} permet également de repérer des textes similaires par ordre de pertinence à partir des termes simples en commun (mots fréquents, noms cités)... là encore, approche non suffisante
+	\end{itemize}
+\end{tcolorbox}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{\textsc{TextPair}}
 
 D'autre part, l'algorithme \textsc{TextPair} génère une liste de passages similaires, c'est-à-dire les séquences de mots qui se chevauchent (n-grammes de mots) pour chaque texte, en comparant ensuite ces résultats avec ceux de séquences dans d'autres textes. Concernant l'alignement des séquences similaires aux deux corpus, \textsc{TextPair} nous a permis, par une lecture attentive, de faire des comparaisons entre les textes et de rechercher des termes au sein des passages similaires, malgré le nombre de résultats assez conséquent (\textit{cf}. la figure \ref{fig:textpair}). En raison de sa capacité de détecter les passages similaires, notamment les citations directes, les plagiats ou les réemplois, ce logiciel, ainsi qu'un autre logiciel de détection de plagiat, peuvent nous servir de \textit{baseline} pour comparer leurs résultats avec ceux proposés dans la partie \ref{methodo_stat}.
+
+
 
 \begin{figure}[!ht]
     \centering
@@ -199,6 +244,12 @@ Nous remarquons que les bigrammes comme, p. ex. \textit{paralysie générale} ($
 
 \section{Extraction des phrases-clés : méthodes statistiques}
 \label{sect:methodo_stat}
+
+\begin{tcolorbox}[colback=yellow!10!white,colframe=red!75!black,title=agenda]
+	\begin{itemize}
+		\item le manque de termes complexes extraits par OBVIE et de TermSuite $\rightarrow$ développement de notre liste des concepts
+	\end{itemize}
+\end{tcolorbox}
 
 \hl{liste des concepts médicaux -- vérité terrain}
 Afin de surmonter les limites rencontrées avec ces deux outils, nous avons proposé une nouvelle méthode pour identifier des concepts dans les deux corpus en nous basant sur le poids de leur apparition, calculé selon trois différentes mesures de pondération\footnote{Le code est disponible en ligne : \url{https://github.com/ljpetkovic/Charcot\_circulations}.} :
